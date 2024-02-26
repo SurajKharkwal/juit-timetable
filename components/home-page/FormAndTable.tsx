@@ -33,6 +33,10 @@ const FormAndTable = () => {
             </div>
         );
     }
+
+    return (
+        <div>Some error occured</div>
+    )
 }
 
 export default FormAndTable;

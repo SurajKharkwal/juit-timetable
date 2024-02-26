@@ -4,6 +4,7 @@ import { UseMutateFunction } from "@tanstack/react-query";
 
 import { Input, Button } from "@nextui-org/react";
 import AutoComplete from "@/components/auto-complete/AutoCompelete";
+import { BackgroundBeams } from "../BackgroundBeams";
 
 interface Props {
     setInput: (value: {
@@ -48,7 +49,10 @@ const InputForm = ({ setInput  , getDataFunction}: Props) => {
 
     return (
         <div className="w-full gap-12 h-screen flex flex-col text-xl items-center justify-center ">
-            <h1 className="text-blue-500 text-4xl font-extrabold">JUIT TIME TABLE</h1>
+            <BackgroundBeams />
+            <h1 className="text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
+            JUIT TIME TABLE
+            </h1>
             <div className="grid justify-center items-center gap-4">
                 <h1>Select the Course</h1>
                 <AutoComplete setCourse={handleCourseChange} />
