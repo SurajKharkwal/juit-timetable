@@ -1,27 +1,24 @@
 "use client"
 import React, { useRef, useState } from "react";
+import { UseMutateFunction } from "@tanstack/react-query";
 
 import { Input, Button } from "@nextui-org/react";
 import AutoComplete from "@/components/auto-complete/AutoCompelete";
-import axios from "axios";
 
-interface InputType {
+interface Props {
     setInput: (value: {
         course: string;
         batch: string;
-    }) => void;
-    setIsloading: (value: boolean) => void;
+    }) => void,
+    getDataFunction: UseMutateFunction<any, Error, void, unknown>
 }
 
-const HomePage = ({ setInput, setIsloading }: InputType) => {
+const InputForm = ({ setInput  , getDataFunction}: Props) => {
     const inputField = useRef<HTMLInputElement>(null);
     const [errorMessage, setErrorMessage] = useState<string>("");
     const [data, setData] = useState<{ course: string; batch: string }>({ course: "", batch: "" });
-    const [course, setCourse] = useState<string>("");
-    const [isData, setIsData] = useState(false);
 
     const handleCourseChange = (selectedCourse: string) => {
-        setCourse(selectedCourse);
         setData({ ...data, course: selectedCourse });
     };
 
@@ -47,11 +44,11 @@ const HomePage = ({ setInput, setIsloading }: InputType) => {
                 batch: data.batch
             }
         )
-    };
+        getDataFunction(); };
 
     return (
         <div className="w-full gap-12 h-screen flex flex-col text-xl items-center justify-center ">
-            <h1 className="text-blue-500 text-4xl font-extrabold">FLYING HAWK</h1>
+            <h1 className="text-blue-500 text-4xl font-extrabold">JUIT TIME TABLE</h1>
             <div className="grid justify-center items-center gap-4">
                 <h1>Select the Course</h1>
                 <AutoComplete setCourse={handleCourseChange} />
@@ -67,11 +64,11 @@ const HomePage = ({ setInput, setIsloading }: InputType) => {
                 />
             </div>
             {errorMessage && <p className="font-extralight text-red-500 text-xl ">{errorMessage}</p>}
-            <Button onClick={handleSubmit} isDisabled={isData} className="bg-blue-500">
+            <Button onClick={handleSubmit} className="bg-blue-500">
                 Submit
             </Button>
         </div>
     );
 };
 
-export default HomePage;
+export default InputForm;

@@ -1,10 +1,16 @@
 "use client"
 import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKeyValue } from "@nextui-org/react";
-import axios from "axios";
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
-const TimeTableUI = ({ setIsloading, Input }: { setIsloading: (value: boolean) => void, Input: { batch: string, course: string} }) => {
-    const [rows, setRows] = useState<{ key: string, label: "string" }[]>([]);
+type Props = {
+    rows: {
+        key: string,
+        label: string
+    }[]
+}
+
+const TimeTableUI = ({ rows }: Props) => {
+
     const [value, setValue] = useState("");
     const columns = [
         {
@@ -42,34 +48,20 @@ const TimeTableUI = ({ setIsloading, Input }: { setIsloading: (value: boolean) =
         {
             key: "at4",
             label: "4:00-5:00",
-        },
-        {
+        }, {
             key: "at5",
             label: "5:00-6:00"
         }
     ];
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await axios.post("/api/get-time-table", Input);
-                console.log(response)
-                setRows(response.data.data);
-            } catch (error) {
-                console.error("Error fetching data:", error);
-            } finally {
-                setIsloading(false);
-            }
-        };
 
-        fetchData();
-    }, [setIsloading]);
+
     return (
         <div className=" flex items-center relative justify-center w-full h-full  p-4 max-md:p-1">
 
             {
                 value && <div className="absolute top-0 z-10 backdrop-blur-lg w-full h-full flex items-center text-xl justify-center flex-col">
                     <div className=" grid gap-4 border-2 rounded-xl p-2 ">
-                        <h1 className="cursor-pointer bg-blue-400 rounded-lg p-2  text-black flex items-center justify-center " onClick={()=>{
+                        <h1 className="cursor-pointer bg-blue-400 rounded-lg p-2  text-black flex items-center justify-center " onClick={() => {
                             setValue("")
                         }}>Close</h1>
                         <p>{value}</p>

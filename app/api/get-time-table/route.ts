@@ -1,26 +1,30 @@
 import { NextResponse } from "next/server";
 import { timeTable } from "@/utils/time-table";
 
+interface Day {
+    key: string,
+    day: string,
+    at9: string,
+    at10: string,
+    at11: string,
+    at12: string,
+    at1: string,
+    at2: string,
+    at3: string,
+    at4: string,
+    at5: string,
+}
+
+interface Days {
+    [key: string]: number
+}
+
 export async function POST(req: Request) {
 
     const { batch, course } = await req.json();
 
-    interface Day {
-        key: string,
-        day: string,
-        at9: string,
-        at10: string,
-        at11: string,
-        at12: string,
-        at1: string,
-        at2: string,
-        at3: string,
-        at4: string,
-        at5: string,
-    }
-
-    interface Days {
-        [key: string]: number
+    if (!batch || !course) {
+        return NextResponse.json({ error: "Year and batch not provided" }, { status: 403 })
     }
 
     let timeTabeleData = timeTable[course];
