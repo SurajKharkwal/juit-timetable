@@ -22,12 +22,13 @@
     "@nextui-org/theme": "2.1.17",
     "@react-aria/ssr": "^3.8.0",
     "@react-aria/visually-hidden": "^3.8.6",
+    "@tanstack/react-query": "^5.24.1",
     "@types/node": "20.5.7",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.16",
     "axios": "^1.6.7",
-    "clsx": "^2.0.0",
+    "clsx": "^2.1.0",
     "eslint": "8.48.0",
     "eslint-config-next": "14.0.2",
     "exceljs": "^4.4.0",
@@ -38,8 +39,12 @@
     "postcss": "8.4.31",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "tailwind-merge": "^2.2.1",
     "tailwind-variants": "^0.1.18",
     "tailwindcss": "3.3.5",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2"
   }
 }
