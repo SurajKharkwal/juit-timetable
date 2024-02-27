@@ -31,7 +31,7 @@ export async function POST(req: Request) {
     let parsedTimeTable: Day[] = [
         {
             key: '1',
-            day: "MON",
+            day: "MONDAY",
             at9: "",
             at10: "",
             at11: "",
@@ -44,7 +44,7 @@ export async function POST(req: Request) {
         },
         {
             key: '2',
-            day: "TUE",
+            day: "TUESDAY",
             at9: "",
             at10: "",
             at11: "",
@@ -57,7 +57,7 @@ export async function POST(req: Request) {
         },
         {
             key: '3',
-            day: "WED",
+            day: "WEDNESDAY",
             at9: "",
             at10: "",
             at11: "",
@@ -70,7 +70,7 @@ export async function POST(req: Request) {
         },
         {
             key: '4',
-            day: "THU",
+            day: "THRUSDAY",
             at9: "",
             at10: "",
             at11: "",
@@ -83,7 +83,7 @@ export async function POST(req: Request) {
         },
         {
             key: '5',
-            day: "FRI",
+            day: "FRIDAY",
             at9: "",
             at10: "",
             at11: "",
@@ -96,7 +96,7 @@ export async function POST(req: Request) {
         },
         {
             key: '6',
-            day: "SAT",
+            day: "SATURDAY",
             at9: "",
             at10: "",
             at11: "",

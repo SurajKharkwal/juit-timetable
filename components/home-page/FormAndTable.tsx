@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import InputForm from "./InputForm";
 import { useMutation } from "@tanstack/react-query";
 import axios from "axios";
-import TimeTableUI from "../time-table/TimeTableUI";
+import {TimeTableUI} from "../time-table/TimeTableUI";
 import gsap from "gsap"
 
 

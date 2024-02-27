@@ -1,17 +1,28 @@
 "use client"
-import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKeyValue } from "@nextui-org/react";
+import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKeyValue, divider } from "@nextui-org/react";
 import React, { useState } from 'react'
 
 type Props = {
     rows: {
-        key: string,
-        label: string
-    }[]
-}
+        key: string;
+        day: string;
+        at9: string;
+        at10: string;
+        at11: string;
+        at12: string;
+        at1: string;
+        at2: string;
+        at3: string;
+        at4: string;
+        at5: string;
+    }[];
+};
+
 
 const TimeTableUI = ({ rows }: Props) => {
 
     const [value, setValue] = useState("");
+    console.log(rows)
     const columns = [
         {
             key: "day",
@@ -55,38 +66,40 @@ const TimeTableUI = ({ rows }: Props) => {
     ];
 
 
-    return (
-        <div className=" flex items-center relative justify-center w-full h-full  p-4 max-md:p-1">
+        return (
+            <div className=" flex items-center relative justify-center w-full h-full  p-4 max-md:p-1">
 
-                    {
-                        value && <div className="top-0 z-10 backdrop-blur-lg w-full h-full flex items-center text-xl justify-center flex-col">
-                            <div className=" grid gap-4 border-2 rounded-xl p-2 ">
-                                <h1 className="cursor-pointer bg-blue-400 rounded-lg p-2  text-black flex items-center justify-center " onClick={() => {
-                                    setValue("")
-                                }}>Close</h1>
-                                <p>{value}</p>
-        
-                            </div>
+                {
+                    value && <div className="top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10 absolute  backdrop-blur-lg w-full h-full flex items-center text-xl justify-center flex-col">
+                        <div className=" grid gap-4 border-2 rounded-xl p-2 ">
+                            <h1 className="cursor-pointer bg-blue-400 rounded-lg p-2  text-black flex items-center justify-center " onClick={() => {
+                                setValue("")
+                            }}>Close</h1>
+                            <p>{value}</p>
+
                         </div>
-                    }
-            <Table className="w-full " aria-label="Example table with dynamic content">
-                <TableHeader className=" w-full h-full">
-                    {columns.map((column) =>
-                        <TableColumn className="text-xl text-blue-400 p-6 font-extrabold gap-2" key={column.key}>{column.label}</TableColumn>
+                    </div>
+                }
+                <Table className="w-full" aria-label="Example table with dynamic content">
+                    <TableHeader className=" w-full h-full">
+                        {columns.map((column) =>
+                            <TableColumn className="text-xl text-blue-400 p-6  font-extrabold gap-2" key={column.key}>{column.label}</TableColumn>
                         )}
-                </TableHeader>
-                <TableBody className="w-full h-full" >
-                    {rows.map((row) =>
-                        <TableRow key={row.key}>
-                            {(columnKey) => <TableCell onDoubleClick={() => {
-                                setValue(getKeyValue(row, columnKey));
-                            }} className="text-xl rounded-md border-1 border-blue-400/20 p-8">{getKeyValue(row, columnKey)}</TableCell>}
-                        </TableRow>
-                    )}
-                </TableBody>
-            </Table>
-        </div>
-    )
+                    </TableHeader>
+                    <TableBody className="w-full h-full" >
+                        {rows.map((row) =>
+                            <TableRow key={row.key}>
+                                {(columnKey) => <TableCell onDoubleClick={() => {
+                                    setValue(getKeyValue(row, columnKey));
+                                }} className="text-xl rounded-md border-1 border-blue-400/20 p-4 pb-4 items-center justify-center">{getKeyValue(row, columnKey)}</TableCell>}
+                            </TableRow>
+                        )}
+                    </TableBody>
+                </Table>
+            </div>
+        )
 }
 
-export default TimeTableUI
+export {
+    TimeTableUI
+}
