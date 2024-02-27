@@ -27,7 +27,7 @@ const DropDown = () => {
                 <DropdownItem onClick={handleSurajBtn} key="copy">
                     {"Suraj's"}
                 </DropdownItem>
-                <DropdownItem key="delete" onClick={handleRepoBtn} className="text-danger" color="danger">
+                <DropdownItem onClick={handleRepoBtn} key="delete" className="text-danger" color="danger">
                     Repository
                 </DropdownItem>
             </DropdownMenu>

@@ -75,7 +75,7 @@ const InputForm = ({ setInput, getDataFunction, notFound }: Props) => {
         })
     }, [])
     return (
-        <div ref={loadingAnimationRef} className="w-full gap-12 h-screen flex flex-col text-xl items-center justify-center ">
+        <div ref={loadingAnimationRef} className="w-full gap-12 h-[100dvh] flex flex-col text-xl items-center justify-center ">
             <Navigation />
             <h1 className="text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
                 JUIT TIME TABLE
