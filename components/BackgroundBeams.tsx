@@ -103,7 +103,7 @@ export const BackgroundBeams = ({ className }: { className?: string }) => {
                 y2: ["0%", `${93 + Math.random() * 8}%`],
               }}
               transition={{
-                duration: Math.random() * 30 + 10,
+                duration: Math.random() * 10 + 10,
                 ease: "easeInOut",
                 repeat: Infinity,
                 delay: Math.random() * 10,

@@ -36,7 +36,7 @@ const readAndWrite = async () => {
     })
 
     const jsonData = JSON.stringify(data, null, 2);
-    const filePath = "src/utils/timeTableData.ts"
+    const filePath = "src/utils/time-table.ts"
     const writeImportStatement = 'import {TimeTableData} from "./writeTimeTable"'
     writeFile(filePath, `${writeImportStatement}\nexport const timeTable:TimeTableData = ${jsonData}`, (err) => {
         if (err) {

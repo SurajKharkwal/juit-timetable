@@ -1,17 +1,13 @@
 import "@/styles/globals.css";
 import { Metadata } from "next";
-import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import clsx from "clsx";
 import ReactQueryProvider from "@/utils/ReactQueryProvider";
 
 export const metadata: Metadata = {
-    title: {
-        default: "time-table",
-        template: `%s - ${siteConfig.name}`,
-    },
-    description: siteConfig.description,
+    title: "Time Table",
+    description: "A platform to conveniently view our college time table",
     themeColor: [
         { media: "(prefers-color-scheme: light)", color: "white" },
         { media: "(prefers-color-scheme: dark)", color: "black" },
