@@ -119,6 +119,7 @@ export async function POST(req: Request) {
         SAT: 5,
     }
 
+    let isDataFount = false;
     let currRecord: Day = parsedTimeTable[0];
     for (let classData of timeTabeleData) {
         if (days[classData.name] != undefined) {
@@ -126,6 +127,7 @@ export async function POST(req: Request) {
             continue;
         }
         if (classData.name.includes(batch)) {
+            isDataFount = true;
             if (classData.colNumber == 2) {
                 currRecord.at9 = classData.name
             }
@@ -156,8 +158,16 @@ export async function POST(req: Request) {
         }
     }
 
-    return NextResponse.json({
-        status: 200,
-        data: parsedTimeTable
-    })
+    if (!isDataFount) {
+        return NextResponse.json({
+            status: 404,
+            data: parsedTimeTable,
+        })
+    }
+    else {
+        return NextResponse.json({
+            status: 200,
+            data: parsedTimeTable
+        })
+    }
 }

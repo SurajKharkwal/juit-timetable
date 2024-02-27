@@ -1,22 +1,26 @@
 "use client"
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { UseMutateFunction } from "@tanstack/react-query";
+import gsap from "gsap"
 
 import { Input, Button } from "@nextui-org/react";
 import AutoComplete from "@/components/auto-complete/AutoCompelete";
 import { BackgroundBeams } from "../BackgroundBeams";
+import Navigation from "../navigation/Navigation";
 
 interface Props {
     setInput: (value: {
         course: string;
         batch: string;
     }) => void,
+    setErrorMessage : (value: string) => void,
+    errorMessage: string,
     getDataFunction: UseMutateFunction<any, Error, void, unknown>
 }
 
-const InputForm = ({ setInput  , getDataFunction}: Props) => {
+const InputForm = ({ setInput, getDataFunction, errorMessage , setErrorMessage}: Props) => {
+    const loadingAnimationRef = useRef(null)
     const inputField = useRef<HTMLInputElement>(null);
-    const [errorMessage, setErrorMessage] = useState<string>("");
     const [data, setData] = useState<{ course: string; batch: string }>({ course: "", batch: "" });
 
     const handleCourseChange = (selectedCourse: string) => {
@@ -24,7 +28,12 @@ const InputForm = ({ setInput  , getDataFunction}: Props) => {
     };
 
     const handleBatchChange = (batch: string) => {
-        setData({ ...data, batch });
+        let formatedBatch: string = "";
+        batch.split("").forEach(element => {
+            if (element !== " " && element !== "-")
+                formatedBatch += element.toUpperCase();
+        });
+        setData({ ...data, batch: formatedBatch });
     };
 
     const handleSubmit = async () => {
@@ -45,13 +54,26 @@ const InputForm = ({ setInput  , getDataFunction}: Props) => {
                 batch: data.batch
             }
         )
-        getDataFunction(); };
+        getDataFunction();
+    };
 
+    useEffect(() => {
+        gsap.set(loadingAnimationRef.current, {
+            scale: 0.5,
+            opacity: 0,
+        })
+        gsap.to(loadingAnimationRef.current, {
+            delay: 0.5,
+            scale: 1,
+            opacity: 1,
+        })
+    }, [])
     return (
-        <div className="w-full gap-12 h-screen flex flex-col text-xl items-center justify-center ">
+        <div ref={loadingAnimationRef} className="w-full gap-12 h-screen flex flex-col text-xl items-center justify-center ">
             <BackgroundBeams />
+            <Navigation />
             <h1 className="text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
-            JUIT TIME TABLE
+                JUIT TIME TABLE
             </h1>
             <div className="grid justify-center items-center gap-4">
                 <h1>Select the Course</h1>
@@ -63,7 +85,7 @@ const InputForm = ({ setInput  , getDataFunction}: Props) => {
                     ref={inputField}
                     className="w-[350px]"
                     type="text"
-                    label="Select Batch A-13, CS-12 ..."
+                    label="Select Batch A13, CS12 ..."
                     onChange={(e) => handleBatchChange(e.target.value)}
                 />
             </div>
@@ -71,6 +93,10 @@ const InputForm = ({ setInput  , getDataFunction}: Props) => {
             <Button onClick={handleSubmit} className="bg-blue-500">
                 Submit
             </Button>
+            <div className="absolute bottom-4 font-extralight flex items-center justify-center flex-col">
+                <h6>created by</h6>
+                <p className="text-blue-500 font-bold ">SURAJ & SHORYA</p>
+            </div>
         </div>
     );
 };

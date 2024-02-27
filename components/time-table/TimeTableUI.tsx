@@ -58,22 +58,22 @@ const TimeTableUI = ({ rows }: Props) => {
     return (
         <div className=" flex items-center relative justify-center w-full h-full  p-4 max-md:p-1">
 
-            {
-                value && <div className="absolute top-0 z-10 backdrop-blur-lg w-full h-full flex items-center text-xl justify-center flex-col">
-                    <div className=" grid gap-4 border-2 rounded-xl p-2 ">
-                        <h1 className="cursor-pointer bg-blue-400 rounded-lg p-2  text-black flex items-center justify-center " onClick={() => {
-                            setValue("")
-                        }}>Close</h1>
-                        <p>{value}</p>
-
-                    </div>
-                </div>
-            }
+                    {
+                        value && <div className="top-0 z-10 backdrop-blur-lg w-full h-full flex items-center text-xl justify-center flex-col">
+                            <div className=" grid gap-4 border-2 rounded-xl p-2 ">
+                                <h1 className="cursor-pointer bg-blue-400 rounded-lg p-2  text-black flex items-center justify-center " onClick={() => {
+                                    setValue("")
+                                }}>Close</h1>
+                                <p>{value}</p>
+        
+                            </div>
+                        </div>
+                    }
             <Table className="w-full " aria-label="Example table with dynamic content">
                 <TableHeader className=" w-full h-full">
                     {columns.map((column) =>
                         <TableColumn className="text-xl text-blue-400 p-6 font-extrabold gap-2" key={column.key}>{column.label}</TableColumn>
-                    )}
+                        )}
                 </TableHeader>
                 <TableBody className="w-full h-full" >
                     {rows.map((row) =>
