@@ -2,6 +2,16 @@ import React from 'react'
 import { FaGithub } from "react-icons/fa";
 
 import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button } from "@nextui-org/react";
+function handleShoryaBtn() {
+    window.location.href = 'https://github.com/shorya-1012'
+}
+
+function handleSurajBtn() {
+    window.location.href = 'https://github.com/SurajKharkwal'
+}
+function handleRepoBtn() {
+    window.location.href = 'https://github.com/SurajKharkwal/juit-time-table'
+}
 const DropDown = () => {
     return (
         <Dropdown>
@@ -11,20 +21,14 @@ const DropDown = () => {
                 </Button>
             </DropdownTrigger>
             <DropdownMenu aria-label="Static Actions">
-                <DropdownItem key="new">
-                    <a href="https://github.com/shorya-1012" className='w-full h-full'>
-                        {"Shorya's"}
-                    </a>
+                <DropdownItem onClick={handleShoryaBtn} key="new">
+                    {"Shorya's"}
                 </DropdownItem>
-                <DropdownItem key="copy">
-                    <a href="https://github.com/SurajKharkwal" className='w-full h-full'>
-                        {"Suraj's"}
-                    </a>
+                <DropdownItem onClick={handleSurajBtn} key="copy">
+                    {"Suraj's"}
                 </DropdownItem>
-                <DropdownItem key="delete" className="text-danger" color="danger">
-                    <a className='w-full h-full' href="https://github.com/SurajKharkwal/juit-time-table">
-                        Repositry
-                    </a>
+                <DropdownItem key="delete" onClick={handleRepoBtn} className="text-danger" color="danger">
+                    Repository
                 </DropdownItem>
             </DropdownMenu>
         </Dropdown>

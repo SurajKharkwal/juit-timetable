@@ -66,6 +66,7 @@ const InputForm = ({ setInput, getDataFunction, errorMessage , setErrorMessage}:
             delay: 0.5,
             scale: 1,
             opacity: 1,
+            ease:"power2.inOut"
         })
     }, [])
     return (

@@ -32,10 +32,12 @@ const FormAndTable = () => {
         tl.to(LoadingPageRef.current, {
             delay: 0.5,
             scale: 1,
+            ease: "power2.inOut",
             opacity: 1
         })
         tl.to(LoadingPageRef.current, {
             delay: 0.5,
+            ease: "power2.inOut",
             scale: 40,
         })
         const timeout = setTimeout(() => {
