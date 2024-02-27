@@ -7,8 +7,7 @@ import ReactQueryProvider from "@/utils/ReactQueryProvider";
 
 export const metadata: Metadata = {
     title: "Time Table",
-    description: "A platform to conveniently view our college time table",
-    themeColor: [
+    description: "A platform to conveniently view our college time table", themeColor: [
         { media: "(prefers-color-scheme: light)", color: "white" },
         { media: "(prefers-color-scheme: dark)", color: "black" },
     ],
