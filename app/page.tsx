@@ -1,8 +1,12 @@
 import FormAndTable from '@/components/home-page/FormAndTable';
+import { BackgroundBeams } from '@/components/BackgroundBeams';
 
 const Page = () => {
     return (
-        <FormAndTable />
+        <div>
+            <BackgroundBeams />
+            <FormAndTable />
+        </div>
     )
 };
 

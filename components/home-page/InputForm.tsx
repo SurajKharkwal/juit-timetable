@@ -5,7 +5,6 @@ import gsap from "gsap"
 
 import { Input, Button } from "@nextui-org/react";
 import AutoComplete from "@/components/auto-complete/AutoCompelete";
-import { BackgroundBeams } from "../BackgroundBeams";
 import Navigation from "../navigation/Navigation";
 
 interface Props {
@@ -13,15 +12,21 @@ interface Props {
         course: string;
         batch: string;
     }) => void,
-    setErrorMessage : (value: string) => void,
-    errorMessage: string,
-    getDataFunction: UseMutateFunction<any, Error, void, unknown>
+    getDataFunction: UseMutateFunction<any, Error, void, unknown>,
+    notFound: boolean
 }
 
-const InputForm = ({ setInput, getDataFunction, errorMessage , setErrorMessage}: Props) => {
+const InputForm = ({ setInput, getDataFunction, notFound }: Props) => {
     const loadingAnimationRef = useRef(null)
     const inputField = useRef<HTMLInputElement>(null);
     const [data, setData] = useState<{ course: string; batch: string }>({ course: "", batch: "" });
+    const [errorMessage, setErrorMessage] = useState("");
+
+    useEffect(() => {
+        if (notFound) {
+            setErrorMessage("No Data Found")
+        }
+    }, [notFound])
 
     const handleCourseChange = (selectedCourse: string) => {
         setData({ ...data, course: selectedCourse });
@@ -66,12 +71,11 @@ const InputForm = ({ setInput, getDataFunction, errorMessage , setErrorMessage}:
             delay: 0.5,
             scale: 1,
             opacity: 1,
-            ease:"power2.inOut"
+            ease: "power2.inOut"
         })
     }, [])
     return (
-        <div ref={loadingAnimationRef} className="w-full gap-12 h-screen flex flex-col text-xl items-center justify-center ">
-            <BackgroundBeams />
+        <div ref={loadingAnimationRef} className="w-full gap-12 h-[100dvh] flex flex-col text-xl items-center justify-center ">
             <Navigation />
             <h1 className="text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
                 JUIT TIME TABLE

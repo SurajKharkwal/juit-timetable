@@ -2,27 +2,33 @@
 import { useEffect, useRef, useState } from "react";
 import InputForm from "./InputForm";
 import { useMutation } from "@tanstack/react-query";
-import axios from "axios";
-import {TimeTableUI} from "../time-table/TimeTableUI";
+import axios, { AxiosError } from "axios";
+import { TimeTableUI } from "../time-table/TimeTableUI";
 import gsap from "gsap"
+// import { BackgroundBeams } from "../BackgroundBeams";
 
 
 const FormAndTable = () => {
     const [input, setInput] = useState<{ batch: string, course: string }>({ batch: "", course: "" });
     const [isLoading, setIsLoading] = useState(true);
+    const [notFound , setNotFound] = useState(false);
     const LoadingPageRef = useRef(null)
-    const [errorMessage, setErrorMessage] = useState("");
-    const { mutate: getTimeTableData, data: tableRows, isPending } = useMutation({
+
+    const { mutate: getTimeTableData, data: tableRows } = useMutation({
         mutationFn: async () => {
             const { data } = await axios.post("/api/get-time-table", input);
-            if (data.status == 200){
-                return data.data;
-            }else {
-                setErrorMessage("No Data Found  ")
-                return undefined;
+            return data.data;
+        },
+        onError: (err) => {
+            if (err instanceof AxiosError) {
+                if (err.response?.status === 404) {
+                    setNotFound(true)
+                    return undefined;
+                }
             }
         }
     })
+
     useEffect(() => {
         gsap.set(LoadingPageRef.current, {
             scale: 0.5,
@@ -45,19 +51,13 @@ const FormAndTable = () => {
         }, 2000);
         return () => clearTimeout(timeout);
     }, [])
+
     if (isLoading) {
         return (
             <div className="w-full h-screen">
                 <section ref={LoadingPageRef} className="w-full gap-4 font-bold h-full text-5xl flex flex-col items-center justify-center">
-                    <h1>Ready, </h1>
-                    <h1>
-                        to dive into
-                    </h1>
-                    <i className="text-blue-500">SHORYA SURAJ</i>
-                    <h1>
-                        project?
-                    </h1>
-
+                    <h1>Made By</h1>
+                    <i className="text-blue-500">SHORYA & SURAJ</i>
                 </section>
             </div>
         )
@@ -66,7 +66,7 @@ const FormAndTable = () => {
     if (tableRows === undefined || tableRows === null) {
         return (
             <div>
-                <InputForm setErrorMessage={setErrorMessage} errorMessage={errorMessage} getDataFunction={getTimeTableData} setInput={setInput} />
+                <InputForm getDataFunction={getTimeTableData} setInput={setInput} notFound={notFound}/>
             </div>
         );
     }

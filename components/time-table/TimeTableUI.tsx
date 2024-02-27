@@ -1,5 +1,5 @@
 "use client"
-import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKeyValue, divider } from "@nextui-org/react";
+import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKeyValue} from "@nextui-org/react";
 import React, { useState } from 'react'
 
 type Props = {
@@ -22,7 +22,6 @@ type Props = {
 const TimeTableUI = ({ rows }: Props) => {
 
     const [value, setValue] = useState("");
-    console.log(rows)
     const columns = [
         {
             key: "day",
@@ -67,7 +66,7 @@ const TimeTableUI = ({ rows }: Props) => {
 
 
         return (
-            <div className=" flex items-center relative justify-center w-full h-full  p-4 max-md:p-1">
+            <div className=" flex items-center relative justify-center min-w-screen min-h-screen p-4 max-md:p-1 bg-black">
 
                 {
                     value && <div className="top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10 absolute  backdrop-blur-lg w-full h-full flex items-center text-xl justify-center flex-col">
