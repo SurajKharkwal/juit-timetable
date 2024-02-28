@@ -5,8 +5,6 @@ import { useMutation } from "@tanstack/react-query";
 import axios, { AxiosError } from "axios";
 import { TimeTableUI } from "../time-table/TimeTableUI";
 import gsap from "gsap"
-// import { BackgroundBeams } from "../BackgroundBeams";
-
 
 const FormAndTable = () => {
     const [input, setInput] = useState<{ batch: string, course: string }>({ batch: "", course: "" });
@@ -73,7 +71,7 @@ const FormAndTable = () => {
 
     if (tableRows !== undefined || tableRows !== null) {
         return (
-            <TimeTableUI rows={tableRows} />
+            <TimeTableUI rows={tableRows} input={input} setInput={setInput} />
         );
     }
 
