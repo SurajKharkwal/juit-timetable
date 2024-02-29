@@ -4,51 +4,43 @@ import { Input } from '@nextui-org/input'
 import { Button } from '@nextui-org/button';
 
 type Props = {
-    input: {
-        batch: string;
-        course: string;
-    };
     setShowDialogBox(value: boolean): void;
-    setInput(value: { batch: string, course: string }): void;
+    fetchDataFunction: (course: string, batch: string) => void
 };
-const DialogBox = ({ input, setShowDialogBox, setInput }: Props) => {
-    const [data, setData] = useState<{ course: string; batch: string }>({ course: "", batch: "" });
+
+
+const DialogBox = ({ setShowDialogBox, fetchDataFunction}: Props) => {
+    const [inputData, setInputData] = useState<{ course: string; batch: string }>({ course: "", batch: "" });
     const [errorMessage, setErrorMessage] = useState("");
-    
+
     const handleCourseChange = (selectedCourse: string) => {
-        console.log(selectedCourse)
-        setData({ ...data, course: selectedCourse });
+        setInputData({ ...inputData, course: selectedCourse });
     };
-   const handleBatchChange = (batch: string) => {
+    const handleBatchChange = (batch: string) => {
         let formatedBatch: string = "";
         batch.split("").forEach(element => {
             if (element !== " " && element !== "-")
                 formatedBatch += element.toUpperCase();
         });
-        setData({ ...data, batch: formatedBatch });
+        setInputData({ ...inputData, batch: formatedBatch });
     };
 
     const handleSubmit = async () => {
-        console.log(data)
-        if (!data.course) {
+        if (!inputData.course) {
             setErrorMessage("Please select a course");
             return;
         }
 
-        if (!data.batch) {
+        if (!inputData.batch) {
             setErrorMessage("Please enter the Batch");
             return;
         }
 
         setErrorMessage("");
-        setInput(
-            {
-                course: data.course,
-                batch: data.batch
-            }
-        )
+
+        fetchDataFunction(inputData.course, inputData.batch)
+
         setShowDialogBox(false)
-        console.log(input)
     };
 
     return (
@@ -61,12 +53,13 @@ const DialogBox = ({ input, setShowDialogBox, setInput }: Props) => {
                 </div>
                 <div className='w-full'>
                     <h1>Select Batch</h1>
-                    <Input onChange={(e)=>handleBatchChange(e.target.value)} />
+                    <Input onChange={(e) => handleBatchChange(e.target.value)} />
                 </div>
+                {errorMessage && <p className="font-extralight text-red-500 text-xl ">{errorMessage}</p>}
                 <p className='text-red-500 w-full items-center justify-center flex font-extralight'>{errorMessage}</p>
                 <div className='w-full gap-2 flex items-center justify-center '>
                     <Button onClick={handleSubmit} className='bg-blue-500 text-white'>Submit</Button>
-                    <Button className='border-blue-500 border-2 bg-transparent text-blue-300'>Close</Button>
+                    <Button onClick={()=>setShowDialogBox(false)} className='border-blue-500 border-2 bg-transparent text-blue-300'>Close</Button>
                 </div>
             </div>
             <section className='absolute bottom-2 flex items-center justify-center flex-col'>

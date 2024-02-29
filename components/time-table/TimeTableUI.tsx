@@ -1,24 +1,20 @@
 "use client"
 import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKeyValue, Button } from "@nextui-org/react";
-import React, { useEffect, useRef, useState } from 'react'
-import { MdEditSquare } from "react-icons/md";
-import { FiPlusCircle } from "react-icons/fi";
-import { LuMinusCircle } from "react-icons/lu";
-import { IoArrowUndoCircleOutline, IoSettingsOutline } from "react-icons/io5";
-import DialogBox from "./DialogBox";
+import React, { useRef, useState } from 'react'
+// import { MdEditSquare } from "react-icons/md";
+// import { FiPlusCircle } from "react-icons/fi";
+// import { LuMinusCircle } from "react-icons/lu";
+// import { IoArrowUndoCircleOutline, IoSettingsOutline } from "react-icons/io5";
+// import DialogBox from "./DialogBox";
+
 type Props = {
     rows: {
         key: string;
     }[];
-    input: {
-        batch: string;
-        course: string;
-    };
-    setInput(value: { batch: string, course: string}): void;
 };
 
 
-const TimeTableUI = ({ rows, input, setInput }: Props) => {
+const TimeTableUI = ({ rows  }: Props) => {
 
     const [value, setValue] = useState("");
     const columns = [
@@ -64,18 +60,12 @@ const TimeTableUI = ({ rows, input, setInput }: Props) => {
     ];
 
     const [onClickValue, setOnClickValue] = useState(false);
-    const [showDialogBox, setShowDialogBox] = useState(false);
     const spinRef = useRef(null)
-    const handleDialogBox = () => {
-
-    }
 
     return (
-        <div className=" flex items-center justify-center min-w-screen min-h-[100dvh] p-4 max-md:p-1 bg-black">
-            {
-                showDialogBox ? <DialogBox setShowDialogBox={setShowDialogBox} input={input} setInput={setInput} /> : null
-            }
-             <div className="fixed z-10 flex items-center bg-white/10 rounded-lg p-2 justify-center gap-2 bottom-4 right-4">
+        <div className="w-full h-full flex items-center">
+            {/*
+            <div className="fixed z-10 flex items-center bg-white/10 rounded-lg p-2 justify-center gap-2 bottom-4 right-4">
                 {
                     onClickValue ? (
                         <>
@@ -88,6 +78,7 @@ const TimeTableUI = ({ rows, input, setInput }: Props) => {
                 }
                 <Button ref={spinRef} id="spin" onClick={() => setOnClickValue(!onClickValue)} isIconOnly> <IoSettingsOutline className="bg-transparent text-3xl" /></Button>
             </div>
+            */}
 
             {
                 value && <div className="top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10 absolute  backdrop-blur-lg w-full h-full flex items-center text-xl justify-center flex-col">
