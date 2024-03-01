@@ -1,5 +1,9 @@
 'use client'
-
+import { IoArrowUndoCircleSharp } from "react-icons/io5";
+import { Popover, PopoverTrigger, PopoverContent, Button } from "@nextui-org/react";
+import { AiOutlineMenuUnfold } from "react-icons/ai";
+import { GoPlusCircle } from "react-icons/go";
+import { LuMinusCircle } from "react-icons/lu";
 import { useEffect, useRef, useState } from "react";
 import InputForm from "./InputForm";
 import { useMutation } from "@tanstack/react-query";
@@ -7,7 +11,6 @@ import axios, { AxiosError } from "axios";
 import { TimeTableUI } from "../time-table/TimeTableUI";
 import gsap from "gsap"
 import DialogBox from "../time-table/DialogBox";
-import { Button } from "@nextui-org/button";
 import { MdEdit } from 'react-icons/md'
 import Toast from "../toast/Toast";
 
@@ -20,7 +23,7 @@ const FormAndTable = () => {
     const [timeTableData, setTimeTableData] = useState();
     const [openToast, setOpenToast] = useState(false);
 
-    const { mutate: getTimeTableData , isPending} = useMutation({
+    const { mutate: getTimeTableData, isPending } = useMutation({
         mutationFn: async () => {
             const { data } = await axios.post("/api/get-time-table", input);
             setTimeTableData(data.data);
@@ -66,6 +69,36 @@ const FormAndTable = () => {
         }, 2000);
         return () => clearTimeout(timeout);
     }, [])
+    function PopOver() {
+        const [zoomVal, setZoomVal] = useState(1);
+        return (
+            <Popover placement="bottom" showArrow={true}>
+                <PopoverTrigger>
+                    <Button className=" p-2 bg-neutral-800  w-full h-full" isIconOnly><AiOutlineMenuUnfold className="text-4xl" /></Button>
+                </PopoverTrigger>
+                <PopoverContent>
+                    <div className="px-1 flex flex-col gap-2 py-2">
+                        <Button className="" onClick={() => setZoomVal(zoomVal + 0.1)} endContent={<GoPlusCircle />}>Zoom-in</Button>
+                        <Button className="" onClick={() => setZoomVal((zoomVal - 0.1))} endContent={<LuMinusCircle />}>Zoom-out</Button>
+                        <Button onClick={() => setZoomVal(1)} className="text-xl font-light" endContent={< IoArrowUndoCircleSharp />}>Revert</Button>
+                            <Button
+                                onClick={() => setShowDialogBox(!showDialogBox)}
+                                className="bg-gray-300 hover:bg-gray-400 w-full text-zinc-800 text-lg flex gap-x-2 px-5 place-self-end mt-1 mb-3"
+                            >
+                                <MdEdit />
+                                Edit
+                            </Button>
+                        <style jsx global>{
+                            `#Zoom-Content {
+                                zoom : ${zoomVal}
+            }`
+                        }</style>
+                    </div>
+                </PopoverContent>
+            </Popover>
+        );
+    }
+
 
     if (isLoading) {
         return (
@@ -91,13 +124,10 @@ const FormAndTable = () => {
         return (
             <div className="flex flex-col relative items-center justify-center min-w-screen min-h-[100dvh] p-4 max-md:p-1 bg-black">
                 <Toast open={openToast} setOpen={setOpenToast} />
-                <Button
-                    onClick={() => setShowDialogBox(!showDialogBox)}
-                    className="bg-gray-300 hover:bg-gray-400 hover:text-gray-200 text-zinc-800 text-lg flex gap-x-2 px-5 place-self-end mt-1 mb-3"
-                >
-                    <MdEdit />
-                    Edit
-                </Button>
+                    <div className=" fixed z-20 bottom-4 right-4">
+                        <PopOver />
+
+                    </div>
                 {
                     showDialogBox && <DialogBox
                         setShowDialogBox={setShowDialogBox}

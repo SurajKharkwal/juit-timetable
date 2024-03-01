@@ -59,10 +59,7 @@ const TimeTableUI = ({ rows }: Props) => {
 
     return (
         <div id="Zoom-Content" className="w-full h-full flex items-center">
-            <div className=" fixed z-20 bottom-4 right-4">
-                <PopOver />
 
-            </div>
             {
                 value && <div className="top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10 absolute  backdrop-blur-lg w-full h-full flex items-center text-xl justify-center flex-col">
                     <div className=" grid gap-4 border-2 rounded-xl p-2 ">
@@ -85,7 +82,7 @@ const TimeTableUI = ({ rows }: Props) => {
                         <TableRow key={row.key}>
                             {(columnKey) => <TableCell onDoubleClick={() => {
                                 setValue(getKeyValue(row, columnKey));
-                            }} className="text-xl rounded-md border-1 border-blue-400/20 p-4 pb-4 cursor-pointer items-center justify-center">{getKeyValue(row, columnKey)}</TableCell>}
+                            }} className="text-xl rounded-md border-1 w-[232.42]     border-blue-400/20 p-4 pb-4 cursor-pointer items-center justify-center">{getKeyValue(row, columnKey)}</TableCell>}
                         </TableRow>
                     )}
                 </TableBody>
