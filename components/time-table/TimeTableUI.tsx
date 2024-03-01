@@ -1,6 +1,7 @@
 "use client"
-import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKeyValue, } from "@nextui-org/react";
+import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKeyValue, Popover, } from "@nextui-org/react";
 import React, { useState } from 'react'
+import PopOver from "./PopOver";
 
 
 type Props = {
@@ -57,7 +58,11 @@ const TimeTableUI = ({ rows }: Props) => {
 
 
     return (
-        <div className="w-full h-full flex items-center">
+        <div id="Zoom-Content" className="w-full h-full flex items-center">
+            <div className=" fixed z-20 bottom-4 right-4">
+                <PopOver />
+
+            </div>
             {
                 value && <div className="top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10 absolute  backdrop-blur-lg w-full h-full flex items-center text-xl justify-center flex-col">
                     <div className=" grid gap-4 border-2 rounded-xl p-2 ">
