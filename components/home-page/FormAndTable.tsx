@@ -9,6 +9,7 @@ import gsap from "gsap"
 import DialogBox from "../time-table/DialogBox";
 import { Button } from "@nextui-org/button";
 import { MdEdit } from 'react-icons/md'
+import ToastDemo from "../toast/Toast";
 
 const FormAndTable = () => {
     const [input, setInput] = useState<{ batch: string, course: string }>({ batch: "", course: "" });
@@ -17,6 +18,7 @@ const FormAndTable = () => {
     const [showDialogBox, setShowDialogBox] = useState(false);
     const LoadingPageRef = useRef(null)
     const [timeTableData, setTimeTableData] = useState();
+    const [openToast, setOpenToast] = useState(false);
 
     const { mutate: getTimeTableData } = useMutation({
         mutationFn: async () => {
@@ -27,7 +29,7 @@ const FormAndTable = () => {
         onError: (err) => {
             if (err instanceof AxiosError) {
                 if (err.response?.status === 404) {
-                    alert("No Data Found");
+                    setOpenToast(true);
                     setNotFound(true);
                 }
             }
@@ -79,6 +81,7 @@ const FormAndTable = () => {
     if (timeTableData === undefined || timeTableData === null) {
         return (
             <div>
+                <ToastDemo open={openToast} setOpen={setOpenToast} />
                 <InputForm getDataFunction={getTimeTableData} setInput={setInput} notFound={notFound} />
             </div>
         );

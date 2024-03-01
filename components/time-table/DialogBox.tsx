@@ -55,7 +55,6 @@ const DialogBox = ({ setShowDialogBox, fetchDataFunction}: Props) => {
                     <h1>Select Batch</h1>
                     <Input onChange={(e) => handleBatchChange(e.target.value)} />
                 </div>
-                {errorMessage && <p className="font-extralight text-red-500 text-xl ">{errorMessage}</p>}
                 <p className='text-red-500 w-full items-center justify-center flex font-extralight'>{errorMessage}</p>
                 <div className='w-full gap-2 flex items-center justify-center '>
                     <Button onClick={handleSubmit} className='bg-blue-500 text-white'>Submit</Button>
