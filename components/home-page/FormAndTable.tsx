@@ -9,7 +9,7 @@ import gsap from "gsap"
 import DialogBox from "../time-table/DialogBox";
 import { Button } from "@nextui-org/button";
 import { MdEdit } from 'react-icons/md'
-import ToastDemo from "../toast/Toast";
+import Toast from "../toast/Toast";
 
 const FormAndTable = () => {
     const [input, setInput] = useState<{ batch: string, course: string }>({ batch: "", course: "" });
@@ -20,7 +20,7 @@ const FormAndTable = () => {
     const [timeTableData, setTimeTableData] = useState();
     const [openToast, setOpenToast] = useState(false);
 
-    const { mutate: getTimeTableData } = useMutation({
+    const { mutate: getTimeTableData , isPending} = useMutation({
         mutationFn: async () => {
             const { data } = await axios.post("/api/get-time-table", input);
             setTimeTableData(data.data);
@@ -78,18 +78,19 @@ const FormAndTable = () => {
         )
     }
 
-    if (timeTableData === undefined || timeTableData === null) {
+    if (timeTableData === undefined) {
         return (
             <div>
-                <ToastDemo open={openToast} setOpen={setOpenToast} />
-                <InputForm getDataFunction={getTimeTableData} setInput={setInput} notFound={notFound} />
+                <Toast open={openToast} setOpen={setOpenToast} />
+                <InputForm getDataFunction={getTimeTableData} setInput={setInput} isLoading={isPending} />
             </div>
         );
     }
 
-    if (timeTableData !== undefined || timeTableData !== null) {
+    if (timeTableData !== undefined) {
         return (
             <div className="flex flex-col relative items-center justify-center min-w-screen min-h-[100dvh] p-4 max-md:p-1 bg-black">
+                <Toast open={openToast} setOpen={setOpenToast} />
                 <Button
                     onClick={() => setShowDialogBox(!showDialogBox)}
                     className="bg-gray-300 hover:bg-gray-400 hover:text-gray-200 text-zinc-800 text-lg flex gap-x-2 px-5 place-self-end mt-1 mb-3"

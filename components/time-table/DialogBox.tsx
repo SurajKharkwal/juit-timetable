@@ -9,7 +9,7 @@ type Props = {
 };
 
 
-const DialogBox = ({ setShowDialogBox, fetchDataFunction}: Props) => {
+const DialogBox = ({ setShowDialogBox, fetchDataFunction }: Props) => {
     const [inputData, setInputData] = useState<{ course: string; batch: string }>({ course: "", batch: "" });
     const [errorMessage, setErrorMessage] = useState("");
 
@@ -36,8 +36,6 @@ const DialogBox = ({ setShowDialogBox, fetchDataFunction}: Props) => {
             return;
         }
 
-        setErrorMessage("");
-
         fetchDataFunction(inputData.course, inputData.batch)
 
         setShowDialogBox(false)
@@ -58,7 +56,7 @@ const DialogBox = ({ setShowDialogBox, fetchDataFunction}: Props) => {
                 <p className='text-red-500 w-full items-center justify-center flex font-extralight'>{errorMessage}</p>
                 <div className='w-full gap-2 flex items-center justify-center '>
                     <Button onClick={handleSubmit} className='bg-blue-500 text-white'>Submit</Button>
-                    <Button onClick={()=>setShowDialogBox(false)} className='border-blue-500 border-2 bg-transparent text-blue-300'>Close</Button>
+                    <Button onClick={() => setShowDialogBox(false)} className='border-blue-500 border-2 bg-transparent text-blue-300'>Close</Button>
                 </div>
             </div>
             <section className='absolute bottom-2 flex items-center justify-center flex-col'>

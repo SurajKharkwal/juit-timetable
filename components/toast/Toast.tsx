@@ -8,18 +8,16 @@ type Props = {
   setOpen: (value: boolean) => void;
 }
 
-const ToastDemo = ({open, setOpen}: Props) => {
-    console.log(open)
-
+const ToastComponent = ({open, setOpen}: Props) => {
   return (
     <Toast.Provider swipeDirection="right">
       <Toast.Root className="ToastRoot" open={open} onOpenChange={setOpen}>
         <div className=''>
           <Toast.Title className="ToastTitle">
-            <h1 className='text-red-700 font-semibold'>Sorry, No Data Found</h1>
+            <h1 className='text-red-700 font-extrabold '>No Data Found</h1>
           </Toast.Title>
           <Toast.Description asChild>
-            <p className='text-red-500 font-extralight'>Please Check, Course Name & Batch Name again ...</p>
+            <p className='text-red-500 font-semibold'>Please Check, Course Name & Batch Name again ...</p>
           </Toast.Description>
         </div>
       </Toast.Root>
@@ -29,4 +27,4 @@ const ToastDemo = ({open, setOpen}: Props) => {
 };
 
 
-export default ToastDemo;
+export default ToastComponent;
