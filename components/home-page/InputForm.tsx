@@ -6,6 +6,7 @@ import gsap from "gsap"
 import { Input, Button } from "@nextui-org/react";
 import AutoComplete from "@/components/auto-complete/AutoCompelete";
 import Navigation from "../navigation/Navigation";
+import { CircularProgress } from "@nextui-org/react";
 
 interface Props {
     setInput: (value: {
@@ -13,20 +14,14 @@ interface Props {
         batch: string;
     }) => void,
     getDataFunction: UseMutateFunction<any, Error, void, unknown>,
-    notFound: boolean
+    isLoading: boolean
 }
 
-const InputForm = ({ setInput, getDataFunction, notFound }: Props) => {
+const InputForm = ({ setInput, getDataFunction, isLoading }: Props) => {
     const loadingAnimationRef = useRef(null)
     const inputField = useRef<HTMLInputElement>(null);
     const [data, setData] = useState<{ course: string; batch: string }>({ course: "", batch: "" });
     const [errorMessage, setErrorMessage] = useState("");
-
-    useEffect(() => {
-        if (notFound) {
-            setErrorMessage("No Data Found")
-        }
-    }, [notFound])
 
     const handleCourseChange = (selectedCourse: string) => {
         setData({ ...data, course: selectedCourse });
@@ -95,8 +90,18 @@ const InputForm = ({ setInput, getDataFunction, notFound }: Props) => {
                 />
             </div>
             {errorMessage && <p className="font-extralight text-red-500 text-xl ">{errorMessage}</p>}
-            <Button onClick={handleSubmit} className="bg-blue-500">
-                Submit
+            <Button
+                onClick={handleSubmit}
+                className="bg-blue-500"
+                disabled={isLoading}
+            >
+                {isLoading &&
+                    <div className="flex gap-x-2 items-center">
+                        <CircularProgress color="danger" size="sm" aria-label="Loading..." />
+                        Submit
+                    </div>
+                }
+                {!isLoading && <div>Submit</div>}
             </Button>
             <div className="absolute bottom-4 font-extralight flex items-center justify-center flex-col">
                 <h6>created by</h6>
