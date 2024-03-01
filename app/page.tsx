@@ -4,7 +4,9 @@ import { BackgroundBeams } from '@/components/BackgroundBeams';
 const Page = () => {
     return (
         <div>
+            {/*
             <BackgroundBeams />
+            */}
             <FormAndTable />
         </div>
     )
