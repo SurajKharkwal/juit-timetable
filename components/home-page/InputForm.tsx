@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { UseMutateFunction } from "@tanstack/react-query";
 import gsap from "gsap"
 
-import { Input, Button } from "@nextui-org/react";
+import { Input, Button, Spinner } from "@nextui-org/react";
 import AutoComplete from "@/components/auto-complete/AutoCompelete";
 import Navigation from "../navigation/Navigation";
 import { CircularProgress } from "@nextui-org/react";
@@ -97,7 +97,7 @@ const InputForm = ({ setInput, getDataFunction, isLoading }: Props) => {
             >
                 {isLoading &&
                     <div className="flex gap-x-2 items-center">
-                        <CircularProgress color="danger" size="sm" aria-label="Loading..." />
+                        <Spinner color="success" />
                         Submit
                     </div>
                 }
