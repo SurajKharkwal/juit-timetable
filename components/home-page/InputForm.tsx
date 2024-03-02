@@ -6,7 +6,6 @@ import gsap from "gsap"
 import { Input, Button, Spinner } from "@nextui-org/react";
 import AutoComplete from "@/components/auto-complete/AutoCompelete";
 import Navigation from "../navigation/Navigation";
-import { CircularProgress } from "@nextui-org/react";
 
 interface Props {
     setInput: (value: {
@@ -76,11 +75,11 @@ const InputForm = ({ setInput, getDataFunction, isLoading }: Props) => {
                 JUIT TIME TABLE
             </h1>
             <div className="grid justify-center items-center gap-4">
-                <h1>Select the Course</h1>
+                <h1>Select Course</h1>
                 <AutoComplete setCourse={handleCourseChange} />
             </div>
             <div className="grid items-center justify-center gap-2">
-                <h1>Select the Batch</h1>
+                <h1>Select Batch</h1>
                 <Input
                     ref={inputField}
                     className="w-[350px]"

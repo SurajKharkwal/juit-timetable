@@ -123,38 +123,38 @@ export async function POST(req: Request) {
     let currRecord: Day = parsedTimeTable[0];
 
     for (let classData of timeTabeleData) {
-        if (days[classData.name] != undefined) {
-            currRecord = parsedTimeTable[days[classData.name]];
+        if (days[classData.value] != undefined) {
+            currRecord = parsedTimeTable[days[classData.value]];
             continue;
         }
-        if (classData.name.includes(batch)) {
+        if (classData.value.includes(batch)) {
             isDataFound = true;
             if (classData.colNumber == 2) {
-                currRecord.at9 = classData.name
+                currRecord.at9 = classData.value
             }
             else if (classData.colNumber == 3) {
-                currRecord.at10 = classData.name;
+                currRecord.at10 = classData.value;
             }
             else if (classData.colNumber == 4) {
-                currRecord.at11 = classData.name;
+                currRecord.at11 = classData.value;
             }
             else if (classData.colNumber == 5) {
-                currRecord.at12 = classData.name;
+                currRecord.at12 = classData.value;
             }
             else if (classData.colNumber == 6) {
-                currRecord.at1 = classData.name;
+                currRecord.at1 = classData.value;
             }
             else if (classData.colNumber == 7) {
-                currRecord.at2 = classData.name;
+                currRecord.at2 = classData.value;
             }
             else if (classData.colNumber == 8) {
-                currRecord.at3 = classData.name;
+                currRecord.at3 = classData.value;
             }
             else if (classData.colNumber == 9) {
-                currRecord.at4 = classData.name;
+                currRecord.at4 = classData.value;
             }
             else if (classData.colNumber == 10) {
-                currRecord.at5 = classData.name;
+                currRecord.at5 = classData.value;
             }
         }
     }

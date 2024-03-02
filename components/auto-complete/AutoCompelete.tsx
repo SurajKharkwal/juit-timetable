@@ -32,7 +32,7 @@ const AutoComplete: React.FC<AutoCompleteProps> = ({ setCourse }) => {
                 <div>Loading course names</div>
             }
             {!isLoading &&
-                <Autocomplete onInputChange={handleInputChange} label="Select a Field">
+                <Autocomplete onInputChange={handleInputChange} label="Select Course">
                     {data.map((element: SelectType) => (
                         <AutocompleteItem key={element.value} value={element.value}>
                             {element.label}

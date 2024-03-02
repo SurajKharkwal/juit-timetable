@@ -2,7 +2,7 @@ import * as ExcelJs from 'exceljs'
 import { writeFile } from 'fs'
 
 interface Class {
-    name: string,
+    value: string,
     colNumber: number
 }
 
@@ -25,7 +25,7 @@ const readAndWrite = async () => {
                     const cellValue = String(cell.value);
                     if (cellValue !== "") {
                         let classData: Class = {
-                            name: cellValue,
+                            value: cellValue,
                             colNumber
                         }
                         data[sheet.name].push(classData);

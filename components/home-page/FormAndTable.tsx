@@ -4,20 +4,19 @@ import { Popover, PopoverTrigger, PopoverContent, Button } from "@nextui-org/rea
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { GoPlusCircle } from "react-icons/go";
 import { LuMinusCircle } from "react-icons/lu";
-import { useEffect, useRef, useState } from "react";
 import InputForm from "./InputForm";
-import { useMutation } from "@tanstack/react-query";
-import axios, { AxiosError } from "axios";
 import { TimeTableUI } from "../time-table/TimeTableUI";
-import gsap from "gsap"
 import DialogBox from "../time-table/DialogBox";
 import { MdEdit } from 'react-icons/md'
 import Toast from "../toast/Toast";
+import axios, { AxiosError } from "axios";
+import { useEffect, useRef, useState } from "react";
+import { useMutation } from "@tanstack/react-query";
+import gsap from "gsap"
 
 const FormAndTable = () => {
     const [input, setInput] = useState<{ batch: string, course: string }>({ batch: "", course: "" });
     const [isLoading, setIsLoading] = useState(true);
-    const [notFound, setNotFound] = useState(false);
     const [showDialogBox, setShowDialogBox] = useState(false);
     const LoadingPageRef = useRef(null)
     const [timeTableData, setTimeTableData] = useState();
@@ -33,7 +32,6 @@ const FormAndTable = () => {
             if (err instanceof AxiosError) {
                 if (err.response?.status === 404) {
                     setOpenToast(true);
-                    setNotFound(true);
                 }
             }
         }
@@ -69,6 +67,7 @@ const FormAndTable = () => {
         }, 2000);
         return () => clearTimeout(timeout);
     }, [])
+
     function PopOver() {
         const [zoomVal, setZoomVal] = useState(1);
         return (
@@ -106,9 +105,11 @@ const FormAndTable = () => {
     if (isLoading) {
         return (
             <div className="w-full h-screen">
-                <section ref={LoadingPageRef} className="w-full gap-4 font-bold h-full text-5xl flex flex-col items-center justify-center">
-                    <h1>Made By</h1>
-                    <i className="text-blue-500">SHORYA & SURAJ</i>
+                <section ref={LoadingPageRef} className="w-full gap-4 font-bold h-full text-5xl flex flex-col items-center justify-center font-sans">
+                    <h1 className="text-3xl md:text-4xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-500  text-center font-sans ">Made By</h1>
+                    <p className="text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-b from-blue-200 to-blue-600  text-center font-sans font-bold ">
+                        SHORYA & SURAJ
+                    </p>
                 </section>
             </div>
         )
