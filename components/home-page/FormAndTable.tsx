@@ -17,7 +17,6 @@ import Toast from "../toast/Toast";
 const FormAndTable = () => {
     const [input, setInput] = useState<{ batch: string, course: string }>({ batch: "", course: "" });
     const [isLoading, setIsLoading] = useState(true);
-    const [notFound, setNotFound] = useState(false);
     const [showDialogBox, setShowDialogBox] = useState(false);
     const LoadingPageRef = useRef(null)
     const [timeTableData, setTimeTableData] = useState();
@@ -33,7 +32,6 @@ const FormAndTable = () => {
             if (err instanceof AxiosError) {
                 if (err.response?.status === 404) {
                     setOpenToast(true);
-                    setNotFound(true);
                 }
             }
         }
