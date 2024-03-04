@@ -8,7 +8,7 @@ import { Tooltip } from "@nextui-org/react";
 
 const Navigation = () => {
   const { setTheme } = useTheme();
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(true);
   return (
     <nav className="w-full fixed top-0 left-0 flex items-center justify-center  h-[10vh]">
       <div className="max-w-[100vw] md:max-w-[90vw] flex items-center justify-end pl-4 pr-4 w-full h-full ">
