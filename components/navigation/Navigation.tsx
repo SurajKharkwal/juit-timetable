@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import DropDown from "../home-page/DropDown";
 import { useTheme } from "next-themes";
 import { MdDarkMode, MdOutlineLightMode } from "react-icons/md";
@@ -7,17 +7,17 @@ import { Button } from "@nextui-org/button";
 import { Tooltip } from "@nextui-org/react";
 
 const Navigation = () => {
-  const { setTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
   const [isDark, setIsDark] = useState(true);
+  useEffect(()=>{
+    setIsDark(theme === "dark" ? true : false);
+  } ,[theme])
   return (
     <nav className="w-full fixed top-0 left-0 flex items-center justify-center  h-[10vh]">
       <div className="max-w-[100vw] md:max-w-[90vw] flex items-center justify-end pl-4 pr-4 w-full h-full ">
         <Tooltip content="Change Theme">
           <Button
             className="text-2xl bg-transparent max-md:translate-x-[300%]"
-            onClick={() => {
-              setIsDark(!isDark);
-            }}
             isIconOnly
           >
             {isDark ? (
