@@ -1,4 +1,5 @@
 import FormAndTable from '@/components/home-page/FormAndTable';
+import { useTheme } from 'next-themes';
 
 const Page = () => {
     return (

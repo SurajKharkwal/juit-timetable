@@ -80,7 +80,7 @@ const TimeTableUI = ({ rows }: Props) => {
                 <TableBody className="w-full h-full" >
                     {rows.map((row) =>
                         <TableRow key={row.key}>
-                            {(columnKey) => <TableCell onDoubleClick={() => {
+                            {(columnKey) => <TableCell onClick={() => {
                                 setValue(getKeyValue(row, columnKey));
                             }} className="text-xl rounded-md border-1 w-[232.42]     border-blue-400/20 p-4 pb-4 cursor-pointer items-center justify-center">{getKeyValue(row, columnKey)}</TableCell>}
                         </TableRow>
