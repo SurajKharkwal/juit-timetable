@@ -70,7 +70,7 @@ export async function POST(req: Request) {
         },
         {
             key: '4',
-            day: "THRUSDAY",
+            day: "THURUSDAY",
             at9: "",
             at10: "",
             at11: "",
