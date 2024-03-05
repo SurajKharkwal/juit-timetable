@@ -16,7 +16,7 @@ const ToastComponent = ({ open, setOpen }: Props) => {
         <div className="">
           <h1 className="flex items-center font-semibold text-red-500 justify-start gap-2 ">
             <IoCloseCircle  className="text-2xl text-red-500 "/>
-            Operation Falied !
+            Operation Failed !
           </h1>
           <p>Please, Check the Bactch or Course Name</p>
         </div>
