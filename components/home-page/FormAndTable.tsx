@@ -18,7 +18,7 @@ import Toast from "../toast/Toast";
 import axios, { AxiosError } from "axios";
 import { useEffect, useRef, useState } from "react";
 import { useMutation } from "@tanstack/react-query";
-import gsap from "gsap";
+// import gsap from "gsap";
 import { useTheme } from "next-themes";
 
 const FormAndTable = () => {
@@ -26,7 +26,6 @@ const FormAndTable = () => {
     batch: "",
     course: "",
   });
-  const [isLoading, setIsLoading] = useState(true);
   const [showDialogBox, setShowDialogBox] = useState(false);
   const LoadingPageRef = useRef(null);
   const [timeTableData, setTimeTableData] = useState();
@@ -56,29 +55,6 @@ const FormAndTable = () => {
     });
     getTimeTableData();
   };
-
-  useEffect(() => {
-    gsap.set(LoadingPageRef.current, {
-      scale: 0.5,
-      opacity: 0,
-    });
-    const tl = gsap.timeline();
-    tl.to(LoadingPageRef.current, {
-      delay: 0.5,
-      scale: 1,
-      ease: "power2.inOut",
-      opacity: 1,
-    });
-    tl.to(LoadingPageRef.current, {
-      delay: 0.5,
-      ease: "power2.inOut",
-      scale: 40,
-    });
-    const timeout = setTimeout(() => {
-      setIsLoading(false);
-    }, 2000);
-    return () => clearTimeout(timeout);
-  }, []);
 
   function PopOver() {
     const [zoomVal, setZoomVal] = useState(1);
@@ -148,24 +124,6 @@ const FormAndTable = () => {
             zoom: ${zoomVal};
           }
         `}</style>
-      </div>
-    );
-  }
-
-  if (isLoading) {
-    return (
-      <div className="w-full h-screen">
-        <section
-          ref={LoadingPageRef}
-          className="w-full gap-4 font-bold h-full text-5xl flex flex-col items-center justify-center font-sans"
-        >
-          <h1 className="text-3xl md:text-4xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-500  text-center font-sans ">
-            Made By
-          </h1>
-          <p className="text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-b from-blue-200 to-blue-600  text-center font-sans font-bold ">
-            SHORYA & SURAJ
-          </p>
-        </section>
       </div>
     );
   }
