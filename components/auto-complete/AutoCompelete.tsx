@@ -14,7 +14,7 @@ interface AutoCompleteProps {
 }
 
 const AutoComplete: React.FC<AutoCompleteProps> = ({ setCourse }) => {
-    const { data, isLoading } = useQuery({
+    const { data: sheetNames } = useQuery({
         queryKey: ["courses"],
         queryFn: async () => {
             const { data } = await axios.get("/api/get-time-table-label");
@@ -28,18 +28,23 @@ const AutoComplete: React.FC<AutoCompleteProps> = ({ setCourse }) => {
 
     return (
         <div className="w-[350px]">
-            {isLoading &&
-                <div>Loading course names</div>
-            }
-            {!isLoading &&
-                <Autocomplete onInputChange={handleInputChange} label="Select Course">
-                    {data.map((element: SelectType) => (
-                        <AutocompleteItem key={element.value} value={element.value}>
-                            {element.label}
-                        </AutocompleteItem>
-                    ))}
-                </Autocomplete>
-            }
+            <Autocomplete onInputChange={handleInputChange} label="Select Course">
+                {
+                    sheetNames ?
+                        sheetNames.map((element: SelectType) => (
+                            <AutocompleteItem key={element.value} value={element.value}>
+                                {element.label}
+                            </AutocompleteItem>
+                        ))
+
+                        :
+                        [].map((element: SelectType) => (
+                            <AutocompleteItem key={element.value} value={element.value}>
+                                {element.label}
+                            </AutocompleteItem>
+                        ))
+                }
+            </Autocomplete>
         </div>
     );
 };

@@ -43,7 +43,7 @@ const DialogBox = ({ setShowDialogBox, fetchDataFunction }: Props) => {
 
     return (
         <div className='w-full h-full absolute backdrop-blur-lg z-10  flex items-center justify-center '>
-            <div className=' text-xl gap-4 flex items-start border-2 border-white/30 shadow-2xl bg-white/10 h-[40vh] rounded-lg p-8 justify-center flex-col'>
+            <form onSubmit={handleSubmit} className=' text-xl gap-4 flex items-start border-2 border-white/30 shadow-2xl bg-white/10 h-[40vh] rounded-lg p-8 justify-center flex-col'>
                 <h1 className='text-blue-500 font-semibold'>Edit Form</h1>
                 <div>
                     <h1>Select the Course</h1>
@@ -55,10 +55,10 @@ const DialogBox = ({ setShowDialogBox, fetchDataFunction }: Props) => {
                 </div>
                 <p className='text-red-500 w-full items-center justify-center flex font-extralight'>{errorMessage}</p>
                 <div className='w-full gap-2 flex items-center justify-center '>
-                    <Button onClick={handleSubmit} className='bg-blue-500 text-white'>Submit</Button>
+                    <Button type='submit' onClick={handleSubmit} className='bg-blue-500 text-white'>Submit</Button>
                     <Button onClick={() => setShowDialogBox(false)} className='border-blue-500 border-2 bg-transparent text-blue-300'>Close</Button>
                 </div>
-            </div>
+            </form>
             <section className='absolute bottom-2 flex items-center justify-center flex-col'>
                 <h6 className=' font-extralight'>created by</h6>
                 <p className='font-bold text-blue-500'>SURAJ & SHORYA</p>

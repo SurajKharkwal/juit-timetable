@@ -35,7 +35,8 @@ const InputForm = ({ setInput, getDataFunction, isLoading }: Props) => {
         setData({ ...data, batch: formatedBatch });
     };
 
-    const handleSubmit = async () => {
+    const handleSubmit = async (e: any) => {
+        e.preventDefault()
         if (!data.course) {
             setErrorMessage("Please select a course");
             return;
@@ -74,34 +75,37 @@ const InputForm = ({ setInput, getDataFunction, isLoading }: Props) => {
             <h1 className="text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
                 JUIT TIME TABLE
             </h1>
-            <div className="grid justify-center items-center gap-4">
-                <h1>Select Course</h1>
-                <AutoComplete setCourse={handleCourseChange} />
-            </div>
-            <div className="grid items-center justify-center gap-2">
-                <h1>Select Batch</h1>
-                <Input
-                    ref={inputField}
-                    className="w-[350px]"
-                    type="text"
-                    label="Select Batch A13, CS12 ..."
-                    onChange={(e) => handleBatchChange(e.target.value)}
-                />
-            </div>
-            {errorMessage && <p className="font-extralight text-red-500 text-xl ">{errorMessage}</p>}
-            <Button
-                onClick={handleSubmit}
-                className="bg-blue-500"
-                disabled={isLoading}
-            >
-                {isLoading &&
-                    <div className="flex gap-x-2 items-center">
-                        <Spinner color="success" />
-                        Submit
-                    </div>
-                }
-                {!isLoading && <div>Submit</div>}
-            </Button>
+            <form onSubmit={handleSubmit} className="flex flex-col text-xl items-center justify-center gap-y-8">
+                <div className="grid justify-center items-center gap-4">
+                    <h1>Select Course</h1>
+                    <AutoComplete setCourse={handleCourseChange} />
+                </div>
+                <div className="grid items-center justify-center gap-2">
+                    <h1>Select Batch</h1>
+                    <Input
+                        ref={inputField}
+                        className="w-[350px]"
+                        type="text"
+                        label="Select Batch A13, CS12 ..."
+                        onChange={(e) => handleBatchChange(e.target.value)}
+                    />
+                </div>
+                {errorMessage && <p className="font-extralight text-red-500 text-xl ">{errorMessage}</p>}
+                <Button
+                    // onClick={handleSubmit}
+                    type="submit"
+                    className="bg-blue-500"
+                    disabled={isLoading}
+                >
+                    {isLoading &&
+                        <div className="flex gap-x-2 items-center">
+                            <Spinner color="success" />
+                            Submit
+                        </div>
+                    }
+                    {!isLoading && <div>Submit</div>}
+                </Button>
+            </form>
             <div className="absolute bottom-4 font-extralight flex items-center justify-center flex-col">
                 <h6>created by</h6>
                 <p className="text-blue-500 font-bold ">SURAJ & SHORYA</p>
