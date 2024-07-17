@@ -1,120 +1,139 @@
 "use client";
-import {
-  Table,
-  TableHeader,
-  TableColumn,
-  TableBody,
-  TableRow,
-  TableCell,
-  getKeyValue,
-  Popover,
-} from "@nextui-org/react";
 import React, { useState } from "react";
-import PopOver from "./PopOver";
+import { Autocomplete, AutocompleteItem, select } from "@nextui-org/react";
+import DialogBox from "./DialogBox";
 
 type Props = {
-  rows: {
-    key: string;
-  }[];
+    rows: {
+        key: string;
+    }[];
+    batch: string
 };
 
-const TimeTableUI = ({ rows }: Props) => {
-  const [value, setValue] = useState("");
-  const columns = [
-    {
-      key: "day",
-      label: "DAY",
-    },
-    {
-      key: "at9",
-      label: "9:00-10:00",
-    },
-    {
-      key: "at10",
-      label: "10:00-11:00",
-    },
-    {
-      key: "at11",
-      label: "11:00-12:00",
-    },
-    {
-      key: "at12",
-      label: "12:00-1:00",
-    },
-    {
-      key: "at1",
-      label: "1:00-2:00",
-    },
-    {
-      key: "at2",
-      label: "2:00-3:00",
-    },
-    {
-      key: "at3",
-      label: "3:00-4:00",
-    },
-    {
-      key: "at4",
-      label: "4:00-5:00",
-    },
-    {
-      key: "at5",
-      label: "5:00-6:00",
-    },
-  ];
+const TimeTableUI = ({ rows, batch }: Props) => {
+    const [selectedDay, setSelectedDay] = useState("Monday")
+    const [showDialogBox, setShowDialogBox] = useState(false);
 
-  return (
-    <div id="Zoom-Content" className="w-full h-full flex items-center">
-      {value && (
-        <div className="top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10 absolute  backdrop-blur-lg w-full h-full flex items-center text-xl justify-center flex-col">
-          <div className=" grid gap-4 border-2 sticky top-[60%] left-[50%] rounded-xl p-2 ">
-            <p className="p-2 text-center flex items-center justify-center">
-              {value}
-            </p>
-            <h1
-              className="cursor-pointer bg-blue-400 rounded-lg p-2  text-black flex items-center justify-center "
-              onClick={() => {
-                setValue("");
-              }}
-            >
-              Close
-            </h1>
-            <style jsx global>
-              {"body { width: 100%; height: 100vh; overflow: hidden; }"}
-            </style>
-          </div>
+    const daysMap = {
+        "Monday": 0,
+        "Tuesday": 1,
+        "Wednesday": 2,
+        "Thursday": 3,
+        "Firday": 4,
+        "Saturday": 5,
+    }
+
+    const daysList = [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Firday",
+        "Saturday"
+    ]
+
+    const columns = [
+        {
+            key: "at9",
+            label: "9:00AM",
+        },
+        {
+            key: "at10",
+            label: "10:00AM",
+        },
+        {
+            key: "at11",
+            label: "11:00AM",
+        },
+        {
+            key: "at12",
+            label: "12:00PM",
+        },
+        {
+            key: "at1",
+            label: "01:00PM",
+        },
+        {
+            key: "at2",
+            label: "02:00PM",
+        },
+        {
+            key: "at3",
+            label: "03:00PM",
+        },
+        {
+            key: "at4",
+            label: "04:00PM",
+        },
+        {
+            key: "at5",
+            label: "05:00PM",
+        },
+    ];
+
+    const dayData = rows[daysMap[selectedDay as keyof typeof daysMap]] || rows[0];
+
+    return (
+        <div className="w-screen h-screen flex flex-col lg:flex-row items-center lg:justify-center lg:items-start lg:pt-16">
+            {showDialogBox && (
+                <DialogBox
+                    setShowDialogBox={setShowDialogBox}
+                />
+            )}
+            <div className="mt-5 w-[95%] md:w-[400px] bg-zinc-900 flex flex-col py-5 px-2 rounded-xl">
+                <div className="flex my-3 gap-x-3">
+                    <div className="flex flex-col text-left w-[50%] items-center bg-zinc-800 p-3 rounded-xl">
+                        <span className="font-semibold text-2xl">Batch</span>
+                        <span>{batch}</span>
+                    </div>
+                    <div className="flex flex-col text-left w-[50%] items-center bg-zinc-800 p-3 rounded-xl">
+                        <span className="font-semibold text-xl">Day</span>
+                        <span>{selectedDay}</span>
+                    </div>
+                </div>
+                <Autocomplete onInputChange={(value) => setSelectedDay(value)} label="Select Day">
+                    {
+                        daysList.map((element, index) => (
+                            <AutocompleteItem key={index} value={element}>
+                                {element}
+                            </AutocompleteItem>
+                        ))
+                    }
+                </Autocomplete>
+                <button
+                    onClick={() => setShowDialogBox(true)}
+                    className="w-[full] bg-blue-600 mt-5 py-2 rounded-xl">
+                    Edit
+                </button>
+            </div>
+            <div className="max-w-md mx-auto lg:mx-1 mb-8 mt-3 overflow-x-auto px-3">
+                <table className="min-w-full rounded-xl bg-zinc-900">
+                    <thead className="bg-zinc-800">
+                        <tr>
+                            <th className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
+                                Time
+                            </th>
+                            <th className="px-6 py-3 text-xs font-medium text-white uppercase tracking-wider text-center">
+                                Class
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody className="bg-transparent divide-y divide-zinc-200">
+                        {columns.map((column, index) => (
+                            <tr key={index} className="hover:bg-zinc-700">
+                                <td className="px-6 py-4 whitespace-normal text-sm font-medium text-zinc-100">
+                                    {column.label}
+                                </td>
+                                <td className="px-6 py-4 whitespace-normal text-sm text-zinc-300">
+                                    {dayData[column.key as keyof typeof dayData]}
+                                </td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
         </div>
-      )}
-      <Table className="w-full" aria-label="Example table with dynamic content">
-        <TableHeader className=" w-full h-full">
-          {columns.map((column) => (
-            <TableColumn
-              className="text-xl text-blue-400 p-6  font-extrabold gap-2"
-              key={column.key}
-            >
-              {column.label}
-            </TableColumn>
-          ))}
-        </TableHeader>
-        <TableBody className="w-full h-full">
-          {rows.map((row) => (
-            <TableRow key={row.key}>
-              {(columnKey) => (
-                <TableCell
-                  onClick={() => {
-                    setValue(getKeyValue(row, columnKey));
-                  }}
-                  className="text-xl rounded-md border-1 w-[232.42]     border-blue-400/20 p-4 pb-4 cursor-pointer items-center justify-center"
-                >
-                  {getKeyValue(row, columnKey)}
-                </TableCell>
-              )}
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </div>
-  );
+    );
 };
 
 export { TimeTableUI };
