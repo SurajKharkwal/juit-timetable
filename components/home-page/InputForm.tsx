@@ -1,9 +1,9 @@
 "use client";
 import React, { FormEvent, useEffect, useRef, useState } from "react";
 import { Input, Button, Spinner } from "@nextui-org/react";
-import AutoComplete from "@/components/auto-complete/AutoCompelete";
 import Navigation from "./Navigation";
 import { useRouter } from "next/navigation";
+import AutoComplete from "../asserts/AutoCompelete";
 
 export type formDataType = {
   course: string;
