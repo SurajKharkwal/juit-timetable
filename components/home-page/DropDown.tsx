@@ -1,38 +1,46 @@
-import React from 'react'
+import React from "react";
 import { FaGithub } from "react-icons/fa";
 
-import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button } from "@nextui-org/react";
-function handleShoryaBtn() {
-    window.location.href = 'https://github.com/shorya-1012'
-}
+import {
+  Dropdown,
+  DropdownTrigger,
+  DropdownMenu,
+  DropdownItem,
+  Button,
+} from "@nextui-org/react";
+import Link from "next/link";
 
-function handleSurajBtn() {
-    window.location.href = 'https://github.com/SurajKharkwal'
-}
-function handleRepoBtn() {
-    window.location.href = 'https://github.com/SurajKharkwal/juit-time-table'
-}
 const DropDown = () => {
-    return (
-        <Dropdown>
-            <DropdownTrigger>
-                <Button className='bg-transparent text-5xl'>
-                    <FaGithub />
-                </Button>
-            </DropdownTrigger>
-            <DropdownMenu aria-label="Static Actions">
-                <DropdownItem onClick={handleShoryaBtn} key="new">
-                    {"Shorya's"}
-                </DropdownItem>
-                <DropdownItem onClick={handleSurajBtn} key="copy">
-                    {"Suraj's"}
-                </DropdownItem>
-                <DropdownItem onClick={handleRepoBtn} key="delete" className="text-danger" color="danger">
-                    Repository
-                </DropdownItem>
-            </DropdownMenu>
-        </Dropdown>
-    )
-}
+  return (
+    <Dropdown placement="bottom-end">
+      <DropdownTrigger>
+        <Button isIconOnly className="bg-transparent text-3xl">
+          <FaGithub />
+        </Button>
+      </DropdownTrigger>
+      <DropdownMenu aria-label="Static Actions">
+        <DropdownItem href="https://github.com/shorya-1012" as={Link} key="new">
+          {"Shorya's"}
+        </DropdownItem>
+        <DropdownItem
+          href="https://github.com/SurajKharkwal"
+          as={Link}
+          key="copy"
+        >
+          {"Suraj's"}
+        </DropdownItem>
+        <DropdownItem
+          href="https://github.com/SurajKharkwal/juit-time-table"
+          as={Link}
+          key="delete"
+          className="text-primary"
+          color="primary"
+        >
+          Repository
+        </DropdownItem>
+      </DropdownMenu>
+    </Dropdown>
+  );
+};
 
-export default DropDown
+export default DropDown;

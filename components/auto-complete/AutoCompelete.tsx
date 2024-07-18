@@ -1,52 +1,48 @@
-"use client"
+"use client";
 
 import { Autocomplete, AutocompleteItem } from "@nextui-org/react";
-import axios from "axios";
-import { useQuery } from "@tanstack/react-query";
+import { timeTable } from "@/utils/time-table";
+import { ErrorType } from "../home-page/InputForm";
+import { error } from "console";
 
-interface SelectType {
-    value: string;
-    label: string;
-}
+type SelectType = {
+  label: string;
+};
 
 interface AutoCompleteProps {
-    setCourse: (value: string) => void;
+  setCourse: (value: string) => void;
+  error: ErrorType;
 }
 
-const AutoComplete: React.FC<AutoCompleteProps> = ({ setCourse }) => {
-    const { data: sheetNames } = useQuery({
-        queryKey: ["courses"],
-        queryFn: async () => {
-            const { data } = await axios.get("/api/get-time-table-label");
-            return data.data;
-        }
+const AutoComplete: React.FC<AutoCompleteProps> = ({ setCourse, error }) => {
+  const output = Object.keys(timeTable);
+  const sheetNames: SelectType[] = [];
+  output.forEach((element) => {
+    sheetNames.push({
+      label: element,
     });
+  });
 
-    const handleInputChange = (value: string) => {
-        setCourse(value);
-    };
-
-    return (
-        <div className="w-[350px]">
-            <Autocomplete onInputChange={handleInputChange} label="Select Course">
-                {
-                    sheetNames ?
-                        sheetNames.map((element: SelectType) => (
-                            <AutocompleteItem key={element.value} value={element.value}>
-                                {element.label}
-                            </AutocompleteItem>
-                        ))
-
-                        :
-                        [].map((element: SelectType) => (
-                            <AutocompleteItem key={element.value} value={element.value}>
-                                {element.label}
-                            </AutocompleteItem>
-                        ))
-                }
-            </Autocomplete>
-        </div>
-    );
+  return (
+    <Autocomplete
+      className="w-[350px]"
+      variant="bordered"
+      radius="sm"
+      onInputChange={setCourse}
+          description={error === "Course Required" ? <span className="text-red-400">{error }</span>: ""}
+      label="Select Course"
+    >
+      {sheetNames.map((element: SelectType) => (
+        <AutocompleteItem
+          variant="bordered"
+          key={element.label}
+          value={element.label}
+        >
+          {element.label}
+        </AutocompleteItem>
+      ))}
+    </Autocomplete>
+  );
 };
 
 export default AutoComplete;
