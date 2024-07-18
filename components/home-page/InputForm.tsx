@@ -1,5 +1,5 @@
 "use client";
-import React, { FormEvent, useEffect, useRef, useState } from "react";
+import React, { FormEvent, useState } from "react";
 import { Input, Button, Spinner } from "@nextui-org/react";
 import AutoComplete from "@/components/auto-complete/AutoCompelete";
 import Navigation from "./Navigation";

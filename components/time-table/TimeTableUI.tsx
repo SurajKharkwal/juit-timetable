@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Autocomplete, AutocompleteItem, select } from "@nextui-org/react";
-import DialogBox from "./DialogBox";
+import { useRouter } from "next/navigation";
 
 type Props = {
     rows: {
@@ -12,7 +12,7 @@ type Props = {
 
 const TimeTableUI = ({ rows, batch }: Props) => {
     const [selectedDay, setSelectedDay] = useState("Monday")
-    const [showDialogBox, setShowDialogBox] = useState(false);
+    const router = useRouter();
 
     const daysMap = {
         "Monday": 0,
@@ -71,15 +71,13 @@ const TimeTableUI = ({ rows, batch }: Props) => {
         },
     ];
 
-    const dayData = rows[daysMap[selectedDay as keyof typeof daysMap]] || rows[0];
+    let dayData: { key: string } | {} = {};
+    if (rows) {
+        dayData = rows[daysMap[selectedDay as keyof typeof daysMap]] || rows[0];
+    }
 
     return (
         <div className="w-screen h-screen flex flex-col lg:flex-row items-center lg:justify-center lg:items-start lg:pt-16">
-            {showDialogBox && (
-                <DialogBox
-                    setShowDialogBox={setShowDialogBox}
-                />
-            )}
             <div className="mt-5 w-[95%] md:w-[400px] bg-zinc-900 flex flex-col py-5 px-2 rounded-xl">
                 <div className="flex my-3 gap-x-3">
                     <div className="flex flex-col text-left w-[50%] items-center bg-zinc-800 p-3 rounded-xl">
@@ -101,37 +99,39 @@ const TimeTableUI = ({ rows, batch }: Props) => {
                     }
                 </Autocomplete>
                 <button
-                    onClick={() => setShowDialogBox(true)}
+                    onClick={() => router.push("/")}
                     className="w-[full] bg-blue-600 mt-5 py-2 rounded-xl">
                     Edit
                 </button>
             </div>
-            <div className="max-w-md mx-auto lg:mx-1 mb-8 mt-3 overflow-x-auto px-3">
-                <table className="min-w-full rounded-xl bg-zinc-900">
-                    <thead className="bg-zinc-800">
-                        <tr>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
-                                Time
-                            </th>
-                            <th className="px-6 py-3 text-xs font-medium text-white uppercase tracking-wider text-center">
-                                Class
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody className="bg-transparent divide-y divide-zinc-200">
-                        {columns.map((column, index) => (
-                            <tr key={index} className="hover:bg-zinc-700">
-                                <td className="px-6 py-4 whitespace-normal text-sm font-medium text-zinc-100">
-                                    {column.label}
-                                </td>
-                                <td className="px-6 py-4 whitespace-normal text-sm text-zinc-300">
-                                    {dayData[column.key as keyof typeof dayData]}
-                                </td>
+            {dayData &&
+                <div className="max-w-md mx-auto lg:mx-1 mb-8 mt-3 overflow-x-auto px-3">
+                    <table className="min-w-full rounded-xl bg-zinc-900">
+                        <thead className="bg-zinc-800">
+                            <tr>
+                                <th className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
+                                    Time
+                                </th>
+                                <th className="px-6 py-3 text-xs font-medium text-white uppercase tracking-wider text-center">
+                                    Class
+                                </th>
                             </tr>
-                        ))}
-                    </tbody>
-                </table>
-            </div>
+                        </thead>
+                        <tbody className="bg-transparent divide-y divide-zinc-200">
+                            {columns.map((column, index) => (
+                                <tr key={index} className="hover:bg-zinc-700">
+                                    <td className="px-6 py-4 whitespace-normal text-sm font-medium text-zinc-100">
+                                        {column.label}
+                                    </td>
+                                    <td className="px-6 py-4 whitespace-normal text-sm text-zinc-300">
+                                        {dayData[column.key as keyof typeof dayData]}
+                                    </td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
+            }
         </div>
     );
 };
