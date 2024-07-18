@@ -14,7 +14,7 @@ interface AutoCompleteProps {
   error: ErrorType;
 }
 
-const AutoComplete: React.FC<AutoCompleteProps> = ({ setCourse, error }) => {
+export default function AutoComplete({ setCourse, error }: AutoCompleteProps) {
   const output = Object.keys(timeTable);
   const sheetNames: SelectType[] = [];
   output.forEach((element) => {
@@ -29,7 +29,13 @@ const AutoComplete: React.FC<AutoCompleteProps> = ({ setCourse, error }) => {
       variant="bordered"
       radius="sm"
       onInputChange={setCourse}
-          description={error === "Course Required" ? <span className="text-red-400">{error }</span>: ""}
+      description={
+        error === "Course Required" ? (
+          <span className="text-red-400">{error}</span>
+        ) : (
+          ""
+        )
+      }
       label="Select Course"
     >
       {sheetNames.map((element: SelectType) => (
@@ -43,6 +49,4 @@ const AutoComplete: React.FC<AutoCompleteProps> = ({ setCourse, error }) => {
       ))}
     </Autocomplete>
   );
-};
-
-export default AutoComplete;
+}

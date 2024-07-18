@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import DropDown from "../home-page/DropDown";
+import DropDown from "./DropDown";
 const Navigation = () => {
   const [isDark, setIsDark] = useState(true);
   return (

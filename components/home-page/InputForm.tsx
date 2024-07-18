@@ -2,7 +2,7 @@
 import React, { FormEvent, useEffect, useRef, useState } from "react";
 import { Input, Button, Spinner } from "@nextui-org/react";
 import AutoComplete from "@/components/auto-complete/AutoCompelete";
-import Navigation from "../navigation/Navigation";
+import Navigation from "./Navigation";
 import { useRouter } from "next/navigation";
 
 export type formDataType = {
