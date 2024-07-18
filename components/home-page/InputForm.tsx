@@ -1,26 +1,17 @@
 "use client"
 import React, { useEffect, useRef, useState } from "react";
-import { UseMutateFunction } from "@tanstack/react-query";
-import gsap from "gsap"
-
 import { Input, Button, Spinner } from "@nextui-org/react";
 import AutoComplete from "@/components/auto-complete/AutoCompelete";
 import Navigation from "../navigation/Navigation";
+import { useRouter } from "next/navigation";
 
-interface Props {
-    setInput: (value: {
-        course: string;
-        batch: string;
-    }) => void,
-    getDataFunction: UseMutateFunction<any, Error, void, unknown>,
-    isLoading: boolean
-}
-
-const InputForm = ({ setInput, getDataFunction, isLoading }: Props) => {
+const InputForm = () => {
     const loadingAnimationRef = useRef(null)
     const inputField = useRef<HTMLInputElement>(null);
     const [data, setData] = useState<{ course: string; batch: string }>({ course: "", batch: "" });
     const [errorMessage, setErrorMessage] = useState("");
+
+    const router = useRouter();
 
     const handleCourseChange = (selectedCourse: string) => {
         setData({ ...data, course: selectedCourse });
@@ -37,38 +28,10 @@ const InputForm = ({ setInput, getDataFunction, isLoading }: Props) => {
 
     const handleSubmit = async (e: any) => {
         e.preventDefault()
-        if (!data.course) {
-            setErrorMessage("Please select a course");
-            return;
-        }
-
-        if (!data.batch) {
-            setErrorMessage("Please enter the Batch");
-            return;
-        }
-
-        setErrorMessage("");
-        setInput(
-            {
-                course: data.course,
-                batch: data.batch
-            }
-        )
-        getDataFunction();
+        const encodedBatch = encodeURI(data.batch);
+        const encodedCourse = encodeURI(data.course);
+        router.push(`/timetable?batch=${encodedBatch}&course=${encodedCourse}`);
     };
-
-    useEffect(() => {
-        gsap.set(loadingAnimationRef.current, {
-            scale: 0.5,
-            opacity: 0,
-        })
-        gsap.to(loadingAnimationRef.current, {
-            delay: 0.5,
-            scale: 1,
-            opacity: 1,
-            ease: "power2.inOut"
-        })
-    }, [])
     return (
         <div ref={loadingAnimationRef} className="w-full gap-12 h-[100dvh] flex flex-col text-xl items-center justify-center ">
             <Navigation />
@@ -92,18 +55,10 @@ const InputForm = ({ setInput, getDataFunction, isLoading }: Props) => {
                 </div>
                 {errorMessage && <p className="font-extralight text-red-500 text-xl ">{errorMessage}</p>}
                 <Button
-                    // onClick={handleSubmit}
                     type="submit"
                     className="bg-blue-500"
-                    disabled={isLoading}
                 >
-                    {isLoading &&
-                        <div className="flex gap-x-2 items-center">
-                            <Spinner color="success" />
-                            Submit
-                        </div>
-                    }
-                    {!isLoading && <div>Submit</div>}
+                    Submit
                 </Button>
             </form>
             <div className="absolute bottom-4 font-extralight flex items-center justify-center flex-col">

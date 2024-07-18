@@ -1,10 +1,8 @@
-import FormAndTable from '@/components/home-page/FormAndTable';
+import InputForm from "@/components/home-page/InputForm";
 
 const Page = () => {
     return (
-        <div>
-            <FormAndTable />
-        </div>
+        <InputForm />
     )
 };
 
