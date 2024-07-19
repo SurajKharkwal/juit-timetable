@@ -5,18 +5,6 @@ import clsx from "clsx";
 import { Providers } from "./providers";
 
 import ReactQueryProvider from "@/utils/ReactQueryProvider";
-import { Fira_Code as FontMono, Inter as FontSans } from "next/font/google";
-
-export const fontSans = FontSans({
-  subsets: ["latin"],
-  variable: "--font-sans",
-});
-
-export const fontMono = FontMono({
-  subsets: ["latin"],
-  variable: "--font-mono",
-});
-
 export const metadata: Metadata = {
   title: {
     default: "JUIT Timetable",
@@ -48,7 +36,6 @@ export default function RootLayout({
         <body
           className={clsx(
             "min-h-screen bg-background font-sans antialiased overflow-x-hidden",
-            fontSans.variable
           )}
         >
           <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
