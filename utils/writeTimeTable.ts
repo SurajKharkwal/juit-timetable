@@ -1,3 +1,4 @@
+"use server"
 import * as ExcelJs from 'exceljs'
 import { writeFile } from 'fs'
 
@@ -11,8 +12,10 @@ export interface TimeTableData {
 }
 
 const readAndWrite = async () => {
+    console.log("function ran")
     const workbook = new ExcelJs.Workbook();
     await workbook.xlsx.readFile("public/timeTable.xlsx");
+    console.log("file opened")
 
     let data: TimeTableData = {
     }
@@ -36,7 +39,7 @@ const readAndWrite = async () => {
     })
 
     const jsonData = JSON.stringify(data, null, 2);
-    const filePath = "src/utils/time-table.ts"
+    const filePath = "./time-table.ts"
     const writeImportStatement = 'import {TimeTableData} from "./writeTimeTable"'
     writeFile(filePath, `${writeImportStatement}\nexport const timeTable:TimeTableData = ${jsonData}`, (err) => {
         if (err) {
