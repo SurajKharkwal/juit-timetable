@@ -1,9 +1,8 @@
 "use client";
 
-import { Autocomplete, AutocompleteItem } from "@nextui-org/react";
+import { Autocomplete, AutocompleteItem } from "@nextui-org/autocomplete";
 import { timeTable } from "@/utils/time-table";
 import { ErrorType } from "../home-page/InputForm";
-import { error } from "console";
 
 type SelectType = {
   label: string;
@@ -26,7 +25,6 @@ export default function AutoComplete({ setCourse, error }: AutoCompleteProps) {
   return (
     <Autocomplete
       className="w-[350px]"
-      variant="bordered"
       radius="sm"
       onInputChange={setCourse}
       description={
@@ -39,11 +37,7 @@ export default function AutoComplete({ setCourse, error }: AutoCompleteProps) {
       label="Select Course"
     >
       {sheetNames.map((element: SelectType) => (
-        <AutocompleteItem
-          variant="bordered"
-          key={element.label}
-          value={element.label}
-        >
+        <AutocompleteItem key={element.label} value={element.label}>
           {element.label}
         </AutocompleteItem>
       ))}

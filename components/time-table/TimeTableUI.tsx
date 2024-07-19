@@ -6,10 +6,10 @@ import {
   TableColumn,
   TableHeader,
   TableRow,
-} from "@nextui-org/react";
+} from "@nextui-org/table";
 
 export default function TimeTableUI({ rows }: { rows: any }) {
-    console.log(rows)
+  console.log(rows);
   const columns = [
     {
       key: "day",
@@ -70,10 +70,7 @@ export default function TimeTableUI({ rows }: { rows: any }) {
           {rows.map((row: any) => (
             <TableRow key={row.key}>
               {(columnKey) => (
-                <TableCell
-                 
-                  className="text-xl rounded-md border-1 w-[232.42] border-blue-400/20 p-4 pb-4 cursor-pointer items-center justify-center"
-                >
+                <TableCell className="text-xl rounded-md border-1 w-[232.42] border-blue-400/20 p-4 pb-4 cursor-pointer items-center justify-center">
                   {getKeyValue(row, columnKey)}
                 </TableCell>
               )}

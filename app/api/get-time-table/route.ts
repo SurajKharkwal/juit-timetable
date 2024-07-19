@@ -15,7 +15,9 @@ interface Day {
     at5: string,
 }
 
-
+interface Days {
+    [key: string]: number
+}
 
 export async function POST(req: Request) {
 
@@ -108,7 +110,7 @@ export async function POST(req: Request) {
 
     ];
 
-    const days = {
+    const days: Days = {
         MON: 0,
         TUE: 1,
         WED: 2,
