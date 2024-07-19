@@ -2,9 +2,9 @@
 import React, { FormEvent, useState } from "react";
 import Navigation from "./Navigation";
 import { useRouter } from "next/navigation";
-import AutoComplete from "../asserts/AutoCompelete";
 import { Input } from "@nextui-org/input";
 import { Button } from "@nextui-org/button";
+import AutoComplete from "../AutoCompelete";
 
 export type formDataType = {
   course: string;
@@ -46,7 +46,7 @@ export default function InputForm() {
   };
 
   return (
-    <div className="w-full gap-12 h-[80dvh] flex flex-col text-xl items-center justify-center ">
+    <div className="w-full gap-12 h-[100dvh] flex flex-col text-xl items-center justify-center ">
       <Navigation />
       <h1 className="text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
         JUIT TIME TABLE
@@ -82,7 +82,6 @@ export default function InputForm() {
         <h6>created by</h6>
         <p className="text-blue-500 font-bold ">SURAJ & SHORYA</p>
       </footer>
-
     </div>
   );
 }

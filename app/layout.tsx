@@ -4,18 +4,28 @@ import clsx from "clsx";
 
 import { Providers } from "./providers";
 
-import { siteConfig } from "@/config/site";
-import { fontSans } from "@/config/fonts";
 import ReactQueryProvider from "@/utils/ReactQueryProvider";
+import { Fira_Code as FontMono, Inter as FontSans } from "next/font/google";
+
+export const fontSans = FontSans({
+  subsets: ["latin"],
+  variable: "--font-sans",
+});
+
+export const fontMono = FontMono({
+  subsets: ["latin"],
+  variable: "--font-mono",
+});
 
 export const metadata: Metadata = {
   title: {
-    default: siteConfig.name,
-    template: `%s - ${siteConfig.name}`,
+    default: "JUIT Timetable",
+    template: "%s - College Timetable",
   },
-  description: siteConfig.description,
+  description:
+    "A simple and elegant way to view your college timetable online.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/assets/icons/timetable-icon.ico",
   },
 };
 
