@@ -2,7 +2,7 @@
 
 import { Autocomplete, AutocompleteItem } from "@nextui-org/autocomplete";
 import { timeTable } from "@/utils/time-table";
-import { ErrorType } from "../home-page/InputForm";
+import { ErrorType } from "./home-page/InputForm";
 
 type SelectType = {
   label: string;
