@@ -9,7 +9,6 @@ import {
 } from "@nextui-org/table";
 
 export default function TimeTableUI({ rows }: { rows: any }) {
-  console.log(rows);
   const columns = [
     {
       key: "day",
