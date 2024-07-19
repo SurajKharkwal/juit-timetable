@@ -1,9 +1,17 @@
 "use client";
 import * as Toast from "@radix-ui/react-toast";
-import { useState } from "react";
+import { deleteCookie, getCookie } from "cookies-next";
+import { useEffect, useState } from "react";
 
 export default function ErrorToast() {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    const isError = getCookie("error");
+    console.log(isError);
+    if (isError) setOpen(true);
+    deleteCookie("error");
+  }, []);
 
   return (
     <Toast.Provider swipeDirection="right">
