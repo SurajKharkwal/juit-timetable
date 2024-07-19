@@ -4,6 +4,7 @@ import { useQuery } from "@tanstack/react-query";
 import { useRouter } from "next/navigation";
 import TimeTableUI from "@/components/time-table/TimeTableUI";
 import SmallTimeTableUI from "@/components/time-table/SmallTimeTableUI";
+import { Spinner } from "@nextui-org/spinner";
 
 const Page = ({
   searchParams,
@@ -29,12 +30,25 @@ const Page = ({
     router.push("/");
   }
 
-  return (
-    <div className=" w-full flex flex-col items-center justify-center">
-      {isLoading && <div>Loading...</div>}
-      {!isLoading && timeTableData && <SmallTimeTableUI rows={timeTableData} />}
-    </div>
-  );
+  if (isLoading) {
+    return (
+      <div className=" w-full h-dvh flex items-center justify-center ">
+        <Spinner />
+      </div>
+    );
+  }
+  if (window != undefined && !isLoading) {
+    return window.innerWidth > 1024 ? (
+      <div>
+        <TimeTableUI rows={timeTableData} />
+      </div>
+    ) : (
+      <div className="p-1 flex items-center justify-center">
+        <SmallTimeTableUI rows={timeTableData} />
+      </div>
+    );
+  }
+  return <>some error</>;
 };
 
 export default Page;

@@ -69,7 +69,7 @@ export default function SmallTimeTableUI({ rows }: { rows: any }) {
           const Teacher = data[2];
           const Subject = data[3];
           return (
-            <Card isHoverable className="w-[350px] " key={column.key}>
+            <Card isHoverable className="w-[330px] " key={column.key}>
               <CardHeader className="text-xl font-semibold ">
                 {column.label}
               </CardHeader>
