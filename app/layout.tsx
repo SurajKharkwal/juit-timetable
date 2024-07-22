@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "A simple and elegant way to view your college timetable online.",
   icons: {
-    icon: "/assets/icons/timetable-icon.ico",
+    icon: "/timetable.ico",
   },
 };
 
