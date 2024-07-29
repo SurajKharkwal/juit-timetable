@@ -1,8 +1,8 @@
 "use client";
 
 import { timeTable } from "@/utils/time-table";
-import { ErrorType } from "./home-page/InputForm";
 import { Select, SelectItem } from "@nextui-org/select";
+import { ErrorType } from "./InputForm";
 
 type SelectType = {
   label: string;
