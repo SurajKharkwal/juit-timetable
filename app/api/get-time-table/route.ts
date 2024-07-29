@@ -134,7 +134,11 @@ export async function POST(req: Request) {
         const data = parseClassData(classData.value);
         const batchesData = data[1]?.split(",");
         let batches = batchesData?.map(b => {
-            return b.slice(2)
+            const prefix = b.charAt(0);
+            if (prefix >= '0' && prefix <= '9') {
+                return b.slice(2);
+            }
+            return b;
         }) || [];
 
         if (batches?.includes(batch)) {
