@@ -1,8 +1,8 @@
 "use client";
 
-import { Autocomplete, AutocompleteItem } from "@nextui-org/autocomplete";
 import { timeTable } from "@/utils/time-table";
 import { ErrorType } from "./home-page/InputForm";
+import { Select, SelectItem } from "@nextui-org/select";
 
 type SelectType = {
   label: string;
@@ -13,7 +13,7 @@ interface AutoCompleteProps {
   error: ErrorType;
 }
 
-export default function AutoComplete({ setCourse, error }: AutoCompleteProps) {
+export default function SelectBatch({ setCourse, error }: AutoCompleteProps) {
   const output = Object.keys(timeTable);
   const sheetNames: SelectType[] = [];
   output.forEach((element) => {
@@ -23,10 +23,10 @@ export default function AutoComplete({ setCourse, error }: AutoCompleteProps) {
   });
 
   return (
-    <Autocomplete
+    <Select
       className="w-[350px]"
       radius="sm"
-      onInputChange={setCourse}
+      onChange={(e) => setCourse(e.target.value)}
       description={
         error === "Course Required" ? (
           <span className="text-red-400">{error}</span>
@@ -37,10 +37,10 @@ export default function AutoComplete({ setCourse, error }: AutoCompleteProps) {
       label="Select Course"
     >
       {sheetNames.map((element: SelectType) => (
-        <AutocompleteItem key={element.label} value={element.label}>
+        <SelectItem key={element.label} value={element.label}>
           {element.label}
-        </AutocompleteItem>
+        </SelectItem>
       ))}
-    </Autocomplete>
+    </Select>
   );
 }
