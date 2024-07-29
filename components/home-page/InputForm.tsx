@@ -4,7 +4,7 @@ import Navigation from "./Navigation";
 import { useRouter } from "next/navigation";
 import { Input } from "@nextui-org/input";
 import { Button } from "@nextui-org/button";
-import AutoComplete from "../AutoCompelete";
+import SelectBatch from "./SelectBatch";
 
 export type formDataType = {
   course: string;
@@ -57,7 +57,7 @@ export default function InputForm() {
       >
         <div className="grid justify-center items-center gap-4">
           <h1>Select Course</h1>
-          <AutoComplete
+          <SelectBatch
             error={error}
             setCourse={(value) => setData({ ...data, course: value })}
           />
@@ -74,7 +74,7 @@ export default function InputForm() {
             onValueChange={(value) => setData({ ...data, batch: value })}
           />
         </div>
-        <Button radius="sm" type="submit" className="bg-blue-500">
+        <Button radius="sm" type="submit" color="primary">
           Submit
         </Button>
       </form>
