@@ -58,7 +58,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11MA111 24A110,24A111,24A112,24B11,24C11,24D11,24H11,24G11  (NKT) LT1",
+            "value": "L-24B11MA111 24A110,24A111,24A112,24B11,24C11,24D11,24H11,24G11,24P11  (NKT) LT1",
             "colNumber": 2
         },
         {
@@ -86,7 +86,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "T-18B11MA111 24A113 (MAT_RS6) TR4",
+            "value": "T-24B11MA111 24A113 (MAT_RS6) TR4",
             "colNumber": 3
         },
         {
@@ -98,7 +98,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 6
         },
         {
-            "value": "L-21B11HS111 24A110,24A111,24A112 (AKS) CR9",
+            "value": "L-21B11HS111 24A110,24A111,24A112,24P11 (AKS) CR9",
             "colNumber": 8
         },
         {
@@ -190,7 +190,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "L-21B11HS111  24A11,24A12,24A13  (DLR) CR9",
+            "value": "L-21B11HS111  24A11,24A12,24A13  (DLR) LT3",
             "colNumber": 3
         },
         {
@@ -218,8 +218,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-23BB1HS111 24W11 (DLR) TR2",
-            "colNumber": 4
+            "value": "L-23BB1HS111 24W11 (DLR) TR7",
+            "colNumber": 7
         },
         {
             "value": "T-21B17HS171  24L11,24M11,24N11 (BLK) GDROOM",
@@ -240,10 +240,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "T-21B17HS171 24I11 (AKS) GDROOM",
             "colNumber": 5
-        },
-        {
-            "value": "T-18B11PH111  24A114 (RRS) TR3",
-            "colNumber": 8
         },
         {
             "value": "T-18B11PH111 24A112 (SBA) TR7",
@@ -298,7 +294,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 6
         },
         {
-            "value": "T-21B17HS171 24A111 (AKS) GDROOM",
+            "value": "T-21B17HS171 24A111,24P11 (AKS) GDROOM",
             "colNumber": 7
         },
         {
@@ -314,11 +310,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "P-19B17CI171 24A111 (AMN) CL9_1",
+            "value": "P-19B17CI171 24A111,24P11 (AMN) CL9_1",
             "colNumber": 4
         },
         {
-            "value": "P-19B17CI171 24A111 (AMN) CL9_1",
+            "value": "P-19B17CI171 24A111,24P11 (AMN) CL9_1",
             "colNumber": 5
         },
         {
@@ -358,6 +354,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
+            "value": "T-24B11MA111 24A114 (MAT_RS6) TR3",
+            "colNumber": 5
+        },
+        {
             "value": "P-18B17PH171  24A12  (VSA) PHLAB2",
             "colNumber": 8
         },
@@ -386,7 +386,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11PH111  24A113,24A114,24A115 (RRS) CR12",
+            "value": "L-18B11PH111  24A113,24A114,24A115 (PBB) CR12",
             "colNumber": 2
         },
         {
@@ -422,16 +422,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
+            "value": "L-23BB1HS111 24W11 (DLR) TR2",
+            "colNumber": 8
+        },
+        {
             "value": "TUE",
             "colNumber": 1
         },
         {
             "value": "L-18B11PH111 24J11,24J12,24K11 (HSR) CR10",
             "colNumber": 3
-        },
-        {
-            "value": "L-19B11CI111 24J11,24J12 (AYS) CR11",
-            "colNumber": 4
         },
         {
             "value": "T-21B17HS171 24A115 (TNS) GDROOM",
@@ -478,7 +478,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "L-19B11CI111 24A13,24A14 (NF1) CR7",
+            "value": "L-19B11CI111 24A13,24A14 (KTS) CR7",
             "colNumber": 3
         },
         {
@@ -526,6 +526,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 6
         },
         {
+            "value": "T-18B11PH111  24A19  (SKK) TR4",
+            "colNumber": 7
+        },
+        {
             "value": "L-21B11HS111 24A113,24A114,24A115 (AKS) LT3",
             "colNumber": 8
         },
@@ -546,11 +550,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "T-21B17HS171  24C11,24K11,24W11 (BLK) GDROOM",
+            "value": "T-21B17HS171  24C11,24K11 (BLK) GDROOM",
             "colNumber": 7
         },
         {
-            "value": "T-21B17HS171  24C11,24K11,24W11 (BLK) LANGULAB",
+            "value": "T-21B17HS171  24C11,24K11 (BLK) LANGULAB",
             "colNumber": 8
         },
         {
@@ -566,16 +570,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "T-23BB1HS114 24W11 (BLK) TR1",
-            "colNumber": 4
-        },
-        {
-            "value": "T-24B11MA111 24A111 (MAT_RS7) CR5",
+            "value": "T-24B11MA111 24A111,24P11 (MAT_RS7) CR5",
             "colNumber": 5
-        },
-        {
-            "value": "P-18B17GE171 24A14 (RRA) WORKLAB1",
-            "colNumber": 7
         },
         {
             "value": "P-18B17GE171 24A14 (RRA) WORKLAB1",
@@ -586,8 +582,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 9
         },
         {
+            "value": "P-18B17GE171 24A14 (RRA) WORKLAB1",
+            "colNumber": 10
+        },
+        {
             "value": "TUE",
             "colNumber": 1
+        },
+        {
+            "value": "T-23BB1HS114 24W11 (BLK) TR3",
+            "colNumber": 2
         },
         {
             "value": "L-19B11CI111  24A17,24A18 (FSL) CR11",
@@ -614,11 +618,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-19B11CI111  24A111,24A112 (AMN) CR11",
+            "value": "L-19B11CI111  24A111,24A112,24P11 (AMN) CR11",
             "colNumber": 2
         },
         {
-            "value": "L-18B11MA111 24A113,24A114,24A115 (RAD,RKB) CR8",
+            "value": "L-24B11MA111 24A113,24A114,24A115 (RAD) CR8",
             "colNumber": 3
         },
         {
@@ -646,16 +650,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "P-19B17CI171  24A110 (AYS) CL9_1",
-            "colNumber": 2
-        },
-        {
-            "value": "P-19B17CI171  24A110 (AYS) CL9_1",
-            "colNumber": 3
-        },
-        {
             "value": "T-21B17HS171 24A14 (RTK) GDROOM",
             "colNumber": 4
+        },
+        {
+            "value": "L-21B11HS111  24B11,24C11,24D11,24E11,24F11,24G11,24H11 (DLR) CR7",
+            "colNumber": 5
         },
         {
             "value": "P-19B17CI171 24J11 (AYS) CL9_2",
@@ -670,15 +670,19 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "T-24B11MA111  24A14  (MAT_RS1) TR2",
+            "colNumber": 2
+        },
+        {
             "value": "L-23BB1HS113 24W11 (ASA) TR2",
             "colNumber": 3
         },
         {
-            "value": "P-19B17CI171  24A13  (KPR) CL5_1",
+            "value": "P-19B17CI171  24A13  (KTS) CL5_1",
             "colNumber": 4
         },
         {
-            "value": "P-19B17CI171  24A13  (KPR) CL5_1",
+            "value": "P-19B17CI171  24A13  (KTS) CL5_1",
             "colNumber": 5
         },
         {
@@ -690,7 +694,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "T-18B11PH111 24A111 (SBA) CR4",
+            "value": "T-18B11PH111 24A111,24P11 (SBA) CR4",
             "colNumber": 3
         },
         {
@@ -702,11 +706,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "P-18B17PH171  24A111 (VSA) PHLAB1",
+            "value": "P-18B17PH171  24A111,24P11 (VSA) PHLAB1",
             "colNumber": 8
         },
         {
-            "value": "P-18B17PH171  24A111 (VSA) PHLAB1",
+            "value": "P-18B17PH171  24A111,24P11 (VSA) PHLAB1",
             "colNumber": 9
         },
         {
@@ -750,7 +754,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "L-18B11PH111 24A110,24A111,24A112 (SBA) CR4",
+            "value": "L-18B11PH111 24A110,24A111,24A112,24P11 (SBA) CR4",
             "colNumber": 7
         },
         {
@@ -774,11 +778,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "P-19B17CI171 24A113 (VKS) CL8_1",
+            "value": "P-19B17CI171 24A113 (RMS) CL8_1",
             "colNumber": 4
         },
         {
-            "value": "P-19B17CI171 24A113 (VKS) CL8_1",
+            "value": "P-19B17CI171 24A113 (RMS) CL8_1",
             "colNumber": 5
         },
         {
@@ -790,11 +794,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "P-18B17PH171  24A14  (RRS) PHLAB1",
+            "value": "P-18B17PH171  24A14  (SKK) PHLAB1",
             "colNumber": 4
         },
         {
-            "value": "P-18B17PH171  24A14  (RRS) PHLAB1",
+            "value": "P-18B17PH171  24A14  (SKK) PHLAB1",
             "colNumber": 5
         },
         {
@@ -802,7 +806,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11MA111 24A110,24A111,24A112,24B11,24C11,24D11,24H11,24G11  (NKT) LT1",
+            "value": "L-24B11MA111 24A110,24A111,24A112,24B11,24C11,24D11,24H11,24G11,24P11 (NKT) LT1",
             "colNumber": 2
         },
         {
@@ -810,11 +814,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "P-18B17PH171 24J12 (RRS) PHLAB2",
+            "value": "P-18B17PH171 24J12 (SKT) PHLAB2",
             "colNumber": 8
         },
         {
-            "value": "P-18B17PH171 24J12 (RRS) PHLAB2",
+            "value": "P-18B17PH171 24J12 (SKT) PHLAB2",
             "colNumber": 9
         },
         {
@@ -854,7 +858,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "L-18B11PH111 24A110,24A111,24A112 (SBA) CR4",
+            "value": "L-18B11PH111 24A110,24A111,24A112,24P11 (SBA) CR4",
             "colNumber": 7
         },
         {
@@ -870,10 +874,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "T-18B11MA111 24A114 (MAT_RS6) TR1",
-            "colNumber": 3
-        },
-        {
             "value": "T-18B11PH111 24I11 (HAZ) CR18",
             "colNumber": 4
         },
@@ -882,15 +882,15 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "P-18B17GE171 24A113 (CIVF1) 1WORKLAB",
+            "value": "P-18B17GE171 24A113 (NJP) 1WORKLAB",
             "colNumber": 6
         },
         {
-            "value": "P-18B17GE171 24A113 (CIVF1) 1WORKLAB",
+            "value": "P-18B17GE171 24A113 (NJP) 1WORKLAB",
             "colNumber": 7
         },
         {
-            "value": "P-18B17GE171 24A113 (CIVF1) 1WORKLAB",
+            "value": "P-18B17GE171 24A113 (NJP) 1WORKLAB",
             "colNumber": 8
         },
         {
@@ -898,7 +898,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "T-18B11PH111  24A19  (SKK) TR4",
+            "value": "L-24B11MA111 24A113,24A114,24A115 (RAD) CR8",
             "colNumber": 3
         },
         {
@@ -942,10 +942,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "L-21B11HS111  24B11,24C11,24D11,24E11,24F11,24G11,24H11,24W11 (DLR) CR8",
-            "colNumber": 3
-        },
-        {
             "value": "P-19B17CI171 24B11,24C11,24D11,24G11,24H11 (GVS) CL6",
             "colNumber": 4
         },
@@ -958,15 +954,15 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
-            "value": "P-18B17GE171 24A19 (NJP) WORKLAB",
+            "value": "P-18B17GE171 24A19 (CIVG_1) WORKLAB",
             "colNumber": 8
         },
         {
-            "value": "P-18B17GE171 24A19 (NJP) WORKLAB",
+            "value": "P-18B17GE171 24A19 (CIVG_1) WORKLAB",
             "colNumber": 9
         },
         {
-            "value": "P-18B17GE171 24A19 (NJP) WORKLAB",
+            "value": "P-18B17GE171 24A19 (CIVG_1) WORKLAB",
             "colNumber": 10
         },
         {
@@ -974,15 +970,15 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "P-18B17GE171 24A111 (KKR) WORKLAB",
+            "value": "P-18B17GE171 24A111,24P11 (KKR) WORKLAB",
             "colNumber": 3
         },
         {
-            "value": "P-18B17GE171 24A111 (KKR) WORKLAB",
+            "value": "P-18B17GE171 24A111,24P11 (KKR) WORKLAB",
             "colNumber": 4
         },
         {
-            "value": "P-18B17GE171 24A111 (KKR) WORKLAB",
+            "value": "P-18B17GE171 24A111,24P11 (KKR) WORKLAB",
             "colNumber": 5
         },
         {
@@ -990,7 +986,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
-            "value": "L-19B11CI111  24A111,24A112 (AMN) CR5",
+            "value": "L-19B11CI111  24A111,24A112,24P11 (AMN) CR5",
             "colNumber": 8
         },
         {
@@ -998,7 +994,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11PH111  24A113,24A114,24A115 (RRS) CR12",
+            "value": "L-18B11PH111  24A113,24A114,24A115 (PBB) CR12",
             "colNumber": 2
         },
         {
@@ -1098,10 +1094,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "T-18B11PH111  24A113 (RRS) CR9",
-            "colNumber": 3
-        },
-        {
             "value": "P-18B17PH171  24A110 (VSA) PHLAB2",
             "colNumber": 4
         },
@@ -1178,7 +1170,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-19B11CI111 24J11,24J12 (AYS) CR11",
+            "value": "T-18B11PH111  24A113 (HAZ) CR5",
+            "colNumber": 4
+        },
+        {
+            "value": "L-19B11CI111 24J11,24J12 (AYS) CR9",
             "colNumber": 7
         },
         {
@@ -1250,6 +1246,14 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "P-19B17CI171  24A14  (KTS) CL3_1",
+            "colNumber": 2
+        },
+        {
+            "value": "P-19B17CI171  24A14  (KTS) CL3_1",
+            "colNumber": 3
+        },
+        {
             "value": "T-18B11PH111  24A13  (PBB) TR1",
             "colNumber": 4
         },
@@ -1286,10 +1290,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "T-23BB1HS111 24W11 (DLR) TR2",
-            "colNumber": 6
-        },
-        {
             "value": "T-21B17HS171 24A110 (AKS) LANGULAB",
             "colNumber": 7
         },
@@ -1318,15 +1318,19 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
-            "value": "L-21B11HS111 24A110,24A111,24A112 (AKS) CR9",
+            "value": "L-21B11HS111 24A110,24A111,24A112,24P11 (AKS) CR9",
             "colNumber": 8
+        },
+        {
+            "value": "T-23BB1HS111 24W11 (DLR) TR2",
+            "colNumber": 9
         },
         {
             "value": "THU",
             "colNumber": 1
         },
         {
-            "value": "L-19B11CI111  24A111,24A112 (AMN) CR5",
+            "value": "L-19B11CI111  24A111,24A112,24P11 (AMN) CR5",
             "colNumber": 2
         },
         {
@@ -1354,11 +1358,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11PH111  24A113,24A114,24A115 (RRS) CR11",
+            "value": "L-18B11PH111  24A113,24A114,24A115 (PBB) CR11",
             "colNumber": 2
         },
         {
-            "value": "L-18B11MA111 24A113,24A114,24A115 (RAD,RKB) CR8",
+            "value": "L-24B11MA111 24A113,24A114,24A115 (RAD) CR8",
             "colNumber": 3
         },
         {
@@ -1386,24 +1390,20 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "L-19B11CI111 24A13,24A14 (NF1) CR12",
+            "value": "L-19B11CI111 24A13,24A14 (KTS) CR12",
             "colNumber": 7
         },
         {
-            "value": "P-19B17CI171 24I12 (GVI) CL6",
+            "value": "P-19B17CI171 24I12 (GVS) CL6",
             "colNumber": 8
         },
         {
-            "value": "P-19B17CI171 24I12 (GVI) CL6",
+            "value": "P-19B17CI171 24I12 (GVS) CL6",
             "colNumber": 9
         },
         {
             "value": "THU",
             "colNumber": 1
-        },
-        {
-            "value": "T-24B11MA111  24A14  (MAT_RS1) TR3",
-            "colNumber": 2
         },
         {
             "value": "L-23BB1HS113 24W11 (ASA) TR2",
@@ -1418,15 +1418,15 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "P-18B17GE171  24A15  (KKR) WORKLAB",
+            "value": "P-18B17GE171  24A15  (CIVG_1) WORKLAB",
             "colNumber": 8
         },
         {
-            "value": "P-18B17GE171  24A15  (KKR) WORKLAB",
+            "value": "P-18B17GE171  24A15  (CIVG_1) WORKLAB",
             "colNumber": 9
         },
         {
-            "value": "P-18B17GE171  24A15  (KKR) WORKLAB",
+            "value": "P-18B17GE171  24A15  (CIVG_1) WORKLAB",
             "colNumber": 10
         },
         {
@@ -1478,27 +1478,19 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "P-19B17CI171  24A15  (KLK) CL8_2",
-            "colNumber": 2
-        },
-        {
-            "value": "P-19B17CI171  24A15  (KLK) CL8_2",
-            "colNumber": 3
-        },
-        {
             "value": "L-21B11HS111 24J11,24J12,24K11 (AKS) CR10",
             "colNumber": 4
         },
         {
-            "value": "P-18B17GE171 24A114 (CIVF2) 1WORKLAB",
+            "value": "P-18B17GE171 24A114 (KKR) 1WORKLAB",
             "colNumber": 6
         },
         {
-            "value": "P-18B17GE171 24A114 (CIVF2) 1WORKLAB",
+            "value": "P-18B17GE171 24A114 (KKR) 1WORKLAB",
             "colNumber": 7
         },
         {
-            "value": "P-18B17GE171 24A114 (CIVF2) 1WORKLAB",
+            "value": "P-18B17GE171 24A114 (KKR) 1WORKLAB",
             "colNumber": 8
         },
         {
@@ -1522,14 +1514,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "P-19B17CI171  24A14  (NF1) CL8_2",
-            "colNumber": 8
-        },
-        {
-            "value": "P-19B17CI171  24A14  (NF1) CL8_2",
-            "colNumber": 9
-        },
-        {
             "value": "FRI",
             "colNumber": 1
         },
@@ -1538,8 +1522,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-23BB1HS111 24W11 (DLR) TR2",
+            "value": "P-19B17CI171  24A15  (KLK) CL8_2",
             "colNumber": 8
+        },
+        {
+            "value": "P-19B17CI171  24A15  (KLK) CL8_2",
+            "colNumber": 9
         },
         {
             "value": "FRI",
@@ -1558,15 +1546,23 @@ export const timeTable: TimeTableData = {
             "colNumber": 6
         },
         {
+            "value": "L-19B11CI111 24J11,24J12 (AYS) CR9",
+            "colNumber": 7
+        },
+        {
             "value": "FRI",
             "colNumber": 1
+        },
+        {
+            "value": "T-18B11PH111  24A114 (SKT) TR5",
+            "colNumber": 2
         },
         {
             "value": "L-24B11MA111  24A11,24A12,24A13  (RKB) LT2",
             "colNumber": 4
         },
         {
-            "value": "L-18B11PH111 24A110,24A111,24A112 (SBA) CR4",
+            "value": "L-18B11PH111 24A110,24A111,24A112,24P11 (SBA) CR4",
             "colNumber": 7
         },
         {
@@ -1590,11 +1586,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "P-18B17PH171  24A16  (SKT) PHLAB2",
+            "value": "P-18B17PH171  24A16  (VSA) PHLAB2",
             "colNumber": 7
         },
         {
-            "value": "P-18B17PH171  24A16  (SKT) PHLAB2",
+            "value": "P-18B17PH171  24A16  (VSA) PHLAB2",
             "colNumber": 8
         },
         {
@@ -1610,7 +1606,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "L-21B11HS111  24A11,24A12,24A13  (DLR) CR9",
+            "value": "L-21B11HS111  24A11,24A12,24A13  (DLR) LT3",
             "colNumber": 5
         },
         {
@@ -1634,8 +1630,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11MA111 24A110,24A111,24A112,24B11,24C11,24D11,24H11,24G11  (NKT) LT1",
+            "value": "P-19B17CI171 24J12 (RMS) CL11",
             "colNumber": 2
+        },
+        {
+            "value": "P-19B17CI171 24J12 (RMS) CL11",
+            "colNumber": 3
         },
         {
             "value": "T-18B11PH111  24A18  (SKK) TR2",
@@ -1646,11 +1646,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "P-19B17CI171 24I11 (GVI) CL5_1",
+            "value": "P-19B17CI171 24I11 (GVS) CL5_1",
             "colNumber": 7
         },
         {
-            "value": "P-19B17CI171 24I11 (GVI) CL5_1",
+            "value": "P-19B17CI171 24I11 (GVS) CL5_1",
             "colNumber": 8
         },
         {
@@ -1658,7 +1658,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "T-21B17HS171 24A111 (AKS) LANGULAB",
+            "value": "L-24B11MA111 24A110,24A111,24A112,24B11,24C11,24D11,24H11,24G11,24P11 (NKT) LT1",
+            "colNumber": 2
+        },
+        {
+            "value": "T-21B17HS171 24A111,24P11 (AKS) LANGULAB",
             "colNumber": 3
         },
         {
@@ -1684,10 +1688,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-23BBWHS132 24W11 (NJL) TR6",
             "colNumber": 3
-        },
-        {
-            "value": "L-21B11HS111  24B11,24C11,24D11,24E11,24F11,24G11,24H11,24W11 (DLR) CR8",
-            "colNumber": 4
         },
         {
             "value": "L-23BB1HS113 24W11 (ASA) TR2",
@@ -1742,19 +1742,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
-            "value": "P-19B17CI171 24J12 (NSA) CL5_2",
-            "colNumber": 8
-        },
-        {
-            "value": "P-19B17CI171 24J12 (NSA) CL5_2",
-            "colNumber": 9
-        },
-        {
             "value": "FRI",
             "colNumber": 1
         },
         {
-            "value": "L-19B11CI111 24A13,24A14 (NF1) CR12",
+            "value": "L-19B11CI111 24A13,24A14 (KTS) CR12",
             "colNumber": 2
         },
         {
@@ -1770,16 +1762,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "P-18B17GE171 24A13 (RRA) WORKLAB1",
-            "colNumber": 7
-        },
-        {
-            "value": "P-18B17GE171 24A13 (RRA) WORKLAB1",
+            "value": "P-18B17GE171 24A13 (CIVG_1) WORKLAB1",
             "colNumber": 8
         },
         {
-            "value": "P-18B17GE171 24A13 (RRA) WORKLAB1",
+            "value": "P-18B17GE171 24A13 (CIVG_1) WORKLAB1",
             "colNumber": 9
+        },
+        {
+            "value": "P-18B17GE171 24A13 (CIVG_1) WORKLAB1",
+            "colNumber": 10
         },
         {
             "value": "FRI",
@@ -1798,10 +1790,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "L-18B11MA111 24A113,24A114,24A115 (RAD,RKB) CR8",
-            "colNumber": 5
-        },
-        {
             "value": "T-21B17HS171  24B11,24H11,24D11,24G11 (BLK) LANGULAB",
             "colNumber": 7
         },
@@ -1810,7 +1798,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "T-18B11MA111 24A115 (MAT_RS6) TR2",
+            "value": "T-24B11MA111 24A115 (MAT_RS6) TR2",
             "colNumber": 3
         },
         {
@@ -1834,7 +1822,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "T-18B11MA111  24A18  (MAT_RS2) CR4",
+            "value": "T-24B11MA111  24A18  (MAT_RS2) CR4",
             "colNumber": 3
         },
         {
@@ -1842,19 +1830,19 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "P-18B17GE171 24A115 (CIVF3) 1WORKLAB",
+            "value": "P-18B17GE171 24A115 (RRA) 1WORKLAB",
             "colNumber": 6
         },
         {
-            "value": "P-18B17GE171 24A115 (CIVF3) 1WORKLAB",
+            "value": "P-18B17GE171 24A115 (RRA) 1WORKLAB",
             "colNumber": 7
         },
         {
-            "value": "P-18B17GE171 24A115 (CIVF3) 1WORKLAB",
+            "value": "P-18B17GE171 24A115 (RRA) 1WORKLAB",
             "colNumber": 8
         },
         {
-            "value": "T-18B11PH111  24A115 (RRS) TR3",
+            "value": "T-18B11PH111  24A115 (SKT) TR3",
             "colNumber": 9
         },
         {
@@ -1922,6 +1910,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
+            "value": "L-21B11HS111  24B11,24C11,24D11,24E11,24F11,24G11,24H11 (DLR) CR7",
+            "colNumber": 5
+        },
+        {
             "value": "SAT",
             "colNumber": 1
         },
@@ -1970,11 +1962,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "P-18B17PH171 24A113 (RRS) PHLAB1",
+            "value": "P-18B17PH171 24A113 (HSR) PHLAB1",
             "colNumber": 2
         },
         {
-            "value": "P-18B17PH171 24A113 (RRS) PHLAB1",
+            "value": "P-18B17PH171 24A113 (HSR) PHLAB1",
             "colNumber": 3
         },
         {
@@ -1988,6 +1980,14 @@ export const timeTable: TimeTableData = {
         {
             "value": "SAT",
             "colNumber": 1
+        },
+        {
+            "value": "P-19B17CI171  24A110 (NSA) CL11",
+            "colNumber": 2
+        },
+        {
+            "value": "P-19B17CI171  24A110 (NSA) CL11",
+            "colNumber": 3
         },
         {
             "value": "SAT",
@@ -2056,10 +2056,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "T-23B11HS311 23I11 (NJL) TR5",
-            "colNumber": 2
-        },
-        {
             "value": "L-18B11MA314 23B11,23H11 (BKP) TR1",
             "colNumber": 3
         },
@@ -2072,8 +2068,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
+            "value": "T-23B11HS311 23I11,23F11 (NJL) CR4",
+            "colNumber": 7
+        },
+        {
             "value": "L-18B11EC412 23B11 (RKU) TR5",
             "colNumber": 8
+        },
+        {
+            "value": "L-18B11EC312 23B11 (HSL) TR2",
+            "colNumber": 9
         },
         {
             "value": "1",
@@ -2088,15 +2092,19 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-18B11MA311 23I11,23I12,23J11,23J12,23K11,23C11 (SST) CR9",
-            "colNumber": 5
+            "value": "L-18B11MA311 23I11,23I12,23J11,23J12,23K11,23C11 (SST) LT3",
+            "colNumber": 6
         },
         {
-            "value": "L-18B11MA311 23A17,23A18,23A19 (SST) CR11",
+            "value": "T-23B11HS311 23A19,23J11 (TNS) CR16",
+            "colNumber": 7
+        },
+        {
+            "value": "L-18B11MA311 23A17,23A18,23A19 (SST) CR10",
             "colNumber": 8
         },
         {
-            "value": "T-23BB1HS312 23W11 (ANU) TR1",
+            "value": "L-xxxxxxxxxxx 23K11 (GVS) TR1",
             "colNumber": 9
         },
         {
@@ -2152,7 +2160,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "T-23B11HS311 23F11 (TNS) TR3",
+            "value": "L-23BBWHS331 23W11 (TNS) TR3",
             "colNumber": 2
         },
         {
@@ -2166,10 +2174,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-23B11HS311 23A11,23A12,23A13 (TGM) CR9",
             "colNumber": 7
-        },
-        {
-            "value": "T-23B11HS311 23B11,23H11,23D11,23E11,23BM11,23W11 (TNS) LT2",
-            "colNumber": 8
         },
         {
             "value": "L-24BS1MA312 23BM11 (RKB) TR5",
@@ -2192,8 +2196,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "L-18B11CI315 23C11 (VKB) CR16",
-            "colNumber": 9
+            "value": "L-18B11CI315 23C11 (VKB) CR18",
+            "colNumber": 7
+        },
+        {
+            "value": "T-23B11HS311 23A13,23A11 (TGM) LT2",
+            "colNumber": 8
         },
         {
             "value": "6",
@@ -2216,7 +2224,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "T-24B11HS312 ALL (ASA) CR13",
+            "value": "T-24B11HS312 ALL (ASA) TR3",
             "colNumber": 7
         },
         {
@@ -2252,6 +2260,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
+            "value": "L-18B11CI311 23A14,23A15,23A16 (DGA) CR1",
+            "colNumber": 7
+        },
+        {
             "value": "8",
             "colNumber": 11
         },
@@ -2276,6 +2288,14 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
+            "value": "P-18B17CI374 23J12,23K11,23BM11 (NTJ) CL1",
+            "colNumber": 7
+        },
+        {
+            "value": "P-18B17CI374 23J12,23K11,23BM11 (NTJ) CL1",
+            "colNumber": 8
+        },
+        {
             "value": "9",
             "colNumber": 11
         },
@@ -2292,7 +2312,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-18B11MA312 23E11,23F11 (MDS) TR3",
+            "value": "L-18B11MA312 23E11 (MDS) TR3",
             "colNumber": 9
         },
         {
@@ -2320,8 +2340,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "L-24B11HS311 ALL (ANU) LT3",
+            "value": "L-24B11HS311 ALL,23W11 (ANU) LT3",
             "colNumber": 7
+        },
+        {
+            "value": "L-18B11CI311 23A17,23A18,23A19 (HRI) CR6",
+            "colNumber": 9
         },
         {
             "value": "11",
@@ -2332,16 +2356,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "T-23B11HS311 23J12,23K11,23A18 (NJL) CR7",
+            "colNumber": 2
+        },
+        {
             "value": "L-18B11BI313  23F11  (RJK) CR18",
             "colNumber": 3
         },
         {
             "value": "L-18B11CI311 23I11,23I12,23J11,23J12,23K11,23C11 (MTS) LT1",
             "colNumber": 4
-        },
-        {
-            "value": "L-xxxxxxxxxx 23I11,23I12,23J11,23J12 (VSG,SST) CR4",
-            "colNumber": 7
         },
         {
             "value": "P-18B17CI374 23A12 (NVN) CL5_2",
@@ -2368,8 +2392,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "T-23B11HS311 23J12,23K11 (TNS) CR5",
-            "colNumber": 9
+            "value": "P-20B17BI371 23F11/Minor (NTS) CL8_1",
+            "colNumber": 4
+        },
+        {
+            "value": "P-20B17BI371 23F11/Minor (NTS) CL8_1",
+            "colNumber": 5
         },
         {
             "value": "13",
@@ -2412,23 +2440,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "L-24B11HS311 ALL (ANU) LT3",
-            "colNumber": 3
-        },
-        {
-            "value": "P-20B17BI371 23F11/Minor (NTS) CL8_1",
-            "colNumber": 4
-        },
-        {
-            "value": "P-20B17BI371 23F11/Minor (NTS) CL8_1",
-            "colNumber": 5
-        },
-        {
-            "value": "P-18B17CI371 23I11,23I12 (MTS) CL1",
+            "value": "P-18B17CI371 23I11,23I12 (MTS) CL12",
             "colNumber": 8
         },
         {
-            "value": "P-18B17CI371 23I11,23I12 (MTS) CL1",
+            "value": "P-18B17CI371 23I11,23I12 (MTS) CL12",
             "colNumber": 9
         },
         {
@@ -2448,6 +2464,14 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
+            "value": "P-18B17CI371 23C11 (NSA) CL3_2",
+            "colNumber": 8
+        },
+        {
+            "value": "P-18B17CI371 23C11 (NSA) CL3_2",
+            "colNumber": 9
+        },
+        {
             "value": "16",
             "colNumber": 11
         },
@@ -2462,10 +2486,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-18B11MA311 23A11,23A12,23A13 (BKP) CR9",
             "colNumber": 3
-        },
-        {
-            "value": "L-18B11MA311 23I11,23I12,23J11,23J12,23K11,23C11 (SST) CR9",
-            "colNumber": 4
         },
         {
             "value": "L-23BB1HS314 23W11 (NJL) CR18",
@@ -2496,6 +2516,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
+            "value": "L-18B11MA311 23I11,23I12,23J11,23J12,23K11,23C11 (SST) LT3",
+            "colNumber": 6
+        },
+        {
             "value": "L-18B11BT314 23E11 (GPL) CR17",
             "colNumber": 7
         },
@@ -2516,8 +2540,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-23BB1HS312 23W11 (ANU) TR7",
-            "colNumber": 5
+            "value": "L-xxxxxxxxxxx 23K11 (GVS) TR4",
+            "colNumber": 9
         },
         {
             "value": "3",
@@ -2532,24 +2556,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "L-18B11CI313 23I11,23I12,23J11,23J12,23K11,23C11 (NTS) LT1",
-            "colNumber": 5
-        },
-        {
-            "value": "P-18B17CI374 23J12,23K11,23BM11 (NTJ) CL3_1",
-            "colNumber": 6
-        },
-        {
-            "value": "P-18B17CI374 23J12,23K11,23BM11 (NTJ) CL3_1",
-            "colNumber": 7
-        },
-        {
             "value": "L-23B11HS311 23I11,23I12,23J11,23J12,23K11 (TNS) CR2",
             "colNumber": 8
-        },
-        {
-            "value": "T-24B11HS311 ALL (ANU) LT3",
-            "colNumber": 9
         },
         {
             "value": "4",
@@ -2564,8 +2572,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "L-18B11CI314 23A14,23A15,23A16 (NF1) CR4",
-            "colNumber": 5
+            "value": "L-18B11MA311 23A17,23A18,23A19 (SST) CR2",
+            "colNumber": 3
+        },
+        {
+            "value": "L-18B11CI313 23I11,23I12,23J11,23J12,23K11,23C11 (NTS) LT1",
+            "colNumber": 4
         },
         {
             "value": "P-18B17CI371 23A11 (AVA) CL1",
@@ -2592,6 +2604,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "L-18B11EC312 23B11 (HSL) ECL3",
+            "colNumber": 3
+        },
+        {
             "value": "T-23BB1HS311 23W11 (ASA) TR2",
             "colNumber": 4
         },
@@ -2604,7 +2620,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
-            "value": "L-xxxxxxxxxx 23I11,23I12,23J11,23J12 (VSG,SST) LT1",
+            "value": "L-xxxxxxxxxx 23I11,23I12,23J11,23J12 (VSG,SST) LT3",
             "colNumber": 9
         },
         {
@@ -2616,8 +2632,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "T-23B11HS311 23A11 (TGM) LANGULAB",
+            "value": "P-18B17CI373 23A16 (VKS) CL3_2",
             "colNumber": 4
+        },
+        {
+            "value": "P-18B17CI373 23A16 (VKS) CL3_2",
+            "colNumber": 5
         },
         {
             "value": "P-18B17CI374 23A14 (EMP) CL11",
@@ -2636,12 +2656,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11CI314 23A17,23A18,23A19 (RMS) CR4",
+            "value": "L-18B11CI314 23A17,23A18,23A19 (RMS) CR1",
             "colNumber": 2
-        },
-        {
-            "value": "L-18B11CI313  23A17,23A18,23A19 (PDN) CR2",
-            "colNumber": 3
         },
         {
             "value": "P-18B17CI371 23A12 (NF2) CL6",
@@ -2656,11 +2672,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
-            "value": "P-18B17CI373 23A12 (PKR) CL10",
+            "value": "P-18B17CI373 23A12 (PKR) CL1",
             "colNumber": 8
         },
         {
-            "value": "P-18B17CI373 23A12 (PKR) CL10",
+            "value": "P-18B17CI373 23A12 (PKR) CL1",
             "colNumber": 9
         },
         {
@@ -2680,7 +2696,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "L-18B11BI312  23F11  (TYN) MICROLAB",
+            "value": "L-18B11BI312  23F11  (TYN) CR19",
             "colNumber": 7
         },
         {
@@ -2716,10 +2732,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "L-18B11CI311 23A17,23A18,23A19 (HRI) CR6",
-            "colNumber": 7
-        },
-        {
             "value": "T-23B11HS311 23A18 (NJL) TR1",
             "colNumber": 9
         },
@@ -2744,11 +2756,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "P-18B17BT373 23E11 (PNS) BIOCHEMLAB",
-            "colNumber": 8
+            "value": "L-18B11CI311 23A17,23A18,23A19 (HRI) CR9",
+            "colNumber": 7
         },
         {
-            "value": "P-18B17BT373 23E11 (PNS) BIOCHEMLAB",
+            "value": "L-20B11BI311 23F11/Minor (NTS) CR17",
             "colNumber": 9
         },
         {
@@ -2820,7 +2832,15 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-24BS1MA312 23BM11 (RKB) TR5",
+            "value": "L-24BS1MA312 23BM11 (RKB) TR7",
+            "colNumber": 5
+        },
+        {
+            "value": "P-18B17CI374 23A11 (KTS) CL10",
+            "colNumber": 8
+        },
+        {
+            "value": "P-18B17CI374 23A11 (KTS) CL10",
             "colNumber": 9
         },
         {
@@ -2848,18 +2868,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "P-18B17CI371 23C11 (NSA) CL3_2",
-            "colNumber": 6
-        },
-        {
-            "value": "P-18B17CI371 23C11 (NSA) CL3_2",
-            "colNumber": 7
-        },
-        {
-            "value": "L-20B11BI311 23F11/Minor (NTS) CR17",
-            "colNumber": 9
-        },
-        {
             "value": "15",
             "colNumber": 11
         },
@@ -2872,7 +2880,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "L-18B11CI315 23C11 (VKB) CR16",
+            "value": "L-18B11CI315 23C11 (VKB) CR18",
             "colNumber": 9
         },
         {
@@ -2890,6 +2898,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-18B11CI314 23A17,23A18,23A19 (RMS) LT1",
             "colNumber": 7
+        },
+        {
+            "value": "L-xxxxxxxxxxx 23K11 (GVS) TR3",
+            "colNumber": 8
         },
         {
             "value": "1",
@@ -2910,6 +2922,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-18B11BT313 23E11 (PNS) CR17",
             "colNumber": 4
+        },
+        {
+            "value": "T-23BBWHS331 23W11 (TNS) TR7",
+            "colNumber": 5
         },
         {
             "value": "L-23BB1HS311 23W11 (ASA) TR5",
@@ -2940,10 +2956,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "L-24B11HS311 ALL (ANU) LT3",
-            "colNumber": 6
-        },
-        {
             "value": "L-18B11CI313 23A14,23A15,23A16,23BM11 (EGA) CR2",
             "colNumber": 7
         },
@@ -2964,11 +2976,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-23B11HS311 23C11,23B11,23H11,23D11,23E11,23F11,23BM11,23W11 (TNS) CR8",
+            "value": "L-23B11HS311 23C11,23B11,23H11,23D11,23E11,23F11,23BM11 (TNS) CR8",
             "colNumber": 2
         },
         {
-            "value": "L-18B11MA312 23E11,23F11 (MDS) TR3",
+            "value": "L-18B11MA312 23E11 (MDS) TR3",
             "colNumber": 3
         },
         {
@@ -2984,10 +2996,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 8
         },
         {
-            "value": "L-24BS1MA312 23BM11 (RKB) TR5",
-            "colNumber": 9
-        },
-        {
             "value": "4",
             "colNumber": 11
         },
@@ -2996,15 +3004,19 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-24B11HS312 ALL (ASA) CR13",
+            "value": "L-24B11HS312 ALL (ASA) TR3",
             "colNumber": 2
+        },
+        {
+            "value": "L-24B11HS311 ALL,23W11 (ANU) LT3",
+            "colNumber": 4
         },
         {
             "value": "L-18B11BT312 23E11 (JTV) CR18",
             "colNumber": 5
         },
         {
-            "value": "T-23B11HS311 23J11 (TNS) CR6",
+            "value": "L-24BS1MA312 23BM11 (RKB) TR7",
             "colNumber": 8
         },
         {
@@ -3028,11 +3040,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "L-18B11CI313 23I11,23I12,23J11,23J12,23K11,23C11 (NTS) LT1",
-            "colNumber": 8
-        },
-        {
-            "value": "L-18B11CI314 23A14,23A15,23A16 (NF1) CR4",
+            "value": "L-18B11CI314 23A14,23A15,23A16,23BM11 (KTS) LT1",
             "colNumber": 9
         },
         {
@@ -3044,20 +3052,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "P-18B17CI374 23A11 (NF1) CL3_1",
-            "colNumber": 2
-        },
-        {
-            "value": "P-18B17CI374 23A11 (NF1) CL3_1",
-            "colNumber": 3
-        },
-        {
-            "value": "P-18B17CI373 23A16 (RMS) CL10",
+            "value": "P-18B17CI373 23A16 (VKS) CL10",
             "colNumber": 4
         },
         {
-            "value": "P-18B17CI373 23A16 (RMS) CL10",
+            "value": "P-18B17CI373 23A16 (VKS) CL10",
             "colNumber": 5
+        },
+        {
+            "value": "L-xxxxxxxxxx 23I11,23I12,23J11,23J12 (VSG,SST) LT3",
+            "colNumber": 8
         },
         {
             "value": "7",
@@ -3066,14 +3070,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "WED",
             "colNumber": 1
-        },
-        {
-            "value": "T-23B11HS311 23A12 (TGM) LANGULAB",
-            "colNumber": 4
-        },
-        {
-            "value": "T-23BBWHS331 23W11 (TNS) TR7",
-            "colNumber": 5
         },
         {
             "value": "L-23B11HS311 23I11,23I12,23J11,23J12,23K11 (TNS) CR2",
@@ -3136,14 +3132,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "P-18B17CI373 23C11 (DHA) CL9_1",
-            "colNumber": 8
-        },
-        {
-            "value": "P-18B17CI373 23C11 (DHA) CL9_1",
-            "colNumber": 9
-        },
-        {
             "value": "10",
             "colNumber": 11
         },
@@ -3162,14 +3150,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-18B11CI311 23I11,23I12,23J11,23J12,23K11,23C11 (MTS) LT2",
             "colNumber": 7
-        },
-        {
-            "value": "T-23B11HS311 23A19 (NJL) LANGULAB",
-            "colNumber": 8
-        },
-        {
-            "value": "L-23BB1HS312 23W11 (ANU) TR7",
-            "colNumber": 9
         },
         {
             "value": "11",
@@ -3214,6 +3194,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-18B11MA311 23A14,23A15,23A16 (BKP) CR2",
             "colNumber": 2
+        },
+        {
+            "value": "T-18B11EC313  23B11 (SHR) ECL3",
+            "colNumber": 3
         },
         {
             "value": "P-18B17BI373 23F11  (TTS) BIL",
@@ -3288,6 +3272,14 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
+            "value": "P-18B17CI371 23C11 (NSA) CL3_1",
+            "colNumber": 8
+        },
+        {
+            "value": "P-18B17CI371 23C11 (NSA) CL3_1",
+            "colNumber": 9
+        },
+        {
             "value": "15",
             "colNumber": 11
         },
@@ -3300,6 +3292,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
+            "value": "L-18B11CI314 23A11,23A12,23A13 (AMN) CR4",
+            "colNumber": 4
+        },
+        {
             "value": "16",
             "colNumber": 11
         },
@@ -3308,12 +3304,20 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11MA311 23I11,23I12,23J11,23J12,23K11,23C11 (SST) CR9",
-            "colNumber": 4
-        },
-        {
             "value": "L-23B11CE311 23D11 (ASR) CR14",
             "colNumber": 5
+        },
+        {
+            "value": "L-18B11MA311 23I11,23I12,23J11,23J12,23K11,23C11 (SST) LT3",
+            "colNumber": 6
+        },
+        {
+            "value": "P-18B17CI373 23C11 (DHA) CL3_1",
+            "colNumber": 8
+        },
+        {
+            "value": "P-18B17CI373 23C11 (DHA) CL3_1",
+            "colNumber": 9
         },
         {
             "value": "1",
@@ -3324,20 +3328,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "T-18B11EC313  23B11 (SHR) ECL3",
-            "colNumber": 2
-        },
-        {
-            "value": "L-18B11CI314 23A11,23A12,23A13,23BM11 (AMN) CR2",
+            "value": "L-18B11CI314 23A11,23A12,23A13 (AMN) CR2",
             "colNumber": 4
         },
         {
-            "value": "T-23B11HS311 23I12 (NJL) GDROOM",
-            "colNumber": 5
-        },
-        {
-            "value": "L-18B11EC312 23B11 (HSL) TR5",
-            "colNumber": 6
+            "value": "T-24BS1MA312 23BM11 (RKB) TR7",
+            "colNumber": 8
         },
         {
             "value": "L-23BB1HS311 23W11 (ASA) TR5",
@@ -3360,7 +3356,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "T-18B11MA312 23E11,23F11 (MDS) TR3",
+            "value": "T-18B11MA312 23E11 (MDS) TR3",
             "colNumber": 5
         },
         {
@@ -3392,15 +3388,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "L-20B11BI311 23F11/Minor (NTS) TR5",
-            "colNumber": 7
-        },
-        {
-            "value": "L-23BBWHS331 23W11 (TNS) TR8",
+            "value": "P-18B17CI371 23A15 (DGA) CL10",
             "colNumber": 8
         },
         {
-            "value": "T-24BS1MA312 23BM11 (RKB) TR7",
+            "value": "P-18B17CI371 23A15 (DGA) CL10",
             "colNumber": 9
         },
         {
@@ -3412,16 +3404,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-23B11HS311 23C11,23B11,23H11,23D11,23E11,23F11,23BM11,23W11 (TNS) CR10",
+            "value": "L-23B11HS311 23C11,23B11,23H11,23D11,23E11,23F11,23BM11 (TNS) CR10",
             "colNumber": 3
         },
         {
-            "value": "L-18B11BI312  23F11  (TYN) MICROLAB",
+            "value": "L-18B11BI312  23F11  (TYN) CR17",
             "colNumber": 4
         },
         {
-            "value": "L-18B11MA311 23A17,23A18,23A19 (SST) CR11",
-            "colNumber": 5
+            "value": "L-23BBWHS331 23W11 (TNS) CR18",
+            "colNumber": 7
         },
         {
             "value": "P-18B17EC372 23B11 (HSL) ECL3",
@@ -3440,19 +3432,23 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "T-18B11EC412 23B11 (RKU) TR6",
+            "value": "T-18B11EC412 23B11 (RKU) TR3",
+            "colNumber": 2
+        },
+        {
+            "value": "P-xxxxxxxxxxxxxx 23I11,23I12 (KLK) CL11",
             "colNumber": 3
         },
         {
-            "value": "L-18B11CI315 23C11 (VKB) CR16",
-            "colNumber": 5
+            "value": "P-xxxxxxxxxxxxxx 23I11,23I12 (KLK) CL11",
+            "colNumber": 4
         },
         {
-            "value": "T-23B11HS311 23A15 (NJL) CR4",
+            "value": "T-23B11HS311 23A15,23I12 (NJL) CR4",
             "colNumber": 7
         },
         {
-            "value": "T-18B11BT311 23E11 (SDS) CR16",
+            "value": "L-18B11BT311 23E11 (SDS) CR17",
             "colNumber": 8
         },
         {
@@ -3474,6 +3470,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-18B11CI313 23A17,23A18,23A19 (PDN) CR9",
             "colNumber": 3
+        },
+        {
+            "value": "L-18B11CI315 23C11 (VKB) TR5",
+            "colNumber": 4
         },
         {
             "value": "L-18B11CI313 23A11,23A12,23A13 (PKR) CR2",
@@ -3500,7 +3500,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-24B11HS312 ALL (ASA) CR13",
+            "value": "L-24B11HS312 ALL (ASA) TR3",
             "colNumber": 4
         },
         {
@@ -3528,8 +3528,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "L-18B11CI311 23A14,23A15,23A16 (DGA) CR7",
-            "colNumber": 5
+            "value": "P-18B17CI371 23J12,23K11 (MTS) CL4",
+            "colNumber": 3
+        },
+        {
+            "value": "P-18B17CI371 23J12,23K11 (MTS) CL4",
+            "colNumber": 4
         },
         {
             "value": "P-18B17CI374 23I11,23I12 (SRU) CL8_1",
@@ -3556,11 +3560,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "P-18B17CI371 23J12,23K11 (MTS) CL4",
-            "colNumber": 6
-        },
-        {
-            "value": "P-18B17CI371 23J12,23K11 (MTS) CL4",
+            "value": "L-20B11BI311 23F11/Minor (NTS) TR5",
             "colNumber": 7
         },
         {
@@ -3580,7 +3580,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11MA311 23D11 (NKT) TR5",
+            "value": "L-18B11MA311 23D11,23BM11 (NKT) TR5",
             "colNumber": 2
         },
         {
@@ -3648,16 +3648,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "L-23B11HS311  23A17,23A18,23A19 (TNS) LT3",
+            "colNumber": 5
+        },
+        {
             "value": "P-18B17CI371 23A13 (NF2) CL9_1",
             "colNumber": 7
         },
         {
             "value": "P-18B17CI371 23A13 (NF2) CL9_1",
             "colNumber": 8
-        },
-        {
-            "value": "L-23B11HS311  23A17,23A18,23A19 (TNS) CR11",
-            "colNumber": 9
         },
         {
             "value": "15",
@@ -3676,7 +3676,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-18B11CI314 23A14,23A15,23A16 (NF1) CR4",
+            "value": "L-18B11CI314 23A14,23A15,23A16,23BM11 (KTS) CR9",
             "colNumber": 4
         },
         {
@@ -3744,28 +3744,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "P-18B17CI373 23A16 (RMS) CL4",
-            "colNumber": 2
-        },
-        {
-            "value": "P-18B17CI373 23A16 (RMS) CL4",
-            "colNumber": 3
-        },
-        {
-            "value": "L-24BS1MA311 23BM11 (NKT) TR7",
-            "colNumber": 4
-        },
-        {
             "value": "L-18B11BI311  23F11  (ABH) CR18",
             "colNumber": 5
-        },
-        {
-            "value": "L-20B11BI311 23F11/Minor (NTS) TR5",
-            "colNumber": 7
-        },
-        {
-            "value": "L-23BBWHS331 23W11 (TNS) TR1",
-            "colNumber": 8
         },
         {
             "value": "3",
@@ -3784,8 +3764,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "T-23B11HS311 23A13 (TGM) LANGULAB",
-            "colNumber": 4
+            "value": "L-18B11BT314 23E11 (GPL) CR17",
+            "colNumber": 7
+        },
+        {
+            "value": "L-18B11CI314 23A14,23A15,23A16,23BM11 (KTS) LT1",
+            "colNumber": 9
         },
         {
             "value": "4",
@@ -3798,6 +3782,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-18B11CE315  23D11 (SUV) TR8",
             "colNumber": 2
+        },
+        {
+            "value": "L-24B11HS311 ALL,23W11 (ANU) LT3",
+            "colNumber": 3
         },
         {
             "value": "L-23B11CE311 23D11 (ASR) CR14",
@@ -3820,7 +3808,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11BT311 23E11 (SDS) CR6",
+            "value": "T-18B11BT311 23E11 (SDS) CR6",
             "colNumber": 2
         },
         {
@@ -3832,7 +3820,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "T-23B11HS311 23A17 (NJL) LANGULAB",
+            "value": "L-20B11BI311 23F11/Minor (NTS) TR5",
+            "colNumber": 7
+        },
+        {
+            "value": "T-23B11HS311 23A17 (NJL) TR3",
             "colNumber": 8
         },
         {
@@ -3848,16 +3840,24 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "L-18B11MA312 23E11,23F11 (MDS) TR3",
+            "value": "L-18B11MA312 23E11 (MDS) TR3",
             "colNumber": 3
         },
         {
-            "value": "L-18B11BI312  23F11  (TYN) MICROLAB",
+            "value": "L-18B11BI312  23F11  (TYN) CR18",
             "colNumber": 4
         },
         {
-            "value": "L-18B11EC312 23B11 (HSL) TR5",
-            "colNumber": 6
+            "value": "L-18B11CI313  23A17,23A18,23A19 (PDN) CR6",
+            "colNumber": 7
+        },
+        {
+            "value": "P-18B17CI372 23A18 (MSD) CL6",
+            "colNumber": 8
+        },
+        {
+            "value": "P-18B17CI372 23A18 (MSD) CL6",
+            "colNumber": 9
         },
         {
             "value": "7",
@@ -3876,7 +3876,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-23BB1HS314 23W11 (NJL) TR8",
+            "value": "L-23BB1HS314 23W11 (NJL) CR8",
             "colNumber": 4
         },
         {
@@ -3934,10 +3934,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "FRI",
             "colNumber": 1
-        },
-        {
-            "value": "L-23BB1HS312 23W11 (ANU) TR7",
-            "colNumber": 2
         },
         {
             "value": "P-18B17CI374 23A14 (EMP) CL3_1",
@@ -4000,12 +3996,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "T-18B11BI312  23F11  (TYN) MICROLAB",
+            "value": "T-18B11BI312  23F11  (TYN) CR18",
             "colNumber": 2
-        },
-        {
-            "value": "L-18B11CI314 23A11,23A12,23A13,23BM11 (AMN) CR10",
-            "colNumber": 3
         },
         {
             "value": "P-18B17CI373 23A19 (PDN) CL6",
@@ -4034,14 +4026,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "FRI",
             "colNumber": 1
-        },
-        {
-            "value": "P-xxxxxxxxxxxxxx 23I11,23I12 (KLK) CL9_2",
-            "colNumber": 2
-        },
-        {
-            "value": "P-xxxxxxxxxxxxxx 23I11,23I12 (KLK) CL9_2",
-            "colNumber": 3
         },
         {
             "value": "P-18B17CI374 23A17 (VKB) CL9_1",
@@ -4076,14 +4060,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "L-18B11CI311 23A17,23A18,23A19 (HRI) CR6",
-            "colNumber": 7
-        },
-        {
-            "value": "L-18B11CI314 23A11,23A12,23A13,23BM11 (AMN) CR10",
-            "colNumber": 9
-        },
-        {
             "value": "14",
             "colNumber": 11
         },
@@ -4098,6 +4074,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-18B11BT313 23E11 (PNS) TR5",
             "colNumber": 4
+        },
+        {
+            "value": "L-18B11CI314 23A11,23A12,23A13 (AMN) CR10",
+            "colNumber": 9
         },
         {
             "value": "15",
@@ -4140,10 +4120,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "T-23B11HS311 23A14 (TGM) TR3",
-            "colNumber": 4
-        },
-        {
             "value": "1",
             "colNumber": 11
         },
@@ -4152,11 +4128,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "P-18B17CI372 23A18 (MSD)  CL8_2",
-            "colNumber": 2
-        },
-        {
-            "value": "P-18B17CI372 23A18 (MSD)  CL8_2",
+            "value": "T-24B11HS311 ALL,23W11 (ANU) LT3",
             "colNumber": 3
         },
         {
@@ -4188,7 +4160,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-24B11HS312 ALL (ASA) CR13",
+            "value": "L-24B11HS312 ALL (ASA) TR3",
             "colNumber": 2
         },
         {
@@ -4212,6 +4184,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "T-23B11HS311 23B11,23H11,23D11,23E11,23BM11 (TNS) LT2",
+            "colNumber": 2
+        },
+        {
             "value": "P-24BS71MA711 23BM11 (SST) TR2",
             "colNumber": 4
         },
@@ -4232,12 +4208,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "P-18B17BT373 23E11 (PNS) BIOCHEMLAB",
+            "value": "T-23B11HS311 23A12,23A14 (TGM) CR12",
             "colNumber": 4
-        },
-        {
-            "value": "P-18B17BT373 23E11 (PNS) BIOCHEMLAB",
-            "colNumber": 5
         },
         {
             "value": "6",
@@ -4272,11 +4244,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "P-18B17CI374 23A11 (NF1) CL5_1",
+            "value": "P-18B17CI374 23A11 (KTS) CL5_1",
             "colNumber": 4
         },
         {
-            "value": "P-18B17CI374 23A11 (NF1) CL5_1",
+            "value": "P-18B17CI374 23A11 (KTS) CL5_1",
             "colNumber": 5
         },
         {
@@ -4332,11 +4304,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "P-18B17CI371 23C11 (NSA) CL11",
+            "value": "P-18B17CI371 23A18 (HRI) CL1",
             "colNumber": 4
         },
         {
-            "value": "P-18B17CI371 23C11 (NSA) CL11",
+            "value": "P-18B17CI371 23A18 (HRI) CL1",
             "colNumber": 5
         },
         {
@@ -4346,10 +4318,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "SAT",
             "colNumber": 1
-        },
-        {
-            "value": "L-18B11BT314 23E11 (GPL) CR17",
-            "colNumber": 2
         },
         {
             "value": "L-18B11CI311 23I11,23I12,23J11,23J12,23K11,23C11 (MTS) LT1",
@@ -4370,6 +4338,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "SAT",
             "colNumber": 1
+        },
+        {
+            "value": "L-18B11CI313 23I11,23I12,23J11,23J12,23K11,23C11 (NTS) LT1",
+            "colNumber": 2
         },
         {
             "value": "T-18B11EC312 23B11 (HSL) TR5",
@@ -4486,16 +4458,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11CI514  CS51,CS52,CS53  (VSG) LT3",
-            "colNumber": 2
-        },
-        {
             "value": "L-18B11CE515  CE51  (TNM) CR15",
             "colNumber": 3
         },
         {
-            "value": "L-18B11HS511  CS57,CS58,CS59  (BLK) CR8",
-            "colNumber": 4
+            "value": "L-18B11HS511 CS510,CS511,CS512 (BLK) CR7",
+            "colNumber": 7
         },
         {
             "value": "L-18B11HS511  CS54,CS55,CS56  (ANU) CR2",
@@ -4506,15 +4474,19 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11CI512  IT51,IT52,MIT  (RIV) CR8",
+            "value": "L-18B11CI512  IT51,IT52,MIT ,BI51 (RIV) CR8",
             "colNumber": 2
         },
         {
-            "value": "L-20B1WCI531 Batch-1 (RBT) LT2",
+            "value": "L-20B1WCI531 PROF_FDSV_Batch-1(CS54,CS55,CS57,CS58,CS59,CS511,CS512,IT51) (RBT) LT2",
             "colNumber": 3
         },
         {
-            "value": "L-18B11CI515  CS510,CS511 (SMA) CR7",
+            "value": "P-18B17BI573  BI51  (RJK) BIL",
+            "colNumber": 6
+        },
+        {
+            "value": "P-18B17BI573  BI51  (RJK) BIL",
             "colNumber": 7
         },
         {
@@ -4530,16 +4502,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "L-20B1WCI532 PROF_CC_Batch-1(CS51,CS52,CS53,CS54,CS55,CS58,CS59) (AYS) LT3",
+            "colNumber": 2
+        },
+        {
             "value": "L-18B11CI513  CS51,CS52,CS53  (NF3) CR7",
             "colNumber": 3
         },
         {
             "value": "L-18B1WBT532  BT51 (JAS) TR3",
             "colNumber": 4
-        },
-        {
-            "value": "L-18B1WPH532  CS57,CS58,CS59  (HAZ) CR10",
-            "colNumber": 5
         },
         {
             "value": "L-18B11CI511  IT51,IT52,MIT (AVA) CR8",
@@ -4550,7 +4522,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 8
         },
         {
-            "value": "L-18B11BI511  BI51  (RKI) TR6",
+            "value": "L-18B1WPH532  CS57,CS58,CS59  (HAZ) CR10",
             "colNumber": 9
         },
         {
@@ -4562,7 +4534,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "L-18B11CI513  CS510,CS511 (DHA) CR12",
+            "value": "L-18B11BI511  BI51  (RKI) TR5",
+            "colNumber": 3
+        },
+        {
+            "value": "L-18B11CI513  CS510,CS511, CS512 (DHA) CR12",
             "colNumber": 5
         },
         {
@@ -4592,6 +4568,14 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-18B11CI515 CS54,CS55,CS56  (ATA) CR10",
             "colNumber": 7
+        },
+        {
+            "value": "P-20B1WCI571 PROF_DSVL_BATCH-1(CS51,CS52) (RBT) CL11",
+            "colNumber": 8
+        },
+        {
+            "value": "P-20B1WCI571 PROF_DSVL_BATCH-1(CS51,CS52) (RBT) CL11",
+            "colNumber": 9
         },
         {
             "value": "MON",
@@ -4678,7 +4662,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "L-18B11BT512  BT51  (AKT) TR6",
+            "value": "L-18B11BT512  BT51  (AKT) CR19",
             "colNumber": 5
         },
         {
@@ -4694,28 +4678,20 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "P-18B17BI571  BI51  (RKI) BIL",
-            "colNumber": 4
-        },
-        {
-            "value": "P-18B17BI571  BI51  (RKI) BIL",
-            "colNumber": 5
-        },
-        {
             "value": "MON",
             "colNumber": 1
         },
         {
-            "value": "L-18B11BT511  BT51,BI51  (SBS) TR4",
-            "colNumber": 2
-        },
-        {
             "value": "P-18B17CI574  CS54 (ALK) CL8_2",
             "colNumber": 4
         },
         {
             "value": "P-18B17CI574  CS54 (ALK) CL8_2",
             "colNumber": 5
+        },
+        {
+            "value": "L-20B1WCI532 PROF_CC_Batch-2(CS56,CS57,CS510,IT51,IT52) (NKR) CR2",
+            "colNumber": 8
         },
         {
             "value": "MON",
@@ -4726,15 +4702,15 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-18B11CI515  CS510,CS511 (SMA) CR4",
+            "value": "L-18B11CI515  CS510,CS511,CS512 (SMA) CR4",
             "colNumber": 4
         },
         {
-            "value": "P-20B1WCI571 Batch-2 (RBT) CL11",
+            "value": "P-18B17BT571  BT51,BI51  (SBS) UG2",
             "colNumber": 8
         },
         {
-            "value": "P-20B1WCI571 Batch-2 (RBT) CL11",
+            "value": "P-18B17BT571  BT51,BI51  (SBS) UG2",
             "colNumber": 9
         },
         {
@@ -4746,16 +4722,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "P-20B1WCI572 Batch-2 (AYS) CL4",
+            "value": "P-20B1WCI572 PROF_CCLAB_Batch-1(CS52,CS55,CS58,CS59) (AYS) CL4",
             "colNumber": 4
         },
         {
-            "value": "P-20B1WCI572 Batch-2 (AYS) CL4",
+            "value": "P-20B1WCI572 PROF_CCLAB_Batch-1(CS52,CS55,CS58,CS59) (AYS) CL4",
             "colNumber": 5
-        },
-        {
-            "value": "L-18B11BI512  BI51/Minor (TTS) TR1",
-            "colNumber": 8
         },
         {
             "value": "MON",
@@ -4764,6 +4736,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-18B11EC511  EC51  (NTJ) TR5",
             "colNumber": 4
+        },
+        {
+            "value": "L-18B11BT513  BT51  (ABH) TR1",
+            "colNumber": 7
         },
         {
             "value": "MON",
@@ -4778,12 +4754,24 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "P-18B17CI572  IT51,IT52,BI51 (RIV) CL11",
+            "colNumber": 4
+        },
+        {
+            "value": "P-18B17CI572  IT51,IT52,BI51 (RIV) CL11",
+            "colNumber": 5
+        },
+        {
             "value": "TUE",
             "colNumber": 1
         },
         {
             "value": "L-18B11CI515  CS51,CS52,CS53  (PTK) LT3",
             "colNumber": 3
+        },
+        {
+            "value": "L-18B11BI512  BI51/Minor (TTS) TR3",
+            "colNumber": 7
         },
         {
             "value": "L-18B1WPH532  CS57,CS58,CS59  (HAZ) CR10",
@@ -4794,12 +4782,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11CI512  IT51,IT52,MIT  (RIV) CR8",
+            "value": "P-18B17BT573  BT51  (ABH) UG1",
             "colNumber": 2
         },
         {
-            "value": "L-20B1WCI531 BI51 (RKI) CR9",
-            "colNumber": 7
+            "value": "P-18B17BT573  BT51  (ABH) UG1",
+            "colNumber": 3
         },
         {
             "value": "P-18B17CI574  CS55 (ALK) CL5_1",
@@ -4834,8 +4822,20 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11CE513  CE51  (CPG) CR15",
+            "value": "L-18B11CE513  CE51  (CPG) CR4",
             "colNumber": 2
+        },
+        {
+            "value": "L-18B11EC511  EC51  (NTJ) CR1",
+            "colNumber": 3
+        },
+        {
+            "value": "L-20B1WCI532 PROF_CC_Batch-2(CS56,CS57,CS510,CS511,CS512,IT51,IT52) (NKR) CR2",
+            "colNumber": 4
+        },
+        {
+            "value": "L-18B11HS511  CS57,CS58,CS59  (BLK) CR8",
+            "colNumber": 5
         },
         {
             "value": "L-20B1WCI532 Batch-1 (AYS) CR7",
@@ -4854,16 +4854,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11BT513  BT51  (ABH) CR19",
+            "value": "L-20B1WCI531 PROF_FDSV_Batch-2(CS51,CS52,CS53,CS56,CS510,IT52,BI51) (RKI) CR6",
             "colNumber": 2
-        },
-        {
-            "value": "P-18B17CI575 CS511 (SMA) CL7",
-            "colNumber": 4
-        },
-        {
-            "value": "P-18B17CI575 CS511 (SMA) CL7",
-            "colNumber": 5
         },
         {
             "value": "P-18B17CI575 CS512 (SMA) CL3_2",
@@ -4876,22 +4868,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "TUE",
             "colNumber": 1
-        },
-        {
-            "value": "P-18B17BI573  BI51  (RJK) BIL",
-            "colNumber": 2
-        },
-        {
-            "value": "P-18B17BI573  BI51  (RJK) BIL",
-            "colNumber": 3
-        },
-        {
-            "value": "P-18B17CI572  IT51,IT52 (RIV) CL3_2",
-            "colNumber": 4
-        },
-        {
-            "value": "P-18B17CI572  IT51  (RIV) CL3_2",
-            "colNumber": 5
         },
         {
             "value": "L-18B11CE515  CE51  (TNM) CR13",
@@ -4918,16 +4894,20 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
+            "value": "L-18B11HS511 CS51,CS52,CS53  (ANU) LT1",
+            "colNumber": 8
+        },
+        {
+            "value": "L-18B1WBT532  BT51 (JAS) TR3",
+            "colNumber": 9
+        },
+        {
             "value": "TUE",
             "colNumber": 1
         },
         {
-            "value": "P-18B17CI575  CS56  (ATA) CL5_2",
-            "colNumber": 4
-        },
-        {
-            "value": "P-18B17CI575  CS56  (ATA) CL5_2",
-            "colNumber": 5
+            "value": "L-18B11CI515  CS57,CS58,CS59  (NF3) LT2",
+            "colNumber": 8
         },
         {
             "value": "TUE",
@@ -4942,15 +4922,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "P-18B17BT571   (SBS) UG2",
-            "colNumber": 4
-        },
-        {
-            "value": "P-18B17BT571  BT51,BI51  (SBS) UG2",
-            "colNumber": 5
-        },
-        {
-            "value": "L-18B1WPH532  CS51,CS52,CS53  (VSA) CR5",
+            "value": "L-18B1WPH532 CS51,CS52,CS53  (VSA) CR5",
             "colNumber": 7
         },
         {
@@ -4966,7 +4938,15 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-18B1WPH532  CS54,CS55,CS56  (PBB) LT1",
+            "value": "P-20B1WCI572 PROF_CCLAB_Batch-2(CS51,CS53,CS54) (AYS) CL7",
+            "colNumber": 4
+        },
+        {
+            "value": "P-20B1WCI572 PROF_CCLAB_Batch-2(CS51,CS53,CS54) (AYS) CL7",
+            "colNumber": 5
+        },
+        {
+            "value": "L-18B1WPH532 CS54,CS55,CS56  (PBB) LT1",
             "colNumber": 7
         },
         {
@@ -4974,16 +4954,20 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11HS511 CS51,CS52,CS53  (ANU) CR6",
+            "value": "P-18B17CI575  CS55 (ATA) CL8_2",
             "colNumber": 2
+        },
+        {
+            "value": "P-18B17CI575  CS55 (ATA) CL8_2",
+            "colNumber": 3
         },
         {
             "value": "TUE",
             "colNumber": 1
         },
         {
-            "value": "L-18B1WPH532 CS510,CS511,CS512 (SKT) CR1",
-            "colNumber": 2
+            "value": "L-18B11CI513  CS510,CS511,CS512 (DHA) LT1",
+            "colNumber": 3
         },
         {
             "value": "L-18B1WBI531  BI51  (RJK) CR19",
@@ -5002,10 +4986,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-18B11CI514 CS57,CS58,CS59  (JTI) CR2",
-            "colNumber": 4
-        },
-        {
             "value": "L-18B1WPH531 EC51 (SBA) TR6",
             "colNumber": 9
         },
@@ -5014,12 +4994,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11HS511 CS510,CS511,CS512 (BLK) CR7",
-            "colNumber": 2
+            "value": "T-18B11BT512  BT51  (AKT) TR1",
+            "colNumber": 4
         },
         {
-            "value": "L-18B11BT512  BT51  (AKT) TR6",
-            "colNumber": 3
+            "value": "L-18B1WPH532 CS510,CS511,CS512 (SKT) CR11",
+            "colNumber": 7
         },
         {
             "value": "L-18B1WPH532 IT51,IT52 (RRS) CR11",
@@ -5030,36 +5010,20 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "P-18B17CI574  CS56 (ALK) CL5_1",
-            "colNumber": 2
-        },
-        {
-            "value": "P-18B17CI574  CS56 (ALK) CL5_1",
-            "colNumber": 3
-        },
-        {
             "value": "TUE",
             "colNumber": 1
-        },
-        {
-            "value": "P-20B1WCI571 Batch-5 (RKI) CL5_2",
-            "colNumber": 2
-        },
-        {
-            "value": "P-20B1WCI571 Batch-5 (RKI) CL5_2",
-            "colNumber": 3
         },
         {
             "value": "WED",
             "colNumber": 1
         },
         {
-            "value": "L-18B11HS511 CS510,CS511,CS512 (BLK) CR7",
-            "colNumber": 4
-        },
-        {
             "value": "L-18B11HS511  EC51,CE51,BT51,BI51,IT51,IT52 (ANU) CR1",
             "colNumber": 5
+        },
+        {
+            "value": "L-18B11HS511 CS510,CS511,CS512 (BLK) LT3",
+            "colNumber": 7
         },
         {
             "value": "L-18B11CE511  CE51  (ADP) TR8",
@@ -5070,7 +5034,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11HS511 EC51,CE51,BT51,BI51,IT51,IT52 (ANU) CR1",
+            "value": "L-18B11HS511 EC51,CE51,BT51,BI51,IT51,IT52 (ANU) LT2",
             "colNumber": 2
         },
         {
@@ -5098,14 +5062,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B1WPH532 CS510,CS511,CS512 (SKT) CR9",
-            "colNumber": 2
-        },
-        {
-            "value": "L-18B1WBT532  BT51 (JAS) TR3",
-            "colNumber": 4
-        },
-        {
             "value": "WED",
             "colNumber": 1
         },
@@ -5114,23 +5070,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "P-18B17CI574  CS57 (PDG) CL5_2",
-            "colNumber": 4
-        },
-        {
-            "value": "P-18B17CI574  CS57 (PDG) CL5_2",
-            "colNumber": 5
-        },
-        {
             "value": "L-18B11CI515 CS54,CS55,CS56  (ATA) CR10",
             "colNumber": 7
         },
         {
-            "value": "WED",
-            "colNumber": 1
-        },
-        {
-            "value": "L-18B1WPH532  CS57,CS58,CS59  (HAZ) CR10",
+            "value": "L-20B1WCI531 PROF_FDSV_Batch-1(CS54,CS55,CS57,CS58,CS59,CS511,CS512,IT51) (RBT) LT3",
             "colNumber": 9
         },
         {
@@ -5138,6 +5082,26 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "P-18B17CI575 CS511 (SMA) CL11",
+            "colNumber": 2
+        },
+        {
+            "value": "P-18B17CI575 CS511 (SMA) CL11",
+            "colNumber": 3
+        },
+        {
+            "value": "WED",
+            "colNumber": 1
+        },
+        {
+            "value": "P-18B17CI574  CS58  (PDG) CL3_1",
+            "colNumber": 2
+        },
+        {
+            "value": "P-18B17CI574  CS58  (PDG) CL3_1",
+            "colNumber": 3
+        },
+        {
             "value": "P-18B17CI575  CS54 (ATA) CL7",
             "colNumber": 4
         },
@@ -5146,7 +5110,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "L-18B11CI514  CS510,CS511,IT51,IT52 (PMI) CR8",
+            "value": "L-18B11CI514  CS510,CS511,CS512,IT51,IT52 (PMI) CR8",
             "colNumber": 8
         },
         {
@@ -5166,20 +5130,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "P-18B17CI575  CS58 (NF3) CL8_1",
+            "value": "P-18B17CI575  CS512 (SMA) CL8_1",
             "colNumber": 4
         },
         {
-            "value": "P-18B17CI575  CS58 (NF3) CL8_1",
+            "value": "P-18B17CI575  CS512 (SMA) CL8_1",
             "colNumber": 5
-        },
-        {
-            "value": "P-18B17CI574  CS58  (PDG) CL3_2",
-            "colNumber": 8
-        },
-        {
-            "value": "P-18B17CI574  CS58  (PDG) CL3_2",
-            "colNumber": 9
         },
         {
             "value": "WED",
@@ -5206,6 +5162,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "L-18B1WPH531 EC51 (SBA) TR4",
+            "colNumber": 3
+        },
+        {
             "value": "L-18B1WBI531  BI51  (RJK) CR19",
             "colNumber": 4
         },
@@ -5230,6 +5190,14 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
+            "value": "P-20B1WCI571 PROF_DSVL_BATCH-2(CS55,CS59,CS510) (RBT) CL5_2",
+            "colNumber": 4
+        },
+        {
+            "value": "P-20B1WCI571 PROF_DSVL_BATCH-2(CS55,CS59,CS510) (RBT) CL5_2",
+            "colNumber": 5
+        },
+        {
             "value": "L-18B11CI513 CS51,CS52,CS53  (NF3) CR5",
             "colNumber": 7
         },
@@ -5240,6 +5208,14 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-18B1WCE531  CE51  (KKR) CR15",
             "colNumber": 7
+        },
+        {
+            "value": "P-18B1WCI575  CS53  (RIV) CL11",
+            "colNumber": 8
+        },
+        {
+            "value": "P-18B1WCI575  CS53  (RIV) CL11",
+            "colNumber": 9
         },
         {
             "value": "WED",
@@ -5258,31 +5234,19 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
-            "value": "P-18B17CI575  CS55 (ATA) CL3_1",
-            "colNumber": 8
-        },
-        {
-            "value": "P-18B17CI575  CS55 (ATA) CL3_1",
-            "colNumber": 9
-        },
-        {
             "value": "WED",
             "colNumber": 1
-        },
-        {
-            "value": "L-18B11HS511  CS54,CS55,CS56  (ANU) CR7",
-            "colNumber": 3
         },
         {
             "value": "T-18B11BT513  BT51  (ABH) CR16",
             "colNumber": 7
         },
         {
-            "value": "P-18B17CI574  CS52 (HSL) CL10",
+            "value": "P-18B17CI574  CS52 (HSL) CL4",
             "colNumber": 8
         },
         {
-            "value": "P-18B17CI574  CS52 (HSL) CL10",
+            "value": "P-18B17CI574  CS52 (HSL) CL4",
             "colNumber": 9
         },
         {
@@ -5294,12 +5258,20 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
+            "value": "L-18B11CI514  CS54,CS55,CS56  (VKS) CR2",
+            "colNumber": 3
+        },
+        {
             "value": "P-18B17CI575  CS53  (PTK) CL11",
             "colNumber": 4
         },
         {
             "value": "P-18B17CI575  CS53  (PTK) CL11",
             "colNumber": 5
+        },
+        {
+            "value": "L-18B11HS511 CS54,CS55,CS56 (ANU) LT1",
+            "colNumber": 8
         },
         {
             "value": "WED",
@@ -5322,24 +5294,28 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "L-18B11CI513 CS51,CS52,CS53  (NF3) CR5",
-            "colNumber": 7
-        },
-        {
             "value": "THU",
             "colNumber": 1
         },
         {
-            "value": "L-20B1WCI531 BI51 (RKI) CR2",
-            "colNumber": 7
-        },
-        {
-            "value": "THU",
-            "colNumber": 1
-        },
-        {
-            "value": "L-18B11CI513  CS510,CS511 (DHA) CR12",
+            "value": "L-18B11CI513 CS51,CS52,CS53  (NF3) CR2",
             "colNumber": 2
+        },
+        {
+            "value": "L-20B1WCI531 PROF_FDSV_Batch-2(CS51,CS52,CS53,CS56,CS510,IT52,BI51) (RKI) CR5",
+            "colNumber": 7
+        },
+        {
+            "value": "THU",
+            "colNumber": 1
+        },
+        {
+            "value": "L-18B11CI513  CS510,CS511,CS512 (DHA) CR12",
+            "colNumber": 2
+        },
+        {
+            "value": "L-18B11CI515 CS510,CS511,CS512 (SMA) CR2",
+            "colNumber": 3
         },
         {
             "value": "L-18B11CE515  CE51  (TNM) CR15",
@@ -5350,7 +5326,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 6
         },
         {
-            "value": "L-18B11CI513  CS57,CS58,CS59  (RMS) CR10",
+            "value": "L-18B11CI513 CS57,CS58,CS59  (RMS) CR10",
             "colNumber": 7
         },
         {
@@ -5366,8 +5342,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-18B11HS511 EC51,CE51,BT51,BI51,IT51,IT52 (ANU) CR5",
+            "value": "L-18B11HS511 EC51,CE51,BT51,BI51,IT51,IT52 (ANU) LT2",
             "colNumber": 4
+        },
+        {
+            "value": "P-18B17CI574  CS57 (PDG) CL3_2",
+            "colNumber": 8
+        },
+        {
+            "value": "P-18B17CI574  CS57 (PDG) CL3_2",
+            "colNumber": 9
         },
         {
             "value": "THU",
@@ -5378,11 +5362,15 @@ export const timeTable: TimeTableData = {
             "colNumber": 8
         },
         {
+            "value": "L-18B11BT511  BT51,BI51  (SBS) TR6",
+            "colNumber": 9
+        },
+        {
             "value": "THU",
             "colNumber": 1
         },
         {
-            "value": "L-18B11EC511  EC51  (NTJ) TR2",
+            "value": "L-18B11BT512  BT51  (AKT) CR19",
             "colNumber": 5
         },
         {
@@ -5414,14 +5402,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "P-20B1WCI572 Batch-3 (AYS) CL5_2",
-            "colNumber": 8
-        },
-        {
-            "value": "P-20B1WCI572 Batch-3 (AYS) CL5_2",
-            "colNumber": 9
-        },
-        {
             "value": "THU",
             "colNumber": 1
         },
@@ -5434,28 +5414,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-20B1WCI531 Batch-1 (RBT) LT2",
-            "colNumber": 7
+            "value": "P-18B17CI575  CS56  (ATA) CL3_1",
+            "colNumber": 4
         },
         {
-            "value": "P-20B1WCI571 Batch-1 (RBT) CL3_2",
-            "colNumber": 8
-        },
-        {
-            "value": "P-20B1WCI571 Batch-1 (RBT) CL3_2",
-            "colNumber": 9
+            "value": "P-18B17CI575  CS56  (ATA) CL3_1",
+            "colNumber": 5
         },
         {
             "value": "THU",
             "colNumber": 1
-        },
-        {
-            "value": "P-18B17CI575  CS59  (RMS) CL11",
-            "colNumber": 2
-        },
-        {
-            "value": "P-18B17CI575  CS59  (RMS) CL11",
-            "colNumber": 3
         },
         {
             "value": "P-18B17CI575  CS51  (PTK) CL7",
@@ -5518,14 +5486,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "P-18B1WCI575  CS53  (RIV) CL5_1",
-            "colNumber": 4
-        },
-        {
-            "value": "P-18B1WCI575  CS53  (RIV) CL5_1",
-            "colNumber": 5
-        },
-        {
             "value": "P-18B17BT572  BT51  (AKT) GENOMELAB",
             "colNumber": 7
         },
@@ -5558,20 +5518,24 @@ export const timeTable: TimeTableData = {
             "colNumber": 8
         },
         {
+            "value": "L-18B11CI514  CS54,CS55,CS56  (VKS) CR2",
+            "colNumber": 9
+        },
+        {
             "value": "THU",
             "colNumber": 1
         },
         {
-            "value": "L-18B1WPH532 CS510,CS511,CS512 (SKT) CR8",
+            "value": "P-18B17CI574  CS56 (ALK) CL1",
             "colNumber": 2
         },
         {
-            "value": "L-18B11CI514  CS54,CS55,CS56  (VKS) CR10",
-            "colNumber": 5
+            "value": "P-18B17CI574  CS56 (ALK) CL1",
+            "colNumber": 3
         },
         {
-            "value": "L-18B11HS511 CS54,CS55,CS56 (ANU) CR7",
-            "colNumber": 7
+            "value": "L-20B1WCI532 PROF_CC_Batch-1(CS51,CS52,CS53,CS54,CS55,CS58,CS59) (AYS) LT1",
+            "colNumber": 5
         },
         {
             "value": "P-18B1WCI575  CS59 (ARV) CL4",
@@ -5586,11 +5550,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11HS511  CS51,CS52,CS53  (ANU) CR7",
+            "value": "P-18B1WCI575  CS55 (RIV) CL6",
             "colNumber": 2
         },
         {
-            "value": "L-18B11BT512  BT51  (AKT) TR5",
+            "value": "P-18B1WCI575  CS55 (RIV) CL6",
             "colNumber": 3
         },
         {
@@ -5614,7 +5578,15 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "L-18B11BI511  BI51  (RKI) TR6",
+            "value": "L-18B11CI514 CS57,CS58,CS59  (JTI) CR7",
+            "colNumber": 3
+        },
+        {
+            "value": "P-18B17CI574 CS512 (SWT) CL1",
+            "colNumber": 8
+        },
+        {
+            "value": "P-18B17CI574 CS512 (SWT) CL1",
             "colNumber": 9
         },
         {
@@ -5646,6 +5618,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
+            "value": "L-18B11HS511  CS57,CS58,CS59  (BLK) CR8",
+            "colNumber": 9
+        },
+        {
             "value": "FRI",
             "colNumber": 1
         },
@@ -5662,6 +5638,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
+            "value": "L-18B11BT511  BT51,BI51  (SBS) TR4",
+            "colNumber": 9
+        },
+        {
             "value": "FRI",
             "colNumber": 1
         },
@@ -5670,16 +5650,20 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "P-18B17CI574 CS512 (SWT) CL7",
-            "colNumber": 8
+            "value": "L-18B1WPH532 CS510,CS511,CS512 (SKT) CR17",
+            "colNumber": 3
         },
         {
-            "value": "P-18B17CI574 CS512 (SWT) CL7",
-            "colNumber": 9
+            "value": "L-18B1WBI531  BI51  (RJK) CR12",
+            "colNumber": 4
         },
         {
             "value": "FRI",
             "colNumber": 1
+        },
+        {
+            "value": "L-18B11BI511 BI51 (RKI) TR2",
+            "colNumber": 2
         },
         {
             "value": "L-18B1WBT532  BT51 (JAS) TR4",
@@ -5702,7 +5686,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 8
         },
         {
-            "value": "L-18B11CI514  CS510,CS511,IT51,IT52 (PMI) CR8",
+            "value": "L-18B11CI514  CS510,CS511,CS512,IT51,IT52 (PMI) LT2",
             "colNumber": 9
         },
         {
@@ -5710,8 +5694,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B1WBI531  BI51  (RJK) CR19",
-            "colNumber": 2
+            "value": "L-18B11CI512  IT51,IT52,MIT  (RIV) CR5",
+            "colNumber": 3
         },
         {
             "value": "P-18B17CI574  CS59 (PDG) CL5_2",
@@ -5726,7 +5710,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
-            "value": "L-18B11CI513  CS510,CS511 (DHA) CR12",
+            "value": "L-18B11CI514  CS51,CS52,CS53  (VSG) CR4",
             "colNumber": 8
         },
         {
@@ -5734,7 +5718,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11HS511 CS57,CS58,CS59  (BLK) CR5",
+            "value": "L-18B11HS511 CS57,CS58,CS59  (BLK) CR8",
             "colNumber": 3
         },
         {
@@ -5750,6 +5734,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
+            "value": "L-18B1WPH532 CS510,CS511,CS512 (SKT) CR9",
+            "colNumber": 8
+        },
+        {
             "value": "FRI",
             "colNumber": 1
         },
@@ -5770,27 +5758,23 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "T-18B11BT512  BT51  (AKT) TR7",
-            "colNumber": 7
+            "value": "L-18B11HS511  CS51,CS52,CS53  (ANU) LT3",
+            "colNumber": 9
         },
         {
             "value": "FRI",
             "colNumber": 1
         },
         {
-            "value": "P-18B17CI575  CS512 (SMA) CL8_1",
-            "colNumber": 2
+            "value": "L-18B11BT512  BT51  (AKT) CR19",
+            "colNumber": 4
         },
         {
-            "value": "P-18B17CI575  CS512 (SMA) CL8_1",
-            "colNumber": 3
-        },
-        {
-            "value": "L-18B11CI514  CS510,CS511, IT51,IT52 (PMI) CR6",
+            "value": "L-18B11CI514  CS510,CS511,CS512,IT51,IT52 (PMI) CR9",
             "colNumber": 5
         },
         {
-            "value": "L-18B11CI515  CS510,CS511 (SMA) CR7",
+            "value": "L-18B11CI515 CS510,CS511,CS512 (SMA) CR7",
             "colNumber": 7
         },
         {
@@ -5834,16 +5818,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "L-18B1WPH532  CS57,CS58,CS59  (HAZ) LT2",
+            "colNumber": 2
+        },
+        {
             "value": "L-18B11CE512  CE51  (RRA) CR15",
             "colNumber": 3
-        },
-        {
-            "value": "P-18B17BI572  BI51/Minor (TTS) BPL",
-            "colNumber": 6
-        },
-        {
-            "value": "P-18B17BI572  BI51/Minor (TTS) BPL",
-            "colNumber": 7
         },
         {
             "value": "FRI",
@@ -5854,6 +5834,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
+            "value": "L-18B11HS511  CS54,CS55,CS56  (ANU) LT2",
+            "colNumber": 8
+        },
+        {
             "value": "L-18B1WPH531 EC51 (SBA) TR5",
             "colNumber": 9
         },
@@ -5862,20 +5846,24 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "P-18B17EC572  EC51 (SWT) EEL7",
+            "value": "P-18B17EC572  EC51 (SWT) ECL7",
             "colNumber": 2
         },
         {
-            "value": "P-18B17EC572  EC51 (SWT) EEL7",
+            "value": "P-18B17EC572  EC51 (SWT) ECL7",
             "colNumber": 3
+        },
+        {
+            "value": "P-18B17BI571  BI51  (RKI) BIL",
+            "colNumber": 6
+        },
+        {
+            "value": "P-18B17BI571  BI51  (RKI) BIL",
+            "colNumber": 7
         },
         {
             "value": "FRI",
             "colNumber": 1
-        },
-        {
-            "value": "L-18B11CI514  CS54,CS55,CS56  (VKS) CR2",
-            "colNumber": 2
         },
         {
             "value": "P-18B17CI575  CS55  (ATA) CL10",
@@ -5898,7 +5886,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B1WPH531 EC51 (SBA) TR3",
+            "value": "P-18B17CI575  CS58 (NF3) CL5_1",
+            "colNumber": 2
+        },
+        {
+            "value": "P-18B17CI575  CS58 (NF3) CL5_1",
             "colNumber": 3
         },
         {
@@ -5906,12 +5898,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "SAT",
-            "colNumber": 1
+            "value": "P-18B17CI575  CS59  (RMS) CL6",
+            "colNumber": 2
         },
         {
-            "value": "L-18B11CI515  CS57,CS58,CS59  (NF3) LT2",
-            "colNumber": 5
+            "value": "P-18B17CI575  CS59  (RMS) CL6",
+            "colNumber": 3
+        },
+        {
+            "value": "SAT",
+            "colNumber": 1
         },
         {
             "value": "SAT",
@@ -5926,16 +5922,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "P-18B17BT573  BT51  (ABH) UG1",
+            "value": "SAT",
+            "colNumber": 1
+        },
+        {
+            "value": "P-18B17BI572  BI51/Minor (TTS) BPL",
             "colNumber": 4
         },
         {
-            "value": "P-18B17BT573  BT51  (ABH) UG1",
+            "value": "P-18B17BI572  BI51/Minor (TTS) BPL",
             "colNumber": 5
-        },
-        {
-            "value": "SAT",
-            "colNumber": 1
         },
         {
             "value": "SAT",
@@ -5956,10 +5952,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "SAT",
             "colNumber": 1
-        },
-        {
-            "value": "L-18B11HS511  CS57,CS58,CS59  (BLK) CR8",
-            "colNumber": 3
         },
         {
             "value": "SAT",
@@ -5998,19 +5990,19 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "P-20B1WCI571 Batch-3 (RKI) CL3_2",
+            "value": "P-20B1WCI571 PROF_DSVL_BATCH-3(CS511,CS512,IT51,IT52,BI51) (RKI) CL3_2",
             "colNumber": 2
         },
         {
-            "value": "P-20B1WCI571 Batch-3 (RKI) CL3_2",
+            "value": "P-20B1WCI571 PROF_DSVL_BATCH-3(CS511,CS512,IT51,IT52,BI51) (RKI) CL3_2",
             "colNumber": 3
         },
         {
-            "value": "P-20B1WCI571 Batch-4 (RKI) CL3_2",
+            "value": "P-20B1WCI571 PROF_DSVL_BATCH-4(CS54,CS56,CS57,CS58) (RKI) CL3_2",
             "colNumber": 4
         },
         {
-            "value": "P-20B1WCI571 Batch-4 (RKI) CL3_2",
+            "value": "P-20B1WCI571 PROF_DSVL_BATCH-4(CS54,CS56,CS57,CS58) (RKI) CL3_2",
             "colNumber": 5
         },
         {
@@ -6036,14 +6028,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "P-18B1WCI572 Batch-2 (PMI) CL3_1",
             "colNumber": 3
-        },
-        {
-            "value": "P-18B1WCI575  CS55 (RIV) CL1",
-            "colNumber": 4
-        },
-        {
-            "value": "P-18B1WCI575  CS55 (RIV) CL1",
-            "colNumber": 5
         },
         {
             "value": "SAT",
@@ -6196,6 +6180,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "L-19B1WCI738   CS-IT[PAI,PCC,PDS]B1 (VKS) CR6",
+            "colNumber": 2
+        },
+        {
             "value": "P-18B1WCI774   CS-IT[PIS,PML]B3 (NF2) CL8_2",
             "colNumber": 8
         },
@@ -6210,6 +6198,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "MON",
             "colNumber": 1
+        },
+        {
+            "value": "L-19B1WCI738   CS-IT[PAI,PCC,PDS]B2 (KLK) CR5",
+            "colNumber": 2
         },
         {
             "value": "P-18B1WCI772   CS-IT[PCC,PAI]B2 (AMN) CL7",
@@ -6464,6 +6456,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "L-18B1WCI734   CS-IT[PIS,PML]B (PDN) CR6",
+            "colNumber": 7
+        },
+        {
             "value": "5",
             "colNumber": 11
         },
@@ -6478,6 +6474,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "TUE",
             "colNumber": 1
+        },
+        {
+            "value": "L-18B1WCI742   CS-IT[PCC,PAI]B (GVS) LT2",
+            "colNumber": 7
         },
         {
             "value": "7",
@@ -6660,6 +6660,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "L-19B1WCI738   CS-IT[PAI,PCC,PDS]B1 (VKS) CR6",
+            "colNumber": 2
+        },
+        {
             "value": "L-18B1WEC635  ECALL_OE_2 (ALK) CR2",
             "colNumber": 4
         },
@@ -6678,6 +6682,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "WED",
             "colNumber": 1
+        },
+        {
+            "value": "L-19B1WCI738   CS-IT[PAI,PCC,PDS]B2 (KLK) CR4",
+            "colNumber": 2
         },
         {
             "value": "P-24B1WEM772  EC71_PE4LAB (PRG) ECL3",
@@ -6884,6 +6892,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "L-18B1WCI734   CS-IT[PIS,PML]B (PDN) CR7",
+            "colNumber": 7
+        },
+        {
             "value": "6",
             "colNumber": 11
         },
@@ -6898,6 +6910,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "THU",
             "colNumber": 1
+        },
+        {
+            "value": "L-18B1WCI742   CS-IT[PCC,PAI]B (GVS) LT2",
+            "colNumber": 7
         },
         {
             "value": "8",
@@ -7052,12 +7068,20 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "L-19B1WCI738   CS-IT[PAI,PCC,PDS]B1 (VKS) CR4",
+            "colNumber": 2
+        },
+        {
             "value": "5",
             "colNumber": 11
         },
         {
             "value": "FRI",
             "colNumber": 1
+        },
+        {
+            "value": "L-19B1WCI738   CS-IT[PAI,PCC,PDS]B2 (KLK) CR2",
+            "colNumber": 2
         },
         {
             "value": "6",
@@ -7362,10 +7386,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-21MS1MB112  24MM11  (AKT) CR18",
-            "colNumber": 7
-        },
-        {
             "value": "MON",
             "colNumber": 1
         },
@@ -7390,7 +7410,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "L-24MS3PH301 23MP11 (SBA) CABIN3",
+            "value": "L-24MS3PH301 23MP11 (SKK) CABIN3",
             "colNumber": 4
         },
         {
@@ -7408,6 +7428,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "MON",
             "colNumber": 1
+        },
+        {
+            "value": "L-21MS1MB113 24MM11 (JAS) TR7",
+            "colNumber": 8
         },
         {
             "value": "MON",
@@ -7430,7 +7454,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "L-10M11CI112 24ID11 (KLK) TR7",
+            "value": "L-10M11CI112 24ID11 (RMS) TR7",
             "colNumber": 3
         },
         {
@@ -7454,7 +7478,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
-            "value": "L-18M11CI114 24ID11 (DGA) CR18",
+            "value": "L-18M11CI114 24ID11 (NF3) CR18",
             "colNumber": 8
         },
         {
@@ -7490,7 +7514,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-20MS1BT112 24MB11  (ABH) TR4",
+            "value": "L-20MS1BT112 24MB11  (ABH) CR18",
             "colNumber": 4
         },
         {
@@ -7514,6 +7538,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
+            "value": "L-20MS1MA111 24MB11  (PKP) CR12",
+            "colNumber": 3
+        },
+        {
             "value": "L-11M1WCE114  24SE11  (TNM) TR9",
             "colNumber": 5
         },
@@ -7532,10 +7560,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-20B1WBI831  24MM11  (TYN) TR1",
             "colNumber": 2
-        },
-        {
-            "value": "L-21MS1MB113 24MM11 (JAS) ",
-            "colNumber": 3
         },
         {
             "value": "P-21MS7MB173  24MM11  (GPL) BIOCHEMLAB",
@@ -7566,11 +7590,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-20MS1BT112 24MB11  (ABH) TR4",
-            "colNumber": 3
-        },
-        {
-            "value": "L-20MS1MA111 24MB11  (PKP) CR12",
+            "value": "L-20MS1BT112 24MB11  (ABH) CR18",
             "colNumber": 4
         },
         {
@@ -7638,7 +7658,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-10M1WCI131 24ID11 (NF1) TR7",
+            "value": "L-10M1WCI131 24ID11 (KTS) TR7",
             "colNumber": 2
         },
         {
@@ -7782,7 +7802,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-21M1WEC135 24IOT11  (SHR) TR1",
+            "value": "L-21M1WEC135 24IOT11  (SHR) ECL3",
             "colNumber": 2
         },
         {
@@ -7798,7 +7818,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-24MS3PH301 23MP11 (SBA) CABIN3",
+            "value": "L-24MS3PH301 23MP11 (SKK) CABIN3",
             "colNumber": 3
         },
         {
@@ -7886,7 +7906,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-10M1WCI131 24ID11 (NF1) TR7",
+            "value": "L-10M1WCI131 24ID11 (KTS) TR7",
             "colNumber": 7
         },
         {
@@ -7906,16 +7926,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-10M11CI112 24ID11 (KLK) TR7",
-            "colNumber": 2
-        },
-        {
             "value": "L-21MS1MB111 24MB11  (AKN) CR18",
             "colNumber": 7
         },
         {
             "value": "L-20MS1BT113 24MB11  (HSD) TR6",
             "colNumber": 8
+        },
+        {
+            "value": "L-10M11CI112 24ID11 (RMS) TR4",
+            "colNumber": 9
         },
         {
             "value": "WED",
@@ -8046,6 +8066,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "L-21MS1MB112  24MM11  (AKT) CR19",
+            "colNumber": 4
+        },
+        {
             "value": "L-21M11EC111 24IOT11,24MEC11 (HSL) TR1",
             "colNumber": 5
         },
@@ -8068,6 +8092,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "THU",
             "colNumber": 1
+        },
+        {
+            "value": "L-21MS1MB113 24MM11 (JAS) TR3",
+            "colNumber": 3
         },
         {
             "value": "L-11M1WCI431 24ID11 (NF2) TR5",
@@ -8122,7 +8150,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18M11CI114 24ID11 (DGA) CR19",
+            "value": "L-18M11CI114 24ID11 (NF3) CR19",
             "colNumber": 3
         },
         {
@@ -8162,11 +8190,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "L-24MS3PH301 23MP11 (SBA) CABIN3",
+            "value": "L-24MS3PH301 23MP11 (SKK) CABIN3",
             "colNumber": 3
         },
         {
-            "value": "L-21M1WEC135 24IOT11  (SHR) TR1",
+            "value": "L-21M1WEC135 24IOT11  (SHR) ECL3",
             "colNumber": 5
         },
         {
@@ -8246,7 +8274,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "L-10M1WCI131 24ID11 (NF1) TR1",
+            "value": "L-10M1WCI131 24ID11 (KTS) TR1",
             "colNumber": 7
         },
         {
@@ -8270,7 +8298,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-10M11CI112 24ID11 (KLK) TR7",
+            "value": "L-10M11CI112 24ID11 (RMS) TR7",
             "colNumber": 5
         },
         {
@@ -8282,7 +8310,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18M11CI114 24ID11 (DGA) CR19",
+            "value": "L-18M11CI114 24ID11 (NF3) CR19",
+            "colNumber": 3
+        },
+        {
+            "value": "L-18M11CI113 24ID11 (RKI) TR7",
             "colNumber": 4
         },
         {
@@ -8292,10 +8324,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "FRI",
             "colNumber": 1
-        },
-        {
-            "value": "L-18M11CI113 24ID11 (RKI) TR5",
-            "colNumber": 3
         },
         {
             "value": "FRI",
@@ -8496,8 +8524,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
-            "value": "MON",
-            "colNumber": 1
+            "value": "L-20MS9BT313 23MB11 (GPL) TR4",
+            "colNumber": 9
         },
         {
             "value": "MON",
@@ -8508,7 +8536,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18P1WGE101 PHDALL (DLR,ASA,AKS,RTK) CR6",
+            "value": "MON",
+            "colNumber": 1
+        },
+        {
+            "value": "L-18P1WGE101 PHDALL (DLR,ASA,AKS,RTK) ",
             "colNumber": 9
         },
         {
@@ -8600,6 +8632,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "L-17P1WGE102 PHDALL (HSD) CR6",
+            "colNumber": 9
+        },
+        {
             "value": "TUE",
             "colNumber": 1
         },
@@ -8640,7 +8676,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "L-21MS1MB312  23MM11 (RST) CR18",
+            "value": "L-21MS1MB312  23MM11 (RST) CABIN",
             "colNumber": 8
         },
         {
@@ -8672,7 +8708,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18P1WGE101 PHDALL (DLR,ASA,AKS,RTK) CR6",
+            "value": "L-18P1WGE101 PHDALL (DLR,ASA,AKS,RTK) CR7",
             "colNumber": 9
         },
         {
@@ -8744,7 +8780,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-21MS1MB312  23MM11 (RST) CR17",
+            "value": "L-21MS1MB312  23MM11 (RST) CABIN",
             "colNumber": 3
         },
         {
@@ -8758,6 +8794,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-22MS1BT311 23MB11 (GAI) TR7",
             "colNumber": 3
+        },
+        {
+            "value": "L-20MS1BT315/21MS2MB311  23MB11,23MM11 (HSD) CR12",
+            "colNumber": 5
         },
         {
             "value": "P-20MS7BT371 23MB11 (GAI) UG2",
@@ -8788,7 +8828,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18P1WGE101 PHDALL (DLR,ASA,AKS,RTK) CR6",
+            "value": "L-18P1WGE101 PHDALL (DLR,ASA,AKS,RTK) CR7",
             "colNumber": 10
         },
         {
@@ -8836,7 +8876,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-21MS1MB312  23MM11 (RST) CR18",
+            "value": "L-21MS1MB312  23MM11 (RST) CABIN",
             "colNumber": 3
         },
         {
@@ -8864,8 +8904,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-20MS1BT315/21MS2MB311  23MB11,23MM11 (HSD) CR12",
-            "colNumber": 7
+            "value": "L-20MS9BT313 23MB11 (JAS) TR4",
+            "colNumber": 8
         },
         {
             "value": "FRI",

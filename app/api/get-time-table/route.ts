@@ -19,6 +19,10 @@ interface Days {
     [key: string]: number
 }
 
+const parseClassData = (value: string): string[] => {
+    return value.split(" ").filter(value => value != "");
+}
+
 export async function POST(req: Request) {
 
     const { batch, course } = await req.json();
@@ -127,7 +131,13 @@ export async function POST(req: Request) {
             currRecord = parsedTimeTable[days[classData.value]];
             continue;
         }
-        if (classData.value.includes(batch)) {
+        const data = parseClassData(classData.value);
+        const batchesData = data[1]?.split(",");
+        let batches = batchesData?.map(b => {
+            return b.slice(2)
+        }) || [];
+
+        if (batches?.includes(batch)) {
             isDataFound = true;
             if (classData.colNumber == 2) {
                 currRecord.at9 = classData.value
@@ -159,8 +169,8 @@ export async function POST(req: Request) {
         }
     }
 
-    if(!isDataFound){
+    if (!isDataFound) {
         return NextResponse.json({ error: 'No Data Found' }, { status: 404 })
     }
-    return NextResponse.json({data : parsedTimeTable} , {status : 200});
+    return NextResponse.json({ data: parsedTimeTable }, { status: 200 });
 }
