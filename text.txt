@@ -36,10 +36,7 @@ const parseClassData = (value: string): string[] => {
     return value.split(" ").filter((value) => value !== "");
 };
 
-const commonGridVariable = "grid grid-cols-[_2fr_5fr] gap-x-2 my-1";
-
 export default function SmallTimeTableUI({ rows, batch }: Props) {
-
     const [selectedDay, setSelectedDay] = useState<Day>(() => {
         const dayNumber = new Date().getDay();
         return daysList[dayNumber === 7 ? 0 : dayNumber - 1];
@@ -83,11 +80,6 @@ export default function SmallTimeTableUI({ rows, batch }: Props) {
         });
     }, [selectedDay]);
 
-    const handleSelectionChange = (e: any) => {
-        if (!e.target.value) return;
-        setSelectedDay(e.target.value as Day)
-    }
-
     return (
         <div className="w-full flex items-center justify-normal flex-col px-4 space-y-4 py-8 ">
             <Breadcrumbs className="w-full">
@@ -100,7 +92,7 @@ export default function SmallTimeTableUI({ rows, batch }: Props) {
                 radius="sm"
                 label="Select the Day"
                 size="sm"
-                onChange={handleSelectionChange}
+                onChange={(e) => setSelectedDay(e.target.value as Day)}
                 className="max-w-xs"
             >
                 {daysList.map((day) => (
@@ -139,24 +131,24 @@ export default function SmallTimeTableUI({ rows, batch }: Props) {
                                     "No Class In this slot"
                                 ) : (
                                     <ol className="list-none">
-                                        <li className={commonGridVariable}>
+                                        <li className="grid-cols-[_1fr_5fr]">
                                             <strong className="flex-nowrap">Subject:</strong>
                                             <p className="text-default-500">{subject.replace(/-/g, ' ')}</p>
                                         </li>
-                                        <li className={commonGridVariable}>
+                                        <li className="gap-3 grid-cols-2">
                                             <strong>Type :</strong>
                                             <p className="text-default-500">{type}</p>
                                         </li>
-                                        <li className={commonGridVariable}>
+                                        <li className=" flex gap-3">
                                             <strong>Batches:</strong>
-                                            <p className="text-default-500">{batches.replace(/,/g, ' ')}</p>
+                                            <p className="text-default-500">{batches}</p>
                                         </li>
 
-                                        <li className={commonGridVariable}>
+                                        <li className=" flex gap-3">
                                             <strong>Teacher :</strong>
                                             <p className="text-default-500">{teacher}</p>
                                         </li>
-                                        <li className={commonGridVariable}>
+                                        <li className=" flex gap-3">
                                             <strong>Venue :</strong>
                                             <p className="text-default-500">{venue.toUpperCase()}</p>
                                         </li>
