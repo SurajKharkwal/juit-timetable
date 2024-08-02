@@ -1,4 +1,4 @@
-import { TimeTableData } from "./types"
+import { TimeTableData } from "./writeTimeTable"
 export const timeTable: TimeTableData = {
     "BTECH 1 SEM": [
         {
@@ -58,19 +58,19 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Engineering-Mathematics-I 24A110,24A111,24A112,24B11,24C11,24D11,24H11,24G11,24P11 (NKT) LT1 Lecture",
+            "value": "Engineering-Mathematics-I 24A110,24A111,24A112,24B11,24C11,24D11,24H11,24G11,24I14,24P11 (NKT) LT1 Lecture",
             "colNumber": 2
         },
         {
-            "value": "Workshop-Practices 24A112 (KKR) WORKLAB Lab",
+            "value": "Workshop-Practices 24A112,24I14,24P11 (KKR) WORKLAB Lab",
             "colNumber": 3
         },
         {
-            "value": "Workshop-Practices 24A112 (KKR) WORKLAB Lab",
+            "value": "Workshop-Practices 24A112,24I14,24P11 (KKR) WORKLAB Lab",
             "colNumber": 4
         },
         {
-            "value": "Workshop-Practices 24A112 (KKR) WORKLAB Lab",
+            "value": "Workshop-Practices 24A112,24I14,24P11 (KKR) WORKLAB Lab",
             "colNumber": 5
         },
         {
@@ -98,7 +98,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 6
         },
         {
-            "value": "English- 24A110,24A111,24A112,24P11 (AKS) CR9 Lecture",
+            "value": "English- 24A110,24A111,24A112,24I14,24P11 (AKS) CR9 Lecture",
             "colNumber": 8
         },
         {
@@ -120,14 +120,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-19B11CI111 24B11,24C11,24D11,24G11,24H11,24E11,24F11,24K11 (NF2) CR6 Lecture",
             "colNumber": 7
-        },
-        {
-            "value": "Fundamental-Biology-lab 24E11,24F11 (TYN) BIL Lab",
-            "colNumber": 8
-        },
-        {
-            "value": "Fundamental-Biology-lab 24E11,24F11 (TYN) BIL Lab",
-            "colNumber": 9
         },
         {
             "value": "MON",
@@ -242,7 +234,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "Engineering-Physics-I 24A112 (SBA) TR7 Tutorial",
+            "value": "Engineering-Physics-I 24A112,24I14,24P11 (SBA) TR7 Tutorial",
             "colNumber": 9
         },
         {
@@ -294,7 +286,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 6
         },
         {
-            "value": "English-Lab 24A111,24P11 (AKS) GDROOM Tutorial",
+            "value": "English-Lab 24A111 (AKS) GDROOM Tutorial",
             "colNumber": 7
         },
         {
@@ -310,11 +302,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "P-19B17CI171 24A111,24P11 (AMN) CL9_1 Lab",
+            "value": "P-19B17CI171 24A111 (AMN) CL9_1 Lab",
             "colNumber": 4
         },
         {
-            "value": "P-19B17CI171 24A111,24P11 (AMN) CL9_1 Lab",
+            "value": "P-19B17CI171 24A111 (AMN) CL9_1 Lab",
             "colNumber": 5
         },
         {
@@ -434,16 +426,20 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
+            "value": "English-Lab 24A14 (RTK) GDROOM Tutorial",
+            "colNumber": 4
+        },
+        {
             "value": "English-Lab 24A115 (TNS) GDROOM Tutorial",
             "colNumber": 5
         },
         {
-            "value": "English-Lab 24I11 (AKS) LANGULAB Tutorial",
-            "colNumber": 7
+            "value": "L-19B11CI111 24A19,24A110 (NSA) CR12 Lecture",
+            "colNumber": 6
         },
         {
-            "value": "L-19B11CI111 24A19,24A110 (NSA) CR12 Lecture",
-            "colNumber": 8
+            "value": "English-Lab 24I11 (AKS) LANGULAB Tutorial",
+            "colNumber": 7
         },
         {
             "value": "TUE",
@@ -550,11 +546,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "English-Lab 24C11,24K11 (BLK) GDROOM Tutorial",
+            "value": "English-Lab 24C11,24K11 (RTK) GDROOM Tutorial",
             "colNumber": 7
         },
         {
-            "value": "English-Lab 24C11,24K11 (BLK) LANGULAB Tutorial",
+            "value": "English-Lab 24C11,24K11 (RTK) LANGULAB Tutorial",
             "colNumber": 8
         },
         {
@@ -570,7 +566,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "Engineering-Mathematics-I 24A111,24P11 (MAT_RS7) CR5 Tutorial",
+            "value": "Engineering-Mathematics-I 24A111 (MAT_RS7) CR5 Tutorial",
             "colNumber": 5
         },
         {
@@ -598,11 +594,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "P-19B17CI171 24A112 (AMN) CL4 Lab",
+            "value": "P-19B17CI171 24A112,24I14,24P11 (AMN) CL4 Lab",
             "colNumber": 4
         },
         {
-            "value": "P-19B17CI171 24A112 (AMN) CL4 Lab",
+            "value": "P-19B17CI171 24A112,24I14,24P11 (AMN) CL4 Lab",
             "colNumber": 5
         },
         {
@@ -618,7 +614,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-19B11CI111 24A111,24A112,24P11 (AMN) CR11 Lecture",
+            "value": "L-19B11CI111 24A111,24A112,24I14,24P11 (AMN) CR11 Lecture",
             "colNumber": 2
         },
         {
@@ -642,16 +638,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 8
         },
         {
-            "value": "Engineering-Mathematics-I 24A19 (MAT_RS2) TR2 Tutorial",
-            "colNumber": 9
-        },
-        {
             "value": "TUE",
             "colNumber": 1
-        },
-        {
-            "value": "English-Lab 24A14 (RTK) GDROOM Tutorial",
-            "colNumber": 4
         },
         {
             "value": "English- 24B11,24C11,24D11,24E11,24F11,24G11,24H11 (DLR) CR7 Lecture",
@@ -694,7 +682,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Engineering-Physics-I 24A111,24P11 (SBA) CR4 Tutorial",
+            "value": "Engineering-Physics-I 24A111 (SBA) TR4 Tutorial",
             "colNumber": 3
         },
         {
@@ -706,11 +694,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A111,24P11 (VSA) PHLAB1 Lab",
+            "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A111 (VSA) PHLAB1 Lab",
             "colNumber": 8
         },
         {
-            "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A111,24P11 (VSA) PHLAB1 Lab",
+            "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A111 (VSA) PHLAB1 Lab",
             "colNumber": 9
         },
         {
@@ -754,7 +742,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "Engineering-Physics-I 24A110,24A111,24A112,24P11 (SBA) CR4 Lecture",
+            "value": "Engineering-Physics-I 24A110,24A111,24A112,24I14,24P11 (SBA) CR4 Lecture",
             "colNumber": 7
         },
         {
@@ -795,23 +783,27 @@ export const timeTable: TimeTableData = {
         },
         {
             "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A14 (SKK) PHLAB1 Lab",
-            "colNumber": 4
+            "colNumber": 3
         },
         {
             "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A14 (SKK) PHLAB1 Lab",
-            "colNumber": 5
+            "colNumber": 4
         },
         {
             "value": "WED",
             "colNumber": 1
         },
         {
-            "value": "Engineering-Mathematics-I 24A110,24A111,24A112,24B11,24C11,24D11,24H11,24G11,24P11 (NKT) LT1 Lecture",
+            "value": "Engineering-Mathematics-I 24A110,24A111,24A112,24B11,24C11,24D11,24H11,24G11,24I14,24P11 (NKT) LT1 Lecture",
             "colNumber": 2
         },
         {
             "value": "Engineering-Mathematics-I 24A15 (MAT_RS1) CR6 Tutorial",
             "colNumber": 3
+        },
+        {
+            "value": "Engineering-Mathematics-I 24A19 (MAT_RS2) CR12 Tutorial",
+            "colNumber": 7
         },
         {
             "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24J12 (SKT) PHLAB2 Lab",
@@ -834,7 +826,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "English-Lab 24A112 (AKS) GDROOM Tutorial",
+            "value": "English-Lab 24A112,24I14,24P11 (AKS) GDROOM Tutorial",
             "colNumber": 5
         },
         {
@@ -858,7 +850,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "Engineering-Physics-I 24A110,24A111,24A112,24P11 (SBA) CR4 Lecture",
+            "value": "Engineering-Physics-I 24A110,24A111,24A112,24I14,24P11 (SBA) CR4 Lecture",
             "colNumber": 7
         },
         {
@@ -922,10 +914,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "Engineering-Physics-I 24A14 (VSA) CR17 Tutorial",
-            "colNumber": 3
-        },
-        {
             "value": "Engineering-Physics-I 24L11,24M11,24N11 (PBB) CR7 Lecture",
             "colNumber": 5
         },
@@ -970,15 +958,15 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Workshop-Practices 24A111,24P11 (KKR) WORKLAB Lab",
+            "value": "Workshop-Practices 24A111 (KKR) WORKLAB Lab",
             "colNumber": 3
         },
         {
-            "value": "Workshop-Practices 24A111,24P11 (KKR) WORKLAB Lab",
+            "value": "Workshop-Practices 24A111 (KKR) WORKLAB Lab",
             "colNumber": 4
         },
         {
-            "value": "Workshop-Practices 24A111,24P11 (KKR) WORKLAB Lab",
+            "value": "Workshop-Practices 24A111 (KKR) WORKLAB Lab",
             "colNumber": 5
         },
         {
@@ -986,7 +974,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
-            "value": "L-19B11CI111 24A111,24A112,24P11 (AMN) CR5 Lecture",
+            "value": "L-19B11CI111 24A111,24A112,24I14,24P11 (AMN) CR5 Lecture",
             "colNumber": 8
         },
         {
@@ -1004,6 +992,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "Engineering-Mathematics-I 24A17,24A18,24A19 (NKT) LT1 Lecture",
             "colNumber": 4
+        },
+        {
+            "value": "Engineering-Physics-I 24A14 (VSA) CR19 Tutorial",
+            "colNumber": 5
         },
         {
             "value": "Ethics-and-CSR 24W11 (BLK) TR6 Tutorial",
@@ -1074,7 +1066,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "Engineering-Mathematics-I 24A112 (MAT_RS7) CR12 Tutorial",
+            "value": "Engineering-Mathematics-I 24A112,24I14,24P11 (MAT_RS7) CR12 Tutorial",
             "colNumber": 3
         },
         {
@@ -1095,11 +1087,15 @@ export const timeTable: TimeTableData = {
         },
         {
             "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A110 (VSA) PHLAB2 Lab",
-            "colNumber": 4
+            "colNumber": 3
         },
         {
             "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A110 (VSA) PHLAB2 Lab",
-            "colNumber": 5
+            "colNumber": 4
+        },
+        {
+            "value": "L-19B11CI111 24A19,24A110 (NSA) CR12 Lecture",
+            "colNumber": 6
         },
         {
             "value": "Engineering-Graphics- 24B11,24C11,24D11,24G11,24H11 (CPG) CAD,DRAWR Lab",
@@ -1318,7 +1314,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
-            "value": "English- 24A110,24A111,24A112,24P11 (AKS) CR9 Lecture",
+            "value": "English- 24A110,24A111,24A112,24I14,24P11 (AKS) CR9 Lecture",
             "colNumber": 8
         },
         {
@@ -1330,7 +1326,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-19B11CI111 24A111,24A112,24P11 (AMN) CR5 Lecture",
+            "value": "L-19B11CI111 24A111,24A112,24I14,24P11 (AMN) CR5 Lecture",
             "colNumber": 2
         },
         {
@@ -1458,11 +1454,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-19B11CI111 24A19,24A110 (NSA) CR12 Lecture",
-            "colNumber": 4
-        },
-        {
-            "value": "English-Lab 24A112 (AKS) LANGULAB Tutorial",
+            "value": "English-Lab 24A112,24I14,24P11 (AKS) LANGULAB Tutorial",
             "colNumber": 5
         },
         {
@@ -1562,7 +1554,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "Engineering-Physics-I 24A110,24A111,24A112,24P11 (SBA) CR4 Lecture",
+            "value": "Engineering-Physics-I 24A110,24A111,24A112,24I14,24P11 (SBA) CR4 Lecture",
             "colNumber": 7
         },
         {
@@ -1578,11 +1570,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A112 (RRS) PHLAB1 Lab",
+            "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A112,24I14,24P11 (RRS) PHLAB1 Lab",
             "colNumber": 4
         },
         {
-            "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A112 (RRS) PHLAB1 Lab",
+            "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A112,24I14,24P11 (RRS) PHLAB1 Lab",
             "colNumber": 5
         },
         {
@@ -1630,11 +1622,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "P-19B17CI171 24J12 (RMS) CL11 Lab",
+            "value": "P-19B17CI171 24J12 (AYS) CL11 Lab",
             "colNumber": 2
         },
         {
-            "value": "P-19B17CI171 24J12 (RMS) CL11 Lab",
+            "value": "P-19B17CI171 24J12 (AYS) CL11 Lab",
             "colNumber": 3
         },
         {
@@ -1658,11 +1650,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Engineering-Mathematics-I 24A110,24A111,24A112,24B11,24C11,24D11,24H11,24G11,24P11 (NKT) LT1 Lecture",
+            "value": "Engineering-Mathematics-I 24A110,24A111,24A112,24B11,24C11,24D11,24H11,24G11,24I14,24P11 (NKT) LT1 Lecture",
             "colNumber": 2
         },
         {
-            "value": "English-Lab 24A111,24P11 (AKS) LANGULAB Tutorial",
+            "value": "English-Lab 24A111 (AKS) LANGULAB Tutorial",
             "colNumber": 3
         },
         {
@@ -1672,10 +1664,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "English-Lab 24A18 (RTK) GDROOM Tutorial",
             "colNumber": 8
-        },
-        {
-            "value": "English-Lab 24A110 (AKS) GDROOM Tutorial",
-            "colNumber": 9
         },
         {
             "value": "FRI",
@@ -1690,8 +1678,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "Business-Environment 24W11 (ASA) TR2 Lecture",
-            "colNumber": 7
+            "value": "Business-Environment 24W11 (ASA) CR12 Lecture",
+            "colNumber": 4
+        },
+        {
+            "value": "Fundamental-Biology-lab 24E11,24F11 (TYN) BIL Lab",
+            "colNumber": 8
+        },
+        {
+            "value": "Fundamental-Biology-lab 24E11,24F11 (TYN) BIL Lab",
+            "colNumber": 9
         },
         {
             "value": "FRI",
@@ -1910,6 +1906,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
+            "value": "English-Lab 24A110 (AKS) GDROOM Tutorial",
+            "colNumber": 4
+        },
+        {
             "value": "English- 24B11,24C11,24D11,24E11,24F11,24G11,24H11 (DLR) CR7 Lecture",
             "colNumber": 5
         },
@@ -2056,6 +2056,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "Life-Skills-and-Interpersonal-Dynamics 23A19,23J11 (TNS) CR17 Tutorial",
+            "colNumber": 2
+        },
+        {
             "value": "Probability-Theory-and-Reandom-Processes 23B11,23H11 (BKP) TR1 Lecture",
             "colNumber": 3
         },
@@ -2068,15 +2072,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "Life-Skills-and-Interpersonal-Dynamics 23I11,23F11 (NJL) CR4 Tutorial",
-            "colNumber": 7
-        },
-        {
-            "value": "Fundamentals-of-Signals-&-Systems 23B11 (RKU) TR5 Lecture",
+            "value": "Computational-Fundamentals-for-Optimization-Lab 23J11,23J12 (KLK) CL1 Lab",
             "colNumber": 8
         },
         {
-            "value": "Digital-Electronics-&-Logic-Design 23B11 (HSL) TR2 Lecture",
+            "value": "Computational-Fundamentals-for-Optimization-Lab 23J11,23J12 (KLK) CL1 Lab",
             "colNumber": 9
         },
         {
@@ -2088,24 +2088,20 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "General-Chemistry 23E11 (GPL) CR19 Lecture",
+            "colNumber": 2
+        },
+        {
             "value": "Genetics 23E11 (SDS) CR17 Lecture",
             "colNumber": 3
         },
         {
-            "value": "Numerical-Methods 23I11,23I12,23J11,23J12,23K11,23C11 (SST) LT3 Lecture",
+            "value": "Probability-&-Statistics 23I11,23I12,23J11,23J12,23K11,23C11 (SST) LT3 Lecture",
             "colNumber": 6
         },
         {
-            "value": "Life-Skills-and-Interpersonal-Dynamics 23A19,23J11 (TNS) CR16 Tutorial",
-            "colNumber": 7
-        },
-        {
-            "value": "Numerical-Methods 23A17,23A18,23A19 (SST) CR10 Lecture",
+            "value": "Probability-&-Statistics 23A17,23A18,23A19 (SST) CR10 Lecture",
             "colNumber": 8
-        },
-        {
-            "value": "L-xxxxxxxxxxx 23K11 (GVS) TR1 Lecture",
-            "colNumber": 9
         },
         {
             "value": "2",
@@ -2116,7 +2112,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Building-Materials-&-Construction 23D11 (ABJ) CR14 Lecture",
+            "value": "Microbiology-&-Immune-System 23F11 (TYN) CR10 Tutorial",
             "colNumber": 2
         },
         {
@@ -2124,12 +2120,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "Database-Management-systems 23A17,23A18,23A19 (PDN) CR4 Lecture",
+            "value": "Database-Management-systems 23A17,23A18,23A19,23F11/Minor (PDN) LT3 Lecture",
             "colNumber": 5
         },
         {
-            "value": "General-Chemistry 23E11 (GPL) CR17 Lecture",
-            "colNumber": 7
+            "value": "Building-Materials-&-Construction 23D11 (ABJ) CR14 Lecture",
+            "colNumber": 8
+        },
+        {
+            "value": "Fundamentals-of-Signals-&-Systems 23B11 (RKU) TR2 Lecture",
+            "colNumber": 9
         },
         {
             "value": "3",
@@ -2140,16 +2140,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "Engineering-Mechanics 23D11 (SUV) CR13 Lecture",
+            "colNumber": 2
+        },
+        {
             "value": "Python-Programming-Essentials- 23I11,23I12,23J11,23J12,23K11 (NVN) CR11 Lecture",
             "colNumber": 3
         },
         {
-            "value": "L-18B11MA311/24BS1MA311 23D11,23BM11 (NKT) TR5 Lecture",
+            "value": "L-18B11MA313/24BS1MA311 23D11,23BM11 (NKT) TR5 Lecture",
             "colNumber": 5
-        },
-        {
-            "value": "Engineering-Mechanics 23D11 (SUV) TR8 Lecture",
-            "colNumber": 7
         },
         {
             "value": "4",
@@ -2160,8 +2160,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Entrepreneurship-Development 23W11 (TNS) TR3 Lecture",
+            "value": "Statistical-Software 23W11 (NTJ) CL9_2 Lab",
             "colNumber": 2
+        },
+        {
+            "value": "Statistical-Software 23W11 (NTJ) CL9_2 Lab",
+            "colNumber": 3
         },
         {
             "value": "Thermodynamics-&-Chemical-Processes-lab 23E11 (PNS) BIOCHEMLAB Lab",
@@ -2172,8 +2176,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "Life-Skills-and-Interpersonal-Dynamics 23A11,23A12,23A13 (TGM) CR9 Lecture",
-            "colNumber": 7
+            "value": "Digital-Electronics-&-Logic-Design 23B11 (HSL) TR5 Lecture",
+            "colNumber": 8
         },
         {
             "value": "Real-Analysis-&-Differential-Equations 23BM11 (RKB) TR5 Lecture",
@@ -2188,20 +2192,20 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Numerical-Methods 23A14,23A15,23A16 (BKP) CR2 Lecture",
-            "colNumber": 4
-        },
-        {
             "value": "Life-Skills-and-Interpersonal-Dynamics 23A14,23A15,23A16 (TGM) CR2 Lecture",
             "colNumber": 5
         },
         {
-            "value": "Python-Programming-with-Raspberry-Pi-(IT31) 23C11 (VKB) CR18 Lecture",
+            "value": "L-xxxxxxxxxxx 23K11 (AYS) CR4 Lecture",
             "colNumber": 7
         },
         {
             "value": "Life-Skills-and-Interpersonal-Dynamics 23A13,23A11 (TGM) LT2 Tutorial",
             "colNumber": 8
+        },
+        {
+            "value": "Life-Skills-and-Interpersonal-Dynamics 23A11,23A12,23A13 (TGM) LT1 Lecture",
+            "colNumber": 9
         },
         {
             "value": "6",
@@ -2224,8 +2228,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "International-Finance ALL (ASA) TR3 Tutorial",
-            "colNumber": 7
+            "value": "Entrepreneurship-Development 23W11 (TNS) TR6 Lecture",
+            "colNumber": 5
         },
         {
             "value": "Python-Programming-Lab 23A16 (EMP) CL5_1 Lab",
@@ -2260,7 +2264,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "Object-Oriented-Systems-and--Programming 23A14,23A15,23A16 (DGA) CR1 Lecture",
+            "value": "Probability-&-Statistics 23A14,23A15,23A16 (BKP) LT3 Lecture",
             "colNumber": 7
         },
         {
@@ -2288,14 +2292,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "Python-Programming-Lab 23J12,23K11,23BM11 (NTJ) CL1 Lab",
-            "colNumber": 7
-        },
-        {
-            "value": "Python-Programming-Lab 23J12,23K11,23BM11 (NTJ) CL1 Lab",
-            "colNumber": 8
-        },
-        {
             "value": "9",
             "colNumber": 11
         },
@@ -2312,8 +2308,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "Probability-&-Statistical-Techniques 23E11 (MDS) TR3 Lecture",
-            "colNumber": 9
+            "value": "Probability-&-Statistical-Techniques 23E11 (MDS) TR3 Tutorial",
+            "colNumber": 8
         },
         {
             "value": "10",
@@ -2340,10 +2336,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "Principles-of-Marketing ALL,23W11 (ANU) LT3 Lecture",
-            "colNumber": 7
-        },
-        {
             "value": "Object-Oriented-Systems-and--Programming 23A17,23A18,23A19 (HRI) CR6 Lecture",
             "colNumber": 9
         },
@@ -2368,14 +2360,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "Python-Programming-Lab 23A12 (NVN) CL5_2 Lab",
-            "colNumber": 8
-        },
-        {
-            "value": "Python-Programming-Lab 23A12 (NVN) CL5_2 Lab",
-            "colNumber": 9
-        },
-        {
             "value": "12",
             "colNumber": 11
         },
@@ -2392,12 +2376,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "P-20B17BI371 23F11/Minor (NTS) CL8_1 Lab",
-            "colNumber": 4
-        },
-        {
-            "value": "P-20B17BI371 23F11/Minor (NTS) CL8_1 Lab",
-            "colNumber": 5
+            "value": "Python-Programming-with-Raspberry-Pi-(IT31) 23C11 (VKB) TR5 Lecture",
+            "colNumber": 7
         },
         {
             "value": "13",
@@ -2420,14 +2400,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "IT-Workshop-Lab 23J11 (SRU) CL10 Lab",
-            "colNumber": 8
-        },
-        {
-            "value": "IT-Workshop-Lab 23J11 (SRU) CL10 Lab",
-            "colNumber": 9
-        },
-        {
             "value": "14",
             "colNumber": 11
         },
@@ -2440,11 +2412,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "Object-Oriented-Systems-and--Programming-Lab 23I11,23I12 (MTS) CL12 Lab",
+            "value": "Object-Oriented-Systems-and--Programming-Lab 23I11,23I12 (MTS) CL5_2 Lab",
             "colNumber": 8
         },
         {
-            "value": "Object-Oriented-Systems-and--Programming-Lab 23I11,23I12 (MTS) CL12 Lab",
+            "value": "Object-Oriented-Systems-and--Programming-Lab 23I11,23I12 (MTS) CL5_2 Lab",
             "colNumber": 9
         },
         {
@@ -2484,8 +2456,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "Numerical-Methods 23A11,23A12,23A13 (BKP) CR9 Lecture",
+            "value": "Probability-&-Statistics 23A11,23A12,23A13 (BKP) CR9 Lecture",
             "colNumber": 3
+        },
+        {
+            "value": "Python-Programming-Lab 23A15 (EMP) CL5_2 Lab",
+            "colNumber": 4
+        },
+        {
+            "value": "Python-Programming-Lab 23A15 (EMP) CL5_2 Lab",
+            "colNumber": 5
         },
         {
             "value": "Political-Process-in-India 23W11 (NJL) CR18 Lecture",
@@ -2516,7 +2496,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "Numerical-Methods 23I11,23I12,23J11,23J12,23K11,23C11 (SST) LT3 Lecture",
+            "value": "Probability-&-Statistics 23I11,23I12,23J11,23J12,23K11,23C11 (SST) LT3 Lecture",
             "colNumber": 6
         },
         {
@@ -2540,8 +2520,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-xxxxxxxxxxx 23K11 (GVS) TR4 Lecture",
-            "colNumber": 9
+            "value": "L-xxxxxxxxxxx 23K11 (AYS) CR7 Lecture",
+            "colNumber": 7
         },
         {
             "value": "3",
@@ -2552,12 +2532,24 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11MA311/24BS1MA311 23D11,23BM11 (NKT) TR3 Lecture",
+            "value": "Linux-Lab 23F11 (RJK) BIL Lab",
+            "colNumber": 2
+        },
+        {
+            "value": "Linux-Lab 23F11 (RJK) BIL Lab",
+            "colNumber": 3
+        },
+        {
+            "value": "L-18B11MA313/24BS1MA311 23D11,23BM11 (NKT) TR3 Lecture",
             "colNumber": 4
         },
         {
             "value": "Life-Skills-and-Interpersonal-Dynamics 23I11,23I12,23J11,23J12,23K11 (TNS) CR2 Lecture",
             "colNumber": 8
+        },
+        {
+            "value": "Database-Management-systems 23F11/Minor (NTS) TR7 Tutorial",
+            "colNumber": 9
         },
         {
             "value": "4",
@@ -2572,7 +2564,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "Numerical-Methods 23A17,23A18,23A19 (SST) CR2 Lecture",
+            "value": "Probability-&-Statistics 23A17,23A18,23A19 (SST) CR2 Lecture",
             "colNumber": 3
         },
         {
@@ -2624,6 +2616,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 9
         },
         {
+            "value": "International-Finance ALL (ASA) LT1 Lecture",
+            "colNumber": 10
+        },
+        {
             "value": "6",
             "colNumber": 11
         },
@@ -2648,6 +2644,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 9
         },
         {
+            "value": "Principles-of-Marketing ALL,23W11 (ANU) LT3 Lecture",
+            "colNumber": 10
+        },
+        {
             "value": "7",
             "colNumber": 11
         },
@@ -2658,14 +2658,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "Python-Programming-Essentials- 23A17,23A18,23A19 (RMS) CR1 Lecture",
             "colNumber": 2
-        },
-        {
-            "value": "Object-Oriented-Systems-and--Programming-Lab 23A12 (NF2) CL6 Lab",
-            "colNumber": 4
-        },
-        {
-            "value": "Object-Oriented-Systems-and--Programming-Lab 23A12 (NF2) CL6 Lab",
-            "colNumber": 5
         },
         {
             "value": "Building-Materials-&-Construction 23D11 (ABJ) CR14 Lecture",
@@ -2732,10 +2724,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "Life-Skills-and-Interpersonal-Dynamics 23A18 (NJL) TR1 Tutorial",
-            "colNumber": 9
-        },
-        {
             "value": "10",
             "colNumber": 11
         },
@@ -2760,10 +2748,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
-            "value": "Bioinformatics-Data-Management(Minor) 23F11/Minor (NTS) CR17 Lecture",
-            "colNumber": 9
-        },
-        {
             "value": "11",
             "colNumber": 11
         },
@@ -2782,6 +2766,14 @@ export const timeTable: TimeTableData = {
         {
             "value": "Python-Programming-Lab 23A18 (VKB) CL9_1 Lab",
             "colNumber": 5
+        },
+        {
+            "value": "Object-Oriented-Systems-and--Programming-Lab 23A12 (NF2) CL6 Lab",
+            "colNumber": 6
+        },
+        {
+            "value": "Object-Oriented-Systems-and--Programming-Lab 23A12 (NF2) CL6 Lab",
+            "colNumber": 7
         },
         {
             "value": "Object-Oriented-Systems-and--Programming-Lab 23A17 (HRI) CL3_1 Lab",
@@ -2804,15 +2796,15 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "Fundamentals-of-Signals-&-Systems 23B11 (RKU) TR5 Lecture",
+            "value": "Fundamentals-of-Signals-&-Systems 23B11 (RKU) TR1 Tutorial",
             "colNumber": 4
         },
         {
-            "value": "Statistical-Software 23W11 (NTJ) CL8_2 Lab",
+            "value": "Statistical-Software 23W11 (NTJ) CL4 Lab",
             "colNumber": 8
         },
         {
-            "value": "Statistical-Software 23W11 (NTJ) CL8_2 Lab",
+            "value": "Statistical-Software 23W11 (NTJ) CL4 Lab",
             "colNumber": 9
         },
         {
@@ -2830,10 +2822,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "IT-Workshop-Lab 23C11 (SWT) CL3_1 Lab",
             "colNumber": 3
-        },
-        {
-            "value": "Real-Analysis-&-Differential-Equations 23BM11 (RKB) TR7 Lecture",
-            "colNumber": 5
         },
         {
             "value": "Python-Programming-Lab 23A11 (KTS) CL10 Lab",
@@ -2868,6 +2856,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
+            "value": "Python-Programming-with-Raspberry-Pi-(IT31) 23C11 (VKB) TR5 Lecture",
+            "colNumber": 8
+        },
+        {
             "value": "15",
             "colNumber": 11
         },
@@ -2878,10 +2870,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "-Electronic-Devices-&-Circuits 23B11 (SHR) ECL3 Lecture",
             "colNumber": 2
-        },
-        {
-            "value": "Python-Programming-with-Raspberry-Pi-(IT31) 23C11 (VKB) CR18 Lecture",
-            "colNumber": 9
         },
         {
             "value": "16",
@@ -2912,11 +2900,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Python-Programming-Lab 23A13 (NVN) CL5_1 Lab",
+            "value": "Database-Management-Systems-Lab 23I11,23I12 (NTS) CL9_1 Lab",
             "colNumber": 2
         },
         {
-            "value": "Python-Programming-Lab 23A13 (NVN) CL5_1 Lab",
+            "value": "Database-Management-Systems-Lab 23I11,23I12 (NTS) CL9_1 Lab",
             "colNumber": 3
         },
         {
@@ -2942,10 +2930,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "WED",
             "colNumber": 1
-        },
-        {
-            "value": "Fluid-Mechanics 23D11 (ASR) CR14 Lecture",
-            "colNumber": 3
         },
         {
             "value": "Python-Programming-Lab 23J12,23K11,23BM11 (NTJ) CL1 Lab",
@@ -2980,10 +2964,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "Probability-&-Statistical-Techniques 23E11 (MDS) TR3 Lecture",
-            "colNumber": 3
-        },
-        {
             "value": "Database-Management-Systems-Lab 23J11 (NTS) CL8_2 Lab",
             "colNumber": 4
         },
@@ -2992,7 +2972,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "Fundamentals-of-Signals-&-Systems 23B11 (RKU) TR5 Lecture",
+            "value": "Probability-&-Statistical-Techniques 23E11 (MDS) CR8 Lecture",
+            "colNumber": 7
+        },
+        {
+            "value": "Fundamentals-of-Signals-&-Systems 23B11 (RKU) TR4 Lecture",
             "colNumber": 8
         },
         {
@@ -3002,14 +2986,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "WED",
             "colNumber": 1
-        },
-        {
-            "value": "International-Finance ALL (ASA) TR3 Lecture",
-            "colNumber": 2
-        },
-        {
-            "value": "Principles-of-Marketing ALL,23W11 (ANU) LT3 Lecture",
-            "colNumber": 4
         },
         {
             "value": "Biochemistry 23E11 (JTV) CR18 Lecture",
@@ -3026,14 +3002,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "WED",
             "colNumber": 1
-        },
-        {
-            "value": "IT-Workshop-Lab 23J12,23K11 (SRU) CL1 Lab",
-            "colNumber": 2
-        },
-        {
-            "value": "IT-Workshop-Lab 23J12,23K11 (SRU) CL1 Lab",
-            "colNumber": 3
         },
         {
             "value": "Database-Management-systems 23A11,23A12,23A13 (PKR) CR2 Lecture",
@@ -3072,6 +3040,14 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "Management-Accounting 23W11 (TGM) CR6 Lecture",
+            "colNumber": 4
+        },
+        {
+            "value": "Fluid-Mechanics 23D11 (ASR) CR14 Lecture",
+            "colNumber": 5
+        },
+        {
             "value": "Life-Skills-and-Interpersonal-Dynamics 23I11,23I12,23J11,23J12,23K11 (TNS) CR2 Lecture",
             "colNumber": 9
         },
@@ -3084,11 +3060,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Database-Management-Systems-Lab 23I11,23I12 (NTS) CL9_1 Lab",
+            "value": "Object-Oriented-Systems-and--Programming-Lab 23A14 (DGA) CL4 Lab",
             "colNumber": 2
         },
         {
-            "value": "Database-Management-Systems-Lab 23I11,23I12 (NTS) CL9_1 Lab",
+            "value": "Object-Oriented-Systems-and--Programming-Lab 23A14 (DGA) CL4 Lab",
             "colNumber": 3
         },
         {
@@ -3116,14 +3092,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Database-Management-Systems-Lab 23A18 (PDN) CL4 Lab",
-            "colNumber": 2
-        },
-        {
-            "value": "Database-Management-Systems-Lab 23A18 (PDN) CL4 Lab",
-            "colNumber": 3
-        },
-        {
             "value": "Database-Management-Systems-Lab 23A19 (PDN) CL3_2 Lab",
             "colNumber": 4
         },
@@ -3138,6 +3106,14 @@ export const timeTable: TimeTableData = {
         {
             "value": "WED",
             "colNumber": 1
+        },
+        {
+            "value": "IT-Workshop-Lab 23J12,23K11 (SRU) CL1 Lab",
+            "colNumber": 2
+        },
+        {
+            "value": "IT-Workshop-Lab 23J12,23K11 (SRU) CL1 Lab",
+            "colNumber": 3
         },
         {
             "value": "IT-Workshop-Lab 23A14 (PRG) CL4 Lab",
@@ -3158,14 +3134,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "WED",
             "colNumber": 1
-        },
-        {
-            "value": "Python-Programming-Lab 23J11 (NTJ) CL8_1 Lab",
-            "colNumber": 2
-        },
-        {
-            "value": "Python-Programming-Lab 23J11 (NTJ) CL8_1 Lab",
-            "colNumber": 3
         },
         {
             "value": "Object-Oriented-Systems-and--Programming-Lab 23A18 (HRI) CL9_1 Lab",
@@ -3192,20 +3160,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Numerical-Methods 23A14,23A15,23A16 (BKP) CR2 Lecture",
-            "colNumber": 2
-        },
-        {
-            "value": "-Electronic-Devices-&-Circuits 23B11 (SHR) ECL3 Tutorial",
-            "colNumber": 3
-        },
-        {
             "value": "Biological-Computation-Lab 23F11 (TTS) BIL Lab",
             "colNumber": 4
         },
         {
             "value": "Biological-Computation-Lab 23F11 (TTS) BIL Lab",
             "colNumber": 5
+        },
+        {
+            "value": "-Electronic-Devices-&-Circuits 23B11 (SHR) ECL3 Tutorial",
+            "colNumber": 7
         },
         {
             "value": "Biochemistry-Lab 23E11 (JTV) BIOCHEMLAB Lab",
@@ -3222,14 +3186,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "WED",
             "colNumber": 1
-        },
-        {
-            "value": "IT-Workshop-Lab 23A12 (PRG) CL8_2 Lab",
-            "colNumber": 2
-        },
-        {
-            "value": "IT-Workshop-Lab 23A12 (PRG) CL8_2 Lab",
-            "colNumber": 3
         },
         {
             "value": "Probability-Theory-and-Reandom-Processes 23B11,23H11 (BKP) TR1 Lecture",
@@ -3252,11 +3208,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Object-Oriented-Systems-and--Programming-Lab 23A19 (FSL) CL3_2 Lab",
+            "value": "IT-Workshop-Lab 23A12 (PRG) CL8_2 Lab",
             "colNumber": 2
         },
         {
-            "value": "Object-Oriented-Systems-and--Programming-Lab 23A19 (FSL) CL3_2 Lab",
+            "value": "IT-Workshop-Lab 23A12 (PRG) CL8_2 Lab",
             "colNumber": 3
         },
         {
@@ -3266,10 +3222,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "Object-Oriented-Systems-and--Programming-Lab 23I11,23I12 (MTS) CL9_2 Lab",
             "colNumber": 5
-        },
-        {
-            "value": "Bioinformatics-Data-Management(Minor) 23F11/Minor (NTS) CR12 Tutorial",
-            "colNumber": 7
         },
         {
             "value": "Object-Oriented-Systems-and--Programming-Lab 23C11 (NSA) CL3_1 Lab",
@@ -3288,10 +3240,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Management-Accounting 23W11 (TGM) TR6 Lecture",
-            "colNumber": 3
-        },
-        {
             "value": "Python-Programming-Essentials- 23A11,23A12,23A13 (AMN) CR4 Lecture",
             "colNumber": 4
         },
@@ -3304,11 +3252,19 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "Database-Management-Systems-Lab 23A18 (PDN) CL8_1 Lab",
+            "colNumber": 2
+        },
+        {
+            "value": "Database-Management-Systems-Lab 23A18 (PDN) CL8_1 Lab",
+            "colNumber": 3
+        },
+        {
             "value": "Fluid-Mechanics 23D11 (ASR) CR14 Lecture",
             "colNumber": 5
         },
         {
-            "value": "Numerical-Methods 23I11,23I12,23J11,23J12,23K11,23C11 (SST) LT3 Lecture",
+            "value": "Probability-&-Statistics 23I11,23I12,23J11,23J12,23K11,23C11 (SST) LT3 Lecture",
             "colNumber": 6
         },
         {
@@ -3328,6 +3284,14 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "Object-Oriented-Systems-and--Programming-Lab 23A19 (FSL) CL7 Lab",
+            "colNumber": 2
+        },
+        {
+            "value": "Object-Oriented-Systems-and--Programming-Lab 23A19 (FSL) CL7 Lab",
+            "colNumber": 3
+        },
+        {
             "value": "Python-Programming-Essentials- 23A11,23A12,23A13 (AMN) CR2 Lecture",
             "colNumber": 4
         },
@@ -3338,6 +3302,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "Statistics-for-Business-Decisions 23W11 (ASA) TR5 Lecture",
             "colNumber": 9
+        },
+        {
+            "value": "Principles-of-Marketing ALL,23W11 (ANU) LT3 Lecture",
+            "colNumber": 10
         },
         {
             "value": "2",
@@ -3352,20 +3320,28 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
+            "value": "Object-Oriented-Systems-and--Programming 23A14,23A15,23A16 (DGA) LT1 Lecture",
+            "colNumber": 3
+        },
+        {
             "value": "Engineering-Mechanics 23D11 (SUV) TR8 Lecture",
             "colNumber": 4
         },
         {
-            "value": "Probability-&-Statistical-Techniques 23E11 (MDS) TR3 Tutorial",
+            "value": "Probability-&-Statistical-Techniques 23E11 (MDS) TR3 Lecture",
             "colNumber": 5
         },
         {
-            "value": "Computational-Fundamentals-for-Optimization-Lab 23J11,23J12 (KLK) CL11 Lab",
+            "value": "Python-Programming-Lab 23J11 (NTJ) CL5_2 Lab",
             "colNumber": 8
         },
         {
-            "value": "Computational-Fundamentals-for-Optimization-Lab 23J11,23J12 (KLK) CL11 Lab",
+            "value": "Python-Programming-Lab 23J11 (NTJ) CL5_2 Lab",
             "colNumber": 9
+        },
+        {
+            "value": "International-Finance ALL (ASA) LT1 Lecture",
+            "colNumber": 10
         },
         {
             "value": "3",
@@ -3432,7 +3408,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Fundamentals-of-Signals-&-Systems 23B11 (RKU) TR3 Tutorial",
+            "value": "Fundamentals-of-Signals-&-Systems 23B11 (RKU) TR2 Tutorial",
             "colNumber": 2
         },
         {
@@ -3442,10 +3418,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "Computational-Fundamentals-for-Optimization-Lab 23I11,23I12 (KLK) CL11 Lab",
             "colNumber": 4
-        },
-        {
-            "value": "Life-Skills-and-Interpersonal-Dynamics 23A15,23I12 (NJL) CR4 Tutorial",
-            "colNumber": 7
         },
         {
             "value": "Genetics 23E11 (SDS) CR17 Lecture",
@@ -3464,12 +3436,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Biological--Computation 23F11 (RJK) CR17 Tutorial",
+            "value": "Biological--Computation 23F11 (RJK) TR3 Lecture",
             "colNumber": 2
-        },
-        {
-            "value": "Database-Management-systems 23A17,23A18,23A19 (PDN) CR9 Lecture",
-            "colNumber": 3
         },
         {
             "value": "Python-Programming-with-Raspberry-Pi-(IT31) 23C11 (VKB) TR5 Lecture",
@@ -3500,10 +3468,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "International-Finance ALL (ASA) TR3 Lecture",
-            "colNumber": 4
-        },
-        {
             "value": "Database-Management-Systems-Lab 23A14,23BM11 (EGA) CL8_2 Lab",
             "colNumber": 6
         },
@@ -3512,8 +3476,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
-            "value": "Numerical-Methods 23A17,23A18,23A19 (SST) CR10 Lecture",
+            "value": "Probability-&-Statistics 23A17,23A18,23A19 (SST) CR10 Lecture",
             "colNumber": 8
+        },
+        {
+            "value": "Database-Management-systems 23A17,23A18,23A19,23F11/Minor (PDN) LT1 Lecture",
+            "colNumber": 9
         },
         {
             "value": "8",
@@ -3528,12 +3496,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "Object-Oriented-Systems-and--Programming-Lab 23J12,23K11 (MTS) CL4 Lab",
+            "value": "Object-Oriented-Systems-and--Programming-Lab 23J12,23K11 (MTS) CL8_2 Lab",
             "colNumber": 3
         },
         {
-            "value": "Object-Oriented-Systems-and--Programming-Lab 23J12,23K11 (MTS) CL4 Lab",
+            "value": "Object-Oriented-Systems-and--Programming-Lab 23J12,23K11 (MTS) CL8_2 Lab",
             "colNumber": 4
+        },
+        {
+            "value": "Life-Skills-and-Interpersonal-Dynamics 23I11,23F11 (NJL) CR16 Tutorial",
+            "colNumber": 7
         },
         {
             "value": "Python-Programming-Lab 23I11,23I12 (SRU) CL8_1 Lab",
@@ -3560,10 +3532,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "Bioinformatics-Data-Management(Minor) 23F11/Minor (NTS) TR5 Lecture",
-            "colNumber": 7
-        },
-        {
             "value": "Python-Programming-Lab 23A12 (NVN) CL8_2 Lab",
             "colNumber": 8
         },
@@ -3580,7 +3548,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Numerical-Methods 23D11,23BM11 (NKT) TR5 Lecture",
+            "value": "Probability-&-Statistics 23D11,23BM11 (NKT) TR5 Lecture",
             "colNumber": 2
         },
         {
@@ -3592,12 +3560,36 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
+            "value": "Database-Management-Systems-Lab 23J12,23K11 (NTS) CL11 Lab",
+            "colNumber": 8
+        },
+        {
+            "value": "Database-Management-Systems-Lab 23J12,23K11 (NTS) CL11 Lab",
+            "colNumber": 9
+        },
+        {
             "value": "11",
             "colNumber": 11
         },
         {
             "value": "THU",
             "colNumber": 1
+        },
+        {
+            "value": "General-Chemistry 23E11 (GPL) CR16 Lecture",
+            "colNumber": 2
+        },
+        {
+            "value": "IT-Workshop-Lab 23J11 (SRU) CL10 Lab",
+            "colNumber": 3
+        },
+        {
+            "value": "IT-Workshop-Lab 23J11 (SRU) CL10 Lab",
+            "colNumber": 4
+        },
+        {
+            "value": "Probability-&-Statistics 23A14,23A15,23A16 (BKP) CR10 Lecture",
+            "colNumber": 5
         },
         {
             "value": "12",
@@ -3628,16 +3620,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Numerical-Methods 23A11,23A12,23A13 (BKP) CR9 Lecture",
+            "value": "Probability-&-Statistics 23A11,23A12,23A13 (BKP) CR9 Lecture",
             "colNumber": 2
-        },
-        {
-            "value": "Linux-Lab 23F11 (RJK) BIL Lab",
-            "colNumber": 8
-        },
-        {
-            "value": "Linux-Lab 23F11 (RJK) BIL Lab",
-            "colNumber": 9
         },
         {
             "value": "14",
@@ -3668,16 +3652,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Python-Programming-Lab 23A15 (EMP) CL8_1 Lab",
-            "colNumber": 2
-        },
-        {
-            "value": "Python-Programming-Lab 23A15 (EMP) CL8_1 Lab",
-            "colNumber": 3
-        },
-        {
             "value": "Python-Programming-Essentials- 23A14,23A15,23A16,23BM11 (KTS) CR9 Lecture",
             "colNumber": 4
+        },
+        {
+            "value": "Python-Programming-Lab 23A15 (EMP) CL3_1 Lab",
+            "colNumber": 6
+        },
+        {
+            "value": "Python-Programming-Lab 23A15 (EMP) CL3_1 Lab",
+            "colNumber": 7
         },
         {
             "value": "16",
@@ -3686,14 +3670,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "FRI",
             "colNumber": 1
-        },
-        {
-            "value": "Object-Oriented-Systems-and--Programming-Lab 23A14 (DGA) CL7 Lab",
-            "colNumber": 2
-        },
-        {
-            "value": "Object-Oriented-Systems-and--Programming-Lab 23A14 (DGA) CL7 Lab",
-            "colNumber": 3
         },
         {
             "value": "Python-Programming-Lab 23I11,23I12 (SRU) Cl8_2 Lab",
@@ -3712,11 +3688,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Database-Management-Systems-Lab 23A18 (PDN) CL5_1 Lab",
+            "value": "Database-Management-Systems-Lab 23A18,23F11/Minor (PDN) CL5_1 Lab",
             "colNumber": 2
         },
         {
-            "value": "Database-Management-Systems-Lab 23A18 (PDN) CL5_1 Lab",
+            "value": "Database-Management-Systems-Lab 23A18,23F11/Minor (PDN) CL5_1 Lab",
             "colNumber": 3
         },
         {
@@ -3744,6 +3720,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "Life-Skills-and-Interpersonal-Dynamics 23A15,23I12 (NJL) CR19 Tutorial",
+            "colNumber": 2
+        },
+        {
             "value": "Cell-and-Molecular-Biology 23F11 (ABH) CR18 Lecture",
             "colNumber": 5
         },
@@ -3764,10 +3744,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "General-Chemistry 23E11 (GPL) CR17 Lecture",
-            "colNumber": 7
-        },
-        {
             "value": "Python-Programming-Essentials- 23A14,23A15,23A16,23BM11 (KTS) LT1 Lecture",
             "colNumber": 9
         },
@@ -3784,10 +3760,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "Principles-of-Marketing ALL,23W11 (ANU) LT3 Lecture",
-            "colNumber": 3
-        },
-        {
             "value": "Fluid-Mechanics 23D11 (ASR) CR14 Lecture",
             "colNumber": 4
         },
@@ -3796,8 +3768,20 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
+            "value": "Python-Programming-Lab 23A12 (NVN) CL3_2 Lab",
+            "colNumber": 6
+        },
+        {
+            "value": "Python-Programming-Lab 23A12 (NVN) CL3_2 Lab",
+            "colNumber": 7
+        },
+        {
             "value": "Chemistry 23D11 (PNS) TR8 Lecture",
             "colNumber": 8
+        },
+        {
+            "value": "Principles-of-Marketing ALL,23W11 (ANU) LT3 Lecture",
+            "colNumber": 10
         },
         {
             "value": "5",
@@ -3812,20 +3796,20 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "Computational-Fundamentals-for-Optimization-Lab 23K11 (GVS) CL3_2 Lab",
+            "value": "Python-Programming-Lab 23J12,23K11,23BM11 (NTJ) CL3_2 Lab",
             "colNumber": 4
         },
         {
-            "value": "Computational-Fundamentals-for-Optimization-Lab 23K11 (GVS) CL3_2 Lab",
+            "value": "Python-Programming-Lab 23J12,23K11,23BM11 (NTJ) CL3_2 Lab",
             "colNumber": 5
-        },
-        {
-            "value": "Bioinformatics-Data-Management(Minor) 23F11/Minor (NTS) TR5 Lecture",
-            "colNumber": 7
         },
         {
             "value": "Life-Skills-and-Interpersonal-Dynamics 23A17 (NJL) TR3 Tutorial",
             "colNumber": 8
+        },
+        {
+            "value": "International-Finance ALL (ASA) LT1 Lecture",
+            "colNumber": 10
         },
         {
             "value": "6",
@@ -3836,7 +3820,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Numerical-Methods 23A11,23A12,23A13 (BKP) CR9 Lecture",
+            "value": "Probability-&-Statistics 23A11,23A12,23A13 (BKP) CR9 Lecture",
             "colNumber": 2
         },
         {
@@ -3848,7 +3832,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "Database-Management-systems 23A17,23A18,23A19 (PDN) CR6 Lecture",
+            "value": "Database-Management-systems 23A17,23A18,23A19,23F11/Minor (PDN) CR8 Lecture",
             "colNumber": 7
         },
         {
@@ -3884,10 +3868,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "L-xxxxxxxxxx 23I11,23I12,23J11,23J12 (VSG,SST) LT3 Lecture",
-            "colNumber": 7
-        },
-        {
             "value": "Microbiology-&-Immune-System-Lab 23F11 (RST) MICROLAB Lab",
             "colNumber": 8
         },
@@ -3904,11 +3884,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Database-Management-Systems-Lab 23J12,23K11 (NTS) CL3_2 Lab",
+            "value": "Computational-Fundamentals-for-Optimization-Lab 23K11 (GVS) CL3_2 Lab",
             "colNumber": 2
         },
         {
-            "value": "Database-Management-Systems-Lab 23J12,23K11 (NTS) CL3_2 Lab",
+            "value": "Computational-Fundamentals-for-Optimization-Lab 23K11 (GVS) CL3_2 Lab",
             "colNumber": 3
         },
         {
@@ -3964,14 +3944,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Python-Programming-Lab 23A15 (EMP) CL6 Lab",
-            "colNumber": 2
-        },
-        {
-            "value": "Python-Programming-Lab 23A15 (EMP) CL6 Lab",
-            "colNumber": 3
-        },
-        {
             "value": "IT-Workshop-Lab 23A11 (PRG) CL1 Lab",
             "colNumber": 4
         },
@@ -3996,10 +3968,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Microbiology-&-Immune-System 23F11 (TYN) CR18 Tutorial",
-            "colNumber": 2
-        },
-        {
             "value": "Database-Management-Systems-Lab 23A19 (PDN) CL6 Lab",
             "colNumber": 4
         },
@@ -4016,7 +3984,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
-            "value": "Database-Management-systems 23A14,23A15,23A16,23BM11 (EGA) CR5 Lecture",
+            "value": "Database-Management-systems 23A14,23A15,23A16,23BM11 (EGA) LT1 Lecture",
             "colNumber": 8
         },
         {
@@ -4060,6 +4028,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
+            "value": "L-xxxxxxxxxx 23I11,23I12,23J11,23J12 (VSG,SST) LT3 Lecture",
+            "colNumber": 7
+        },
+        {
             "value": "14",
             "colNumber": 11
         },
@@ -4072,12 +4044,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "Thermodynamics-&-Chemical-Processes 23E11 (PNS) TR5 Lecture",
-            "colNumber": 4
+            "value": "Python-Programming-Essentials- 23A11,23A12,23A13 (AMN) CR10 Lecture",
+            "colNumber": 3
         },
         {
-            "value": "Python-Programming-Essentials- 23A11,23A12,23A13 (AMN) CR10 Lecture",
-            "colNumber": 9
+            "value": "Thermodynamics-&-Chemical-Processes 23E11 (PNS) TR5 Lecture",
+            "colNumber": 4
         },
         {
             "value": "15",
@@ -4128,12 +4100,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Principles-of-Marketing ALL,23W11 (ANU) LT3 Tutorial",
-            "colNumber": 3
-        },
-        {
             "value": "Digital-Electronics-&-Logic-Design 23B11 (HSL) TR5 Lecture",
             "colNumber": 4
+        },
+        {
+            "value": "Principles-of-Marketing ALL,23W11 (ANU) LT3 Tutorial",
+            "colNumber": 6
         },
         {
             "value": "2",
@@ -4160,10 +4132,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "International-Finance ALL (ASA) TR3 Lecture",
-            "colNumber": 2
-        },
-        {
             "value": "Database-Management-systems 23A14,23A15,23A16,23BM11 (EGA) CR2 Lecture",
             "colNumber": 3
         },
@@ -4174,6 +4142,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "Object-Oriented-Systems-and--Programming-Lab 23A19 (FSL) CL9_2 Lab",
             "colNumber": 5
+        },
+        {
+            "value": "International-Finance ALL (ASA) LT1 Tutorial",
+            "colNumber": 6
         },
         {
             "value": "4",
@@ -4284,14 +4256,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "Statistical-Software 23W11 (NTJ) CL8_2 Lab",
-            "colNumber": 4
-        },
-        {
-            "value": "Statistical-Software 23W11 (NTJ) CL8_2 Lab",
-            "colNumber": 5
-        },
-        {
             "value": "10",
             "colNumber": 11
         },
@@ -4300,7 +4264,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Numerical-Methods 23A14,23A15,23A16 (BKP) CR2 Lecture",
+            "value": "Probability-&-Statistics 23A14,23A15,23A16 (BKP) CR2 Lecture",
             "colNumber": 2
         },
         {
@@ -4400,6 +4364,14 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "Python-Programming-Lab 23A13 (NVN) CL8_2 Lab",
+            "colNumber": 4
+        },
+        {
+            "value": "Python-Programming-Lab 23A13 (NVN) CL8_2 Lab",
+            "colNumber": 5
+        },
+        {
             "value": "16",
             "colNumber": 11
         }
@@ -4458,8 +4430,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Design-of-Concrete-Structures CE51 (TNM) CR15 Lecture",
+            "value": "Design-of-Concrete-Structures CE51 (TNM) CR13 Lecture",
             "colNumber": 3
+        },
+        {
+            "value": "Computer-Graphics-Lab CS59 (RMS) CL8_1 Lab",
+            "colNumber": 4
+        },
+        {
+            "value": "Computer-Graphics-Lab CS59 (RMS) CL8_1 Lab",
+            "colNumber": 5
         },
         {
             "value": "Project-Management-and-Entrepreneurship CS510,CS511,CS512 (BLK) CR7 Lecture",
@@ -4474,20 +4454,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11CI512 IT51,IT52,MIT ,BI51 (RIV) CR8 Lecture",
+            "value": "L-18B11CI512 IT51,IT52,MITBI51 (RIV) CR8 Lecture",
             "colNumber": 2
         },
         {
-            "value": "Foundation-of-data-science-and-visualization PROF_FDSV_Batch-1(CS54,CS55,CS57,CS58,CS59,CS511,CS512,IT51) (RBT) LT2 Lecture",
+            "value": "Foundation-of-data-science-and-visualization PROF_FDSV_Batch-1(CS54,CS55,CS57,CS58,CS59,CS511,CS512,IT51) (RKI) LT2 Lecture",
             "colNumber": 3
-        },
-        {
-            "value": "Structural-Bioinformatics-Lab BI51 (RJK) BIL Lab",
-            "colNumber": 6
-        },
-        {
-            "value": "Structural-Bioinformatics-Lab BI51 (RJK) BIL Lab",
-            "colNumber": 7
         },
         {
             "value": "Fundamentals-of-Digital-Image-Processing- EC51 (PRG) TR4 Lecture",
@@ -4510,14 +4482,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "Comparative-&-Functional-Genomics BT51 (JAS) TR3 Lecture",
-            "colNumber": 4
-        },
-        {
-            "value": "L-18B11CI511 IT51,IT52,MIT (AVA) CR8 Lecture",
-            "colNumber": 7
-        },
-        {
             "value": "L-18B11CI514 CS57,CS58,CS59 (JTI) LT3 Lecture",
             "colNumber": 8
         },
@@ -4534,11 +4498,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "Design-and-Analysis-of-Algorithms BI51 (RKI) TR5 Lecture",
-            "colNumber": 3
-        },
-        {
-            "value": "L-18B11CI513 CS510,CS511, CS512 (DHA) CR12 Lecture",
+            "value": "L-18B11CI513 CS510,CS511, CS512 (DHA) CR10 Lecture",
             "colNumber": 5
         },
         {
@@ -4558,11 +4518,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "P-18B1WCI572 Batch-1 (PMI) CL5_1 Lab",
+            "value": "P-18B1WCI572 DATACOMP LAB_Batch-1(CS57,CS58) (PMI) CL5_1 Lab",
             "colNumber": 4
         },
         {
-            "value": "P-18B1WCI572 Batch-1 (PMI) CL5_1 Lab",
+            "value": "P-18B1WCI572 DATACOMP LAB_Batch-1(CS57,CS58) (PMI) CL5_1 Lab",
             "colNumber": 5
         },
         {
@@ -4606,10 +4566,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Cloud-Computing:-Concepts,-Technology-&-Architecture Batch-2 (NKR) CR2 Lecture",
-            "colNumber": 2
-        },
-        {
             "value": "Multimedia-Lab CS56 (ARV) CL6 Lab",
             "colNumber": 4
         },
@@ -4622,11 +4578,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
-            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab Batch-1 (AYS) CL9_1 Lab",
+            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab PROF_CCLAB_Batch-2(CS53,CS510) (AYS) CL9_1 Lab",
             "colNumber": 8
         },
         {
-            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab Batch-1 (AYS) CL9_1 Lab",
+            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab PROF_CCLAB_Batch-2(CS53,CS510) (AYS) CL9_1 Lab",
             "colNumber": 9
         },
         {
@@ -4666,6 +4622,18 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
+            "value": "Structural-Bioinformatics-Lab BI51 (RJK) BIL Lab",
+            "colNumber": 7
+        },
+        {
+            "value": "Structural-Bioinformatics-Lab BI51 (RJK) BIL Lab",
+            "colNumber": 8
+        },
+        {
+            "value": "Bioprocess-Engineering BT51,BI51 (SBS) CR12 Tutorial",
+            "colNumber": 9
+        },
+        {
             "value": "MON",
             "colNumber": 1
         },
@@ -4690,7 +4658,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "Cloud-Computing:-Concepts,-Technology-&-Architecture PROF_CC_Batch-2(CS56,CS57,CS510,IT51,IT52) (NKR) CR2 Lecture",
+            "value": "P-18B17CI571 IT51,IT52 (AVA) CL10 Lab",
+            "colNumber": 7
+        },
+        {
+            "value": "P-18B17CI571 IT51,IT52 (AVA) CL10 Lab",
             "colNumber": 8
         },
         {
@@ -4706,14 +4678,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "Bioprocess-Engineering-Lab BT51,BI51 (SBS) UG2 Lab",
-            "colNumber": 8
-        },
-        {
-            "value": "Bioprocess-Engineering-Lab BT51,BI51 (SBS) UG2 Lab",
-            "colNumber": 9
-        },
-        {
             "value": "MON",
             "colNumber": 1
         },
@@ -4722,11 +4686,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab PROF_CCLAB_Batch-1(CS52,CS55,CS58,CS59) (AYS) CL4 Lab",
+            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab PROF_CCLAB_Batch-1(CS52,CS55) (AYS) CL4 Lab",
             "colNumber": 4
         },
         {
-            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab PROF_CCLAB_Batch-1(CS52,CS55,CS58,CS59) (AYS) CL4 Lab",
+            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab PROF_CCLAB_Batch-1(CS52,CS55) (AYS) CL4 Lab",
             "colNumber": 5
         },
         {
@@ -4770,8 +4734,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "Scripting-Languages-for-Bioinformatics-(Minor) BI51/Minor (TTS) TR3 Lecture",
+            "value": "Scripting-Languages-for-Bioinformatics-(Minor) BI51/MinorBT51 (TTS) TR3 Lecture",
             "colNumber": 7
+        },
+        {
+            "value": "Comparative-&-Functional-Genomics BT51 (JAS) TR4 Lecture",
+            "colNumber": 8
         },
         {
             "value": "Applied-Materials-Science CS57,CS58,CS59 (HAZ) CR10 Lecture",
@@ -4788,6 +4756,14 @@ export const timeTable: TimeTableData = {
         {
             "value": "Immunology-Lab BT51 (ABH) UG1 Lab",
             "colNumber": 3
+        },
+        {
+            "value": "Bioprocess-Engineering-Lab BT51,BI51 (SBS) UG2 Lab",
+            "colNumber": 4
+        },
+        {
+            "value": "Bioprocess-Engineering-Lab BT51,BI51 (SBS) UG2 Lab",
+            "colNumber": 5
         },
         {
             "value": "Computer-Organization-and-Architecture-Lab CS55 (ALK) CL5_1 Lab",
@@ -4834,28 +4810,24 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "Project-Management-and-Entrepreneurship CS57,CS58,CS59 (BLK) CR8 Lecture",
-            "colNumber": 5
-        },
-        {
-            "value": "Cloud-Computing:-Concepts,-Technology-&-Architecture Batch-1 (AYS) CR7 Lecture",
-            "colNumber": 7
-        },
-        {
-            "value": "Multimedia-Lab CS51 (RIV) CL6 Lab",
-            "colNumber": 8
-        },
-        {
-            "value": "Multimedia-Lab CS51 (RIV) CL6 Lab",
-            "colNumber": 9
-        },
-        {
             "value": "TUE",
             "colNumber": 1
         },
         {
-            "value": "Foundation-of-data-science-and-visualization PROF_FDSV_Batch-2(CS51,CS52,CS53,CS56,CS510,IT52,BI51) (RKI) CR6 Lecture",
+            "value": "Foundation-of-data-science-and-visualization PROF_FDSV_Batch-2(CS51,CS52,CS53,CS56,CS510,IT52,BI51) (RBT) CR6 Lecture",
             "colNumber": 2
+        },
+        {
+            "value": "Design-and-Analysis-of-Algorithms BI51 (RKI) TR6 Lecture",
+            "colNumber": 3
+        },
+        {
+            "value": "Computer-Graphics-Lab CS58 (NF3) CL6 Lab",
+            "colNumber": 4
+        },
+        {
+            "value": "Computer-Graphics-Lab CS58 (NF3) CL6 Lab",
+            "colNumber": 5
         },
         {
             "value": "Computer-Graphics-Lab CS512 (SMA) CL3_2 Lab",
@@ -4874,12 +4846,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 8
         },
         {
-            "value": "TUE",
-            "colNumber": 1
+            "value": "Design-and-Analysis-of-Algorithms BI51 (RKI) TR3 Lecture",
+            "colNumber": 9
         },
         {
-            "value": "Cloud-Computing:-Concepts,-Technology-&-Architecture Batch-2 (NKR) CR2 Lecture",
-            "colNumber": 2
+            "value": "TUE",
+            "colNumber": 1
         },
         {
             "value": "Computer-Graphics-Lab CS52 (PTK) CL11 Lab",
@@ -4896,10 +4868,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "Project-Management-and-Entrepreneurship CS51,CS52,CS53 (ANU) LT1 Lecture",
             "colNumber": 8
-        },
-        {
-            "value": "Comparative-&-Functional-Genomics BT51 (JAS) TR3 Lecture",
-            "colNumber": 9
         },
         {
             "value": "TUE",
@@ -4922,8 +4890,20 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
+            "value": "L-18B11CI514 CS510,CS511,CS512,IT51,IT52 (PMI) LT1 Lecture",
+            "colNumber": 5
+        },
+        {
             "value": "Applied-Materials-Science CS51,CS52,CS53 (VSA) CR5 Lecture",
             "colNumber": 7
+        },
+        {
+            "value": "Multimedia-Lab CS54 (RIV) CL6 Lab",
+            "colNumber": 8
+        },
+        {
+            "value": "Multimedia-Lab CS54 (RIV) CL6 Lab",
+            "colNumber": 9
         },
         {
             "value": "TUE",
@@ -4938,16 +4918,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab PROF_CCLAB_Batch-2(CS51,CS53,CS54) (AYS) CL7 Lab",
+            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab PROF_CCLAB_Batch-3(CS51,CS54) (AYS) CL7 Lab",
             "colNumber": 4
         },
         {
-            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab PROF_CCLAB_Batch-2(CS51,CS53,CS54) (AYS) CL7 Lab",
+            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab PROF_CCLAB_Batch-3(CS51,CS54) (AYS) CL7 Lab",
             "colNumber": 5
-        },
-        {
-            "value": "Applied-Materials-Science CS54,CS55,CS56 (PBB) LT1 Lecture",
-            "colNumber": 7
         },
         {
             "value": "TUE",
@@ -4994,8 +4970,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "T-18B11BT512 BT51 (AKT) TR1 Tutorial",
-            "colNumber": 4
+            "value": "Highway-Engineering CE51 (ADP) TR9 Lecture",
+            "colNumber": 5
         },
         {
             "value": "Applied-Materials-Science CS510,CS511,CS512 (SKT) CR11 Lecture",
@@ -5038,7 +5014,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "Bioprocess-Engineering BT51,BI51 (SBS) TR4 Lecture",
+            "value": "Bioprocess-Engineering BT51,BI51 (SBS) CR17 Lecture",
             "colNumber": 8
         },
         {
@@ -5050,16 +5026,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "L-18B1WCI532 Batch-1 (PMI) CR4 Lecture",
-            "colNumber": 3
-        },
-        {
-            "value": "L-18B11CI511 IT51,IT52,MIT (AVA) CR8 Lecture",
-            "colNumber": 7
+            "value": "L-18B1WCI532 PROF_DATACOMPR_Batch-1 (PMI) LT2 Lecture",
+            "colNumber": 10
         },
         {
             "value": "WED",
             "colNumber": 1
+        },
+        {
+            "value": "Comparative-&-Functional-Genomics BT51 (JAS) TR3 Lecture",
+            "colNumber": 4
         },
         {
             "value": "WED",
@@ -5074,7 +5050,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
-            "value": "Foundation-of-data-science-and-visualization PROF_FDSV_Batch-1(CS54,CS55,CS57,CS58,CS59,CS511,CS512,IT51) (RBT) LT3 Lecture",
+            "value": "Foundation-of-data-science-and-visualization PROF_FDSV_Batch-1(CS54,CS55,CS57,CS58,CS59,CS511,CS512,IT51) (RKI) LT3 Lecture",
             "colNumber": 9
         },
         {
@@ -5110,11 +5086,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "L-18B11CI514 CS510,CS511,CS512,IT51,IT52 (PMI) CR8 Lecture",
+            "value": "L-18B11CI514 CS510,CS511,CS512,IT51,IT52 (PMI) LT2 Lecture",
             "colNumber": 8
         },
         {
-            "value": "Scripting-Languages-for-Bioinformatics-(Minor) BI51/Minor (TTS) TR1 Lecture",
+            "value": "Scripting-Languages-for-Bioinformatics-(Minor) BI51/MinorBT51 (TTS) TR1 Lecture",
             "colNumber": 9
         },
         {
@@ -5170,14 +5146,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab Batch-4 (NKR) CL5_2 Lab",
-            "colNumber": 8
-        },
-        {
-            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab Batch-4 (NKR) CL5_2 Lab",
-            "colNumber": 9
-        },
-        {
             "value": "WED",
             "colNumber": 1
         },
@@ -5190,11 +5158,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "Data-Science-and-Visualization-Lab PROF_DSVL_BATCH-2(CS55,CS59,CS510) (RBT) CL5_2 Lab",
+            "value": "Data-Science-and-Visualization-Lab PROF_DSVL_BATCH-2(CS55,CS59,CS511) (RBT) CL5_2 Lab",
             "colNumber": 4
         },
         {
-            "value": "Data-Science-and-Visualization-Lab PROF_DSVL_BATCH-2(CS55,CS59,CS510) (RBT) CL5_2 Lab",
+            "value": "Data-Science-and-Visualization-Lab PROF_DSVL_BATCH-2(CS55,CS59,CS511) (RBT) CL5_2 Lab",
             "colNumber": 5
         },
         {
@@ -5204,6 +5172,14 @@ export const timeTable: TimeTableData = {
         {
             "value": "WED",
             "colNumber": 1
+        },
+        {
+            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab PROF_CCLAB_Batch-4(CS56,CS57,CS58) (NKR) CL11 Lab",
+            "colNumber": 4
+        },
+        {
+            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab PROF_CCLAB_Batch-4(CS56,CS57,CS58) (NKR) CL11 Lab",
+            "colNumber": 5
         },
         {
             "value": "L-18B1WCE531 CE51 (KKR) CR15 Lecture",
@@ -5230,12 +5206,24 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
+            "value": "Project-Management-and-Entrepreneurship CS51,CS52,CS53 (ANU) LT3 Lecture",
+            "colNumber": 4
+        },
+        {
             "value": "L-18B11CI514 CS57,CS58,CS59 (JTI) CR9 Lecture",
             "colNumber": 7
         },
         {
             "value": "WED",
             "colNumber": 1
+        },
+        {
+            "value": "Computer-Graphics-Lab CS53 (PTK) CL5_1 Lab",
+            "colNumber": 2
+        },
+        {
+            "value": "Computer-Graphics-Lab CS53 (PTK) CL5_1 Lab",
+            "colNumber": 3
         },
         {
             "value": "T-18B11BT513 BT51 (ABH) CR16 Tutorial",
@@ -5254,19 +5242,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Cloud-Computing:-Concepts,-Technology-&-Architecture Batch-1 (AYS) CR1 Lecture",
-            "colNumber": 2
-        },
-        {
             "value": "L-18B11CI514 CS54,CS55,CS56 (VKS) CR2 Lecture",
             "colNumber": 3
         },
         {
-            "value": "Computer-Graphics-Lab CS53 (PTK) CL11 Lab",
-            "colNumber": 4
-        },
-        {
-            "value": "Computer-Graphics-Lab CS53 (PTK) CL11 Lab",
+            "value": "L-18B11CI514 CS51,CS52,CS53 (VSG) LT1 Lecture",
             "colNumber": 5
         },
         {
@@ -5290,8 +5270,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B1WCI532 Batch-1 (PMI) CR4 Lecture",
-            "colNumber": 2
+            "value": "L-18B1WCI532 Batch-1 (PMI) LT2 Lecture",
+            "colNumber": 10
         },
         {
             "value": "THU",
@@ -5302,7 +5282,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "Foundation-of-data-science-and-visualization PROF_FDSV_Batch-2(CS51,CS52,CS53,CS56,CS510,IT52,BI51) (RKI) CR5 Lecture",
+            "value": "Foundation-of-data-science-and-visualization PROF_FDSV_Batch-2(CS51,CS52,CS53,CS56,CS510,IT52,BI51) (RBT) CR5 Lecture",
             "colNumber": 7
         },
         {
@@ -5310,15 +5290,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11CI513 CS510,CS511,CS512 (DHA) CR12 Lecture",
-            "colNumber": 2
-        },
-        {
             "value": "L-18B11CI515 CS510,CS511,CS512 (SMA) CR2 Lecture",
             "colNumber": 3
         },
         {
-            "value": "Design-of-Concrete-Structures CE51 (TNM) CR15 Lecture",
+            "value": "Design-of-Concrete-Structures CE51 (TNM) CR13 Lecture",
             "colNumber": 5
         },
         {
@@ -5358,11 +5334,15 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "Project-Management-and-Entrepreneurship CS57,CS58,CS59 (BLK) Cr12 Lecture",
+            "colNumber": 2
+        },
+        {
             "value": "L-18B11CI514 CS51,CS52,CS53 (VSG) LT3 Lecture",
             "colNumber": 8
         },
         {
-            "value": "Bioprocess-Engineering BT51,BI51 (SBS) TR6 Lecture",
+            "value": "Bioprocess-Engineering BT51,BI51 (SBS) CR17 Lecture",
             "colNumber": 9
         },
         {
@@ -5372,10 +5352,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-18B11BT512 BT51 (AKT) CR19 Lecture",
             "colNumber": 5
-        },
-        {
-            "value": "Highway-Engineering CE51 (ADP) TR8 Lecture",
-            "colNumber": 7
         },
         {
             "value": "Multimedia-Lab CS511 (PMI) CL5_1 Lab",
@@ -5406,14 +5382,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab Batch-5 (NKR) CL5_2 Lab",
-            "colNumber": 2
-        },
-        {
-            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab Batch-5 (NKR) CL5_2 Lab",
-            "colNumber": 3
-        },
-        {
             "value": "Computer-Graphics-Lab CS56 (ATA) CL3_1 Lab",
             "colNumber": 4
         },
@@ -5424,6 +5392,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "THU",
             "colNumber": 1
+        },
+        {
+            "value": "Applied-Materials-Science CS510,CS511,CS512 (SKT) CR1 Lecture",
+            "colNumber": 2
         },
         {
             "value": "Computer-Graphics-Lab CS51 (PTK) CL7 Lab",
@@ -5470,8 +5442,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Scripting-Languages-for-Bioinformatics-(Minor) BI51/Minor (TTS) TR4 Lecture",
+            "value": "Scripting-Languages-for-Bioinformatics-(Minor) BI51/MinorBT51 (TTS) TR4 Lecture",
             "colNumber": 3
+        },
+        {
+            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab PROF_CCLAB_Batch-5(CS511,CS512) (NKR) CL3_2 Lab",
+            "colNumber": 4
+        },
+        {
+            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab PROF_CCLAB_Batch-5(CS511,CS512) (NKR) CL3_2 Lab",
+            "colNumber": 5
         },
         {
             "value": "THU",
@@ -5602,15 +5582,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "Bioprocess-Engineering BT51,BI51 (SBS) TR5 Tutorial",
-            "colNumber": 8
-        },
-        {
             "value": "FRI",
             "colNumber": 1
         },
         {
-            "value": "L-18B11CI512 IT51,IT52,MIT (RIV) CR8 Lecture",
+            "value": "L-18B11CI512 IT51,IT52,MITBI51 (RIV) CR8 Lecture",
             "colNumber": 2
         },
         {
@@ -5618,12 +5594,20 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "Project-Management-and-Entrepreneurship CS57,CS58,CS59 (BLK) CR8 Lecture",
+            "value": "Design-of-Concrete-Structures CE51 (TNM) CR13 Tutorial",
+            "colNumber": 5
+        },
+        {
+            "value": "Applied-Materials-Science CS54,CS55,CS56 (PBB) CR9 Lecture",
             "colNumber": 9
         },
         {
             "value": "FRI",
             "colNumber": 1
+        },
+        {
+            "value": "L-18B11CI513 CS510,CS511,CS512 (DHA) CR5 Lecture",
+            "colNumber": 2
         },
         {
             "value": "L-18B11CI513 CS54,CS55,CS56 (ARV) CR9 Lecture",
@@ -5634,11 +5618,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "L-18B11CI511 IT51,IT52,MIT (AVA) CR8 Lecture",
-            "colNumber": 7
-        },
-        {
-            "value": "Bioprocess-Engineering BT51,BI51 (SBS) TR4 Lecture",
+            "value": "Bioprocess-Engineering BT51,BI51 (SBS) CR17 Lecture",
             "colNumber": 9
         },
         {
@@ -5650,31 +5630,19 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "Applied-Materials-Science CS510,CS511,CS512 (SKT) CR17 Lecture",
-            "colNumber": 3
-        },
-        {
-            "value": "Structural-Bioinformatics BI51 (RJK) CR12 Lecture",
-            "colNumber": 4
+            "value": "T-18B11BT512 BT51 (AKT) TR4 Tutorial",
+            "colNumber": 7
         },
         {
             "value": "FRI",
             "colNumber": 1
         },
         {
-            "value": "Design-and-Analysis-of-Algorithms BI51 (RKI) TR2 Lecture",
-            "colNumber": 2
-        },
-        {
-            "value": "Comparative-&-Functional-Genomics BT51 (JAS) TR4 Lecture",
-            "colNumber": 3
-        },
-        {
-            "value": "Multimedia-Lab CS54 (RIV) CL5_1 Lab",
+            "value": "Multimedia-Lab CS51 (RIV) CL5_1 Lab",
             "colNumber": 4
         },
         {
-            "value": "Multimedia-Lab CS54 (RIV) CL5_1 Lab",
+            "value": "Multimedia-Lab CS51 (RIV) CL5_1 Lab",
             "colNumber": 5
         },
         {
@@ -5694,7 +5662,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18B11CI512 IT51,IT52,MIT (RIV) CR5 Lecture",
+            "value": "L-18B11CI512 IT51,IT52,MITBI51 (RIV) CR5 Lecture",
             "colNumber": 3
         },
         {
@@ -5708,10 +5676,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-18B11CI515 CS57,CS58,CS59 (NF3) LT2 Lecture",
             "colNumber": 7
-        },
-        {
-            "value": "L-18B11CI514 CS51,CS52,CS53 (VSG) CR4 Lecture",
-            "colNumber": 8
         },
         {
             "value": "FRI",
@@ -5738,28 +5702,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 8
         },
         {
+            "value": "Project-Management-and-Entrepreneurship CS57,CS58,CS59 (BLK) LT3 Lecture",
+            "colNumber": 9
+        },
+        {
             "value": "FRI",
             "colNumber": 1
         },
         {
-            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab Batch-6 (NKR) CL5_2 Lab",
-            "colNumber": 2
-        },
-        {
-            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab Batch-6 (NKR) CL5_2 Lab",
-            "colNumber": 3
-        },
-        {
-            "value": "Computer-Graphics-Lab CS58 (NF3) CL8_1 Lab",
-            "colNumber": 4
-        },
-        {
-            "value": "Computer-Graphics-Lab CS58 (NF3) CL8_1 Lab",
-            "colNumber": 5
-        },
-        {
-            "value": "Project-Management-and-Entrepreneurship CS51,CS52,CS53 (ANU) LT3 Lecture",
-            "colNumber": 9
+            "value": "Project-Management-and-Entrepreneurship CS51,CS52,CS53 (ANU) CR2 Lecture",
+            "colNumber": 7
         },
         {
             "value": "FRI",
@@ -5768,10 +5720,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-18B11BT512 BT51 (AKT) CR19 Lecture",
             "colNumber": 4
-        },
-        {
-            "value": "L-18B11CI514 CS510,CS511,CS512,IT51,IT52 (PMI) CR9 Lecture",
-            "colNumber": 5
         },
         {
             "value": "L-18B11CI515 CS510,CS511,CS512 (SMA) CR7 Lecture",
@@ -5784,6 +5732,14 @@ export const timeTable: TimeTableData = {
         {
             "value": "FRI",
             "colNumber": 1
+        },
+        {
+            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab PROF_CCLAB_Batch-6(IT51,IT52) (NKR) CL8_1 Lab",
+            "colNumber": 4
+        },
+        {
+            "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab PROF_CCLAB_Batch-5(CS511,CS512) (NKR) CL8_1 Lab",
+            "colNumber": 5
         },
         {
             "value": "Foundation-Engineering CE51 (SUB) CR15 Lecture",
@@ -5804,10 +5760,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-18B11BT513 BT51 (ABH) CR16 Lecture",
             "colNumber": 2
-        },
-        {
-            "value": "Project-Management-and-Entrepreneurship CS51,CS52,CS53 (ANU) CR2 Lecture",
-            "colNumber": 7
         },
         {
             "value": "L-18B11CI513 CS57,CS58,CS59 (RMS) CR10 Lecture",
@@ -5862,6 +5814,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
+            "value": "Comparative-&-Functional-Genomics BT51 (JAS) TR5 Lecture",
+            "colNumber": 8
+        },
+        {
             "value": "FRI",
             "colNumber": 1
         },
@@ -5874,6 +5830,10 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
+            "value": "Structural-Bioinformatics BI51 (RJK) TR1 Lecture",
+            "colNumber": 8
+        },
+        {
             "value": "FRI",
             "colNumber": 1
         },
@@ -5898,39 +5858,39 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Computer-Graphics-Lab CS59 (RMS) CL6 Lab",
-            "colNumber": 2
-        },
-        {
-            "value": "Computer-Graphics-Lab CS59 (RMS) CL6 Lab",
-            "colNumber": 3
-        },
-        {
-            "value": "SAT",
-            "colNumber": 1
-        },
-        {
-            "value": "SAT",
-            "colNumber": 1
-        },
-        {
-            "value": "Computer-Graphics-Lab CS510 (SMA) CL5_2 Lab",
-            "colNumber": 2
-        },
-        {
-            "value": "Computer-Graphics-Lab CS510 (SMA) CL5_2 Lab",
-            "colNumber": 3
-        },
-        {
-            "value": "SAT",
-            "colNumber": 1
-        },
-        {
-            "value": "Scripting-Languages-for-Bioinformatics-Lab-(Minor) BI51/Minor (TTS) BPL Lab",
+            "value": "Multimedia-Lab CS510 (ARV) CL6 Lab",
             "colNumber": 4
         },
         {
-            "value": "Scripting-Languages-for-Bioinformatics-Lab-(Minor) BI51/Minor (TTS) BPL Lab",
+            "value": "Multimedia-Lab CS510 (ARV) CL6 Lab",
+            "colNumber": 5
+        },
+        {
+            "value": "SAT",
+            "colNumber": 1
+        },
+        {
+            "value": "SAT",
+            "colNumber": 1
+        },
+        {
+            "value": "Computer-Graphics-Lab CS510 (SMA) CL5_2 Lab",
+            "colNumber": 2
+        },
+        {
+            "value": "Computer-Graphics-Lab CS510 (SMA) CL5_2 Lab",
+            "colNumber": 3
+        },
+        {
+            "value": "SAT",
+            "colNumber": 1
+        },
+        {
+            "value": "Scripting-Languages-for-Bioinformatics-Lab-(Minor) BI51/MinorBT51 (TTS) BPL Lab",
+            "colNumber": 4
+        },
+        {
+            "value": "Scripting-Languages-for-Bioinformatics-Lab-(Minor) BI51/MinorBT51 (TTS) BPL Lab",
             "colNumber": 5
         },
         {
@@ -5940,14 +5900,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-18B11CI513 CS54,CS55,CS56 (ARV) CR10 Lecture",
             "colNumber": 2
-        },
-        {
-            "value": "Multimedia-Lab CS510 (ARV) CL6 Lab",
-            "colNumber": 4
-        },
-        {
-            "value": "Multimedia-Lab CS510 (ARV) CL6 Lab",
-            "colNumber": 5
         },
         {
             "value": "SAT",
@@ -5966,14 +5918,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "P-18B17CI571 IT51,IT52 (AVA) CL7 Lab",
-            "colNumber": 4
-        },
-        {
-            "value": "P-18B17CI571 IT51,IT52 (AVA) CL7 Lab",
-            "colNumber": 5
-        },
-        {
             "value": "SAT",
             "colNumber": 1
         },
@@ -5990,11 +5934,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Data-Science-and-Visualization-Lab PROF_DSVL_BATCH-3(CS511,CS512,IT51,IT52,BI51) (RKI) CL3_2 Lab",
+            "value": "Data-Science-and-Visualization-Lab PROF_DSVL_BATCH-3(CS512,IT51,IT52,BI51) (RKI) CL3_2 Lab",
             "colNumber": 2
         },
         {
-            "value": "Data-Science-and-Visualization-Lab PROF_DSVL_BATCH-3(CS511,CS512,IT51,IT52,BI51) (RKI) CL3_2 Lab",
+            "value": "Data-Science-and-Visualization-Lab PROF_DSVL_BATCH-3(CS512,IT51,IT52,BI51) (RKI) CL3_2 Lab",
             "colNumber": 3
         },
         {
@@ -6010,11 +5954,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "P-18B1WCI572 Batch-3 (PMI) CL3_1 Lab",
+            "value": "P-18B1WCI572 DATACOMP LAB_Batch-3(CS512,CS51,CS55,IT51,IT52) (PMI) CL3_1 Lab",
             "colNumber": 4
         },
         {
-            "value": "P-18B1WCI572 Batch-3 (PMI) CL3_1 Lab",
+            "value": "P-18B1WCI572 DATACOMP LAB_Batch-3(CS512,CS51,CS55,IT51,IT52) (PMI) CL3_1 Lab",
             "colNumber": 5
         },
         {
@@ -6022,11 +5966,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "P-18B1WCI572 Batch-2 (PMI) CL3_1 Lab",
+            "value": "P-18B1WCI572 DATACOMP LAB_Batch-2(CS52,CS53,CS59,CS511) (PMI) CL3_1 Lab",
             "colNumber": 2
         },
         {
-            "value": "P-18B1WCI572 Batch-2 (PMI) CL3_1 Lab",
+            "value": "P-18B1WCI572 DATACOMP LAB_Batch-2(CS52,CS53,CS59,CS511) (PMI) CL3_1 Lab",
             "colNumber": 3
         },
         {
@@ -6108,10 +6052,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 5
         },
         {
-            "value": "L-18B1WPH731 PMSALL_2 (RRS) CR6 Lecture",
-            "colNumber": 6
-        },
-        {
             "value": "Perrennial-Power-Structures CEALL_1 (NJP) CR5 Lecture",
             "colNumber": 7
         },
@@ -6136,19 +6076,15 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L -24B1WHS731 HSS_ALL_1 (RTK) CR9",
-            "colNumber": 2
-        },
-        {
             "value": "Principles-of-Communication-Systems ECALL_OE_2 (ALK) CR2 Lecture",
             "colNumber": 3
         },
         {
-            "value": "P-19B1WCI771 CS-IT[PIS,PML]BATCH_1 (VKS) CL4 Lab",
+            "value": "P-19B1WCI771 CS-IT[PDS]BATCH_1 (VKS) CL4 Lab",
             "colNumber": 8
         },
         {
-            "value": "P-19B1WCI771 CS-IT[PIS,PML]BATCH_1 (VKS) CL4 Lab",
+            "value": "P-19B1WCI771 CS-IT[PDS]BATCH_1 (VKS) CL4 Lab",
             "colNumber": 9
         },
         {
@@ -6162,6 +6098,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "Next-Generation-Telecom-Networks EC71_PE3 (SWT) TR2 Lecture",
             "colNumber": 3
+        },
+        {
+            "value": "Sustainable-Technologies-for-Waste-Management BIOALL_3 (GAI) CR8 Lecture",
+            "colNumber": 7
         },
         {
             "value": "P-18B1WCI774 CS-IT[PIS,PML]B1 (NKR) CL6 Lab",
@@ -6184,11 +6124,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "P-18B1WCI774 CS-IT[PIS,PML]B3 (NF2) CL8_2 Lab",
+            "value": "P-18B1WCI774 CS-IT[PIS,PML]B3 (NF2) CL3_1 Lab",
             "colNumber": 8
         },
         {
-            "value": "P-18B1WCI774 CS-IT[PIS,PML]B3 (NF2) CL8_2 Lab",
+            "value": "P-18B1WCI774 CS-IT[PIS,PML]B3 (NF2) CL3_1 Lab",
             "colNumber": 9
         },
         {
@@ -6220,11 +6160,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "P-18B1WCI772 CS-IT[PCC,PAI]B3 (DHA) CL3_1 Lab",
+            "value": "P-18B1WCI772 CS-IT[PCC,PAI]B3 (DHA) CL8_2 Lab",
             "colNumber": 8
         },
         {
-            "value": "P-18B1WCI772 CS-IT[PCC,PAI]B3 (DHA) CL3_1 Lab",
+            "value": "P-18B1WCI772 CS-IT[PCC,PAI]B3 (DHA) CL8_2 Lab",
             "colNumber": 9
         },
         {
@@ -6236,7 +6176,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Intellectual-Property-Rights-&-Commercialization BIO[BI71,BT71] (HSD) CR19 Lecture",
+            "value": "Intellectual-Property-Rights-&-Commercialization BIO[BI71,BT71] (HSD) CR11 Lecture",
             "colNumber": 8
         },
         {
@@ -6336,11 +6276,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "Food-Nutrition-&-Health-Care BIOALL[BT71/BI71] (UDB) CR5 Lecture",
+            "value": "Food-Nutrition-&-Health-Care BIOALL_4[BT71/BI71] (UDB) CR5 Lecture",
             "colNumber": 3
         },
         {
-            "value": "Intellectual-Property-Rights-&-Commercialization BIO[BI71,BT71] (HSD) CR19 Lecture",
+            "value": "Intellectual-Property-Rights-&-Commercialization BIO[BI71,BT71] (HSD) CR11 Lecture",
             "colNumber": 4
         },
         {
@@ -6362,10 +6302,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "P-18B1WCI772 CS-IT[PCC,PAI]B1 (AMN) CL7 Lab",
             "colNumber": 9
-        },
-        {
-            "value": "Sustainable-Technologies-for-Waste-Management BT71 (GAI) CR9 Lecture",
-            "colNumber": 10
         },
         {
             "value": "1",
@@ -6396,11 +6332,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 7
         },
         {
-            "value": "P-18B1WCI772 CS-IT[PCC,PAI]B4 (DHA) CL4 Lab",
+            "value": "P-18B1WCI772 CS-IT[PCC,PAI]B4 (DHA) CL8_2 Lab",
             "colNumber": 8
         },
         {
-            "value": "P-18B1WCI772 CS-IT[PCC,PAI]B4 (DHA) CL4 Lab",
+            "value": "P-18B1WCI772 CS-IT[PCC,PAI]B4 (DHA) CL8_2 Lab",
             "colNumber": 9
         },
         {
@@ -6410,14 +6346,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "TUE",
             "colNumber": 1
-        },
-        {
-            "value": "Building-Drawing CE71 (ABJ) DRAWR Lab",
-            "colNumber": 2
-        },
-        {
-            "value": "Building-Drawing CE71 (ABJ) DRAWR Lab",
-            "colNumber": 3
         },
         {
             "value": "Building-Drawing CE71 (ABJ) DRAWR Lab",
@@ -6456,8 +6384,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "Sustainable-Technologies-for-Waste-Management BIOALL_3 (GAI) CR9 Lecture",
+            "colNumber": 4
+        },
+        {
             "value": "L-18B1WCI734 CS-IT[PIS,PML]B (PDN) CR6 Lecture",
-            "colNumber": 7
+            "colNumber": 8
         },
         {
             "value": "5",
@@ -6560,10 +6492,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Intellectual-Property-Rights-&-Commercialization BIO[BI71,BT71] (HSD) CR19 Lecture",
-            "colNumber": 2
-        },
-        {
             "value": "Indian-constitution HSS_CORE_ALL[BATCH-2]CS71,CS72,CS73 (NJL) CR10 Lecture",
             "colNumber": 3
         },
@@ -6590,10 +6518,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "Pattern-Analysis-in-Machine-Intelligence EC71 (VKB) TR6 Lecture",
             "colNumber": 9
-        },
-        {
-            "value": "Sustainable-Technologies-for-Waste-Management BT71 (GAI) CR9 Lecture",
-            "colNumber": 10
         },
         {
             "value": "1",
@@ -6668,11 +6592,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 4
         },
         {
-            "value": "P-19B1WCI771 CS-IT[PIS,PML]BATCH_2 (VKS) CL7 Lab",
+            "value": "P-19B1WCI771 CS-IT[PDS]BATCH_2 (VKS) CL7 Lab",
             "colNumber": 8
         },
         {
-            "value": "P-19B1WCI771 CS-IT[PIS,PML]BATCH_2 (VKS) CL7 Lab",
+            "value": "P-19B1WCI771 CS-IT[PDS]BATCH_2 (VKS) CL7 Lab",
             "colNumber": 9
         },
         {
@@ -6718,6 +6642,14 @@ export const timeTable: TimeTableData = {
         {
             "value": "WED",
             "colNumber": 1
+        },
+        {
+            "value": "Building-Drawing CE71 (ABJ) DRAWR Lab",
+            "colNumber": 2
+        },
+        {
+            "value": "Building-Drawing CE71 (ABJ) DRAWR Lab",
+            "colNumber": 3
         },
         {
             "value": "8",
@@ -6800,7 +6732,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "Food-Nutrition-&-Health-Care BIOALL[BT71/BI71] (UDB) CR8 Lecture",
+            "value": "Food-Nutrition-&-Health-Care BIOALL_4[BT71/BI71] (UDB) CR8 Lecture",
             "colNumber": 4
         },
         {
@@ -6820,10 +6752,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 9
         },
         {
-            "value": "Sustainable-Technologies-for-Waste-Management BT71 (GAI) CR9 Lecture",
-            "colNumber": 10
-        },
-        {
             "value": "1",
             "colNumber": 11
         },
@@ -6840,15 +6768,11 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-18B1WPH731 PMSALL_2 (RRS) CR6 Lecture",
-            "colNumber": 4
-        },
-        {
             "value": "L-19B1WCI731 CS-IT[PDS]BATCH_1 (VKS) LT3 Lecture",
             "colNumber": 7
         },
         {
-            "value": "Optical-Fiber-Network-(Elective) PMSALL_3 (SKK) CR9 Lecture",
+            "value": "L-18B1WPH731 PMSALL_2 (RRS) CR4 Lecture",
             "colNumber": 9
         },
         {
@@ -6862,6 +6786,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "Environmental-Management-and-Impact-Assessment CE[CE71] (RRA) CR13 Lecture",
             "colNumber": 7
+        },
+        {
+            "value": "Optical-Fiber-Network-(Elective) PMSALL_3 (SKK) CR9 Lecture",
+            "colNumber": 9
         },
         {
             "value": "3",
@@ -6890,10 +6818,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "THU",
             "colNumber": 1
-        },
-        {
-            "value": "L-18B1WCI734 CS-IT[PIS,PML]B (PDN) CR7 Lecture",
-            "colNumber": 7
         },
         {
             "value": "6",
@@ -6988,10 +6912,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Food-Nutrition-&-Health-Care BIOALL[BT71/BI71] (UDB) CR5 Lecture",
-            "colNumber": 2
-        },
-        {
             "value": "Remote-Sensing-and-Geomatics CEALL_2 (ABJ) CR11 Lecture",
             "colNumber": 3
         },
@@ -7012,10 +6932,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 9
         },
         {
-            "value": "Knowledge-Systems-in-Ancient-India  HSS_ALL (RTK, AKS, ASA, RKB) CR7 Lecture",
-            "colNumber": 10
-        },
-        {
             "value": "1",
             "colNumber": 11
         },
@@ -7024,19 +6940,19 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Optimization-Techniques EC71 (ALK) TR6 Lecture",
-            "colNumber": 2
+            "value": "Optimization-Techniques EC71 (ALK) TR5 Lecture",
+            "colNumber": 3
         },
         {
             "value": "Computational-nanotechnology-(Elective) PMSALL_1 (SBA) CR8 Lecture",
             "colNumber": 6
         },
         {
-            "value": "P-19B1WCI771 CS-IT[PIS,PML]BATCH_3 (VKS) CL9_2 Lab",
+            "value": "P-19B1WCI771 CS-IT[PDS]BATCH_3 (VKS) CL9_2 Lab",
             "colNumber": 8
         },
         {
-            "value": "P-19B1WCI771 CS-IT[PIS,PML]BATCH_3 (VKS) CL9_2 Lab",
+            "value": "P-19B1WCI771 CS-IT[PDS]BATCH_3 (VKS) CL9_2 Lab",
             "colNumber": 9
         },
         {
@@ -7052,12 +6968,24 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
+            "value": "Intellectual-Property-Rights-&-Commercialization BIO[BI71,BT71] (HSD) CR11 Lecture",
+            "colNumber": 4
+        },
+        {
             "value": "3",
             "colNumber": 11
         },
         {
             "value": "FRI",
             "colNumber": 1
+        },
+        {
+            "value": "Knowledge-Systems-in-Ancient-India  HSS_ALL (RTK, AKS, ASA, RKB) CR6 Lecture",
+            "colNumber": 7
+        },
+        {
+            "value": "L-18B1WCI734 CS-IT[PIS,PML]B (PDN) CR6 Lecture",
+            "colNumber": 9
         },
         {
             "value": "4",
@@ -7106,6 +7034,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "FRI",
             "colNumber": 1
+        },
+        {
+            "value": "Sustainable-Technologies-for-Waste-Management BIOALL_3 (GAI) CR10 Lecture",
+            "colNumber": 4
         },
         {
             "value": "9",
@@ -7196,7 +7128,7 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "Optical-Fiber-Network-(Elective) PMSALL_3 (SKK) CR9 Lecture",
+            "value": "L-18B1WPH731 PMSALL_2 (RRS) CR4 Lecture",
             "colNumber": 2
         },
         {
@@ -7210,6 +7142,14 @@ export const timeTable: TimeTableData = {
         {
             "value": "SAT",
             "colNumber": 1
+        },
+        {
+            "value": "Optical-Fiber-Network-(Elective) PMSALL_3 (SKK) CR9 Lecture",
+            "colNumber": 2
+        },
+        {
+            "value": "L -24B1WHS731 HSS_ALL_1 (RTK) LT2",
+            "colNumber": 5
         },
         {
             "value": "3",
@@ -7226,6 +7166,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "SAT",
             "colNumber": 1
+        },
+        {
+            "value": "Food-Nutrition-&-Health-Care BIOALL_4[BT71/BI71] (UDB) CR8 Lecture",
+            "colNumber": 3
         },
         {
             "value": "5",
@@ -7490,14 +7434,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "P-13M17BT172 24BY11 (RJK) BPL Lab",
-            "colNumber": 8
-        },
-        {
-            "value": "P-13M17BT172 24BY11 (RJK) BPL Lab",
-            "colNumber": 9
-        },
-        {
             "value": "MON",
             "colNumber": 1
         },
@@ -7627,7 +7563,7 @@ export const timeTable: TimeTableData = {
         },
         {
             "value": "L-11M1WCI431 24ID11 (NF2) TR5 Lecture",
-            "colNumber": 7
+            "colNumber": 5
         },
         {
             "value": "TUE",
@@ -7818,12 +7754,12 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-24MS3PH301 23MP11 (SKK) CABIN3 Lecture",
-            "colNumber": 3
-        },
-        {
             "value": "L-21M1WEC133 24IOT11 (RKU) TR6 Lecture",
             "colNumber": 4
+        },
+        {
+            "value": "L-24MS3PH301 23MP11 (SKK) CABIN2 Lecture",
+            "colNumber": 5
         },
         {
             "value": "L-13M11BT112 24BY11 (RJK) TR2 Lecture",
@@ -7942,16 +7878,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "L-24MSPH306 23MP11 (PMF1) CABIN3 Lecture",
+            "colNumber": 3
+        },
+        {
             "value": "WED",
             "colNumber": 1
         },
         {
             "value": "L-18M11BT113 24BY11 (GPL) CR16 Lecture",
             "colNumber": 3
-        },
-        {
-            "value": "L-24MSPH306 23MP11 (PMF1) CABIN2 Lecture",
-            "colNumber": 5
         },
         {
             "value": "L-18M1WBT133 24BY11 (TTT) CR16B Lecture",
@@ -7998,10 +7934,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-21MS1MB111 24MB11 (AKN) CR18 Lecture",
-            "colNumber": 4
-        },
-        {
             "value": "P-13M17BT171 24BY11 (UDB) BIOCHEMLAB Lab",
             "colNumber": 8
         },
@@ -8040,6 +7972,10 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-21M11EC113 24IOT11,24MEC11 (NVN) TR1 Lecture",
             "colNumber": 7
+        },
+        {
+            "value": "L-21MS1MB111 24MB11 (AKN) CR18 Lecture",
+            "colNumber": 8
         },
         {
             "value": "THU",
@@ -8154,8 +8090,8 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
-            "value": "L-20MS1PH111 24MB11 (RRS) TR2 Lecture",
-            "colNumber": 8
+            "value": "L-20MS1PH111 24MB11 (RRS) TR3 Lecture",
+            "colNumber": 4
         },
         {
             "value": "THU",
@@ -8386,6 +8322,14 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
+            "value": "P-13M17BT172 24BY11 (RJK) BPL Lab",
+            "colNumber": 2
+        },
+        {
+            "value": "P-13M17BT172 24BY11 (RJK) BPL Lab",
+            "colNumber": 3
+        },
+        {
             "value": "SAT",
             "colNumber": 1
         },
@@ -8532,15 +8476,19 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "MON",
-            "colNumber": 1
+            "value": "L-20MS1BT311 23MB11 (GAI) TR2 Lecture",
+            "colNumber": 4
         },
         {
             "value": "MON",
             "colNumber": 1
         },
         {
-            "value": "L-18P1WGE101 PHDALL (DLR,ASA,AKS,RTK) Lecture",
+            "value": "MON",
+            "colNumber": 1
+        },
+        {
+            "value": "L-18P1WGE101 PHDALL (DLR,ASA,AKS,RTK) CR7 Lecture",
             "colNumber": 9
         },
         {
@@ -8602,10 +8550,6 @@ export const timeTable: TimeTableData = {
         {
             "value": "L-21MS1MB311 23MM11 (AKN) CR16 Lecture",
             "colNumber": 2
-        },
-        {
-            "value": "L-20MS1BT311 23MB11 (GAI) TR7 Lecture",
-            "colNumber": 4
         },
         {
             "value": "TUE",
@@ -8772,10 +8716,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 2
         },
         {
-            "value": "L-20MS1BT311 23MB11 (GAI) TR7 Lecture",
-            "colNumber": 4
-        },
-        {
             "value": "THU",
             "colNumber": 1
         },
@@ -8828,10 +8768,6 @@ export const timeTable: TimeTableData = {
             "colNumber": 1
         },
         {
-            "value": "L-18P1WGE101 PHDALL (DLR,ASA,AKS,RTK) CR7 Lecture",
-            "colNumber": 10
-        },
-        {
             "value": "THU",
             "colNumber": 1
         },
@@ -8880,8 +8816,16 @@ export const timeTable: TimeTableData = {
             "colNumber": 3
         },
         {
+            "value": "L-20MS1BT311 23MB11 (GAI) TR2 Lecture",
+            "colNumber": 5
+        },
+        {
             "value": "FRI",
             "colNumber": 1
+        },
+        {
+            "value": "L-18P1WGE101 PHDALL (DLR,ASA,AKS,RTK) CR7 Lecture",
+            "colNumber": 9
         },
         {
             "value": "FRI",
@@ -8905,7 +8849,7 @@ export const timeTable: TimeTableData = {
         },
         {
             "value": "L-20MS9BT313 23MB11 (JAS) TR4 Lecture",
-            "colNumber": 8
+            "colNumber": 9
         },
         {
             "value": "FRI",
@@ -9017,3 +8961,4 @@ export const timeTable: TimeTableData = {
         }
     ]
 }
+
