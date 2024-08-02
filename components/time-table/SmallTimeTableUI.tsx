@@ -154,7 +154,7 @@ export default function SmallTimeTableUI({ rows, batch }: Props) {
 
                                         <li className={commonGridVariable}>
                                             <strong>Teacher :</strong>
-                                            <p className="text-default-500">{teacher}</p>
+                                            <p className="text-default-500">{teacher.replace(/-/g , ' ')}</p>
                                         </li>
                                         <li className={commonGridVariable}>
                                             <strong>Venue :</strong>
