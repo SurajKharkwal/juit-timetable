@@ -140,7 +140,7 @@ export default function SmallTimeTableUI({ rows, batch }: Props) {
                                 ) : (
                                     <ol className="list-none">
                                         <li className={commonGridVariable}>
-                                            <strong className="flex-nowrap">Subject:</strong>
+                                            <strong className="flex-nowrap">Subject :</strong>
                                             <p className="text-default-500">{subject.replace(/-/g, ' ')}</p>
                                         </li>
                                         <li className={commonGridVariable}>
@@ -148,7 +148,7 @@ export default function SmallTimeTableUI({ rows, batch }: Props) {
                                             <p className="text-default-500">{type}</p>
                                         </li>
                                         <li className={commonGridVariable}>
-                                            <strong>Batches:</strong>
+                                            <strong>Batches :</strong>
                                             <p className="text-default-500">{batches.replace(/,/g, ' ')}</p>
                                         </li>
 
