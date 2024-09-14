@@ -6,14 +6,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 1
     },
     {
-      "value": "TIME TABLE: (BTECH 1 SEM ALL BRANCHES)",
-      "colNumber": 2
-    },
-    {
-      "value": "TIME TABLE: (BTECH 1 SEM ALL BRANCHES)",
-      "colNumber": 3
-    },
-    {
       "value": "D/T",
       "colNumber": 1
     },
@@ -78,16 +70,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "L-24BS1MA112 24E11,24F11 Dr.-Mandeep-Singh CR4 Lecture",
       "colNumber": 2
-    },
-    {
-      "value": "Engineering-Mathematics-I 24A113 (MAT_RS6) TR4 Tutorial",
-      "colNumber": 3
     },
     {
       "value": "Engineering-Mathematics-I 24A11,24A12,24A13 Dr.-Rakesh-Bajaj LT2 Lecture",
@@ -102,10 +86,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "P-19B17CI171 24A19 Dr.-Nancy-Singla CL5_2 Lab",
       "colNumber": 2
     },
@@ -118,12 +98,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 4
     },
     {
-      "value": "L-19B11CI111 24B11,24C11,24D11,24G11,24H11,24E11,24F11 Dr.-Nancy-Singla CR6 Lecture",
+      "value": "L-19B11CI111 24B11,24C11,24D11,24G11,24H11,24E11,24F11 (GVS) CR6 Lecture",
       "colNumber": 7
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "Engineering-Physics-I 24B11,24C11,24D11,24G11,24H11 Dr.-Sanjiv-Kumar-Tiwari CR5 Tutorial",
@@ -146,20 +122,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "P-19B17CI171 24A18 (KTS) CL1 Lab",
       "colNumber": 2
     },
     {
       "value": "P-19B17CI171 24A18 (KTS) CL1 Lab",
       "colNumber": 3
-    },
-    {
-      "value": "English- 24A113,24A114,24A115 (AKS) LT3 Lecture",
-      "colNumber": 4
     },
     {
       "value": "Engineering-Physics-I 24A17,24A18,24A19 Prof.-Sunil-K.-Khah LT2 Lecture",
@@ -172,10 +140,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24I12 Dr.-Haresh-A.-Raval PHLAB1 Lab",
       "colNumber": 7
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "L-19B11CI111 24A11,24A12 Dr.-Ravindara-Bhatt CR11 Lecture",
@@ -194,18 +158,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A115 Dr.-Sanjiv-Kumar-Tiwari PHLAB1 Lab",
-      "colNumber": 8
-    },
-    {
-      "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A115 Dr.-Sanjiv-Kumar-Tiwari PHLAB1 Lab",
-      "colNumber": 9
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "Principles-and-Practices-of-Management 24W11 Ms.-Triambica-Gautam TR3 Lecture",
       "colNumber": 3
     },
@@ -216,10 +168,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "English-Lab 24L11,24M11,24N11 (BLK) GDROOM Tutorial",
       "colNumber": 9
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "Fundamental-Biology 24E11,24F11 Dr.-Tyson CR4 Lecture",
@@ -238,10 +186,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "Workshop-Practices 24I13 (SUV) CAD,DRAWR Lab",
       "colNumber": 3
     },
@@ -252,18 +196,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Workshop-Practices 24I13 (SUV) CAD,DRAWR Lab",
       "colNumber": 5
-    },
-    {
-      "value": "English-Lab 24A113 Dr.-Neena-Jindal GDROOM Tutorial",
-      "colNumber": 8
-    },
-    {
-      "value": "English-Lab 24A113 Dr.-Neena-Jindal LANGULAB Tutorial",
-      "colNumber": 9
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24L11,24M11,24N11 Dr.-Santu-Baidya PHLAB1 Lab",
@@ -282,16 +214,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 6
     },
     {
-      "value": "English-Lab 24A111 (AKS) GDROOM Tutorial",
+      "value": "English-Lab 24A111,24P11 (AKS) GDROOM Tutorial",
       "colNumber": 7
     },
     {
       "value": "Engineering-Physics-I 24I11,24I12,24I13 Dr.-S.K.Hazra CR5 Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "English-Lab 24A17 (RTK) GDROOM Lab",
@@ -310,10 +238,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24J11 Dr.-Haresh-A.-Raval PHLAB2 Lab",
       "colNumber": 2
     },
@@ -326,10 +250,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 4
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "Engineering-Physics-I 24I12 Dr.-S.K.Hazra CR19 Tutorial",
       "colNumber": 3
     },
@@ -338,20 +258,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 4
     },
     {
-      "value": "Engineering-Mathematics-I 24A114 (MAT_RS6) TR3 Tutorial",
-      "colNumber": 5
-    },
-    {
-      "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A12 Dr.-Vineet-Sharma PHLAB2 Lab",
+      "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A12 Dr.-Sanjiv-Kumar-Tiwari PHLAB2 Lab",
       "colNumber": 8
     },
     {
-      "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A12 Dr.-Vineet-Sharma PHLAB2 Lab",
+      "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A12 Dr.-Sanjiv-Kumar-Tiwari PHLAB2 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "English-Lab 24J12 (BLK) GDROOM Tutorial",
@@ -360,14 +272,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "L-19B11CI111 24I13,24L11,24M11,24N11,24K11 (JTI) CR2 Lecture",
       "colNumber": 7
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "Engineering-Physics-I 24A113,24A114,24A115 Prof.-P.B.-Barman CR12 Lecture",
-      "colNumber": 2
     },
     {
       "value": "Engineering-Physics-I 24A14,24A15,24A16 Dr.-Vineet-Sharma LT1 Lecture",
@@ -386,10 +290,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "TUE",
       "colNumber": 1
     },
@@ -406,16 +306,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "English-Lab 24A14 (RTK) GDROOM Tutorial",
       "colNumber": 4
-    },
-    {
-      "value": "English-Lab 24A115 Dr.-Tanu-Shrma GDROOM Tutorial",
-      "colNumber": 5
     },
     {
       "value": "L-19B11CI111 24A19,24A110 Dr.-Nancy-Singla CR12 Lecture",
@@ -426,10 +318,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "Engineering-Physics-I 24A11 Prof.-P.B.-Barman TR1 Tutorial",
       "colNumber": 3
     },
@@ -438,24 +326,16 @@ export const timeTable:TimeTableData = {
       "colNumber": 4
     },
     {
-      "value": "Engineering-Graphics- 24E11,24F11 Dr.-Sugandha-Singh CAD,DRAWR Lab",
+      "value": "Engineering-Graphics- 24E11,24F11 Dr.-Amardeep CAD,DRAWR Lab",
       "colNumber": 7
     },
     {
-      "value": "Engineering-Graphics- 24E11,24F11 Dr.-Sugandha-Singh CAD,DRAWR Lab",
+      "value": "Engineering-Graphics- 24E11,24F11 Dr.-Amardeep CAD,DRAWR Lab",
       "colNumber": 8
     },
     {
-      "value": "Engineering-Graphics- 24E11,24F11 Dr.-Sugandha-Singh CAD,DRAWR Lab",
+      "value": "Engineering-Graphics- 24E11,24F11 Dr.-Amardeep CAD,DRAWR Lab",
       "colNumber": 9
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "L-19B11CI111 24A113,24A114,24A115 Dr.-Kushal-Kanwar LT2 Lecture",
-      "colNumber": 2
     },
     {
       "value": "L-19B11CI111 24A13,24A14 (KTS) CR7 Lecture",
@@ -470,14 +350,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A114 (PMS_RS) PHLAB2 Lab",
-      "colNumber": 6
-    },
-    {
-      "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A114 (PMS_RS) PHLAB2 Lab",
-      "colNumber": 7
-    },
-    {
       "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A18 Prof.-P.B.-Barman PHLAB2 Lab",
       "colNumber": 8
     },
@@ -486,15 +358,11 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "Engineering-Physics-I 24A15 Dr.-Vineet-Sharma CR16 Tutorial",
       "colNumber": 3
     },
     {
-      "value": "Engineering-Physics-I 24J11,24J12,24K11,24L11,24M11,24N11 Dr.-Haresh-A.-Raval CR10 Tutorial",
+      "value": "Engineering-Physics-I 24J11,24J12,24K11,24L11,24M11,24N11 Dr.-Haresh-A.-Raval CR10 Lecture",
       "colNumber": 4
     },
     {
@@ -508,14 +376,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Engineering-Physics-I 24A19 Prof.-Sunil-K.-Khah TR4 Tutorial",
       "colNumber": 7
-    },
-    {
-      "value": "English- 24A113,24A114,24A115 (AKS) LT3 Lecture",
-      "colNumber": 8
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "Workshop-Practices 24A16 Mr.-Niraj-Singh-Parihar WORKLAB Lab",
@@ -538,14 +398,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "English-Lab 24A12 Dr.-Deler-Singh GDROOM Tutorial",
-      "colNumber": 2
-    },
-    {
       "value": "English-Lab 24A12 Dr.-Deler-Singh LANGULAB Tutorial",
       "colNumber": 3
     },
@@ -564,10 +416,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Workshop-Practices 24A14 Dr.-Rishi-Rana WORKLAB1 Lab",
       "colNumber": 10
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "Managerial-Economics 24W11 (BLK) TR3 Tutorial",
@@ -594,10 +442,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "L-19B11CI111 24A111,24A112,24I14,24P11 Dr.-Aman-Sharma CR11 Lecture",
       "colNumber": 2
     },
@@ -618,20 +462,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "P-19B17CI171 24J11 (AYS) CL9_2 Lab",
       "colNumber": 8
     },
     {
       "value": "P-19B17CI171 24J11 (AYS) CL9_2 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "Engineering-Mathematics-I 24A14 (MAT_RS1) TR2 Tutorial",
@@ -654,8 +490,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "TUE",
-      "colNumber": 1
+      "value": "English- 24A11,24A12,24A13 Dr.-Deler-Singh LT2 Lecture",
+      "colNumber": 2
     },
     {
       "value": "Engineering-Physics-I 24A111 Dr.-Santu-Baidya TR4 Tutorial",
@@ -678,10 +514,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "Engineering-Mathematics-I 24L11,24M11,24N11,24J11,24J12,24K11 Dr.-Mandeep-Singh LT3 Lecture",
       "colNumber": 2
     },
@@ -702,10 +534,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "English-Lab 24E11,24F11 (BLK) GDROOM Tutorial",
       "colNumber": 3
     },
@@ -722,32 +550,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "Engineering-Mathematics-I 24I11 (MAT_RS3) TR6 Tutorial",
       "colNumber": 2
     },
     {
-      "value": "English- 24L11,24M11,24N11 (AKS) CR19 Lecture",
-      "colNumber": 3
-    },
-    {
       "value": "Engineering-Physics-I 24A17,24A18,24A19 Prof.-Sunil-K.-Khah LT2 Lecture",
       "colNumber": 4
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "P-19B17CI171 24A113 (RMS) CL8_1 Lab",
-      "colNumber": 4
-    },
-    {
-      "value": "P-19B17CI171 24A113 (RMS) CL8_1 Lab",
-      "colNumber": 5
     },
     {
       "value": "WED",
@@ -764,10 +572,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A14 Prof.-Sunil-K.-Khah PHLAB1 Lab",
       "colNumber": 4
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "Engineering-Mathematics-I 24A110,24A111,24A112,24B11,24C11,24D11,24H11,24G11,24I14,24P11 Dr.-Neel-Kanth LT1 Lecture",
@@ -790,19 +594,11 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "English- 24L11,24M11,24N11 (AKS) CR19 Lecture",
-      "colNumber": 3
-    },
-    {
-      "value": "L-19B11CI111 24J11,24J12 (AYS) CR11 Lecture",
+      "value": "L-19B11CI111 24J11,24J12 Dr.-Nancy-Singla CR11 Lecture",
       "colNumber": 4
     },
     {
-      "value": "English-Lab 24A112,24I14,24P11 (AKS) GDROOM Tutorial",
+      "value": "English-Lab 24A112,24I14 (AKS) GDROOM Tutorial",
       "colNumber": 5
     },
     {
@@ -810,23 +606,19 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A11 Prof.-Sunil-K.-Khah PHLAB1 Lab",
+      "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A11 Dr.-S.K.Hazra PHLAB1 Lab",
       "colNumber": 8
     },
     {
-      "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A11 Prof.-Sunil-K.-Khah PHLAB1 Lab",
+      "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A11 Dr.-S.K.Hazra PHLAB1 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "English-Lab 24J11 (BLK) LANGULAB Tutorial",
       "colNumber": 3
     },
     {
-      "value": "L-19B11CI111 24I13,24L11,24M11,24N11,24K11 (JTI) CR5 Lecture",
+      "value": "L-19B11CI111 24I13,24L11,24M11,24N11,24K11 (JTI) CR2 Lecture",
       "colNumber": 4
     },
     {
@@ -838,15 +630,11 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Engineering-Physics-I 24I11,24I12,24I13 Dr.-S.K.Hazra CR5 Lecture",
       "colNumber": 2
     },
     {
-      "value": "English- 24B11,24C11,24D11,24E11,24F11,24G11,24H11 Dr.-Deler-Singh CR7 Lecture",
+      "value": "English- 24B11,24C11,24D11,24E11,24F11,24G11,24H11,24L11,24M11,24N11 (AKS) LT3 Lecture",
       "colNumber": 3
     },
     {
@@ -858,20 +646,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "Workshop-Practices 24A113 Mr.-Niraj-Singh-Parihar 1WORKLAB Lab",
-      "colNumber": 6
-    },
-    {
-      "value": "Workshop-Practices 24A113 Mr.-Niraj-Singh-Parihar 1WORKLAB Lab",
-      "colNumber": 7
-    },
-    {
-      "value": "Workshop-Practices 24A113 Mr.-Niraj-Singh-Parihar 1WORKLAB Lab",
+      "value": "English-Lab 24A12 Dr.-Deler-Singh GDROOM Tutorial",
       "colNumber": 8
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "P-19B17CI171 24A16 Dr.-Kushal-Kanwar CL5_1 Lab",
@@ -886,8 +662,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "WED",
-      "colNumber": 1
+      "value": "P-19B17CI171 24I12 (GVS) cl9_1 Lab",
+      "colNumber": 8
+    },
+    {
+      "value": "P-19B17CI171 24I12 (GVS) cl9_1 Lab",
+      "colNumber": 9
     },
     {
       "value": "English- 24A14,24A15,24A16,BC11 Dr.-Deler-Singh CR7 Lecture",
@@ -906,10 +686,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Managerial-Economics 24W11 (BLK) TR4 Lecture",
       "colNumber": 2
     },
@@ -922,10 +698,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "English-Lab 24A115 Dr.-Tanu-Shrma LANGULAB Tutorial",
-      "colNumber": 7
-    },
-    {
       "value": "Workshop-Practices 24A19 (CIVG_1) WORKLAB Lab",
       "colNumber": 8
     },
@@ -936,10 +708,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Workshop-Practices 24A19 (CIVG_1) WORKLAB Lab",
       "colNumber": 10
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "Workshop-Practices 24A111 Mr.-Kaushal-Kumar WORKLAB Lab",
@@ -960,14 +728,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "L-19B11CI111 24A111,24A112,24I14,24P11 Dr.-Aman-Sharma CR5 Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "Engineering-Physics-I 24A113,24A114,24A115 Prof.-P.B.-Barman CR12 Lecture",
-      "colNumber": 2
     },
     {
       "value": "Engineering-Physics-I 24J12 Dr.-Haresh-A.-Raval TR5 Tutorial",
@@ -998,10 +758,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Engineering-Mathematics-I 24L11,24M11,24N11,24J11,24J12,24K11 Dr.-Mandeep-Singh LT3 Lecture",
       "colNumber": 2
     },
@@ -1018,10 +774,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Engineering-Mathematics-I 24I11,24I12,24I13 Dr.-Pradeep-Kumar-Pandey LT2 Lecture",
       "colNumber": 3
     },
@@ -1032,14 +784,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "L-19B11CI111 24A17,24A18 (FSL) CR11 Lecture",
       "colNumber": 5
-    },
-    {
-      "value": "L-19B11CI111 24A113,24A114,24A115 Dr.-Kushal-Kanwar LT2 Lecture",
-      "colNumber": 9
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "Fundamental-Biology 24E11,24F11 Dr.-Tyson TR5 Lecture",
@@ -1058,10 +802,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A110 Dr.-Vineet-Sharma PHLAB2 Lab",
       "colNumber": 3
     },
@@ -1074,20 +814,16 @@ export const timeTable:TimeTableData = {
       "colNumber": 6
     },
     {
-      "value": "Engineering-Graphics- 24B11,24C11,24D11,24G11,24H11 Mr.-Chandrapal-Gautam CAD,DRAWR Lab",
+      "value": "Engineering-Graphics- 24B11,24D11,24G11,24H11 Mr.-Chandrapal-Gautam CAD,DRAWR Lab",
       "colNumber": 7
     },
     {
-      "value": "Engineering-Graphics- 24B11,24C11,24D11,24G11,24H11 Mr.-Chandrapal-Gautam CAD,DRAWR Lab",
+      "value": "Engineering-Graphics- 24B11,24D11,24G11,24H11 Mr.-Chandrapal-Gautam CAD,DRAWR Lab",
       "colNumber": 8
     },
     {
-      "value": "Engineering-Graphics- 24B11,24C11,24D11,24G11,24H11 Mr.-Chandrapal-Gautam CAD,DRAWR Lab",
+      "value": "Engineering-Graphics- 24B11,24D11,24G11,24H11 Mr.-Chandrapal-Gautam CAD,DRAWR Lab",
       "colNumber": 9
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "English-Lab 24A19 (RTK) LANGULAB Tutorial",
@@ -1100,14 +836,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Engineering-Physics-I 24J11 (PMS_RS) TR5 Tutorial",
       "colNumber": 5
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "THU",
@@ -1138,19 +866,11 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "English-Lab 24A16 (RTK) LANGULAB Tutorial",
       "colNumber": 3
     },
     {
-      "value": "Engineering-Physics-I 24A113 Dr.-S.K.Hazra CR5 Tutorial",
-      "colNumber": 4
-    },
-    {
-      "value": "L-19B11CI111 24J11,24J12 (AYS) CR9 Lecture",
+      "value": "L-19B11CI111 24J11,24J12 Dr.-Nancy-Singla CR9 Lecture",
       "colNumber": 7
     },
     {
@@ -1158,23 +878,19 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "Engineering-Mathematics-I 24L11,24M11,24N11,24J11,24J12,24K11 Dr.-Mandeep-Singh LT3 Lecture",
       "colNumber": 2
     },
     {
-      "value": "Workshop-Practices 24L11,24M11,24N11 Dr.-Amardeep CAD,DRAWR Lab",
+      "value": "Workshop-Practices 24L11,24M11,24N11,24C11 Dr.-Amardeep CAD,DRAWR Lab",
       "colNumber": 3
     },
     {
-      "value": "Workshop-Practices 24L11,24M11,24N11 Dr.-Amardeep CAD,DRAWR Lab",
+      "value": "Workshop-Practices 24L11,24M11,24N11,24C11 Dr.-Amardeep CAD,DRAWR Lab",
       "colNumber": 4
     },
     {
-      "value": "Workshop-Practices 24L11,24M11,24N11 Dr.-Amardeep CAD,DRAWR Lab",
+      "value": "Workshop-Practices 24L11,24M11,24N11,24C11 Dr.-Amardeep CAD,DRAWR Lab",
       "colNumber": 5
     },
     {
@@ -1186,12 +902,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "L-19B11CI111 24B11,24C11,24D11,24G11,24H11,24E11,24F11 Dr.-Nancy-Singla CR6 Lecture",
+      "value": "L-19B11CI111 24B11,24C11,24D11,24G11,24H11,24E11,24F11 (GVS) CR6 Lecture",
       "colNumber": 9
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "Workshop-Practices 24A17 Mr.-Niraj-Singh-Parihar WORKLAB Lab",
@@ -1218,10 +930,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "P-19B17CI171 24A14 (KTS) CL3_1 Lab",
       "colNumber": 2
     },
@@ -1246,10 +954,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "English-Lab 24A11 Dr.-Deler-Singh LANGULAB Tutorial",
       "colNumber": 2
     },
@@ -1270,20 +974,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A13 Dr.-Santu-Baidya PHLAB1 Lab",
       "colNumber": 2
     },
     {
       "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A13 Dr.-Santu-Baidya PHLAB1 Lab",
       "colNumber": 3
-    },
-    {
-      "value": "Engineering-Physics-I 24B11,24C11,24D11,24G11,24H11 Dr.-Sanjiv-Kumar-Tiwari CR5 Lecture",
-      "colNumber": 5
     },
     {
       "value": "Ethics-and-CSR 24W11 Dr.-Neena-Jindal TR6 Lecture",
@@ -1302,10 +998,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "L-19B11CI111 24A111,24A112,24I14,24P11 Dr.-Aman-Sharma CR5 Lecture",
       "colNumber": 2
     },
@@ -1314,28 +1006,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 3
     },
     {
-      "value": "P-19B17CI171 24A115 (FSL) CL9_1 Lab",
-      "colNumber": 4
-    },
-    {
-      "value": "P-19B17CI171 24A115 (FSL) CL9_1 Lab",
-      "colNumber": 5
-    },
-    {
       "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24B11,24C11,24D11,24G11,24H11 Dr.-Santu-Baidya PHLAB1 Lab",
       "colNumber": 7
     },
     {
       "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24B11,24C11,24D11,24G11,24H11 Dr.-Santu-Baidya PHLAB1 Lab",
       "colNumber": 8
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "Engineering-Physics-I 24A113,24A114,24A115 Prof.-P.B.-Barman CR11 Lecture",
-      "colNumber": 2
     },
     {
       "value": "L-19B11CI111 24I11,24I12 (GVS) CR7 Lecture",
@@ -1346,16 +1022,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "Engineering-Mathematics-I 24K11 (MAT_RS4) TR1 Tutorial",
       "colNumber": 3
-    },
-    {
-      "value": "English-Lab 24A114 Ms.-Triambica-Gautam LANGULAB Tutorial",
-      "colNumber": 4
     },
     {
       "value": "Engineering-Mathematics-I 24A12 (MAT_RS5) CR8 Tutorial",
@@ -1364,18 +1032,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "L-19B11CI111 24A13,24A14 (KTS) CR12 Lecture",
       "colNumber": 7
-    },
-    {
-      "value": "P-19B17CI171 24I12 (GVS) CL6 Lab",
-      "colNumber": 8
-    },
-    {
-      "value": "P-19B17CI171 24I12 (GVS) CL6 Lab",
-      "colNumber": 9
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "Business-Environment 24W11 Dr.-Amit-Srivastava TR2 Lecture",
@@ -1391,19 +1047,15 @@ export const timeTable:TimeTableData = {
     },
     {
       "value": "Workshop-Practices 24A15 (CIVG_1) WORKLAB Lab",
+      "colNumber": 7
+    },
+    {
+      "value": "Workshop-Practices 24A15 (CIVG_1) WORKLAB Lab",
       "colNumber": 8
     },
     {
       "value": "Workshop-Practices 24A15 (CIVG_1) WORKLAB Lab",
       "colNumber": 9
-    },
-    {
-      "value": "Workshop-Practices 24A15 (CIVG_1) WORKLAB Lab",
-      "colNumber": 10
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "P-19B17CI171 24E11,24F11 Dr.-Rakesh-Kanji CL3_2 Lab",
@@ -1418,10 +1070,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A19 Dr.-Haresh-A.-Raval PHLAB2 Lab",
       "colNumber": 2
     },
@@ -1434,7 +1082,7 @@ export const timeTable:TimeTableData = {
       "colNumber": 4
     },
     {
-      "value": "English-Lab 24A112,24I14,24P11 (AKS) LANGULAB Tutorial",
+      "value": "English-Lab 24A112,24I14 (AKS) LANGULAB Tutorial",
       "colNumber": 5
     },
     {
@@ -1446,28 +1094,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "English- 24J11,24J12,24K11 (AKS) CR10 Lecture",
       "colNumber": 4
-    },
-    {
-      "value": "Workshop-Practices 24A114 Mr.-Kaushal-Kumar 1WORKLAB Lab",
-      "colNumber": 6
-    },
-    {
-      "value": "Workshop-Practices 24A114 Mr.-Kaushal-Kumar 1WORKLAB Lab",
-      "colNumber": 7
-    },
-    {
-      "value": "Workshop-Practices 24A114 Mr.-Kaushal-Kumar 1WORKLAB Lab",
-      "colNumber": 8
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "FRI",
@@ -1486,24 +1114,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 4
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "English-Lab 24A114 Ms.-Triambica-Gautam GDROOM Tutorial",
-      "colNumber": 3
-    },
-    {
       "value": "P-19B17CI171 24A15 Dr.-Kushal-Kanwar CL8_2 Lab",
       "colNumber": 8
     },
     {
       "value": "P-19B17CI171 24A15 Dr.-Kushal-Kanwar CL8_2 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "English-Lab 24I13 (AKS) LANGULAB Tutorial",
@@ -1514,7 +1130,7 @@ export const timeTable:TimeTableData = {
       "colNumber": 3
     },
     {
-      "value": "L-19B11CI111 24J11,24J12 (AYS) CR9 Lecture",
+      "value": "L-19B11CI111 24J11,24J12 Dr.-Nancy-Singla CR9 Lecture",
       "colNumber": 7
     },
     {
@@ -1522,20 +1138,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "Engineering-Physics-I 24A114 Dr.-Sanjiv-Kumar-Tiwari TR5 Tutorial",
-      "colNumber": 2
-    },
-    {
       "value": "Engineering-Mathematics-I 24A11,24A12,24A13 Dr.-Rakesh-Bajaj LT2 Lecture",
       "colNumber": 4
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "P-19B17CI171 24A17 (FSL) CL9_1 Lab",
@@ -1560,10 +1164,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A16 Dr.-Vineet-Sharma PHLAB2 Lab",
       "colNumber": 8
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "Engineering-Mathematics-I 24B11,24C11,24D11,24H11,24G11 (MAT_RS8) CR6 Tutorial",
@@ -1572,10 +1172,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Engineering-Mathematics-I 24J12,24L11,24M11,24N11 (MAT_RS4) CR4 Tutorial",
       "colNumber": 4
-    },
-    {
-      "value": "English- 24A11,24A12,24A13 Dr.-Deler-Singh LT3 Lecture",
-      "colNumber": 5
     },
     {
       "value": "Engineering-Physics-I 24B11,24C11,24D11,24G11,24H11 Dr.-Sanjiv-Kumar-Tiwari CR7 Lecture",
@@ -1594,15 +1190,11 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "P-19B17CI171 24J12 (AYS) CL11 Lab",
+      "value": "P-19B17CI171 24J12 (AYS) CL9_2 Lab",
       "colNumber": 2
     },
     {
-      "value": "P-19B17CI171 24J12 (AYS) CL11 Lab",
+      "value": "P-19B17CI171 24J12 (AYS) CL9_2 Lab",
       "colNumber": 3
     },
     {
@@ -1618,15 +1210,11 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "Engineering-Mathematics-I 24A110,24A111,24A112,24B11,24C11,24D11,24H11,24G11,24I14,24P11 Dr.-Neel-Kanth LT1 Lecture",
       "colNumber": 2
     },
     {
-      "value": "English-Lab 24A111 (AKS) LANGULAB Tutorial",
+      "value": "English-Lab 24A111,24P11 (AKS) LANGULAB Tutorial",
       "colNumber": 3
     },
     {
@@ -1636,10 +1224,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "English-Lab 24A18 (RTK) GDROOM Tutorial",
       "colNumber": 8
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "L-19B11CI111 24A11,24A12 Dr.-Ravindara-Bhatt CR11 Lecture",
@@ -1662,10 +1246,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "L-19B11CI111 24I13,24L11,24M11,24N11,24K11 (JTI) LT3 Lecture",
       "colNumber": 3
     },
@@ -1684,10 +1264,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A17 Dr.-S.K.Hazra PHLAB1 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "Workshop-Practices 24J11 Dr.-Tanmay CAD,DRAWR Lab",
@@ -1710,10 +1286,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "L-19B11CI111 24A13,24A14 (KTS) CR12 Lecture",
       "colNumber": 2
     },
@@ -1731,19 +1303,15 @@ export const timeTable:TimeTableData = {
     },
     {
       "value": "Workshop-Practices 24A13 (CIVG_1) WORKLAB1 Lab",
+      "colNumber": 7
+    },
+    {
+      "value": "Workshop-Practices 24A13 (CIVG_1) WORKLAB1 Lab",
       "colNumber": 8
     },
     {
       "value": "Workshop-Practices 24A13 (CIVG_1) WORKLAB1 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "Workshop-Practices 24A13 (CIVG_1) WORKLAB1 Lab",
-      "colNumber": 10
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "Engineering-Mathematics-I 24A16 (MAT_RS1) TR4 Tutorial",
@@ -1762,14 +1330,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "Engineering-Mathematics-I 24A115 (MAT_RS6) TR2 Tutorial",
-      "colNumber": 3
-    },
-    {
       "value": "Engineering-Mathematics-I 24I13 (MAT_RS3) CR6 Tutorial",
       "colNumber": 4
     },
@@ -1786,48 +1346,16 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "Engineering-Mathematics-I 24A18 (MAT_RS2) CR4 Tutorial",
       "colNumber": 3
     },
     {
-      "value": "L-19B11CI111 24A113,24A114,24A115 Dr.-Kushal-Kanwar CR9 Lecture",
-      "colNumber": 4
-    },
-    {
-      "value": "Workshop-Practices 24A115 Dr.-Rishi-Rana 1WORKLAB Lab",
-      "colNumber": 6
-    },
-    {
-      "value": "Workshop-Practices 24A115 Dr.-Rishi-Rana 1WORKLAB Lab",
-      "colNumber": 7
-    },
-    {
-      "value": "Workshop-Practices 24A115 Dr.-Rishi-Rana 1WORKLAB Lab",
-      "colNumber": 8
-    },
-    {
-      "value": "Engineering-Physics-I 24A115 Dr.-Sanjiv-Kumar-Tiwari TR3 Tutorial",
-      "colNumber": 9
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24I11 Dr.-Haresh-A.-Raval PHLAB2 Lab",
       "colNumber": 2
     },
     {
       "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24I11 Dr.-Haresh-A.-Raval PHLAB2 Lab",
       "colNumber": 3
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     },
     {
       "value": "SAT",
@@ -1842,12 +1370,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 3
     },
     {
-      "value": "L-19B11CI111 24B11,24C11,24D11,24G11,24H11,24E11,24F11 Dr.-Nancy-Singla CR9 Lecture",
+      "value": "L-19B11CI111 24B11,24C11,24D11,24G11,24H11,24E11,24F11 (GVS) CR9 Lecture",
       "colNumber": 4
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     },
     {
       "value": "Workshop-Practices 24I12 (SUV) CAD,DRAWR Lab",
@@ -1860,18 +1384,10 @@ export const timeTable:TimeTableData = {
     {
       "value": "Workshop-Practices 24I12 (SUV) CAD,DRAWR Lab",
       "colNumber": 4
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     },
     {
       "value": "T-24BS1MA112 24E11,24F11 Dr.-Mandeep-Singh TR4 Tutorial",
       "colNumber": 3
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     },
     {
       "value": "English-Lab 24A13 Dr.-Deler-Singh LANGULAB Tutorial",
@@ -1882,24 +1398,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 4
     },
     {
-      "value": "English- 24B11,24C11,24D11,24E11,24F11,24G11,24H11 Dr.-Deler-Singh CR7 Lecture",
+      "value": "English- 24B11,24C11,24D11,24E11,24F11,24G11,24H11,24L11,24M11,24N11 (AKS) LT3 Lecture",
       "colNumber": 5
     },
     {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "P-19B17CI171 24A114 (FSL) CL9_2 Lab",
-      "colNumber": 2
-    },
-    {
-      "value": "P-19B17CI171 24A114 (FSL) CL9_2 Lab",
+      "value": "Engineering-Physics-I 24B11,24C11,24D11,24G11,24H11 Dr.-Sanjiv-Kumar-Tiwari CR7 Lecture",
       "colNumber": 3
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     },
     {
       "value": "Workshop-Practices 24A12 Dr.-Rishi-Rana WORKLAB Lab",
@@ -1914,78 +1418,26 @@ export const timeTable:TimeTableData = {
       "colNumber": 4
     },
     {
-      "value": "English-Lab 24I12 (AKS) GDROOM Tutorial",
+      "value": "English-Lab 24I12 Dr.-Deler-Singh GDROOM Tutorial",
       "colNumber": 5
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     },
     {
       "value": "English-Lab 24A13 Dr.-Deler-Singh GDROOM Tutorial",
       "colNumber": 2
     },
     {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A113 Dr.-Haresh-A.-Raval PHLAB1 Lab",
+      "value": "P-19B17CI171 24A110 Dr.-Nancy-Singla CL9_2 Lab",
       "colNumber": 2
     },
     {
-      "value": "Engineering-Physics-Lab-I-(CSE,-IT,-ECE,-CE) 24A113 Dr.-Haresh-A.-Raval PHLAB1 Lab",
+      "value": "P-19B17CI171 24A110 Dr.-Nancy-Singla CL9_2 Lab",
       "colNumber": 3
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "P-19B17CI171 24A110 Dr.-Nancy-Singla CL11 Lab",
-      "colNumber": 2
-    },
-    {
-      "value": "P-19B17CI171 24A110 Dr.-Nancy-Singla CL11 Lab",
-      "colNumber": 3
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     }
   ],
   "BTECH 3 SEM": [
     {
       "value": "TIME TABLE: (BTECH 3 SEM ALL BRANCHES)",
       "colNumber": 1
-    },
-    {
-      "value": "TIME TABLE: (BTECH 3 SEM ALL BRANCHES)",
-      "colNumber": 2
-    },
-    {
-      "value": "TIME TABLE: (BTECH 3 SEM ALL BRANCHES)",
-      "colNumber": 3
     },
     {
       "value": "D/T",
@@ -2048,20 +1500,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "Computational-Fundamentals-for-Optimization-Lab 23J11,23J12 Dr.-Kushal-Kanwar CL1 Lab",
+      "value": "P-24B11CI311xxxx 23J11,23J12 Dr.-Kushal-Kanwar CL1 Lab",
       "colNumber": 8
     },
     {
-      "value": "Computational-Fundamentals-for-Optimization-Lab 23J11,23J12 Dr.-Kushal-Kanwar CL1 Lab",
+      "value": "P-24B11CI311xxxx 23J11,23J12 Dr.-Kushal-Kanwar CL1 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "1",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "General-Chemistry 23E11 Dr.-Gopal-Singh-Bisht CR19 Lecture",
@@ -2076,20 +1520,16 @@ export const timeTable:TimeTableData = {
       "colNumber": 6
     },
     {
+      "value": "Life-Skills-and-Interpersonal-Dynamics 23A15,23I12 Dr.-Neena-Jindal CR12 Tutorial",
+      "colNumber": 7
+    },
+    {
       "value": "Probability-&-Statistics 23A17,23A18,23A19 Dr.-Saurabh-Srivastava CR10 Lecture",
       "colNumber": 8
     },
     {
       "value": "Thermodynamics-&-Chemical-Processes 23E11 Dr.-Poonam-Sharma CR17 Tutorial",
       "colNumber": 9
-    },
-    {
-      "value": "2",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "Microbiology-&-Immune-System 23F11 Dr.-Tyson CR10 Tutorial",
@@ -2105,19 +1545,11 @@ export const timeTable:TimeTableData = {
     },
     {
       "value": "Building-Materials-&-Construction 23D11 Mr.-Akash-Bhardwaj CR14 Lecture",
-      "colNumber": 8
+      "colNumber": 7
     },
     {
       "value": "Fundamentals-of-Signals-&-Systems 23B11 Dr.-Rajiv-Kumar TR2 Lecture",
       "colNumber": 9
-    },
-    {
-      "value": "3",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "Engineering-Mechanics 23D11 (SUV) CR13 Lecture",
@@ -2136,12 +1568,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "4",
-      "colNumber": 11
+      "value": "Database-Management-Systems-Lab 23A14,23BM11 Dr.-Ekta-Gandotra CL10 Lab",
+      "colNumber": 8
     },
     {
-      "value": "MON",
-      "colNumber": 1
+      "value": "Database-Management-Systems-Lab 23A14,23BM11 Dr.-Ekta-Gandotra CL10 Lab",
+      "colNumber": 9
     },
     {
       "value": "Statistical-Software 23W11 Dr.-Nishant-Jain CL9_2 Lab",
@@ -2160,20 +1592,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
+      "value": "Real-Analysis-&-Differential-Equations 23BM11 Dr.-R.-S.-Raja-Durai TR3 Lecture",
+      "colNumber": 7
+    },
+    {
       "value": "L-Seminar 23W11,24W11 Dr.-Amit-Srivastava CR12 Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "Real-Analysis-&-Differential-Equations 23BM11 Dr.-Rakesh-Bajaj TR5 Lecture",
-      "colNumber": 9
-    },
-    {
-      "value": "5",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "Introduction-to-Numerical-Computing-Lab 23BM11 Dr.-Saurabh-Srivastava CR8 Lab",
@@ -2188,7 +1612,7 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "L-xxxxxxxxxxx 23K11 (AYS) CR4 Lecture",
+      "value": "L-24B11CI311x 23K11 (AYS) CR4 Lecture",
       "colNumber": 7
     },
     {
@@ -2198,14 +1622,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Life-Skills-and-Interpersonal-Dynamics 23A11,23A12,23A13 Ms.-Triambica-Gautam LT1 Lecture",
       "colNumber": 9
-    },
-    {
-      "value": "6",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "IT-Workshop-Lab 23A16 Mr.-Munish-Sud CL9_1 Lab",
@@ -2224,12 +1640,16 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "7",
-      "colNumber": 11
+      "value": "Database-Management-systems 23A11,23A12,23A13 Dr.-Pardeep-Kumar CR1 Lecture",
+      "colNumber": 7
     },
     {
-      "value": "MON",
-      "colNumber": 1
+      "value": "Object-Oriented-Systems-and--Programming-Lab 23A16 Dr.-Nancy-Singla CL3_2 Lab",
+      "colNumber": 8
+    },
+    {
+      "value": "Object-Oriented-Systems-and--Programming-Lab 23A16 Dr.-Nancy-Singla CL3_2 Lab",
+      "colNumber": 9
     },
     {
       "value": "Python-programming-with-Raspberry-Pi-Lab-(IT31) 23C11 Dr.-Vikas-Baghel ECL5 Lab",
@@ -2248,19 +1668,11 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "8",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "Object-Oriented-Systems-and--Programming-Lab 23A12 CS-Faculty-2 CL5_1 Lab",
+      "value": "Object-Oriented-Systems-and--Programming-Lab 23A12 (FSL) CL5_1 Lab",
       "colNumber": 2
     },
     {
-      "value": "Object-Oriented-Systems-and--Programming-Lab 23A12 CS-Faculty-2 CL5_1 Lab",
+      "value": "Object-Oriented-Systems-and--Programming-Lab 23A12 (FSL) CL5_1 Lab",
       "colNumber": 3
     },
     {
@@ -2270,14 +1682,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "IT-Workshop-Lab 23A13 Ms.-Pragya-Gupta CL3_2 Lab",
       "colNumber": 5
-    },
-    {
-      "value": "9",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "Database-Management-Systems-Lab 23A11 Dr.-Pardeep-Kumar CL8_1 Lab",
@@ -2290,14 +1694,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Probability-&-Statistical-Techniques 23E11 Dr.-Mandeep-Singh TR3 Tutorial",
       "colNumber": 8
-    },
-    {
-      "value": "10",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "Database-Management-Systems-Lab 23A17 Dr.-Pankaj-Dhiman CL3_2 Lab",
@@ -2320,14 +1716,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "11",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "Life-Skills-and-Interpersonal-Dynamics 23J12,23K11,23A18 Dr.-Neena-Jindal CR7 Tutorial",
       "colNumber": 2
     },
@@ -2340,32 +1728,16 @@ export const timeTable:TimeTableData = {
       "colNumber": 4
     },
     {
-      "value": "12",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "Database-Management-Systems-Lab 23A13 Dr.-Diksha-Hooda Cl8_2 Lab",
+      "value": "Database-Management-Systems-Lab 23A13 Dr.-Diksha-Hooda CL8_2 Lab",
       "colNumber": 2
     },
     {
-      "value": "Database-Management-Systems-Lab 23A13 Dr.-Diksha-Hooda Cl8_2 Lab",
+      "value": "Database-Management-Systems-Lab 23A13 Dr.-Diksha-Hooda CL8_2 Lab",
       "colNumber": 3
     },
     {
       "value": "Python-Programming-with-Raspberry-Pi-(IT31) 23C11 Dr.-Vikas-Baghel TR5 Lecture",
       "colNumber": 7
-    },
-    {
-      "value": "13",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "IT-Workshop-Lab 23A15 Ms.-Pragya-Gupta CL4 Lab",
@@ -2380,14 +1752,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 4
     },
     {
-      "value": "14",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "-Electronic-Devices-&-Circuits 23B11 Dr.-Shruti-Jain ECL3 Lecture",
       "colNumber": 2
     },
@@ -2400,32 +1764,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "15",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "Object-Oriented-Systems-and--Programming-Lab 23A14 Dr.-Deepak-Gupta CL7 Lab",
       "colNumber": 2
     },
     {
       "value": "Object-Oriented-Systems-and--Programming-Lab 23A14 Dr.-Deepak-Gupta CL7 Lab",
       "colNumber": 3
-    },
-    {
-      "value": "Object-Oriented-Systems-and--Programming-Lab 23C11 Dr.-Nancy-Singla CL3_2 Lab",
-      "colNumber": 8
-    },
-    {
-      "value": "Object-Oriented-Systems-and--Programming-Lab 23C11 Dr.-Nancy-Singla CL3_2 Lab",
-      "colNumber": 9
-    },
-    {
-      "value": "16",
-      "colNumber": 11
     },
     {
       "value": "TUE",
@@ -2452,14 +1796,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "1",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "Object-Oriented-Systems-and--Programming-Lab 23A15 Dr.-Deepak-Gupta CL7 Lab",
       "colNumber": 2
     },
@@ -2484,14 +1820,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "2",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "Biochemistry 23E11 Dr.-Jitendraa-Vashistt CR18 Lecture",
       "colNumber": 2
     },
@@ -2500,20 +1828,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 3
     },
     {
-      "value": "L-xxxxxxxxxxx 23K11 (AYS) CR7 Lecture",
+      "value": "L-24B11CI311x 23K11 (AYS) CR7 Lecture",
       "colNumber": 7
     },
     {
       "value": "L-Seminar 23W11,24W11 Dr.-Amit-Srivastava GDROOM Lecture",
       "colNumber": 9
-    },
-    {
-      "value": "3",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "Linux-Lab 23F11 Dr.-Raj-Kumar BIL Lab",
@@ -2528,20 +1848,16 @@ export const timeTable:TimeTableData = {
       "colNumber": 4
     },
     {
+      "value": "Real-Analysis-&-Differential-Equations 23BM11 Dr.-R.-S.-Raja-Durai TR3 Lecture",
+      "colNumber": 5
+    },
+    {
       "value": "Life-Skills-and-Interpersonal-Dynamics 23I11,23I12,23J11,23J12,23K11 Dr.-Tanu-Shrma CR2 Lecture",
       "colNumber": 8
     },
     {
       "value": "Database-Management-systems 23F11/Minor Dr.-Nishant-Sharma TR7 Tutorial",
       "colNumber": 9
-    },
-    {
-      "value": "4",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "Python-Programming-Essentials- 23I11,23I12,23J11,23J12,23K11 Dr.-Naveen-Jaglan CR2 Lecture",
@@ -2576,14 +1892,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 10
     },
     {
-      "value": "5",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "Statistics-for-Business-Decisions 23W11 Dr.-Amit-Srivastava TR2 Tutorial",
       "colNumber": 4
     },
@@ -2596,16 +1904,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "L-xxxxxxxxxx 23I11,23I12,23J11,23J12 (VSG,SST) LT3 Lecture",
+      "value": "L-24B11CI311 23I11,23I12,23J11,23J12 Dr.-Saurabh-Srivastava LT3 Lecture",
       "colNumber": 9
-    },
-    {
-      "value": "6",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "Database-Management-Systems-Lab 23A16 Dr.-Vipul-Kr.-Sharma CL3_2 Lab",
@@ -2624,16 +1924,16 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "7",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "Python-Programming-Essentials- 23A17,23A18,23A19 (RMS) CR1 Lecture",
       "colNumber": 2
+    },
+    {
+      "value": "Python-Programming-Lab 23A19 Dr.-Salman-Raju-Talluri CL1 Lab",
+      "colNumber": 4
+    },
+    {
+      "value": "Python-Programming-Lab 23A19 Dr.-Salman-Raju-Talluri CL1 Lab",
+      "colNumber": 5
     },
     {
       "value": "Building-Materials-&-Construction 23D11 Mr.-Akash-Bhardwaj CR14 Lecture",
@@ -2646,14 +1946,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Database-Management-Systems-Lab 23A12 Dr.-Pardeep-Kumar CL1 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "8",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "Python-Programming-Essentials- 23I11,23I12,23J11,23J12,23K11 Dr.-Naveen-Jaglan CR10 Lecture",
@@ -2672,14 +1964,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "9",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "Object-Oriented-Systems-and--Programming-Lab 23A16 Dr.-Nancy-Singla CL8_1 Lab",
       "colNumber": 2
     },
@@ -2688,24 +1972,16 @@ export const timeTable:TimeTableData = {
       "colNumber": 3
     },
     {
-      "value": "Database-Management-Systems-Lab 23A17 Dr.-Pankaj-Dhiman Cl8_2 Lab",
+      "value": "Database-Management-Systems-Lab 23A17 Dr.-Pankaj-Dhiman CL8_2 Lab",
       "colNumber": 4
     },
     {
-      "value": "Database-Management-Systems-Lab 23A17 Dr.-Pankaj-Dhiman Cl8_2 Lab",
+      "value": "Database-Management-Systems-Lab 23A17 Dr.-Pankaj-Dhiman CL8_2 Lab",
       "colNumber": 5
     },
     {
       "value": "Cell-and-Molecular-Biology 23F11 Dr.-Abhishek-Chaudhary CR18 Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "10",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "Surveying-Lab 23D11 Prof.-Ashish-Kumar SURVLAB Lab",
@@ -2724,12 +2000,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "11",
-      "colNumber": 11
+      "value": "Object-Oriented-Systems-and--Programming-Lab 23C11 Dr.-Nancy-Singla BIL Lab",
+      "colNumber": 8
     },
     {
-      "value": "TUE",
-      "colNumber": 1
+      "value": "Object-Oriented-Systems-and--Programming-Lab 23C11 Dr.-Nancy-Singla BIL Lab",
+      "colNumber": 9
     },
     {
       "value": "Python-Programming-Lab 23A18 Dr.-Vikas-Baghel CL9_1 Lab",
@@ -2740,11 +2016,7 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "Object-Oriented-Systems-and--Programming-Lab 23A12 CS-Faculty-2 CL6 Lab",
-      "colNumber": 6
-    },
-    {
-      "value": "Object-Oriented-Systems-and--Programming-Lab 23A12 CS-Faculty-2 CL6 Lab",
+      "value": "Python-Programming-with-Raspberry-Pi-(IT31) 23C11 Dr.-Vikas-Baghel CR8 Lecture",
       "colNumber": 7
     },
     {
@@ -2754,14 +2026,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Object-Oriented-Systems-and--Programming-Lab 23A17 Dr.-Hari-Singh CL3_1 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "12",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "Management-Accounting 23W11 Ms.-Triambica-Gautam CR17 Lecture",
@@ -2776,22 +2040,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "Statistical-Software 23W11 Dr.-Nishant-Jain CL4 Lab",
-      "colNumber": 8
-    },
-    {
-      "value": "Statistical-Software 23W11 Dr.-Nishant-Jain CL4 Lab",
-      "colNumber": 9
-    },
-    {
-      "value": "13",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "IT-Workshop-Lab 23C11 Dr.-Shweta-Pandit CL3_1 Lab",
       "colNumber": 2
     },
@@ -2800,20 +2048,20 @@ export const timeTable:TimeTableData = {
       "colNumber": 3
     },
     {
+      "value": "Object-Oriented-Systems-and--Programming-Lab 23A12 (FSL) CL6 Lab",
+      "colNumber": 4
+    },
+    {
+      "value": "Object-Oriented-Systems-and--Programming-Lab 23A12 (FSL) CL6 Lab",
+      "colNumber": 5
+    },
+    {
       "value": "Python-Programming-Lab 23A11 Dr.-Salman-Raju-Talluri CL10 Lab",
       "colNumber": 8
     },
     {
       "value": "Python-Programming-Lab 23A11 Dr.-Salman-Raju-Talluri CL10 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "14",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "Database-Management-Systems-Lab 23A14,23BM11 Dr.-Ekta-Gandotra CL9_2 Lab",
@@ -2832,24 +2080,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "Python-Programming-with-Raspberry-Pi-(IT31) 23C11 Dr.-Vikas-Baghel TR5 Lecture",
-      "colNumber": 8
-    },
-    {
-      "value": "15",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "-Electronic-Devices-&-Circuits 23B11 Dr.-Shruti-Jain ECL3 Lecture",
       "colNumber": 2
-    },
-    {
-      "value": "16",
-      "colNumber": 11
     },
     {
       "value": "WED",
@@ -2864,16 +2096,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "L-xxxxxxxxxxx 23K11 (AYS) TR3 Lecture",
+      "value": "L-24B11CI311x 23K11 (AYS) TR3 Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "1",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "Database-Management-Systems-Lab 23I11,23I12 Dr.-Nishant-Sharma CL9_1 Lab",
@@ -2900,14 +2124,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "2",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Python-Programming-Lab 23J12,23K11,23BM11 Dr.-Nishant-Jain CL1 Lab",
       "colNumber": 4
     },
@@ -2926,14 +2142,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Database-Management-Systems-Lab 23A11 Dr.-Pardeep-Kumar CL9_2 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "3",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "Life-Skills-and-Interpersonal-Dynamics 23C11,23B11,23H11,23D11,23E11,23F11,23BM11 Dr.-Tanu-Shrma CR8 Lecture",
@@ -2964,28 +2172,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 10
     },
     {
-      "value": "4",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Biochemistry 23E11 Dr.-Jitendraa-Vashistt CR18 Lecture",
       "colNumber": 5
     },
     {
-      "value": "Real-Analysis-&-Differential-Equations 23BM11 Dr.-Rakesh-Bajaj TR7 Lecture",
+      "value": "Real-Analysis-&-Differential-Equations 23BM11 Dr.-R.-S.-Raja-Durai TR7 Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "5",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "Database-Management-systems 23A11,23A12,23A13 Dr.-Pardeep-Kumar CR2 Lecture",
@@ -2996,14 +2188,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "6",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Python-Programming-Lab 23A16 Dr.-Emjee-Puthooran CL8_2 Lab",
       "colNumber": 2
     },
@@ -3012,16 +2196,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 3
     },
     {
-      "value": "L-xxxxxxxxxx 23I11,23I12,23J11,23J12 (VSG,SST) LT3 Lecture",
+      "value": "L-24B11CI311 23I11,23I12,23J11,23J12 Dr.-Saurabh-Srivastava LT3 Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "7",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "Database-Management-systems 23A17,23A18,23A19,23F11/Minor Dr.-Pankaj-Dhiman CR9 Lecture",
@@ -3040,14 +2216,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "8",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Object-Oriented-Systems-and--Programming-Lab 23A14 Dr.-Deepak-Gupta CL7 Lab",
       "colNumber": 2
     },
@@ -3072,14 +2240,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "9",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Object-Oriented-Systems-and--Programming-Lab 23J11 (MTS) BIL Lab",
       "colNumber": 2
     },
@@ -3094,14 +2254,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Database-Management-Systems-Lab 23A19 Dr.-Pankaj-Dhiman CL3_2 Lab",
       "colNumber": 5
-    },
-    {
-      "value": "10",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "IT-Workshop-Lab 23J12,23K11 Ms.-Pragya-Gupta CL1 Lab",
@@ -3132,14 +2284,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "11",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Object-Oriented-Systems-and--Programming-Lab 23A18 Dr.-Hari-Singh CL9_1 Lab",
       "colNumber": 4
     },
@@ -3154,14 +2298,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Chemistry-Lab 23D11 Dr.-Poonam-Sharma ENVLAB Lab",
       "colNumber": 9
-    },
-    {
-      "value": "12",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "Database-Management-Systems-Lab 23A15 Dr.-Ekta-Gandotra CL8_1 Lab",
@@ -3188,12 +2324,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "13",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
+      "value": "Real-Analysis-&-Differential-Equations 23BM11 Dr.-R.-S.-Raja-Durai CR8 Tutorial",
+      "colNumber": 3
     },
     {
       "value": "Probability-Theory-and-Reandom-Processes 23B11,23H11 Dr.-Bhupendra-Kumar-Pathak TR1 Lecture",
@@ -3208,19 +2340,11 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "14",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "Object-Oriented-Systems-and--Programming-Lab 23A13 CS-Faculty-2 CL6 Lab",
+      "value": "Object-Oriented-Systems-and--Programming-Lab 23A13 (FSL) CL6 Lab",
       "colNumber": 2
     },
     {
-      "value": "Object-Oriented-Systems-and--Programming-Lab 23A13 CS-Faculty-2 CL6 Lab",
+      "value": "Object-Oriented-Systems-and--Programming-Lab 23A13 (FSL) CL6 Lab",
       "colNumber": 3
     },
     {
@@ -3240,20 +2364,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "15",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Python-Programming-Essentials- 23A11,23A12,23A13 Dr.-Aman-Sharma CR4 Lecture",
       "colNumber": 4
-    },
-    {
-      "value": "16",
-      "colNumber": 11
     },
     {
       "value": "THU",
@@ -3284,14 +2396,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "1",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "Object-Oriented-Systems-and--Programming-Lab 23A19 (FSL) CL7 Lab",
       "colNumber": 2
     },
@@ -3304,20 +2408,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 4
     },
     {
-      "value": "Real-Analysis-&-Differential-Equations 23BM11 Dr.-Rakesh-Bajaj TR7 Tutorial",
-      "colNumber": 8
-    },
-    {
       "value": "Statistics-for-Business-Decisions 23W11 Dr.-Amit-Srivastava TR5 Lecture",
       "colNumber": 9
-    },
-    {
-      "value": "2",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "Management-Accounting 23W11 Ms.-Triambica-Gautam TR6 Tutorial",
@@ -3336,20 +2428,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "Python-Programming-Lab 23J11 Dr.-Nishant-Jain CL5_2 Lab",
+      "value": "Python-Programming-Lab 23J11 Dr.-Shweta-Pandit CL5_2 Lab",
       "colNumber": 8
     },
     {
-      "value": "Python-Programming-Lab 23J11 Dr.-Nishant-Jain CL5_2 Lab",
+      "value": "Python-Programming-Lab 23J11 Dr.-Shweta-Pandit CL5_2 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "3",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "Object-Oriented-Systems-and--Programming 23A11,23A12,23A13 Dr.-Amol-Vasudeva CR5 Lecture",
@@ -3364,24 +2448,16 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "Object-Oriented-Systems-and--Programming-Lab 23A15 Dr.-Deepak-Gupta CL10 Lab",
+      "value": "Object-Oriented-Systems-and--Programming-Lab 23A15 Dr.-Deepak-Gupta CL6 Lab",
       "colNumber": 8
     },
     {
-      "value": "Object-Oriented-Systems-and--Programming-Lab 23A15 Dr.-Deepak-Gupta CL10 Lab",
+      "value": "Object-Oriented-Systems-and--Programming-Lab 23A15 Dr.-Deepak-Gupta CL6 Lab",
       "colNumber": 9
     },
     {
       "value": "Digital-Electronics-&-Logic-Design 23B11,23A14,23A11,23A17,23J12 Dr.-Harsh-Sohal TR5 Lecture",
       "colNumber": 10
-    },
-    {
-      "value": "4",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "Life-Skills-and-Interpersonal-Dynamics 23C11,23B11,23H11,23D11,23E11,23F11,23BM11 Dr.-Tanu-Shrma CR10 Lecture",
@@ -3404,23 +2480,15 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "5",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "Fundamentals-of-Signals-&-Systems 23B11 Dr.-Rajiv-Kumar TR2 Tutorial",
       "colNumber": 2
     },
     {
-      "value": "Computational-Fundamentals-for-Optimization-Lab 23I11,23I12 Dr.-Kushal-Kanwar CL11 Lab",
+      "value": "P-24B11CI311xxxx 23I11,23I12 Dr.-Kushal-Kanwar CL11 Lab",
       "colNumber": 3
     },
     {
-      "value": "Computational-Fundamentals-for-Optimization-Lab 23I11,23I12 Dr.-Kushal-Kanwar CL11 Lab",
+      "value": "P-24B11CI311xxxx 23I11,23I12 Dr.-Kushal-Kanwar CL11 Lab",
       "colNumber": 4
     },
     {
@@ -3430,14 +2498,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Chemistry 23D11 Dr.-Poonam-Sharma TR8 Lecture",
       "colNumber": 9
-    },
-    {
-      "value": "6",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "Biological--Computation 23F11 Dr.-Raj-Kumar TR3 Lecture",
@@ -3452,24 +2512,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "Object-Oriented-Systems-and--Programming-Lab 23A16 Dr.-Nancy-Singla CL9_2 Lab",
-      "colNumber": 7
-    },
-    {
-      "value": "Object-Oriented-Systems-and--Programming-Lab 23A16 Dr.-Nancy-Singla CL9_2 Lab",
-      "colNumber": 8
-    },
-    {
       "value": "Life-Skills-and-Interpersonal-Dynamics 23A16 Dr.-Neena-Jindal GDROOM Tutorial",
       "colNumber": 9
-    },
-    {
-      "value": "7",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "Database-Management-Systems-Lab 23A16 Dr.-Vipul-Kr.-Sharma CL9_2 Lab",
@@ -3478,22 +2522,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Database-Management-Systems-Lab 23A16 Dr.-Vipul-Kr.-Sharma CL9_2 Lab",
       "colNumber": 3
-    },
-    {
-      "value": "Database-Management-Systems-Lab 23A14,23BM11 Dr.-Ekta-Gandotra CL8_2 Lab",
-      "colNumber": 6
-    },
-    {
-      "value": "Database-Management-Systems-Lab 23A14,23BM11 Dr.-Ekta-Gandotra CL8_2 Lab",
-      "colNumber": 7
-    },
-    {
-      "value": "8",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "Database-Management-systems 23I11,23I12,23J11,23J12,23K11,23C11 Dr.-Nishant-Sharma LT2 Lecture",
@@ -3520,14 +2548,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "9",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "Fundamentals-of-Signals-&-Systems-Lab 23B11 Dr.-Rajiv-Kumar ECL6 Lab",
       "colNumber": 4
     },
@@ -3542,14 +2562,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Python-Programming-Lab 23A12 Dr.-Naveen-Jaglan CL8_2 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "10",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "Probability-&-Statistics 23D11,23BM11 Dr.-Neel-Kanth TR5 Lecture",
@@ -3564,27 +2576,19 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "Computational-Fundamentals-for-Optimization-Lab 23K11 (AYS) CL9_1 Lab",
+      "value": "P-24B11CI311xxxx 23K11 (AYS) CL9_1 Lab",
       "colNumber": 8
     },
     {
-      "value": "Computational-Fundamentals-for-Optimization-Lab 23K11 (AYS) CL9_1 Lab",
+      "value": "P-24B11CI311xxxx 23K11 (AYS) CL9_1 Lab",
       "colNumber": 9
     },
     {
-      "value": "11",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "IT-Workshop-Lab 23J11 Ms.-Pragya-Gupta CL10 Lab",
+      "value": "IT-Workshop-Lab 23J11 Ms.-Pragya-Gupta CL1 Lab",
       "colNumber": 3
     },
     {
-      "value": "IT-Workshop-Lab 23J11 Ms.-Pragya-Gupta CL10 Lab",
+      "value": "IT-Workshop-Lab 23J11 Ms.-Pragya-Gupta CL1 Lab",
       "colNumber": 4
     },
     {
@@ -3592,23 +2596,15 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "12",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "L-Seminar 23W11,24W11 Dr.-Amit-Srivastava TR4 Lecture",
       "colNumber": 4
     },
     {
-      "value": "Fluid-Mechanics-Lab 23D11 Dr.-Sugandha-Singh CONCLAB Lab",
+      "value": "Fluid-Mechanics-Lab 23D11 Prof.-Ashish-Kumar CONCLAB Lab",
       "colNumber": 7
     },
     {
-      "value": "Fluid-Mechanics-Lab 23D11 Dr.-Sugandha-Singh CONCLAB Lab",
+      "value": "Fluid-Mechanics-Lab 23D11 Prof.-Ashish-Kumar CONCLAB Lab",
       "colNumber": 8
     },
     {
@@ -3616,24 +2612,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "13",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "Probability-&-Statistics 23A11,23A12,23A13 Dr.-Bhupendra-Kumar-Pathak CR9 Lecture",
       "colNumber": 2
-    },
-    {
-      "value": "14",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "Python-Programming-Lab 23A15 Dr.-Emjee-Puthooran CL5_2 Lab",
@@ -3648,47 +2628,27 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "15",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "Python-Programming-Essentials- 23A14,23A15,23A16,23BM11 (KTS) CR9 Lecture",
       "colNumber": 4
     },
     {
-      "value": "16",
-      "colNumber": 11
-    },
-    {
       "value": "FRI",
       "colNumber": 1
     },
     {
-      "value": "Python-Programming-Lab 23I11,23I12 Dr.-Salman-Raju-Talluri Cl8_2 Lab",
+      "value": "Python-Programming-Lab 23I11,23I12 Dr.-Salman-Raju-Talluri CL8_2 Lab",
       "colNumber": 4
     },
     {
-      "value": "Python-Programming-Lab 23I11,23I12 Dr.-Salman-Raju-Talluri Cl8_2 Lab",
+      "value": "Python-Programming-Lab 23I11,23I12 Dr.-Salman-Raju-Talluri CL8_2 Lab",
       "colNumber": 5
     },
     {
-      "value": "1",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "Database-Management-Systems-Lab 23A18,23F11/Minor Dr.-Pankaj-Dhiman CL5_1 Lab",
+      "value": "Database-Management-Systems-Lab 23A18,23F11/Minor Dr.-Pankaj-Dhiman CL6 Lab",
       "colNumber": 2
     },
     {
-      "value": "Database-Management-Systems-Lab 23A18,23F11/Minor Dr.-Pankaj-Dhiman CL5_1 Lab",
+      "value": "Database-Management-Systems-Lab 23A18,23F11/Minor Dr.-Pankaj-Dhiman CL6 Lab",
       "colNumber": 3
     },
     {
@@ -3704,32 +2664,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "Database-Management-systems 23A11,23A12,23A13 Dr.-Pardeep-Kumar CR2 Lecture",
-      "colNumber": 8
-    },
-    {
-      "value": "2",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "Life-Skills-and-Interpersonal-Dynamics 23A15,23I12 Dr.-Neena-Jindal CR1 Tutorial",
-      "colNumber": 2
+      "value": "Thermodynamics-&-Chemical-Processes 23E11 Dr.-Poonam-Sharma TR5 Lecture",
+      "colNumber": 4
     },
     {
       "value": "Cell-and-Molecular-Biology 23F11 Dr.-Abhishek-Chaudhary CR18 Lecture",
       "colNumber": 5
-    },
-    {
-      "value": "3",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "-Electronic-Devices-&-Circuits 23B11 Dr.-Shruti-Jain ECL3 Lecture",
@@ -3754,14 +2694,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Digital-Electronics-&-Logic-Design 23B11,23A14,23A11,23A17,23J12 Dr.-Harsh-Sohal TR5 Lecture",
       "colNumber": 10
-    },
-    {
-      "value": "4",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "Engineering-Mechanics 23D11 (SUV) TR8 Lecture",
@@ -3792,14 +2724,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "5",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "Genetics 23E11 Prof.-Sudhir-Syal CR6 Tutorial",
       "colNumber": 2
     },
@@ -3814,14 +2738,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Life-Skills-and-Interpersonal-Dynamics 23A17 Dr.-Neena-Jindal TR3 Tutorial",
       "colNumber": 8
-    },
-    {
-      "value": "6",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "Probability-&-Statistics 23A11,23A12,23A13 Dr.-Bhupendra-Kumar-Pathak CR9 Lecture",
@@ -3842,14 +2758,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Probability-&-Statistics 23A17,23A18,23A19 Dr.-Saurabh-Srivastava LT3 Lecture",
       "colNumber": 9
-    },
-    {
-      "value": "7",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "Python-Programming-Lab 23A19 Dr.-Salman-Raju-Talluri CL3_1 Lab",
@@ -3876,14 +2784,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "8",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "L-24BB1HS312 23W11 Dr.-Anupriya-Kaur TR7 Lecture",
       "colNumber": 2
     },
@@ -3908,19 +2808,11 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "9",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "Database-Management-Systems-Lab 23J12,23K11 Dr.-Nishant-Sharma CL10 Lab",
+      "value": "Database-Management-Systems-Lab 23J12,23K11 Dr.-Nishant-Sharma CL4 Lab",
       "colNumber": 2
     },
     {
-      "value": "Database-Management-Systems-Lab 23J12,23K11 Dr.-Nishant-Sharma CL10 Lab",
+      "value": "Database-Management-Systems-Lab 23J12,23K11 Dr.-Nishant-Sharma CL4 Lab",
       "colNumber": 3
     },
     {
@@ -3944,14 +2836,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "10",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "IT-Workshop-Lab 23A11 Ms.-Pragya-Gupta CL1 Lab",
       "colNumber": 4
     },
@@ -3968,14 +2852,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "11",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "IT-Workshop-Lab 23A17 Mr.-Munish-Sud CL3_2 Lab",
       "colNumber": 2
     },
@@ -3990,28 +2866,12 @@ export const timeTable:TimeTableData = {
     {
       "value": "Database-Management-Systems-Lab 23A19 Dr.-Pankaj-Dhiman CL6 Lab",
       "colNumber": 5
-    },
-    {
-      "value": "Object-Oriented-Systems-and--Programming-Lab 23A13 CS-Faculty-2 CL5_2 Lab",
-      "colNumber": 6
-    },
-    {
-      "value": "Object-Oriented-Systems-and--Programming-Lab 23A13 CS-Faculty-2 CL5_2 Lab",
-      "colNumber": 7
     },
     {
       "value": "Database-Management-systems 23A14,23A15,23A16,23BM11 Dr.-Ekta-Gandotra LT1 Lecture",
       "colNumber": 8
     },
     {
-      "value": "12",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "Database-Management-Systems-Lab 23C11 Dr.-Diksha-Hooda CL5_2 Lab",
       "colNumber": 2
     },
@@ -4036,14 +2896,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "13",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "Database-Management-Systems-Lab 23A15 Dr.-Ekta-Gandotra CL9_2 Lab",
       "colNumber": 4
     },
@@ -4052,39 +2904,35 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "L-xxxxxxxxxx 23I11,23I12,23J11,23J12 (VSG,SST) LT3 Lecture",
+      "value": "L-24B11CI311 23I11,23I12,23J11,23J12 Dr.-Saurabh-Srivastava LT3 Lecture",
       "colNumber": 7
     },
     {
-      "value": "14",
-      "colNumber": 11
+      "value": "Object-Oriented-Systems-and--Programming-Lab 23A13 (FSL) CL6 Lab",
+      "colNumber": 8
     },
     {
-      "value": "FRI",
-      "colNumber": 1
+      "value": "Object-Oriented-Systems-and--Programming-Lab 23A13 (FSL) CL6 Lab",
+      "colNumber": 9
     },
     {
       "value": "Python-Programming-Essentials- 23A11,23A12,23A13 Dr.-Aman-Sharma CR10 Lecture",
       "colNumber": 3
     },
     {
-      "value": "Thermodynamics-&-Chemical-Processes 23E11 Dr.-Poonam-Sharma TR5 Lecture",
-      "colNumber": 4
+      "value": "Statistical-Software 23W11 Dr.-Nishant-Jain CL1 Lab",
+      "colNumber": 8
     },
     {
-      "value": "15",
-      "colNumber": 11
+      "value": "Statistical-Software 23W11 Dr.-Nishant-Jain CL1 Lab",
+      "colNumber": 9
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "Object-Oriented-Systems-and--Programming-Lab 23J11 (MTS) Cl8_2 Lab",
+      "value": "Object-Oriented-Systems-and--Programming-Lab 23J11 (MTS) CL8_2 Lab",
       "colNumber": 2
     },
     {
-      "value": "Object-Oriented-Systems-and--Programming-Lab 23J11 (MTS) Cl8_2 Lab",
+      "value": "Object-Oriented-Systems-and--Programming-Lab 23J11 (MTS) CL8_2 Lab",
       "colNumber": 3
     },
     {
@@ -4092,24 +2940,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 4
     },
     {
-      "value": "Python-Programming-Lab 23J11 Dr.-Nishant-Jain CL3_2 Lab",
+      "value": "Python-Programming-Lab 23J11 Dr.-Shweta-Pandit CL3_2 Lab",
       "colNumber": 8
     },
     {
-      "value": "Python-Programming-Lab 23J11 Dr.-Nishant-Jain CL3_2 Lab",
+      "value": "Python-Programming-Lab 23J11 Dr.-Shweta-Pandit CL3_2 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "16",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "1",
-      "colNumber": 11
     },
     {
       "value": "SAT",
@@ -4120,28 +2956,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 4
     },
     {
-      "value": "2",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
       "value": "Database-Management-Systems-Lab 23J12,23K11 Dr.-Nishant-Sharma CL8_1 Lab",
       "colNumber": 4
     },
     {
       "value": "Database-Management-Systems-Lab 23J12,23K11 Dr.-Nishant-Sharma CL8_1 Lab",
       "colNumber": 5
-    },
-    {
-      "value": "3",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     },
     {
       "value": "Database-Management-systems 23A14,23A15,23A16,23BM11 Dr.-Ekta-Gandotra CR2 Lecture",
@@ -4156,24 +2976,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "4",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
       "value": "Life-Skills-and-Interpersonal-Dynamics 23B11,23H11,23D11,23E11,23BM11 Dr.-Tanu-Shrma LT2 Tutorial",
       "colNumber": 2
-    },
-    {
-      "value": "5",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     },
     {
       "value": "Life-Skills-and-Interpersonal-Dynamics 23A11,23A12,23A13 Ms.-Triambica-Gautam CR5 Lecture",
@@ -4184,14 +2988,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 4
     },
     {
-      "value": "6",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
       "value": "Python-Programming-Lab 23A18 Dr.-Vikas-Baghel CL8_2 Lab",
       "colNumber": 2
     },
@@ -4200,140 +2996,60 @@ export const timeTable:TimeTableData = {
       "colNumber": 3
     },
     {
-      "value": "7",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "Python-Programming-Lab 23A19 Dr.-Salman-Raju-Talluri CL4 Lab",
-      "colNumber": 2
-    },
-    {
-      "value": "Python-Programming-Lab 23A19 Dr.-Salman-Raju-Talluri CL4 Lab",
-      "colNumber": 3
-    },
-    {
-      "value": "Python-Programming-Lab 23A11 Dr.-Salman-Raju-Talluri CL5_1 Lab",
+      "value": "Python-Programming-Lab 23A11 Dr.-Salman-Raju-Talluri CL10 Lab",
       "colNumber": 4
     },
     {
-      "value": "Python-Programming-Lab 23A11 Dr.-Salman-Raju-Talluri CL5_1 Lab",
+      "value": "Python-Programming-Lab 23A11 Dr.-Salman-Raju-Talluri CL10 Lab",
       "colNumber": 5
-    },
-    {
-      "value": "8",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     },
     {
       "value": "Cell-and-Molecular-Biology 23F11 Dr.-Abhishek-Chaudhary CR18 Lecture",
       "colNumber": 2
     },
     {
-      "value": "9",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
       "value": "Biological--Computation 23F11 Dr.-Tiratha-Raj-Singh CR17 Lecture",
       "colNumber": 3
-    },
-    {
-      "value": "10",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     },
     {
       "value": "Probability-&-Statistics 23A14,23A15,23A16 Dr.-Bhupendra-Kumar-Pathak CR2 Lecture",
       "colNumber": 2
     },
     {
-      "value": "Object-Oriented-Systems-and--Programming-Lab 23A18 Dr.-Hari-Singh CL1 Lab",
+      "value": "Object-Oriented-Systems-and--Programming-Lab 23A18 Dr.-Hari-Singh CL5_2 Lab",
       "colNumber": 4
     },
     {
-      "value": "Object-Oriented-Systems-and--Programming-Lab 23A18 Dr.-Hari-Singh CL1 Lab",
+      "value": "Object-Oriented-Systems-and--Programming-Lab 23A18 Dr.-Hari-Singh CL5_2 Lab",
       "colNumber": 5
-    },
-    {
-      "value": "11",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     },
     {
       "value": "Object-Oriented-Systems-and--Programming 23I11,23I12,23J11,23J12,23K11,23C11 (MTS) LT1 Lecture",
       "colNumber": 3
     },
     {
-      "value": "12",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
       "value": "Database-Management-systems 23I11,23I12,23J11,23J12,23K11,23C11 Dr.-Nishant-Sharma LT1 Lecture",
       "colNumber": 2
-    },
-    {
-      "value": "13",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     },
     {
       "value": "Object-Oriented-Systems-and--Programming 23A11,23A12,23A13 Dr.-Amol-Vasudeva CR5 Lecture",
       "colNumber": 2
     },
     {
-      "value": "Python-Programming-Lab 23A16 Dr.-Emjee-Puthooran CL10 Lab",
+      "value": "Python-Programming-Lab 23A16 Dr.-Emjee-Puthooran CL4 Lab",
       "colNumber": 4
     },
     {
-      "value": "Python-Programming-Lab 23A16 Dr.-Emjee-Puthooran CL10 Lab",
+      "value": "Python-Programming-Lab 23A16 Dr.-Emjee-Puthooran CL4 Lab",
       "colNumber": 5
     },
     {
-      "value": "14",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "IT-Workshop-Lab 23I11,23I12 Mr.-Munish-Sud CL5_2 Lab",
+      "value": "IT-Workshop-Lab 23I11,23I12 Mr.-Munish-Sud CL1 Lab",
       "colNumber": 4
     },
     {
-      "value": "IT-Workshop-Lab 23I11,23I12 Mr.-Munish-Sud CL5_2 Lab",
+      "value": "IT-Workshop-Lab 23I11,23I12 Mr.-Munish-Sud CL1 Lab",
       "colNumber": 5
-    },
-    {
-      "value": "15",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     },
     {
       "value": "Python-Programming-Lab 23A13 Dr.-Naveen-Jaglan CL8_2 Lab",
@@ -4342,24 +3058,12 @@ export const timeTable:TimeTableData = {
     {
       "value": "Python-Programming-Lab 23A13 Dr.-Naveen-Jaglan CL8_2 Lab",
       "colNumber": 5
-    },
-    {
-      "value": "16",
-      "colNumber": 11
     }
   ],
   "BTECH 5 SEM": [
     {
       "value": "TIME TABLE: (BTECH 5 SEM ALL BRANCHES)",
       "colNumber": 1
-    },
-    {
-      "value": "TIME TABLE: (BTECH 5 SEM ALL BRANCHES)",
-      "colNumber": 2
-    },
-    {
-      "value": "TIME TABLE: (BTECH 5 SEM ALL BRANCHES)",
-      "colNumber": 3
     },
     {
       "value": "D/T",
@@ -4410,24 +3114,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 3
     },
     {
-      "value": "Computer-Graphics-Lab CS59 (RMS) CL8_1 Lab",
-      "colNumber": 4
-    },
-    {
-      "value": "Computer-Graphics-Lab CS59 (RMS) CL8_1 Lab",
-      "colNumber": 5
-    },
-    {
       "value": "Project-Management-and-Entrepreneurship CS510,CS511,CS512 (BLK) CR7 Lecture",
       "colNumber": 7
     },
     {
       "value": "Project-Management-and-Entrepreneurship CS54,CS55,CS56 Dr.-Anupriya-Kaur CR2 Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "Foundation-of-data-science-and-visualization PAI_FDSV_Batch-1(CS54,CS55,CS57,CS58,CS59,CS511,CS512,IT51) Dr.-Rakesh-Kanji LT2 Lecture",
@@ -4446,10 +3138,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "Cloud-Computing:-Concepts,-Technology-&-Architecture PCC_Theory_Batch-1(CS51,CS52,CS53,CS54,CS55,CS58,CS59) (AYS) LT3 Lecture",
       "colNumber": 2
     },
@@ -4466,10 +3154,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "Highway-Engineering CE51 Dr.-Amardeep TR8 Lecture",
       "colNumber": 2
     },
@@ -4478,8 +3162,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "MON",
-      "colNumber": 1
+      "value": "Computer-Graphics-Lab CS59 (RMS) CL5_1 Lab",
+      "colNumber": 4
+    },
+    {
+      "value": "Computer-Graphics-Lab CS59 (RMS) CL5_1 Lab",
+      "colNumber": 5
     },
     {
       "value": "L-18B11CI515 CS54,CS55,CS56 (ATA) CR10 Lecture",
@@ -4494,10 +3182,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "Computer-Organization-and-Architecture-Lab CS53 Dr.-Harsh-Sohal CL5_2 Lab",
       "colNumber": 4
     },
@@ -4508,18 +3192,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "L-18B1WCE531 CE51 Mr.-Kaushal-Kumar CR15 Lecture",
       "colNumber": 7
-    },
-    {
-      "value": "Multimedia-Lab CS512 Dr.-Praveen-Modi CL8_1 Lab",
-      "colNumber": 8
-    },
-    {
-      "value": "Multimedia-Lab CS512 Dr.-Praveen-Modi CL8_1 Lab",
-      "colNumber": 9
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "Cloud-Computing:-Concepts,-Technology-&-Architecture PCC_Theory_Batch-2(CS56,CS57,CS510,CS511,CS512,IT51,IT52) (NKR) CR9 Lecture",
@@ -4542,10 +3214,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "Computer-Graphics-Lab CS51 Mr.-Prateek-Thakral CL7 Lab",
       "colNumber": 4
     },
@@ -4560,10 +3228,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Computer-Graphics-Lab CS511 (SMA) CL9_2 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "L-18B1WCI532 PIS_DATACOMPR_Batch-1(ALL Groups) (PMI) CR8 Lecture",
@@ -4586,12 +3250,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "MON",
-      "colNumber": 1
+      "value": "Computer-Organization-and-Architecture-Lab CS512 Dr.-Alok-Kumar CL8_1 Lab",
+      "colNumber": 8
     },
     {
-      "value": "MON",
-      "colNumber": 1
+      "value": "Computer-Organization-and-Architecture-Lab CS512 Dr.-Alok-Kumar CL8_1 Lab",
+      "colNumber": 9
     },
     {
       "value": "Computer-Organization-and-Architecture-Lab CS54 Dr.-Alok-Kumar CL8_2 Lab",
@@ -4602,24 +3266,16 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "P-18B17CI571 IT51,IT52 Dr.-Amol-Vasudeva CL10 Lab",
+      "value": "P-18B17CI571 IT51,IT52 Dr.-Amol-Vasudeva CL5_1 Lab",
       "colNumber": 7
     },
     {
-      "value": "P-18B17CI571 IT51,IT52 Dr.-Amol-Vasudeva CL10 Lab",
+      "value": "P-18B17CI571 IT51,IT52 Dr.-Amol-Vasudeva CL5_1 Lab",
       "colNumber": 8
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "Electromagnetic-Waves EC51 Dr.-Salman-Raju-Talluri TR6 Lecture",
       "colNumber": 3
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "Microprocessor-and-Interfacing EC51 Dr.-Shweta-Pandit TR1 Lecture",
@@ -4642,10 +3298,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "Principles-of-Digital-Signal-Processing EC51 Dr.-Nishant-Jain TR5 Lecture",
       "colNumber": 4
     },
@@ -4654,20 +3306,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "L-18B11CI514 CS51,CS52,CS53 Dr.-Vivek-Sehgal LT1 Lecture",
       "colNumber": 7
     },
     {
       "value": "Applied-Materials-Science CS54,CS55,CS56 Prof.-P.B.-Barman CR4 Lecture",
       "colNumber": 9
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "P-18B17CI572 IT51,IT52,BI51 Dr.-Ruchi-Verma CL1 Lab",
@@ -4698,10 +3342,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "Computer-Organization-and-Architecture-Lab CS59 Dr.-Pardeep-Garg CL5_2 Lab",
       "colNumber": 2
     },
@@ -4730,10 +3370,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "Multimedia-Lab CS54 Dr.-Ruchi-Verma CL5_1 Lab",
       "colNumber": 2
     },
@@ -4746,7 +3382,7 @@ export const timeTable:TimeTableData = {
       "colNumber": 4
     },
     {
-      "value": "L-18B11CI513 CS57,CS58,CS59 (RMS) CR10 Lecture",
+      "value": "L-18B11CI513 CS57,CS58,CS59 (RMS) LT1 Lecture",
       "colNumber": 7
     },
     {
@@ -4756,10 +3392,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Computer-Organization-and-Architecture-Lab CS511 Dr.-Pardeep-Garg CL5_2 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "Structural-Analysis CE51 Mr.-Chandrapal-Gautam CR4 Lecture",
@@ -4782,10 +3414,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "Foundation-of-data-science-and-visualization PAI_FDSV_Batch-2(CS51,CS52,CS53,CS56,CS510,IT52,BI51) Dr.-Ravindara-Bhatt CR6 Lecture",
       "colNumber": 2
     },
@@ -4806,8 +3434,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "TUE",
-      "colNumber": 1
+      "value": "Project-Management-and-Entrepreneurship CS57,CS58,CS59 (BLK) LT3 Lecture",
+      "colNumber": 5
     },
     {
       "value": "Design-of-Concrete-Structures CE51 Dr.-Tanmay CR13 Lecture",
@@ -4818,20 +3446,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "Electromagnetic-Waves EC51 Dr.-Salman-Raju-Talluri TR6 Lecture",
       "colNumber": 7
     },
     {
       "value": "Project-Management-and-Entrepreneurship CS51,CS52,CS53 Dr.-Anupriya-Kaur LT1 Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "Bioprocess-Engineering-Lab BT51 Dr.-Saurabh-Bansal UG1 Lab",
@@ -4854,10 +3474,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "Computer-Graphics-Lab CS57 (SMA) CL6 Lab",
       "colNumber": 2
     },
@@ -4878,10 +3494,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "Fundamentals-of-Digital-Image-Processing- EC51 Ms.-Pragya-Gupta TR5 Lecture",
       "colNumber": 2
     },
@@ -4898,10 +3510,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "Computer-Graphics-Lab CS55 (ATA) CL8_2 Lab",
       "colNumber": 2
     },
@@ -4910,16 +3518,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 3
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "L-18B11CI513 CS510,CS511,CS512 Dr.-Diksha-Hooda LT1 Lecture",
       "colNumber": 3
     },
     {
-      "value": "TUE",
-      "colNumber": 1
+      "value": "Project-Management-and-Entrepreneurship CS54,CS55,CS56 Dr.-Anupriya-Kaur CR1 Lecture",
+      "colNumber": 7
     },
     {
       "value": "Multimedia-Lab CS58 Mr.-Arvind-Kumar CL3_2 Lab",
@@ -4934,24 +3538,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "Highway-Engineering CE51 Dr.-Amardeep TR9 Lecture",
       "colNumber": 5
     },
     {
       "value": "Applied-Materials-Science CS510,CS511,CS512 Dr.-Sanjiv-Kumar-Tiwari CR11 Lecture",
       "colNumber": 7
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "WED",
@@ -4970,20 +3562,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Project-Management-and-Entrepreneurship EC51,CE51,BT51,BI51,IT51,IT52 Dr.-Anupriya-Kaur LT2 Lecture",
       "colNumber": 2
     },
     {
       "value": "Bioprocess-Engineering BT51,BI51 Dr.-Saurabh-Bansal CR17 Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "L-18B11CI513 CS54,CS55,CS56 Mr.-Arvind-Kumar CR10 Lecture",
@@ -4998,20 +3582,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "L-18B11CI512 IT51,IT52,MITBI51 Dr.-Ruchi-Verma LT3 Lecture",
+      "value": "L-18B11CI512 IT51,IT52,MITBI51 Dr.-Ruchi-Verma CR7 Lecture",
       "colNumber": 3
     },
     {
       "value": "Comparative-&-Functional-Genomics BT51 Dr.-Jata-Shankar TR3 Lecture",
       "colNumber": 4
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "Industrial-Plant-Tissue-Culture BT51 Dr.-Hemant-Sood PTCLAB Lecture",
@@ -5030,10 +3606,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Computer-Graphics-Lab CS511 (SMA) CL11 Lab",
       "colNumber": 2
     },
@@ -5048,10 +3620,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Computer-Organization-and-Architecture-Lab CS510 Dr.-Pardeep-Garg CL10 Lab",
       "colNumber": 5
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "Computer-Organization-and-Architecture-Lab CS58 Dr.-Pardeep-Garg CL3_1 Lab",
@@ -5078,10 +3646,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Computer-Graphics-Lab CS512 (SMA) CL8_1 Lab",
       "colNumber": 4
     },
@@ -5090,15 +3654,11 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "Computer-Organization-and-Architecture-Lab CS512 Dr.-Shweta-Pandit CL3_2 Lab",
+      "value": "Multimedia-Lab CS512 Dr.-Praveen-Modi CL3_2 Lab",
       "colNumber": 2
     },
     {
-      "value": "Computer-Organization-and-Architecture-Lab CS512 Dr.-Shweta-Pandit CL3_2 Lab",
+      "value": "Multimedia-Lab CS512 Dr.-Praveen-Modi CL3_2 Lab",
       "colNumber": 3
     },
     {
@@ -5110,20 +3670,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Science-and-Technology-of-Materials EC51 Dr.-Santu-Baidya TR4 Lecture",
       "colNumber": 3
     },
     {
       "value": "Structural-Bioinformatics BI51 Dr.-Raj-Kumar CR19 Lecture",
       "colNumber": 4
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "Computer-Graphics-Lab CS59 (RMS) CL4 Lab",
@@ -5146,8 +3698,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "WED",
-      "colNumber": 1
+      "value": "Computer-Organization-and-Architecture-Lab CS56 Dr.-Alok-Kumar CL1 Lab",
+      "colNumber": 8
+    },
+    {
+      "value": "Computer-Organization-and-Architecture-Lab CS56 Dr.-Alok-Kumar CL1 Lab",
+      "colNumber": 9
     },
     {
       "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab PCC_LAB_Batch-4(CS56,CS57,CS58) (NKR) CL11 Lab",
@@ -5170,10 +3726,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "P-20B1WBI571 CS510 Dr.-Rakesh-Kanji CL5_2 Lab",
       "colNumber": 2
     },
@@ -5192,10 +3744,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Project-Management-and-Entrepreneurship CS57,CS58,CS59 (BLK) CR10 Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "Computer-Graphics-Lab CS53 Mr.-Prateek-Thakral CL5_1 Lab",
@@ -5218,10 +3766,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "L-18B11CI514 CS54,CS55,CS56 Dr.-Vipul-Kr.-Sharma CR2 Lecture",
       "colNumber": 3
     },
@@ -5230,24 +3774,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "Project-Management-and-Entrepreneurship CS54,CS55,CS56 Dr.-Anupriya-Kaur LT1 Lecture",
-      "colNumber": 8
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Computer-Organization-and-Architecture-Lab CS51 (HSL/VSG) CL9_2 Lab",
       "colNumber": 2
     },
     {
       "value": "Computer-Organization-and-Architecture-Lab CS51 (HSL/VSG) CL9_2 Lab",
       "colNumber": 3
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "THU",
@@ -5270,10 +3802,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "L-18B11CI515 CS510,CS511,CS512 (SMA) CR1 Lecture",
       "colNumber": 3
     },
@@ -5288,10 +3816,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "L-18B11CI513 CS57,CS58,CS59 (RMS) CR10 Lecture",
       "colNumber": 7
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "Sewage-Treatment-and-Disposal CE51 Dr.-Rishi-Rana CR15 Lecture",
@@ -5314,14 +3838,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "Project-Management-and-Entrepreneurship CS57,CS58,CS59 (BLK) Cr12 Lecture",
-      "colNumber": 2
-    },
-    {
       "value": "L-18B11CI511 IT51,IT52,MITBI51 Dr.-Amol-Vasudeva CR7 Lecture",
       "colNumber": 5
     },
@@ -5334,10 +3850,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "L-18B11BT512 BT51 Dr.-Anil-Kant CR19 Lecture",
       "colNumber": 5
     },
@@ -5348,10 +3860,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Multimedia-Lab CS511 Dr.-Praveen-Modi CL5_1 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "L-18B11CI515 CS51,CS52,CS53 Mr.-Prateek-Thakral LT3 Lecture",
@@ -5370,20 +3878,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "Computer-Graphics-Lab CS56 (ATA) CL3_1 Lab",
       "colNumber": 4
     },
     {
       "value": "Computer-Graphics-Lab CS56 (ATA) CL3_1 Lab",
       "colNumber": 5
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "Applied-Materials-Science CS510,CS511,CS512 Dr.-Sanjiv-Kumar-Tiwari CR1 Lecture",
@@ -5394,10 +3894,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "Principles-of-Digital-Signal-Processing-Lab EC51 Dr.-Nishant-Jain ECL1 Lab",
       "colNumber": 2
     },
@@ -5406,11 +3902,11 @@ export const timeTable:TimeTableData = {
       "colNumber": 3
     },
     {
-      "value": "Computer-Graphics-Lab CS510 (SMA) Cl8_1 Lab",
+      "value": "Computer-Graphics-Lab CS510 (SMA) CL8_1 Lab",
       "colNumber": 4
     },
     {
-      "value": "Computer-Graphics-Lab CS510 (SMA) Cl8_1 Lab",
+      "value": "Computer-Graphics-Lab CS510 (SMA) CL8_1 Lab",
       "colNumber": 5
     },
     {
@@ -5420,10 +3916,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Environmental-Engineering-Lab CE51 Prof.-Ashok-Kumar-Gupta ENVLAB Lab",
       "colNumber": 9
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "Scripting-Languages-for-Bioinformatics-(Minor) BI51/MinorBT51 Dr.-Tiratha-Raj-Singh TR4 Lecture",
@@ -5438,16 +3930,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "Computer-Graphics-Lab CS512 (SMA) CL11 Lab",
+      "value": "Computer-Graphics-Lab CS512 (SMA) CL9_2 Lab",
       "colNumber": 8
     },
     {
-      "value": "Computer-Graphics-Lab CS512 (SMA) CL11 Lab",
+      "value": "Computer-Graphics-Lab CS512 (SMA) CL9_2 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "Computer-Graphics-Lab CS54 (ATA) CL9_1 Lab",
@@ -5470,15 +3958,11 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "Computer-Organization-and-Architecture-Lab IT51,IT52 Dr.-Shweta-Pandit CL5_1 Lab",
+      "value": "Computer-Organization-and-Architecture-Lab IT51,IT52 Dr.-Alok-Kumar CL5_1 Lab",
       "colNumber": 2
     },
     {
-      "value": "Computer-Organization-and-Architecture-Lab IT51,IT52 Dr.-Shweta-Pandit CL5_1 Lab",
+      "value": "Computer-Organization-and-Architecture-Lab IT51,IT52 Dr.-Alok-Kumar CL5_1 Lab",
       "colNumber": 3
     },
     {
@@ -5488,18 +3972,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "L-18B11CI514 CS54,CS55,CS56 Dr.-Vipul-Kr.-Sharma CR2 Lecture",
       "colNumber": 9
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "Computer-Organization-and-Architecture-Lab CS56 Dr.-Alok-Kumar CL1 Lab",
-      "colNumber": 2
-    },
-    {
-      "value": "Computer-Organization-and-Architecture-Lab CS56 Dr.-Alok-Kumar CL1 Lab",
-      "colNumber": 3
     },
     {
       "value": "Cloud-Computing:-Concepts,-Technology-&-Architecture PCC_THEORY_Batch-1(CS51,CS52,CS53,CS54,CS55,CS58,CS59) (AYS) LT1 Lecture",
@@ -5512,10 +3984,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Multimedia-Lab CS59 Mr.-Arvind-Kumar CL4 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "Multimedia-Lab CS55 Dr.-Ruchi-Verma CL6 Lab",
@@ -5536,10 +4004,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "P-18B17CI571 IT51,IT52 Dr.-Amol-Vasudeva CL7 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "Bioprocess-Engineering BT51,BI51 Dr.-Saurabh-Bansal CR18 Lecture",
@@ -5566,10 +4030,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "L-18B11CI512 IT51,IT52,MITBI51 Dr.-Ruchi-Verma CR8 Lecture",
       "colNumber": 2
     },
@@ -5584,10 +4044,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Applied-Materials-Science CS54,CS55,CS56 Prof.-P.B.-Barman CR9 Lecture",
       "colNumber": 9
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "L-18B11CI515 CS51,CS52,CS53 Mr.-Prateek-Thakral LT3 Lecture",
@@ -5610,10 +4066,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "L-18B1WCE531 CE51 Mr.-Kaushal-Kumar CR15 Lecture",
       "colNumber": 2
     },
@@ -5628,10 +4080,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "T-18B11BT512 BT51 Dr.-Anil-Kant TR4 Tutorial",
       "colNumber": 7
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "L-18B11CI515 CS510,CS511,CS512 (SMA) CR1 Lecture",
@@ -5658,10 +4106,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "L-18B11CI512 IT51,IT52,MITBI51 Dr.-Ruchi-Verma CR5 Lecture",
       "colNumber": 3
     },
@@ -5680,10 +4124,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Computer-Graphics-Lab CS53 Mr.-Prateek-Thakral CL4 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "Project-Management-and-Entrepreneurship CS57,CS58,CS59 (BLK) CR8 Lecture",
@@ -5706,10 +4146,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "Computer-Graphics-Lab CS52 Mr.-Prateek-Thakral CL7 Lab",
       "colNumber": 4
     },
@@ -5722,20 +4158,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "L-18B11BT512 BT51 Dr.-Anil-Kant CR19 Lecture",
       "colNumber": 4
     },
     {
       "value": "Applied-Materials-Science IT51,IT52 Dr.-Ragni-Raj-Singh CR11 Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "Cloud-Computing:-Concepts,-Technology-&\nArchitecture-Lab PCC_LAB__Batch-6(IT51,IT52,CS59) (NKR) CL8_1 Lab",
@@ -5758,10 +4186,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "L-18B11BT513 BT51 Dr.-Abhishek-Chaudhary CR16 Lecture",
       "colNumber": 2
     },
@@ -5770,20 +4194,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "Applied-Materials-Science CS57,CS58,CS59 Dr.-S.K.Hazra LT2 Lecture",
       "colNumber": 2
     },
     {
       "value": "Sewage-Treatment-and-Disposal CE51 Dr.-Rishi-Rana CR15 Lecture",
       "colNumber": 3
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "Microprocessor-and-Interfacing EC51 Dr.-Shweta-Pandit TR1 Lecture",
@@ -5798,10 +4214,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "Microprocessor-and-Interfacing-Lab EC51 Dr.-Shweta-Pandit ECL7 Lab",
       "colNumber": 2
     },
@@ -5812,10 +4224,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Comparative-&-Functional-Genomics BT51 Dr.-Jata-Shankar TR5 Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "Computer-Graphics-Lab CS55 (ATA) CL10 Lab",
@@ -5830,18 +4238,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
       "value": "SAT",
       "colNumber": 1
     },
@@ -5852,10 +4248,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "Multimedia-Lab CS510 Mr.-Arvind-Kumar CL6 Lab",
       "colNumber": 5
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     },
     {
       "value": "Computer-Graphics-Lab CS58 (RMS) CL5_1 Lab",
@@ -5866,60 +4258,28 @@ export const timeTable:TimeTableData = {
       "colNumber": 3
     },
     {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
       "value": "Scripting-Languages-for-Bioinformatics-Lab-(Minor) BI51/MinorBT51 Dr.-Tiratha-Raj-Singh BPL Lab",
       "colNumber": 4
     },
     {
       "value": "Scripting-Languages-for-Bioinformatics-Lab-(Minor) BI51/MinorBT51 Dr.-Tiratha-Raj-Singh BPL Lab",
       "colNumber": 5
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     },
     {
       "value": "L-18B11CI513 CS54,CS55,CS56 Mr.-Arvind-Kumar CR10 Lecture",
       "colNumber": 2
     },
     {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "Computer-Graphics-Lab CS57 (SMA) CL5_2 Lab",
+      "value": "Computer-Graphics-Lab CS57 (SMA) CL6 Lab",
       "colNumber": 2
     },
     {
-      "value": "Computer-Graphics-Lab CS57 (SMA) CL5_2 Lab",
+      "value": "Computer-Graphics-Lab CS57 (SMA) CL6 Lab",
       "colNumber": 3
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     },
     {
       "value": "L-18B11CI514 CS54,CS55,CS56 Dr.-Vipul-Kr.-Sharma CR9 Lecture",
       "colNumber": 3
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     },
     {
       "value": "L-18B11BT513 BT51 Dr.-Abhishek-Chaudhary CR19 Lecture",
@@ -5934,10 +4294,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
       "value": "Data-Science-and-Visualization-Lab PAI_DSVL_BATCH-3(CS512,IT51,IT52,BI51) Dr.-Rakesh-Kanji CL3_2 Lab",
       "colNumber": 2
     },
@@ -5954,10 +4310,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
       "value": "P-18B1WCI572 PIS_DATACOMP LAB_Batch-2(CS512,CS51,CS55,IT51,IT52) (PMI) CL3_1 Lab",
       "colNumber": 4
     },
@@ -5966,34 +4318,18 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
       "value": "P-18B1WCI572 PIS_DATACOMP LAB_Batch-2(CS52,CS59,CS511,CS510) (PMI) CL3_1 Lab",
       "colNumber": 2
     },
     {
       "value": "P-18B1WCI572 PIS_DATACOMP LAB_Batch-2(CS52,CS59,CS511,CS510) (PMI) CL3_1 Lab",
       "colNumber": 3
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     }
   ],
   "BTECH 7 SEM": [
     {
       "value": "TIME TABLE: (BTECH 7 SEM ALL BRANCHES)",
       "colNumber": 1
-    },
-    {
-      "value": "TIME TABLE: (BTECH 7 SEM ALL BRANCHES)",
-      "colNumber": 2
-    },
-    {
-      "value": "TIME TABLE: (BTECH 7 SEM ALL BRANCHES)",
-      "colNumber": 3
     },
     {
       "value": "D/T",
@@ -6068,28 +4404,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 10
     },
     {
-      "value": "1",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "P-19B1WCI771 CS-IT[PDS]BATCH_1 Dr.-Vipul-Kr.-Sharma CL4 Lab",
       "colNumber": 8
     },
     {
       "value": "P-19B1WCI771 CS-IT[PDS]BATCH_1 Dr.-Vipul-Kr.-Sharma CL4 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "2",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "Sustainable-Technologies-for-Waste-Management BIOALL_3 Dr.-Garlapati-Vijay-Kumar CR8 Lecture",
@@ -6104,32 +4424,16 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "3",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "L-19B1WCI738 CS-IT[PAI,PCC,PDS]B1 Dr.-Vipul-Kr.-Sharma CR6 Lecture",
       "colNumber": 2
     },
     {
-      "value": "P-18B1WCI774 CS-IT[PIS,PML]B3 (FSL) CL3_1 Lab",
+      "value": "P-18B1WCI774 CS-IT[PIS,PML]B3 Dr.-Vivek-Sehgal CL3_1 Lab",
       "colNumber": 8
     },
     {
-      "value": "P-18B1WCI774 CS-IT[PIS,PML]B3 (FSL) CL3_1 Lab",
+      "value": "P-18B1WCI774 CS-IT[PIS,PML]B3 Dr.-Vivek-Sehgal CL3_1 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "4",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "L-19B1WCI738 CS-IT[PAI,PCC,PDS]B2 Dr.-Kushal-Kanwar CR5 Lecture",
@@ -6148,14 +4452,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "5",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "P-18B1WCI772 CS-IT[PCC,PAI]B3 Dr.-Diksha-Hooda CL8_2 Lab",
       "colNumber": 8
     },
@@ -6164,104 +4460,24 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "6",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
+      "value": "L-18B1WEC747 MINOR_IOT_1_1 Mr.-Munish-Sud ECL4 Lecture",
+      "colNumber": 5
     },
     {
       "value": "Intellectual-Property-Rights-&-Commercialization BIO[BI71,BT71] Dr.-Hemant-Sood CR11 Lecture",
       "colNumber": 8
     },
     {
-      "value": "7",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "Environmental-Management-and-Impact-Assessment CE[CE71] Dr.-Rishi-Rana CR13 Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "8",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "L-14B1WBT739 BIO[BT71,BI71] Dr.-Uday-Banu-M CR16 Lecture",
       "colNumber": 8
     },
     {
-      "value": "9",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "Pattern-Analysis-in-Machine-Intelligence EC71 Dr.-Vikas-Baghel TR6 Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "10",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "11",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "12",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "13",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "14",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "15",
-      "colNumber": 11
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "16",
-      "colNumber": 11
     },
     {
       "value": "TUE",
@@ -6300,14 +4516,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "1",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "Indian-constitution HSS_CORE_ALL[BATCH-5]CS710,IT71,IT72 (RTK) CR9 Lecture",
       "colNumber": 2
     },
@@ -6326,14 +4534,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "P-18B1WCI772 CS-IT[PCC,PAI]B4 Dr.-Diksha-Hooda CL8_2 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "2",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "Building-Drawing CE71 Mr.-Akash-Bhardwaj DRAWR Lab",
@@ -6356,28 +4556,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "3",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "Digital-Systems ECALL_OE_3 Dr.-Pardeep-Garg CR6 Lecture",
       "colNumber": 5
     },
     {
       "value": "L-14B1WBT739 BIO[BT71,BI71] Dr.-Uday-Banu-M CR16 Lecture",
       "colNumber": 7
-    },
-    {
-      "value": "4",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "Sustainable-Technologies-for-Waste-Management BIOALL_3 Dr.-Garlapati-Vijay-Kumar CR9 Lecture",
@@ -6390,98 +4574,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "L-19B1WCI736 CS-IT[PIS,PML]E5_B1 Mr.-Arvind-Kumar CR8 Lecture",
       "colNumber": 9
-    },
-    {
-      "value": "5",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "6",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "7",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "8",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "9",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "10",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "11",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "12",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "13",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "14",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "15",
-      "colNumber": 11
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "16",
-      "colNumber": 11
     },
     {
       "value": "WED",
@@ -6516,14 +4608,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "1",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Optimization-Techniques EC71 Dr.-Alok-Kumar TR6 Lecture",
       "colNumber": 2
     },
@@ -6544,14 +4628,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "2",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Automation-and-Robotics ECALL_OE_2 Dr.-Emjee-Puthooran CR10 Lecture",
       "colNumber": 4
     },
@@ -6562,14 +4638,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "P-18B1WCI774 CS-IT[PIS,PML]B4 (FSL) CL8_2 Lab",
       "colNumber": 9
-    },
-    {
-      "value": "3",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "L-19B1WCI738 CS-IT[PAI,PCC,PDS]B1 Dr.-Vipul-Kr.-Sharma CR6 Lecture",
@@ -6584,14 +4652,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "4",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "L-19B1WCI738 CS-IT[PAI,PCC,PDS]B2 Dr.-Kushal-Kanwar CR4 Lecture",
       "colNumber": 2
     },
@@ -6600,104 +4660,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 6
     },
     {
-      "value": "5",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "6",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "7",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "Building-Drawing CE71 Mr.-Akash-Bhardwaj DRAWR Lab",
       "colNumber": 2
     },
     {
       "value": "Building-Drawing CE71 Mr.-Akash-Bhardwaj DRAWR Lab",
       "colNumber": 3
-    },
-    {
-      "value": "8",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "9",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "10",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "11",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "12",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "13",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "14",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "15",
-      "colNumber": 11
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "16",
-      "colNumber": 11
     },
     {
       "value": "THU",
@@ -6728,28 +4696,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "1",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "Indian-constitution HSS_CORE_ALL[BATCH-4]CS77,CS78,CS79 (RTK) CR6 Lecture",
       "colNumber": 2
     },
     {
       "value": "L-19B1WCI731 CS-IT[PDS]BATCH_1 Dr.-Vipul-Kr.-Sharma LT3 Lecture",
       "colNumber": 7
-    },
-    {
-      "value": "2",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "Principles-of-Communication-Systems ECALL_OE_2 Dr.-Alok-Kumar CR6 Lecture",
@@ -6764,124 +4716,20 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "Optical-Fiber-Network-(Elective) PMSALL_3 Prof.-Sunil-K.-Khah CR9 Lecture",
+      "value": "Optical-Fiber-Network-(Elective) PMSALL_3 Prof.-Sunil-K.-Khah CR4 Lecture",
       "colNumber": 9
-    },
-    {
-      "value": "3",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "Pattern-Analysis-in-Machine-Intelligence EC71 Dr.-Vikas-Baghel TR6 Lecture",
       "colNumber": 7
     },
     {
-      "value": "4",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "L-18B1WCI742 CS-IT[PCC,PAI]E4_B (GVS) LT2 Lecture",
       "colNumber": 7
     },
     {
-      "value": "5",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "6",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "7",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "8",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "9",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "10",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "11",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "12",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "13",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "14",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "15",
-      "colNumber": 11
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "16",
-      "colNumber": 11
+      "value": "L-18B1WEC747 MINOR_IOT_1_1 Mr.-Munish-Sud ECL4 Lecture",
+      "colNumber": 8
     },
     {
       "value": "FRI",
@@ -6900,20 +4748,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "Optical-Fiber-Network-(Elective) PMSALL_3 Prof.-Sunil-K.-Khah CR9 Lecture",
+      "value": "Optical-Fiber-Network-(Elective) PMSALL_3 Prof.-Sunil-K.-Khah CR4 Lecture",
       "colNumber": 6
     },
     {
       "value": "Computational-Techniques-and-Algorithms-in-Engineering MCSE_E5_B1 Dr.-Rakesh-Kanji CR4 Lecture",
       "colNumber": 9
-    },
-    {
-      "value": "1",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "Optimization-Techniques EC71 Dr.-Alok-Kumar TR5 Lecture",
@@ -6928,14 +4768,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "2",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "L-19B1WCI736 CS-IT[PIS,PML]E5_B1 Mr.-Arvind-Kumar CR10 Lecture",
       "colNumber": 2
     },
@@ -6948,14 +4780,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 6
     },
     {
-      "value": "3",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "Knowledge-Systems-in-Ancient-India  HSS_ALL (RTK, AKS, ASA, RKB) CR6 Lecture",
       "colNumber": 7
     },
@@ -6964,116 +4788,20 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "4",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "L-19B1WCI738 CS-IT[PAI,PCC,PDS]B1 Dr.-Vipul-Kr.-Sharma CR4 Lecture",
       "colNumber": 2
-    },
-    {
-      "value": "5",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "L-19B1WCI738 CS-IT[PAI,PCC,PDS]B2 Dr.-Kushal-Kanwar CR2 Lecture",
       "colNumber": 2
     },
     {
-      "value": "6",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "7",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "8",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
+      "value": "L-18B1WEC747 MINOR_IOT_1_1 Mr.-Munish-Sud ECL4 Lecture",
+      "colNumber": 8
     },
     {
       "value": "Sustainable-Technologies-for-Waste-Management BIOALL_3 Dr.-Garlapati-Vijay-Kumar CR10 Lecture",
       "colNumber": 4
-    },
-    {
-      "value": "9",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "10",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "11",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "12",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "13",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "14",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "15",
-      "colNumber": 11
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "16",
-      "colNumber": 11
     },
     {
       "value": "SAT",
@@ -7096,23 +4824,7 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "1",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "2",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "Optical-Fiber-Network-(Elective) PMSALL_3 Prof.-Sunil-K.-Khah CR9 Lecture",
+      "value": "Optical-Fiber-Network-(Elective) PMSALL_3 Prof.-Sunil-K.-Khah CR4 Lecture",
       "colNumber": 2
     },
     {
@@ -7120,134 +4832,18 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "3",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
       "value": "Optimization-Techniques EC71 Dr.-Alok-Kumar TR6 Lecture",
       "colNumber": 4
     },
     {
-      "value": "4",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
       "value": "Food-Nutrition-&-Health-Care BIOALL_4[BT71/BI71] Dr.-Uday-Banu-M CR8 Lecture",
       "colNumber": 4
-    },
-    {
-      "value": "5",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "6",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "7",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "8",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "9",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "10",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "11",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "12",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "13",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "14",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "15",
-      "colNumber": 11
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "16",
-      "colNumber": 11
     }
   ],
   "MTECH-MSc 1 SEM": [
     {
       "value": "TIME TABLE: MTECH-MSc 1 SEM ALL BRANCHES)",
       "colNumber": 1
-    },
-    {
-      "value": "TIME TABLE: MTECH-MSc 1 SEM ALL BRANCHES)",
-      "colNumber": 2
-    },
-    {
-      "value": "TIME TABLE: MTECH-MSc 1 SEM ALL BRANCHES)",
-      "colNumber": 3
     },
     {
       "value": "D/T",
@@ -7286,24 +4882,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "Sat Dec 30 1899 22:21:10 GMT+0521 (India Standard Time)",
-      "colNumber": 10
-    },
-    {
       "value": "MON",
       "colNumber": 1
     },
     {
       "value": "L-20MS1BT111 24MB11,24MM11 Dr.-Jitendraa-Vashistt TR4 Lecture",
       "colNumber": 7
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "L-11M1WCE111 24SE11 Mr.-Chandrapal-Gautam TR9 Lecture",
@@ -7316,10 +4900,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "L-18M11BT113 24BY11 Dr.-Gopal-Singh-Bisht CR16 Lecture",
       "colNumber": 5
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "L-21MS1MB111 24MM11 Dr.-Ashok-Nadda CR18 Lecture",
@@ -7342,16 +4922,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "L-21MS1MB113 24MM11 Dr.-Jata-Shankar TR7 Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "L-21M11EC113 24MEC11 Dr.-Naveen-Jaglan TR1 Lecture",
@@ -7366,10 +4938,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "L-18M11CI113 24ID11 Dr.-Rakesh-Kanji TR2 Lecture",
       "colNumber": 2
     },
@@ -7378,12 +4946,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 3
     },
     {
-      "value": "L-21M1WEC141 24MEC11 Dr.-Rajiv-Kumar TR6 Lecture",
+      "value": "L-21M1WEC141 24MEC11 Dr.-Rajiv-Kumar TR3 Lecture",
       "colNumber": 4
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "P-18M17CI171 24ID11 (JTI) CL12 Lab",
@@ -7398,20 +4962,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
+      "value": "L-11M1WCI431 24ID11 Dr.-Nishant-Sharma CR7 Lecture",
+      "colNumber": 8
     },
     {
       "value": "L-11M1WCE112 24SE11 Mr.-Chandrapal-Gautam TR9 Lecture",
@@ -7430,16 +4982,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "L-20MS1PH111 24MB11 Dr.-Poonam-Sharma TR2 Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "L-18M1WBT133 24BY11 (TTT) CR16B Lecture",
@@ -7452,14 +4996,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "L-11M1WCE114 24SE11 Dr.-Tanmay TR9 Lecture",
       "colNumber": 5
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "TUE",
@@ -7494,16 +5030,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 10
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "L-20MS1BT112 24MB11 Dr.-Abhishek-Chaudhary CR4 Lecture",
       "colNumber": 3
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "L-18M11BT114 24BY11 Dr.-Gopal-Singh-Bisht CR18 Lecture",
@@ -7518,10 +5046,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "L-24MSPH302 23MP11 Dr.-Haresh-A.-Raval TR5 Lecture",
       "colNumber": 3
     },
@@ -7534,24 +5058,16 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "L-24MSPH304 23MP11 Dr.-Sanjiv-Kumar-Tiwari TR5 Lecture",
       "colNumber": 4
     },
     {
-      "value": "L-11M1WCI431 24ID11 CS-Faculty-2 TR5 Lecture",
+      "value": "L-11M1WCI431 24ID11 Dr.-Nishant-Sharma TR5 Lecture",
       "colNumber": 5
     },
     {
       "value": "L-18M11CI114 24ID11 (NKR) TR7 Lecture",
       "colNumber": 7
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "L-20MS1BT114 24MB11 Dr.-Rahul-Shrivastava TR4 Lecture",
@@ -7570,10 +5086,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "L-10M1WCI131 24ID11 (KTS) TR7 Lecture",
       "colNumber": 2
     },
@@ -7582,23 +5094,15 @@ export const timeTable:TimeTableData = {
       "colNumber": 3
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "L-24MSPH306 23MP11 (PMF1) TR2 Lecture",
       "colNumber": 5
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "L-11M1WCE113 24SE11 Mr.-Kaushal-Kumar TR8 Lecture",
       "colNumber": 2
     },
     {
-      "value": "L-21M1WEC149 24MEC11 Dr.-Shruti-Jain TR1 Lecture",
+      "value": "L-21M1WEC149 24MEC11 Dr.-Shruti-Jain ECL3 Lecture",
       "colNumber": 5
     },
     {
@@ -7614,16 +5118,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "L-13M1WCI331 24ID11 Dr.-Hari-Singh TR3 Lecture",
       "colNumber": 3
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "P-11M1WCE713 24SE11 Prof.-Ashok-Kumar-Gupta CONCLAB Lab",
@@ -7634,20 +5130,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "L-10M11CI111 24ID11 Dr.-Ekta-Gandotra TR6 Lecture",
       "colNumber": 4
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "P-20MS7BT171 24MB11 Dr.-Jitendraa-Vashistt UG1 Lab",
@@ -7666,10 +5150,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "P-21M11EC171 24MEC11 Mr.-Munish-Sud ECL4 Lab",
       "colNumber": 2
     },
@@ -7680,10 +5160,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "L-21M1WEC137 24MEC11 Mr.-Munish-Sud ECL4 Lecture",
       "colNumber": 4
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
     },
     {
       "value": "WED",
@@ -7710,14 +5186,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "L-21M1WEC149 24MEC11 Dr.-Shruti-Jain ECL3 Lecture",
       "colNumber": 2
     },
@@ -7726,11 +5194,7 @@ export const timeTable:TimeTableData = {
       "colNumber": 4
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "L-21M1WEC141 24MEC11 Dr.-Rajiv-Kumar TR6 Lecture",
+      "value": "L-21M1WEC141 24MEC11 Dr.-Rajiv-Kumar CR7 Lecture",
       "colNumber": 4
     },
     {
@@ -7744,10 +5208,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "L-20MS1MA111 24MB11,24MM11 Dr.-Pradeep-Kumar-Pandey CR12 Lecture",
       "colNumber": 9
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "L-11M1WCE113 24SE11 Mr.-Kaushal-Kumar TR8 Lecture",
@@ -7766,10 +5226,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "L-11M1WCE114 24SE11 Dr.-Tanmay TR8 Lecture",
       "colNumber": 4
     },
@@ -7778,20 +5234,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "L-10M11CI111 24ID11 Dr.-Ekta-Gandotra TR4 Lecture",
       "colNumber": 4
     },
     {
       "value": "L-18M11CI113 24ID11 Dr.-Rakesh-Kanji TR2 Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "P-20MS7BT173 24MB11 Dr.-Rahul-Shrivastava MICROLAB Lab",
@@ -7814,16 +5262,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "L-10M1WCI131 24ID11 (KTS) TR7 Lecture",
       "colNumber": 7
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "L-13M1WCI331 24ID11 Dr.-Hari-Singh TR7 Lecture",
@@ -7834,8 +5274,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 4
     },
     {
-      "value": "WED",
-      "colNumber": 1
+      "value": "L-21M1WEC137 24MEC11 Dr.-Shweta-Pandit TR2 Lecture",
+      "colNumber": 3
     },
     {
       "value": "L-21MS1MB111 24MM11 Dr.-Ashok-Nadda CR18 Lecture",
@@ -7850,16 +5290,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "L-24MSPH306 23MP11 (PMF1) TR6 Lecture",
       "colNumber": 3
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "L-18M11BT113 24BY11 Dr.-Gopal-Singh-Bisht CR16 Lecture",
@@ -7868,18 +5300,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "L-18M1WBT133 24BY11 (TTT) CR16B Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "THU",
@@ -7898,14 +5318,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "L-18M11BT114 24BY11 Dr.-Gopal-Singh-Bisht CR18 Lecture",
       "colNumber": 3
     },
@@ -7916,10 +5328,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "P-13M17BT171 24BY11 Dr.-Uday-Banu-M BIOCHEMLAB Lab",
       "colNumber": 9
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "L-13M1WCE131 24SE11 (SUV) TR9 Lecture",
@@ -7942,20 +5350,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "L-21M11EC113 24MEC11 Dr.-Naveen-Jaglan TR1 Lecture",
       "colNumber": 7
     },
     {
       "value": "L-21MS1MB111 24MM11 Dr.-Ashok-Nadda CR18 Lecture",
       "colNumber": 8
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "P-21M11EC171 24MEC11 Mr.-Munish-Sud ECL4 Lab",
@@ -7974,20 +5374,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "L-21MS1MB112 24MM11 Dr.-Anil-Kant CR19 Lecture",
       "colNumber": 4
     },
     {
       "value": "L-21M11EC111 24MEC11 Dr.-Harsh-Sohal TR1 Lecture",
       "colNumber": 5
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "P-11M1WCE713 24SE11 Prof.-Ashok-Kumar-Gupta CONCLAB Lab",
@@ -8002,24 +5394,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "L-21MS1MB113 24MM11 Dr.-Jata-Shankar TR3 Lecture",
       "colNumber": 3
     },
     {
-      "value": "L-11M1WCI431 24ID11 CS-Faculty-2 TR5 Lecture",
+      "value": "L-11M1WCI431 24ID11 Dr.-Nishant-Sharma TR5 Lecture",
       "colNumber": 5
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "L-11M1WCE113 24SE11 Mr.-Kaushal-Kumar TR8 Lecture",
@@ -8028,14 +5408,6 @@ export const timeTable:TimeTableData = {
     {
       "value": "L-13M1WCI331 24ID11 Dr.-Hari-Singh TR2 Lecture",
       "colNumber": 4
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "P-20MS7BT172 24MB11 Dr.-Hemant-Sood PTCLAB Lab",
@@ -8050,24 +5422,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 4
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "L-18M11CI114 24ID11 (NKR) CR19 Lecture",
       "colNumber": 3
     },
     {
       "value": "L-20MS1PH111 24MB11 Dr.-Ragni-Raj-Singh TR3 Lecture",
       "colNumber": 4
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "FRI",
@@ -8086,48 +5446,24 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "L-24MS3PH301 23MP11 Prof.-Sunil-K.-Khah TR4 Lecture",
       "colNumber": 3
     },
     {
-      "value": "L-21M1WEC149 24MEC11 Dr.-Shruti-Jain ECL3 Lecture",
-      "colNumber": 5
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "L-21M11EC111 24MEC11 Dr.-Harsh-Sohal TR1 Lecture",
-      "colNumber": 3
+      "colNumber": 5
     },
     {
       "value": "L-21M11EC112 24MEC11 Dr.-Pardeep-Garg CR19 Lecture",
       "colNumber": 8
     },
     {
-      "value": "FRI",
-      "colNumber": 1
+      "value": "L-21M1WEC149 24MEC11 Dr.-Shruti-Jain ECL3 Lecture",
+      "colNumber": 3
     },
     {
-      "value": "L-21M1WEC141 24MEC11 Dr.-Rajiv-Kumar TR6 Lecture",
+      "value": "L-21M1WEC141 24MEC11 Dr.-Rajiv-Kumar ECL6 Lecture",
       "colNumber": 4
-    },
-    {
-      "value": "L-21M1WEC137 24MEC11 Dr.-Shweta-Pandit TR2 Lecture",
-      "colNumber": 7
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "P-20MS7BT171 24MB11 Dr.-Saurabh-Bansal UG2 Lab",
@@ -8146,10 +5482,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "P-20MS7BT172 24MB11 Dr.-Uday-Banu-M PTCLAB Lab",
       "colNumber": 7
     },
@@ -8158,20 +5490,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "L-24MSPH305 23MP11 Dr.-S.K.Hazra CR1 Lecture",
       "colNumber": 4
     },
     {
       "value": "L-24MSPH303 23MP11 Dr.-Haresh-A.-Raval TR5 Lecture",
       "colNumber": 7
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "L-11M1WCE111 24SE11 Mr.-Chandrapal-Gautam TR9 Lecture",
@@ -8186,24 +5510,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "L-11M1WCI431 24ID11 CS-Faculty-2 TR7 Lecture",
-      "colNumber": 8
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "L-11M1WCE112 24SE11 Mr.-Chandrapal-Gautam TR9 Lecture",
       "colNumber": 2
     },
     {
       "value": "L-13M1WCE131 24SE11 (SUV) TR9 Lecture",
       "colNumber": 4
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "L-18M11CI113 24ID11 Dr.-Rakesh-Kanji TR7 Lecture",
@@ -8218,10 +5530,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "L-11M1WCE112 24SE11 Mr.-Chandrapal-Gautam TR8 Lecture",
       "colNumber": 5
     },
@@ -8230,24 +5538,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "L-18M1WBT134 24BY11 Dr.-Ashok-Nadda CR17 Lecture",
       "colNumber": 2
     },
     {
       "value": "L-13M11BT111 24BY11 Dr.-Uday-Banu-M CR16 Lecture",
       "colNumber": 5
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "L-18M11BT113 24BY11 Dr.-Gopal-Singh-Bisht CR16 Lecture",
@@ -8262,14 +5558,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
       "value": "SAT",
       "colNumber": 1
     },
@@ -8278,20 +5566,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 2
     },
     {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
       "value": "L-20MS1BT115 24MB11 Prof.-Sudhir-Syal CR18 Lecture",
       "colNumber": 3
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     },
     {
       "value": "P-13M17BT172 24BY11 Dr.-Raj-Kumar BPL Lab",
@@ -8300,64 +5576,12 @@ export const timeTable:TimeTableData = {
     {
       "value": "P-13M17BT172 24BY11 Dr.-Raj-Kumar BPL Lab",
       "colNumber": 3
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
     }
   ],
   "MTECH-MSc 3 SEM, PhD2": [
     {
       "value": "TIME TABLE: MTECH-MSc 1 SEM ALL BRANCHES)",
       "colNumber": 1
-    },
-    {
-      "value": "TIME TABLE: MTECH-MSc 1 SEM ALL BRANCHES)",
-      "colNumber": 2
-    },
-    {
-      "value": "TIME TABLE: MTECH-MSc 1 SEM ALL BRANCHES)",
-      "colNumber": 3
     },
     {
       "value": "D/T",
@@ -8396,20 +5620,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "Sat Dec 30 1899 22:21:10 GMT+0521 (India Standard Time)",
-      "colNumber": 10
-    },
-    {
       "value": "MON",
       "colNumber": 1
     },
     {
       "value": "L-20MS1BT312 23MB11 Dr.-Abhishek-Chaudhary CR5 Lecture",
       "colNumber": 3
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "L-20MS1BT314 23MB11 Dr.-Saurabh-Bansal TR4 Lecture",
@@ -8420,20 +5636,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "MON",
-      "colNumber": 1
+      "value": "L-22M19CI391 SEMINAR_DS Dr.-Deepak-Gupta CL10 Lecture",
+      "colNumber": 5
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
+      "value": "L-13P1WPH112 PhD_TYN Prof.-P.B.-Barman CR8 Lecture",
+      "colNumber": 8
     },
     {
       "value": "L-20MS1BT315/21MS2MB311 23MB11,23MM11 Dr.-Hemant-Sood CR11 Lecture",
@@ -8444,52 +5652,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "L-20MS1BT311 23MB11 Dr.-Garlapati-Vijay-Kumar TR2 Lecture",
       "colNumber": 4
     },
     {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
       "value": "L-18P1WGE101 PHDALL (DLR,ASA,AKS,RTK) CR7 Lecture",
       "colNumber": 9
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
-    },
-    {
-      "value": "MON",
-      "colNumber": 1
     },
     {
       "value": "TUE",
@@ -8512,76 +5680,28 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "L-21MS1MB311 23MM11 Dr.-Ashok-Nadda CR16 Lecture",
       "colNumber": 2
     },
     {
-      "value": "TUE",
-      "colNumber": 1
+      "value": "L-22M19CI391 SEMINAR_DS Dr.-Vivek-Sehgal TR4 Lecture",
+      "colNumber": 5
     },
     {
       "value": "L-22MS1BT311 23MB11 Dr.-Garlapati-Vijay-Kumar TR7 Lecture",
       "colNumber": 3
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
       "value": "L-17P1WGE102 PHDALL Dr.-Hemant-Sood CR6 Lecture",
       "colNumber": 9
     },
     {
-      "value": "TUE",
-      "colNumber": 1
+      "value": "T-21M19EC391 23IOT11 (RKU,SHR) ECL6 Tutorial",
+      "colNumber": 8
     },
     {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
-    },
-    {
-      "value": "TUE",
-      "colNumber": 1
+      "value": "T-21M19EC391 23IOT11 (RKU,SHR) ECL6 Tutorial",
+      "colNumber": 9
     },
     {
       "value": "WED",
@@ -8596,14 +5716,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 8
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "L-20MS1BT312 23MB11 Dr.-Abhishek-Chaudhary CR5 Lecture",
       "colNumber": 3
     },
@@ -8612,32 +5724,16 @@ export const timeTable:TimeTableData = {
       "colNumber": 7
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
+      "value": "L-13P1WPH112 PhD_TYN Prof.-P.B.-Barman CR8 Lecture",
+      "colNumber": 8
     },
     {
       "value": "L-18P1WGE101 PHDALL (DLR,ASA,AKS,RTK) CR7 Lecture",
       "colNumber": 9
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "L-21MS2MB311 23MM11 Dr.-Hemant-Sood TR1 Lecture",
       "colNumber": 5
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
     },
     {
       "value": "P-20MS7BT372 23MB11 Dr.-Raj-Kumar BIL Lab",
@@ -8648,38 +5744,6 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
-      "value": "WED",
-      "colNumber": 1
-    },
-    {
       "value": "THU",
       "colNumber": 1
     },
@@ -8688,20 +5752,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 2
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
       "value": "L-21MS1MB312 23MM11 Dr.-Rahul-Shrivastava CABIN Lecture",
       "colNumber": 3
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
     },
     {
       "value": "L-22MS1BT311 23MB11 Dr.-Garlapati-Vijay-Kumar TR7 Lecture",
@@ -8728,56 +5780,12 @@ export const timeTable:TimeTableData = {
       "colNumber": 9
     },
     {
-      "value": "THU",
-      "colNumber": 1
+      "value": "L-13P1WPH112 PhD_TYN Prof.-P.B.-Barman CR7 Lecture",
+      "colNumber": 9
     },
     {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "THU",
-      "colNumber": 1
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
+      "value": "L-22M19CI391 SEMINAR_DS Dr.-Deepak-Gupta CL10 Lecture",
+      "colNumber": 5
     },
     {
       "value": "FRI",
@@ -8792,16 +5800,8 @@ export const timeTable:TimeTableData = {
       "colNumber": 5
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "L-18P1WGE101 PHDALL (DLR,ASA,AKS,RTK) CR7 Lecture",
       "colNumber": 9
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "P-20MS7BT372 23MB11 Dr.-Tiratha-Raj-Singh BIL Lab",
@@ -8812,120 +5812,16 @@ export const timeTable:TimeTableData = {
       "colNumber": 3
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
       "value": "L-20MS9BT313 23MB11 Dr.-Jata-Shankar TR4 Lecture",
       "colNumber": 9
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
     },
     {
       "value": "L-21MS1MB311 23MM11 Dr.-Ashok-Nadda CR17 Lecture",
       "colNumber": 4
     },
     {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "FRI",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
-    },
-    {
-      "value": "SAT",
-      "colNumber": 1
+      "value": "L-22M19CI391 SEMINAR_DS Dr.-Vivek-Sehgal TR4 Lecture",
+      "colNumber": 5
     },
     {
       "value": "SAT",
