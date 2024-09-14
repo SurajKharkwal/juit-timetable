@@ -2,7 +2,7 @@
 
 This is a website that parses and displays the time table for JUIT Solan in a more readable and user frinedly manner
 
-[Check it out](https://my-juit-time-table.vercel.app/)
+[Check it out](https://juit-timetable.vercel.app/)
 
 ## License
 
