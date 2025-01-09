@@ -6,10 +6,9 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem } from "@nextui-org/dropdown";
 import Link from "next/link";
-import { profile } from "console";
 
 
-const Batches = [
+const Courses = [
   "BTECH 1 SEM",
   "BTECH 2 SEM",
   "BTECH 3 SEM",
@@ -30,22 +29,36 @@ export default function Home() {
   const router = useRouter();
   const [record, setRecord] = useState<Record>({ batch: "", course: "" });
   const [error, setError] = useState<"Batch Required" | "Course Required" | null>(null);
+  const [isLoading, setIsLoading] = useState(false)
 
   const handleSubmit = () => {
-    const { batch, course } = record;
+    setIsLoading(true)
+    let { batch, course } = record;
     if (!batch) {
       setError("Batch Required");
+      setIsLoading(false)
       return;
     }
     if (!course) {
       setError("Course Required");
+      setIsLoading(false)
       return;
     }
+    if (batch) {
+      batch = batch.replace(" ", "");
+      batch = batch.replace("-", "");
+      batch = batch.toUpperCase();
+    }
     setError(null);
-    console.log("Submitting record:", record);
+
+    const d = new Date();
+    const yrOfJoin = d.getFullYear() % 100 - Math.ceil(Number(course.charAt(6)) / 2);
+    batch = yrOfJoin + batch
+
     const encodedBatch = encodeURIComponent(batch);
     const encodedCourse = encodeURIComponent(course);
     router.push(`/timetable?batch=${encodedBatch}&course=${encodedCourse}`);
+    setIsLoading(false)
   };
 
   return (
@@ -82,7 +95,7 @@ export default function Home() {
             description={error === "Course Required" ? error : null}
             onChange={(e) => setRecord((prev) => ({ ...prev, course: e.target.value }))}
             classNames={{ description: "text-red-500" }}
-            disabledKeys={Batches.filter((_, index) => {
+            disabledKeys={Courses.filter((_, index) => {
               if (SEM === "ODD_SEM") {
                 return index % 2 === 1;
               } else if (SEM === "EVEN_SEM") {
@@ -92,7 +105,7 @@ export default function Home() {
             }).map((batch) => batch)}
             label="Select Course"
           >
-            {Batches.map((ele) => (
+            {Courses.map((ele) => (
               <SelectItem value={ele} key={ele}>
                 {ele}
               </SelectItem>
@@ -106,10 +119,12 @@ export default function Home() {
             onChange={(e) => setRecord((prev) => ({ ...prev, batch: e.target.value }))}
           />
           <Button
+            isLoading={isLoading}
             radius="sm"
             size="lg"
             color="primary"
             className="w-fit"
+            onTouchStart={handleSubmit}
             onPress={handleSubmit}
           >
             TimeTable

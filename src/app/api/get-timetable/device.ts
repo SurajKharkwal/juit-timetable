@@ -1,5 +1,4 @@
 import { DaysMapper, TimeMapper } from "@/lib/db/maps";
-import { log } from "console";
 import { Model } from "mongoose";
 
 export type MobileData = {
@@ -38,12 +37,10 @@ export async function modileData(model: Model<any, {}, {}, {}, any, any>, batch:
       },
     },
   ])
-  console.log(dbData)
   const result: MobileData[] = []
   Object.values(TimeMapper).forEach((time) => {
     const data: string = dbData.find(ele => ele.time === time)?.data[0] || "N/A"
     if (data == "N/A") {
-      console.log(data, time)
       result.push({ time, hasClass: false })
       return
     }
@@ -92,9 +89,6 @@ export async function desktopData(model: Model<any, {}, {}, {}, any, any>, batch
       temp.items.push({ time, data: q ? q.data[0] : "" })
     })
     result.push(temp)
-  })
-  result.forEach(ele => {
-    console.log(ele)
   })
   return result
 }

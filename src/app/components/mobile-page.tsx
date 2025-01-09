@@ -40,17 +40,36 @@ function DisplayCard({ time, subject, teacher, hasClass, venue, batches, categor
     </Card>
   )
 }
+
+function SundaySpecial() {
+  return (
+    <div className="w-full h-full flex flex-col items-center justify-center">
+      <span className="text-[10rem]">
+        😂
+      </span>
+      <h5 className="text-7xl text-center">
+        Ab kya Sunday ko bhi College jayega ,<strong className="text-warning">
+          Lodu
+        </strong>
+      </h5>
+    </div>
+  )
+}
+
 export default function MobileLayout({ timetable, setDay, day }: { timetable: MobileData[], setDay: (value: string) => void, day: string }) {
   return (
     <div className=" w-full flex-col flex items-center max-md:p-4 min-h-dvh space-y-4">
-      <Select placeholder={day} radius="sm" size="lg" label="Select day" onChange={e => setDay(e.target.value)} className="max-w-md px-4">
+      <Select placeholder={day} radius="sm" size="lg" label="Select day" onChange={e => e.target.value ? setDay(e.target.value) : null} className="max-w-md px-4">
         {
           Object.values(daysFullName).map(ele => <SelectItem key={ele} value={ele}>{ele}</SelectItem>)
         }
       </Select>
-      <section className="space-y-8 max-w-md  w-full">
-        {timetable.map(ele => <DisplayCard key={ele.time} time={ele.time} subject={ele.subject} hasClass={ele.hasClass} teacher={ele.teacher} batches={ele.batches} venue={ele.venue} category={ele.category} />)}
-      </section>
-    </div>
+      {
+        day !== "Sunday" ?
+          < section className="space-y-8 max-w-md  w-full">
+            {timetable.map(ele => <DisplayCard key={ele.time} time={ele.time} subject={ele.subject} hasClass={ele.hasClass} teacher={ele.teacher} batches={ele.batches} venue={ele.venue} category={ele.category} />)}
+          </section> : <SundaySpecial />
+      }
+    </div >
   )
 }

@@ -5,7 +5,6 @@ import { desktopData, modileData } from "./device";
 
 export async function POST(req: NextRequest) {
   const { course, batch, isMobile, day } = await req.json();
-  console.log("Pramas:", course, batch, isMobile, day)
   await connectDB();
   const model = modelMap[course as keyof typeof modelMap];
   if (isMobile) {

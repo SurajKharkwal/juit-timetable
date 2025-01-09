@@ -5,7 +5,6 @@ import { DesktopData } from "../api/get-timetable/device";
 
 export default function DesktopPage({ timetable }: { timetable: DesktopData[] }) {
   const timeArr = Object.values(TimeMapper);
-  console.log(timetable)
 
   return (
     <div className="flex p-4 min-h-dvh w-full items-center justify-center">
@@ -28,10 +27,11 @@ export default function DesktopPage({ timetable }: { timetable: DesktopData[] })
               <TableRow key={`row-${i}`}>
                 {
                   Array.from({ length: timeArr.length + 1 }).map((_, j) => {
+                    const [subjectCode, batches, teacher, venue] = element.items[j - 1]?.data.split(" ") || ""
                     if (j === 0) return <TableCell key={`cell-${i}-${j}`} className="text-2xl text-blue-200 rounded-lg font-bold border border-neutral-700">{element.day}</TableCell>
                     return (
                       <TableCell key={`cell-${i}-${j}`} className="text-2xl border border-neutral-700 rounded-lg p-4">
-                        {element.items[j - 1]?.data || ""}
+                        {subjectCode} <br /> {batches} <br /> {teacher}  <br /> {venue}
                       </TableCell>
                     )
                   })
