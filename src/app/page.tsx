@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem } from "@nextui-org/dropdown";
 import Link from "next/link";
-import { getVariable } from "@/lib/utils";
+import { profile } from "console";
 
 
 const Batches = [
@@ -26,6 +26,7 @@ interface Record {
 }
 
 export default function Home() {
+  const SEM = process.env.NEXT_PUBLIC_SEM
   const router = useRouter();
   const [record, setRecord] = useState<Record>({ batch: "", course: "" });
   const [error, setError] = useState<"Batch Required" | "Course Required" | null>(null);
@@ -57,7 +58,7 @@ export default function Home() {
           <DropdownMenu aria-label="Static Actions">
             <DropdownItem as={Link} href="https://github.com/SurajKharkwal" key="Suraj ">Suraj Kharkwal</DropdownItem>
             <DropdownItem as={Link} href="https://github.com/shorya-1012" key="Shorya ">Shorya Jain</DropdownItem>
-            <DropdownItem as={Link} href="/update-timetable" className="text-warning" key="Update" color="warning">Update</DropdownItem>
+            <DropdownItem as={Link} href="/update-timetable" className="text-warning hidden" key="Update" color="warning">Update</DropdownItem>
             <DropdownItem as={Link} href="https://github.com/SurajKharkwal/juit-time-table" key="Main Repo" className="text-danger" color="danger">
               Repository
             </DropdownItem>
@@ -81,7 +82,14 @@ export default function Home() {
             description={error === "Course Required" ? error : null}
             onChange={(e) => setRecord((prev) => ({ ...prev, course: e.target.value }))}
             classNames={{ description: "text-red-500" }}
-            disabledKeys={Batches.filter((_, i) => i % 2 == 0 && getVariable("NEXT_PUBLIC_SEM") != "ODD_SEM")}
+            disabledKeys={Batches.filter((_, index) => {
+              if (SEM === "ODD_SEM") {
+                return index % 2 === 1;
+              } else if (SEM === "EVEN_SEM") {
+                return index % 2 === 0;
+              }
+              return false;
+            }).map((batch) => batch)}
             label="Select Course"
           >
             {Batches.map((ele) => (
@@ -112,7 +120,7 @@ export default function Home() {
         <h6>Created By</h6>
         <p className="text-blue-500 font-bold">SURAJ & SHORYA</p>
       </footer>
-    </div>
+    </div >
   );
 }
 

@@ -29,6 +29,8 @@ const BtechSem4 = createSchemaAndModel("BtechSem4");
 const BtechSem6 = createSchemaAndModel("BtechSem6");
 const BtechSem8 = createSchemaAndModel("BtechSem8");
 
+const MtechMscSem2 = createSchemaAndModel("MtechMscSem2");
+const MtechMscSem4 = createSchemaAndModel("MtechMscSem4");
 
 
 export const modelMap = {
@@ -41,4 +43,7 @@ export const modelMap = {
   "BTECH 4 SEM": BtechSem4,
   "BTECH 6 SEM": BtechSem6,
   "BTECH 8 SEM": BtechSem8,
+
+  "MTECH-MSc 2 SEM": MtechMscSem2,
+  "MTECH-MSc 4 SEM, PhD2": MtechMscSem4
 };

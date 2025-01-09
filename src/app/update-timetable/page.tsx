@@ -1,12 +1,10 @@
 "use client";
 
-import { getVariable } from "@/lib/utils";
 import { Button } from "@nextui-org/button";
 import { Input } from "@nextui-org/input";
 import { Snippet } from "@nextui-org/snippet";
 import { useMutation } from "@tanstack/react-query";
 import axios from "axios";
-import { profile } from "console";
 import { useState } from "react";
 
 export default function App() {
@@ -15,11 +13,10 @@ export default function App() {
   const { mutate, isError, isSuccess, isPending: isLoading, error } = useMutation({
     mutationFn: async () => {
       if (!passwd.trim()) throw new Error("Password Required");
-      if (passwd !== getVariable("NEXT_PUBLIC_PASSWD")) throw new Error("False Password");
+      if (passwd !== process.env.NEXT_PUBLIC_PASSWD) throw new Error("False Password");
       await axios.put("/api/set-timetable", { passwd });
     },
   });
-  console.log(process.env.NEXT_PUBLIC_PASSWD)
 
   return (
     <div className="flex p-4 flex-col w-full h-screen items-center justify-center">
@@ -27,7 +24,7 @@ export default function App() {
         <h2 className="text-transparent text-center text-5xl bg-clip-text bg-gradient-to-b from-neutral-300 to-neutral-800">
           Juit Time Table
         </h2>
-        <Snippet>{getVariable("NEXT_PUBLIC_TIMETABLE_URL")}</Snippet>
+        <Snippet>{process.env.NEXT_PUBLIC_TIMETABLE_URL}</Snippet>
 
         <Input
           value={passwd}

@@ -15,6 +15,7 @@ export default function Page({
   searchParams: Promise<{ batch: string, course: string }>
 }) {
   const { course, batch } = use(searchParams)
+  console.log(course, batch)
 
   const isMobile = useIsMobile();
   const [day, setDay] = useState(() => {
@@ -52,8 +53,8 @@ export default function Page({
 
 
   return (
-    <div className="flex flex-col w-full h-dvh items-center justify-center ">
-      <h4>
+    <div className="flex flex-col gap-4 w-full h-dvh items-center justify-center ">
+      <h4 className="text-5xl">
         Some Error Occured
       </h4>
       <Button color="warning">
