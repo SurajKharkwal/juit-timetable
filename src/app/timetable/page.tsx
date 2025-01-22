@@ -24,7 +24,6 @@ export default function Page({
       return Object.keys(days)[--dayIndex] // curr day , (daysIndex = 0 = Sunday)
     return Object.keys(days)[dayIndex]   // Next day If time more than 5pm
   });
-  //console.log(day)
   const { data: timetable, isLoading, } = useQuery({
     queryKey: ["get-mobile-timetable", day, isMobile, course, batch],
     queryFn: async () => {
@@ -40,7 +39,6 @@ export default function Page({
       return response.data
     },
   });
-
   if ((isLoading || !timetable) && isMobile) return <MobileLoading />
   else if ((isLoading || !timetable) && !isMobile) return <DesktopLoading />
 

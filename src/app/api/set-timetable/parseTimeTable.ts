@@ -32,7 +32,12 @@ export default function parseTimeTable(sheet: WorkSheet) {
       for (let row = index; row <= index + 15; row++) {
         const cellValue = String(sheet[`${col}${row}`].v).replace(/\s+/g, " ")
         if (cellValue) {
+          cellValue
+            .replace(/\s*,\s*/g, ",") // Remove spaces around commas
+            .replace(/\s+/g, " ")     // Replace multiple spaces with a single space
+            .trim();
           temp.data.push(cellValue)
+          console.log(cellValue)
         }
       }
       record.push(temp)

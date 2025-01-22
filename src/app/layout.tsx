@@ -50,7 +50,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-dvh  w-full bg-black`}
+        className={`${geistSans.variable} ${geistMono.variable} text-white antialiased min-h-dvh  w-full bg-black`}
       >
         <Services>
           {children}
