@@ -50,7 +50,7 @@ export default function RootLayout({
       <head>
         {/* Google AdSense Script */}
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058203127983865"
-       crossorigin="anonymous"></script>
+       crossOrigin="anonymous"></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} text-white antialiased min-h-dvh w-full bg-black`}
