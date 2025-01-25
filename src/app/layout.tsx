@@ -13,7 +13,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
 export const metadata: Metadata = {
   title: {
     default: "JUIT Timetable",
@@ -46,15 +45,17 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
   return (
     <html lang="en" className="dark">
+      <head>
+        {/* Google AdSense Script */}
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058203127983865"
+       crossorigin="anonymous"></script>
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} text-white antialiased min-h-dvh  w-full bg-black`}
+        className={`${geistSans.variable} ${geistMono.variable} text-white antialiased min-h-dvh w-full bg-black`}
       >
-        <Services>
-          {children}
-        </Services>
+        <Services>{children}</Services>
       </body>
     </html>
   );
