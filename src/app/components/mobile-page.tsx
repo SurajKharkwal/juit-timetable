@@ -44,14 +44,7 @@ function DisplayCard({ time, subject, teacher, hasClass, venue, batches, categor
 function SundaySpecial() {
   return (
     <div className="w-full h-full flex flex-col items-center justify-center">
-      <span className="text-[10rem]">
-        😂
-      </span>
-      <h5 className="text-7xl text-center">
-        Ab kya Sunday ko bhi College jayega ,<strong className="text-warning">
-          Lodu
-        </strong>
-      </h5>
+      No Class On Sunday
     </div>
   )
 }
