@@ -1,10 +1,17 @@
 "use client";
 import { useEffect } from "react";
 
+declare global {
+  interface Window {
+    adsbygoogle: any[];
+  }
+}
+
 export default function AdComponent() {
   useEffect(() => {
     try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
+      window.adsbygoogle = window.adsbygoogle || []; // Ensure it's defined
+      window.adsbygoogle.push({});
     } catch (e) {
       console.error("Ads error: ", e);
     }
