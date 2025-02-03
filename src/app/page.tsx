@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem } from "@nextui-org/dropdown";
 import Link from "next/link";
-
+import AdComponent from "@/components/AdComponent";
 
 const Courses = [
   "BTECH 1 SEM",
@@ -132,6 +132,7 @@ export default function Home() {
         </form>
       </section>
       <footer className="flex flex-col items-center">
+        <AdComponent />
         <h6>Created By</h6>
         <p className="text-blue-500 font-bold">SURAJ & SHORYA</p>
       </footer>
