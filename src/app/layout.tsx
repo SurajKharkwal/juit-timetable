@@ -50,16 +50,9 @@ export default function RootLayout({
       <head>
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058203127983865"
      crossOrigin="anonymous"></script>
-<!-- ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2058203127983865"
-     data-ad-slot="3005074927"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
+    <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+    </script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} text-white antialiased min-h-dvh w-full bg-black`}
