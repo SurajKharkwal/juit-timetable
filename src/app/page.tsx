@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem } from "@nextui-org/dropdown";
 import Link from "next/link";
-import AdComponent from "@/components/AdComponent";
+import AdComponent from "@/lib/ads";
 
 const Courses = [
   "BTECH 1 SEM",
