@@ -49,7 +49,7 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <head>
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058203127983865"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous"></script>
 <!-- ads -->
 <ins class="adsbygoogle"
      style="display:block"
