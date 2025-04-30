@@ -131,11 +131,11 @@ export default function Home() {
           </Button>
         </form>
       </section>
-      <footer className="flex flex-col items-center">
+{/*       <footer className="flex flex-col items-center">
         <AdComponent />
         <h6>Created By</h6>
         <p className="text-blue-500 font-bold">SURAJ & SHORYA</p>
-      </footer>
+      </footer> */}
     </div >
   );
 }
@@ -169,5 +169,4 @@ const GithubIcon: React.FC<GithubIconProps> = ({
     </svg>
   );
 };
-/* */
 
