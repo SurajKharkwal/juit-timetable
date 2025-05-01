@@ -98,7 +98,7 @@ export default function Home() {
               href="https://github.com/HarshitGoyal625"
               key="Harshit "
             >
-              Shorya Jain
+              Harshit Goyal
             </DropdownItem>
             <DropdownItem
               as={Link}
