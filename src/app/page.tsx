@@ -4,7 +4,12 @@ import { Input } from "@nextui-org/input";
 import { Select, SelectItem } from "@nextui-org/select";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem } from "@nextui-org/dropdown";
+import {
+  Dropdown,
+  DropdownTrigger,
+  DropdownMenu,
+  DropdownItem,
+} from "@nextui-org/dropdown";
 import Link from "next/link";
 import AdComponent from "@/lib/ads";
 
@@ -17,7 +22,7 @@ const Courses = [
   "BTECH 6 SEM",
   "BTECH 7 SEM",
   "BTECH 8 SEM",
-]
+];
 
 interface Record {
   batch: string;
@@ -25,23 +30,25 @@ interface Record {
 }
 
 export default function Home() {
-  const SEM = process.env.NEXT_PUBLIC_SEM
+  const SEM = process.env.NEXT_PUBLIC_SEM;
   const router = useRouter();
   const [record, setRecord] = useState<Record>({ batch: "", course: "" });
-  const [error, setError] = useState<"Batch Required" | "Course Required" | null>(null);
-  const [isLoading, setIsLoading] = useState(false)
+  const [error, setError] = useState<
+    "Batch Required" | "Course Required" | null
+  >(null);
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleSubmit = () => {
-    setIsLoading(true)
+    setIsLoading(true);
     let { batch, course } = record;
     if (!batch) {
       setError("Batch Required");
-      setIsLoading(false)
+      setIsLoading(false);
       return;
     }
     if (!course) {
       setError("Course Required");
-      setIsLoading(false)
+      setIsLoading(false);
       return;
     }
     if (batch) {
@@ -52,13 +59,14 @@ export default function Home() {
     setError(null);
 
     const d = new Date();
-    const yrOfJoin = d.getFullYear() % 100 - Math.ceil(Number(course.charAt(6)) / 2);
-    batch = yrOfJoin + batch
+    const yrOfJoin =
+      (d.getFullYear() % 100) - Math.ceil(Number(course.charAt(6)) / 2);
+    batch = yrOfJoin + batch;
 
     const encodedBatch = encodeURIComponent(batch);
     const encodedCourse = encodeURIComponent(course);
     router.push(`/timetable?batch=${encodedBatch}&course=${encodedCourse}`);
-    setIsLoading(false)
+    setIsLoading(false);
   };
 
   return (
@@ -66,13 +74,48 @@ export default function Home() {
       <nav className="w-full text-right mr-32 mt-2">
         <Dropdown>
           <DropdownTrigger>
-            <Button isIconOnly variant="flat" size="lg"><GithubIcon size={40} /></Button>
+            <Button isIconOnly variant="flat" size="lg">
+              <GithubIcon size={40} />
+            </Button>
           </DropdownTrigger>
           <DropdownMenu aria-label="Static Actions">
-            <DropdownItem as={Link} href="https://github.com/SurajKharkwal" key="Suraj ">Suraj Kharkwal</DropdownItem>
-            <DropdownItem as={Link} href="https://github.com/shorya-1012" key="Shorya ">Shorya Jain</DropdownItem>
-            <DropdownItem as={Link} href="/update-timetable" className="text-warning hidden" key="Update" color="warning">Update</DropdownItem>
-            <DropdownItem as={Link} href="https://github.com/SurajKharkwal/juit-time-table" key="Main Repo" className="text-danger" color="danger">
+            <DropdownItem
+              as={Link}
+              href="https://github.com/SurajKharkwal"
+              key="Suraj "
+            >
+              Suraj Kharkwal
+            </DropdownItem>
+            <DropdownItem
+              as={Link}
+              href="https://github.com/shorya-1012"
+              key="Shorya "
+            >
+              Shorya Jain
+            </DropdownItem>
+            <DropdownItem
+              as={Link}
+              href="https://github.com/HarshitGoyal625"
+              key="Harshit "
+            >
+              Shorya Jain
+            </DropdownItem>
+            <DropdownItem
+              as={Link}
+              href="/update-timetable"
+              className="text-warning hidden"
+              key="Update"
+              color="warning"
+            >
+              Update
+            </DropdownItem>
+            <DropdownItem
+              as={Link}
+              href="https://github.com/SurajKharkwal/juit-time-table"
+              key="Main Repo"
+              className="text-danger"
+              color="danger"
+            >
               Repository
             </DropdownItem>
           </DropdownMenu>
@@ -93,7 +136,9 @@ export default function Home() {
           <Select
             radius="sm"
             description={error === "Course Required" ? error : null}
-            onChange={(e) => setRecord((prev) => ({ ...prev, course: e.target.value }))}
+            onChange={(e) =>
+              setRecord((prev) => ({ ...prev, course: e.target.value }))
+            }
             classNames={{ description: "text-red-500" }}
             disabledKeys={Courses.filter((_, index) => {
               if (SEM === "ODD_SEM") {
@@ -116,7 +161,9 @@ export default function Home() {
             label="Enter Batch"
             classNames={{ description: "text-red-500" }}
             description={error === "Batch Required" ? error : null}
-            onChange={(e) => setRecord((prev) => ({ ...prev, batch: e.target.value }))}
+            onChange={(e) =>
+              setRecord((prev) => ({ ...prev, batch: e.target.value }))
+            }
           />
           <Button
             isLoading={isLoading}
@@ -131,15 +178,14 @@ export default function Home() {
           </Button>
         </form>
       </section>
-{/*       <footer className="flex flex-col items-center">
+      {/*       <footer className="flex flex-col items-center">
         <AdComponent />
         <h6>Created By</h6>
         <p className="text-blue-500 font-bold">SURAJ & SHORYA</p>
       </footer> */}
-    </div >
+    </div>
   );
 }
-
 
 interface GithubIconProps extends React.SVGProps<SVGSVGElement> {
   size?: number;
@@ -169,4 +215,3 @@ const GithubIcon: React.FC<GithubIconProps> = ({
     </svg>
   );
 };
-
