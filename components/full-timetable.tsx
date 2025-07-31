@@ -45,7 +45,7 @@ export function FullTimetableTable({
                 </TableCell>,
                 ...Days.map((day) => {
                   const entry = data.find(
-                    (item) => item.day === day && item.time === slot,
+                    (item) => item.day === day && item.time === slot
                   );
 
                   const toSkip = minor ? toDisclude(course, minor) : [];
@@ -60,14 +60,26 @@ export function FullTimetableTable({
                           shadow="lg"
                           className="hover:scale-110 cursor-crosshair"
                         >
-                          <CardHeader className="p-0 px-2 mt-2 mb-0">
-                            {classInfo.courseCode}
+                          <CardHeader className="flex justify-between items-center p-0 px-2 mt-2 mb-0">
+                            <span>{classInfo.courseCode}</span>
+                            <span className="text-xs text-gray-500 dark:text-gray-400">
+                              {classInfo.coordinator}
+                            </span>
                           </CardHeader>
-                          <CardBody>
-                            <div className="text-foreground/50">
-                              {classInfo.type}
+                          <CardBody className="p-2">
+                            <div className="flex justify-between items-end">
+                              <div>
+                                <div className="text-gray-500 dark:text-gray-400">
+                                  {classInfo.type}
+                                </div>
+                                <div>{classInfo.venue}</div>
+                              </div>
+                              {classInfo.floor && (
+                                <div className="text-xs text-gray-400 dark:text-gray-500">
+                                  {classInfo.floor}
+                                </div>
+                              )}
                             </div>
-                            <div>{classInfo.venue}</div>
                           </CardBody>
                         </Card>
                       ) : (

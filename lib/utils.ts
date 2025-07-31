@@ -3,6 +3,7 @@ import {
   ELECTIVE_SUBJECTS_CODE,
   ElectiveSubjects,
   ElectiveSubjectsCode,
+  floorMap,
 } from "@/config/data";
 
 const typeMap = {
@@ -65,6 +66,7 @@ export function findClassForBatch(
           coordinator,
           venue,
           raw: entry,
+          floor: floorMap[venue.toUpperCase().replaceAll(/\s|-/g, "")],
         };
       }
       // Other patterns
@@ -82,6 +84,7 @@ export function findClassForBatch(
         coordinator,
         venue,
         raw: entry,
+        floor: floorMap[venue.toUpperCase().replaceAll(/\s|-/g, "")],
       };
     }
   }

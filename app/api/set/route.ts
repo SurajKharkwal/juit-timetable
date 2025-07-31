@@ -5,6 +5,7 @@ import parser from "./parser";
 import { modelMap } from "@/database/modal";
 import connectDB from "@/database/db";
 import mongoose from "mongoose";
+import { Courses } from "@/config/data";
 
 export async function PUT(request: NextRequest) {
   const { password } = await request.json();
@@ -27,6 +28,7 @@ export async function PUT(request: NextRequest) {
     const sheetNames = workbook.SheetNames.slice(1); // Skip index 0
 
     for (const sheetName of sheetNames) {
+      if (!Courses.includes(sheetName)) continue;
       const sheet = workbook.Sheets[sheetName];
       const records = parser(sheet);
       const model = modelMap[sheetName as keyof typeof modelMap];

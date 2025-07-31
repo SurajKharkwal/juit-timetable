@@ -100,11 +100,18 @@ export function SmTimetable({ course, minor, batch, data }: PROPS) {
                   {classInfo.coordinator}
                 </span>
               </p>
-              <p>
-                <strong>Venue:</strong>{" "}
-                <span className="text-gray-700 dark:text-gray-200">
-                  {classInfo.venue}
+              <p className="flex justify-between items-center">
+                <span>
+                  <strong>Venue:</strong>{" "}
+                  <span className="text-gray-700 dark:text-gray-200">
+                    {classInfo.venue}
+                  </span>
                 </span>
+                {classInfo.floor && (
+                  <span className="text-xs text-gray-400 dark:text-gray-500">
+                    {classInfo.floor}
+                  </span>
+                )}
               </p>
             </CardBody>
           </Card>

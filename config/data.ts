@@ -91,3 +91,51 @@ export const LocalStorageKeys = {
   course: "JUIT_TIME_TABLE:course",
   minor: "JUIT_TIME_TABLE:minor",
 } as const;
+
+export const floorMap: { [key: string]: string } = {
+  // Ground Floor
+  CR3: "Ground Floor",
+  CR4: "Ground Floor",
+  CL7: "Ground Floor",
+  CL8: "Ground Floor",
+  LT1: "Ground Floor",
+  LT2: "Ground Floor",
+  LRC: "Ground Floor",
+  Amphitheatre: "Ground Floor",
+  // First Floor
+  CL9: "First Floor",
+  CL10: "First Floor",
+  CL11: "First Floor",
+  TR1: "First Floor",
+  TR2: "First Floor",
+  TR3: "First Floor",
+  TR4: "First Floor",
+  CR5: "First Floor",
+  CR6: "First Floor",
+  CR7: "First Floor",
+  CR8: "First Floor",
+  CR9: "First Floor",
+  CR10: "First Floor",
+  LT3: "First Floor",
+  // Second Floor
+  CR11: "Second Floor",
+  CR12: "Second Floor",
+  CL1: "Second Floor",
+  TR5: "Second Floor",
+  TR6: "Second Floor",
+  TR7: "Second Floor",
+  // Third Floor
+  CL3: "Third Floor",
+  CL4: "Third Floor",
+  CL5: "Third Floor",
+  CL6: "Third Floor",
+  CL12: "Third Floor",
+  // Fourth Floor
+  CR16: "Fourth Floor",
+  CR17: "Fourth Floor",
+  CR18: "Fourth Floor",
+  CR19: "Fourth Floor",
+  // Lower Level 1
+  CR1: "Lower Level 1",
+  CR2: "Lower Level 1",
+};
