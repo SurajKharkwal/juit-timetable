@@ -2,29 +2,27 @@
 
 import { useIsMobile } from "@/hooks/use-mobile";
 import { addToast } from "@heroui/toast";
-import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+import CompactTimetable from "./compact-timetable";
+import { ExpandedTimetable } from "./full-timetable";
 
 export default function Timetable() {
   const router = useRouter();
   const isMobile = useIsMobile()
-  const [data, setData] = useState()
-  useEffect(() => {
-    const course = localStorage.getItem("course");
-    const batch = localStorage.getItem("batch");
+  const searchparams = useSearchParams()
 
-    if (!course || !batch) {
-      addToast({
-        title: "Missing information",
-        description: "Please select both course and batch",
-      });
-      router.push("/");
-      return;
-    }
-  }, [router]);
+  const course = searchparams.get("course")
+  const batch = searchparams.get("batch")
 
-
+  if (!course || !batch) {
+    addToast({
+      title: "Missing information",
+      description: "Please select both course and batch",
+      onClose: () => router.push("/")
+    });
+    return;
+  }
   if (isMobile)
-    return <CompactTimetable data={data} />
-  return <ExpandedTimetable data={data} />
+    return <CompactTimetable course={course} batch={batch} />
+  return <ExpandedTimetable course={course} batch={batch} />
 }
