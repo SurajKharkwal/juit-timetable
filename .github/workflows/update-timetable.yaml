@@ -35,7 +35,6 @@ jobs:
         run: |
           git fetch origin data || true
           git checkout data || git checkout -b data
-          find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
 
       # 5. Run script
       - name: Generate timetable JSON
