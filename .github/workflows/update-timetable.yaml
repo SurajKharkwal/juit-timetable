@@ -1,0 +1,50 @@
+name: Generate Timetable Data
+
+on:
+  schedule:
+    # Runs every day at 00:00 UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout repository with full history
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 2. Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # 3. Install dependencies
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install argparse pandas xlrd requests json re io
+
+      # 4. Switch to data branch (create if missing)
+      - name: Switch to data branch
+        run: |
+          git fetch origin data || true
+          git checkout data || git checkout -b data
+
+      # 5. Run script
+      - name: Generate timetable JSON
+        run: ./github/UPDATE --timetable-url "https://www.juit.ac.in/TTC/EVENSEM2026.xls"
+
+      # 6. Commit and push generated files
+      - name: Commit and push data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add *.json
+          git commit -m "Update timetable data ($(date -u +%Y-%m-%d))" || exit 0
+          git push origin data
