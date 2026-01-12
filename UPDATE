@@ -15,7 +15,8 @@ args = parser.parse_args()
 def clean_sheet_name(name: str) -> str:
     name = name.strip()
     name = re.sub(r"\s+", " ", name)
-    name = name.replace(" ", "_")
+    name = name.replace(" ", "-")
+    name = name.lower()
     return f"{name}.json"
 
 DAY_ROW = {0: (3, 18), 1: (19, 34), 2: (35, 50), 3: (51, 66), 4: (67, 82), 5: (83, 98)}
