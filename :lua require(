@@ -35,7 +35,7 @@ function RouteComponent() {
         <Dropdown placement="top-end">
           <DropdownTrigger>
             <Button isIconOnly radius="full" size="lg" variant="shadow">
-              <Calendar className='dark:text-neutral-300' />
+              <Calendar />
             </Button>
           </DropdownTrigger>
 
@@ -67,7 +67,7 @@ function RouteComponent() {
 
             {!entry || entry.length === 0 ? (
               <Card>
-                <CardHeader className="flex items-center gap-2  text-neutral-500 dark:text-neutral-300">
+                <CardHeader className="flex items-center gap-2 text-neutral-300">
                   <ClockIcon size={16} />
                   <span>Free Time</span>
                 </CardHeader>
@@ -78,17 +78,17 @@ function RouteComponent() {
                   <CardHeader>{ele.courseCode}</CardHeader>
                   <CardBody className="space-y-2">
                     <div className="flex items-center gap-2">
-                      <UserIcon size={16} className=" text-neutral-500 dark:text-neutral-300" />
+                      <UserIcon size={16} className="text-neutral-400" />
                       {ele.teacherCode}
                     </div>
 
                     <div className="flex items-center gap-2">
-                      <MapPinIcon size={16} className=" text-neutral-500 dark:text-neutral-300" />
+                      <MapPinIcon size={16} className="text-neutral-400" />
                       {ele.venue}
                     </div>
 
                     <div className="flex items-center gap-2">
-                      <CalendarHeartIcon size={16} className=" text-neutral-500 dark:text-neutral-300" />
+                      <CalendarHeartIcon size={16} className="text-neutral-400" />
                       {ele.classType}
                     </div>
                   </CardBody>

@@ -53,7 +53,7 @@ export function useCompactTimetable(course: CourseKey) {
           error: err.message ?? "Unknown error",
         })
       })
-  }, [course])
+  }, [course, day])
 
   return {
     ...state, // data, loading, error
