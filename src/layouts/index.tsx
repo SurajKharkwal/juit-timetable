@@ -1,5 +1,5 @@
+import { GithubIcon } from "@/components/custom-icons";
 import { Button } from "@heroui/button"
-import { GithubIcon } from "lucide-react";
 
 export default function DefaultLayout({
   children,

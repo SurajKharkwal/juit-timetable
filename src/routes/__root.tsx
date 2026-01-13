@@ -9,17 +9,7 @@ export const Route = createRootRoute({
     <Provider themeProps={{ attribute: "class", defaultTheme: "system" }}>
       <DefaultLayout>
         <Outlet />
-        <TanStackDevtools
-          config={{
-            position: 'bottom-right',
-          }}
-          plugins={[
-            {
-              name: 'Tanstack Router',
-              render: <TanStackRouterDevtoolsPanel />,
-            },
-          ]}
-        />
+       
       </DefaultLayout>
     </Provider>
   ),

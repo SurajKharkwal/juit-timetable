@@ -49,5 +49,3 @@ export const WEEK_DAYS: WeekDay[] = [
   "FRIDAY",
   "SATURDAY",
 ]
-
-
