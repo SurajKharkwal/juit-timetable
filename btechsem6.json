@@ -14,19 +14,20 @@
     "day": 0,
     "time": 2,
     "data": [
+      "L-18B1WCI634 23A14,23A15,23A16 (KLK) CR9",
       "L-18B1WCI635/ 18B1WBI632 23I11,23I12,23J11,23J12,23K11,23C11, 23BM11, 23F11 (MGN) LT2",
       "L-24B11HS412 23W11 (ASA) TR5",
       "L-23B11CE611\n 23D11 (NJP) TR9",
       "T-24B11HS615 23A11 (DLR) GDROOM",
       "L-18B1WEC632 23B11 (RKU) TR1",
-      "L-18B11CI611 23A17,23A18,23A19 (SRJ) CR2",
-      "L-18B1WCE631 23D11 (CPG) CR13"
+      "L-18B11CI611 23A17,23A18,23A19 (SRJ) CR2"
     ]
   },
   {
     "day": 0,
     "time": 3,
     "data": [
+      "L-18B11CI611 23A11,23A12,23A13 (HRI) CR9",
       "L-18B11EC612 23B11 (SHR) ECL3",
       "P-18B1WCI674 23A16 (KLK) CL9_2",
       "P-18B17CI672 23A14 (NKR) CL5_2",
@@ -43,6 +44,8 @@
     "day": 0,
     "time": 4,
     "data": [
+      "T-25BBWHS632 23W11 (ANU) TR3",
+      "L-18B11CI612 23A11,23A12,23A13 (PKR) CR10",
       "P-18B1WCI674 23A16 (KLK) CL9_2",
       "P-18B17CI672 23A14 (NKR) CL5_2",
       "T-18B11EC612 23B11 (SHR) ECL3",
@@ -73,6 +76,8 @@
     "day": 0,
     "time": 7,
     "data": [
+      "L-18B1WBT632 23E11,23F11  (RST) TR6",
+      "P-18B17CI671  23A13 (HRI) CL11",
       "P-18B1WCI674 23A14 (KLK) CL7",
       "L-25B1WCI642 23J11, 23J12 (NSA) CR2",
       "T-24B11HS615 23A16 (VDN) GDROOM, LANGULAB",
@@ -89,6 +94,7 @@
     "day": 0,
     "time": 8,
     "data": [
+      "P-18B17CI671 23A13 (HRI) CL11",
       "P-18B1WCI674 23A14 (KLK) CL7",
       "L-24B11HS612 23I11,23J11,23J12,23K11,23I12 (AKS) LT3",
       "T-24B11HS615 23E11, 23F11, 23BM11 (ABC) GDROOM, LANGULAB",
@@ -121,6 +127,7 @@
     "day": 1,
     "time": 2,
     "data": [
+      "L-18B1WCE631 23D11 (CPG) CR13",
       "L-18B11CI612 23A11,23A12,23A13 (PKR) CR4",
       "P-18B1WCI674 23A15 (KLK) CL1",
       "T-24B11HS615 23A19 (VDN) GDROOM,LANGULAB",
@@ -129,8 +136,7 @@
       "L-18B11CI611 23I11,23J11&23J12,23K11,23C11,\\23F11,23BM11 (GVN) LT2",
       "T-24B11HS412 23W11 (ASA) TR7",
       "L-18B11BT612 23E11. (GAI) CR11",
-      "P-18B17CI671 23A16 (NTS) CL7",
-      "L-25BBWHS634 23W11 (TNS) TR1"
+      "P-18B17CI671 23A16 (NTS) CL7"
     ]
   },
   {
@@ -211,6 +217,7 @@
     "day": 2,
     "time": 1,
     "data": [
+      "L-18B1WCI634 23A17,23A18,23A19 (SKP) CR9",
       "L-18B1WEC742 23B11 (SRU) TR6",
       "P-24B17CI671 23A14 (RMS) CL3_2",
       "L-25BB1HS612 23W11 (VDN) CR19",
@@ -222,6 +229,7 @@
     "day": 2,
     "time": 2,
     "data": [
+      "L-25BBWHS634 23W11 (TNS) TR1",
       "P-24B17CI671 23A14 (RMS) CL3_2",
       "L-18B11CI611 23A17,23A18,23A19 (SRJ) CR7",
       "T-18B11BT611 23E11. (SBS) TR4",
@@ -235,6 +243,7 @@
     "day": 2,
     "time": 3,
     "data": [
+      "L-18B11CI613 23C11, MIT (EGA) TR4",
       "P-18B1WCI674 23A12 (KLK) CL7",
       "L-18B11BT612 23E11. (GAI) CR16",
       "P-18B17CI672 23A13 (PKR) CL3_2",
@@ -250,6 +259,7 @@
     "day": 2,
     "time": 4,
     "data": [
+      "T-24B11HS615 23I12 (ABC) GDROOM,LANGULAB",
       "P-18B1WCI674 23A12 (KLK) CL7",
       "L-25BBWHS633 23W11 (VDN) TR2",
       "P-18B17CI672 23A13 (PKR) CL3_2",
@@ -282,6 +292,7 @@
     "day": 2,
     "time": 7,
     "data": [
+      "P-18B1WCI674 23A13 (KLK) CL3_1",
       "P-18B17CI671 23A11 (HRI) CL4",
       "L-25B1WCI642 23J11, 23J12 (NSA) CR10",
       "P-18B1WCI675 23A18 (MGN) CL8_1",
@@ -298,6 +309,7 @@
     "day": 2,
     "time": 8,
     "data": [
+      "P-18B1WCI674 23A13 (KLK) CL3_1",
       "P-18B17CI671 23A11 (HRI) CL4",
       "L-25B1WCI641 23I11, 23I12 (VSG) CR4",
       "P-18B1WCI675 23A18 (MGN) CL8_1",
@@ -319,6 +331,7 @@
     "day": 3,
     "time": 1,
     "data": [
+      "L-18B11CI612 23I11,23I12,23J11,23J12,23K11, 23BM11 (RMS) CR5",
       "L-18B1WCI635 23A11,23A12,23A13 (EGA) CR2",
       "L-18B11BI612 23F11 (RJK) CR16",
       "L-24B11HS612 23A14,23A15,23A16 (PKP) CR8",
@@ -331,6 +344,7 @@
     "day": 3,
     "time": 2,
     "data": [
+      "P-18B17CI671 AIML[23I11,23I12] (GVN) CL4",
       "P-24B17CI671 23A19 (NKR) CL3_1",
       "L-18B11CI611 23A11,23A12,23A13 (HRI) LT3",
       "L-25B1WCI643 23J11,23J12 (PKR) CR7",
@@ -344,6 +358,7 @@
     "day": 3,
     "time": 3,
     "data": [
+      "P-18B17CI671 AIML[23I11,23I12] (GVN) CL4",
       "P-24B17CI671 23A19 (NKR) CL3_1",
       "L-24B11HS612  23C11, 23B11,  23H11, 23D11, 23E11, 23F11, 23BM11, 23W11 (RAD) CR5",
       "P-18B1WCI675 23A15 (PTK) CL6",
@@ -396,8 +411,7 @@
       "P-18B1WCI674 23A11 (EGA) CL1",
       "P-18B1WCI675 23A19 (MGN) CL9_2",
       "L-18B11CI612 23A14,23A15,23A16 (NKR) CR10",
-      "P-18B1WCI674 23A17 (SKP) CL3_1",
-      "L-25BBWHS634 23W11 (TNS) CR19"
+      "P-18B1WCI674 23A17 (SKP) CL3_1"
     ]
   },
   {
@@ -445,6 +459,7 @@
     "day": 4,
     "time": 2,
     "data": [
+      "L-18B11CI611 23A14,23A15,23A16 (NTS) CR8",
       "L-18B11CI611 23A17,23A18,23A19 (SRJ) CR9/ DLC",
       "L-18B1WCE639 23D11 (ASR) CR14",
       "P-18B17EC672 23B11 (SHR) CL1",
@@ -453,14 +468,14 @@
       "P-18B17BI673 23F11 (TTS) BPL",
       "P-18B17CI672 23J12,23K11 [29] (RMS) CL4",
       "P-20B1WCI572 23C11 (NKR) CL5_1",
-      "T-25BB1HS611 23W11 (TNS) TR7",
-      "L-25BBWHS634 23W11 (TNS) TR5"
+      "T-25BB1HS611 23W11 (TNS) TR7"
     ]
   },
   {
     "day": 4,
     "time": 3,
     "data": [
+      "P-18B17BT672 23E11, (GPL) UG1",
       "P-18B17CI671 23J11, 23BM11 (GVN) CL6",
       "L-18B1WCI635 23A14,23A15,23A16 (PTK) LT3",
       "L-25B1WCI645 23K11 (NTS) CR6",
@@ -469,20 +484,19 @@
       "P-24B17CI671 23I11,23I12 (RMS) CL7",
       "P-18B17BI673 23F11 (TTS) BPL",
       "L-25BB1HS612 23W11 (VDN) TR1",
-      "T-18B11EC612 23B11 (SHR) ECL3",
-      "P-18B17CE671 23D11 (TNM) DRAWR,CAD"
+      "T-18B11EC612 23B11 (SHR) ECL3"
     ]
   },
   {
     "day": 4,
     "time": 4,
     "data": [
+      "P-18B17BT672 23E11, (GPL) UG1",
       "P-18B17CI671 23J11, 23BM11 (GVN) CL6",
       "L-18B1WEC744 23B11,23H11 (HSL) TR4",
       "P-24B17CI671 23I11,23I12 (RMS) CL7",
       "L-25BBWHS631 23W11 (ABC) CR18",
-      "L-18B1WCI634 23A17,23A18,23A19 (SKP) CR1",
-      "P-18B17CE671 23D11 (TNM) DRAWR,CAD"
+      "L-18B1WCI634 23A17,23A18,23A19 (SKP) CR1"
     ]
   },
   {
@@ -517,6 +531,8 @@
     "day": 4,
     "time": 7,
     "data": [
+      "L-25BBWHS634 23W11 (TNS) CR19",
+      "L-18B1WBT633 23E11. (ABH) TR5",
       "P-24B17CI671 23A13 (PKR) CL8_2",
       "P-18B17CI672  23A18 (SMA) CL8_1",
       "L-24B11HS612 23A14,23A15,23A16 (PKP) CR8",
@@ -564,6 +580,7 @@
     "day": 5,
     "time": 2,
     "data": [
+      "L-25BBWHS634 23W11 (TNS) TR5",
       "P-18B1WCI675 23I11,23I12 (PTK) CL7",
       "P-18B17BI674 23F11 (SML) BIL",
       "P-18B17CI671 23J12,23K11 (GVN) CL6",
@@ -576,6 +593,7 @@
     "day": 5,
     "time": 3,
     "data": [
+      "P-18B17CE671 23D11 (TNM) DRAWR,CAD",
       "L-18B11EC611 23B11, 23A11, 23A14 (SWT) TR4",
       "P-18B1WCI674 23J12,23K11,23BM11 (SKP) CL11"
     ]
@@ -584,6 +602,7 @@
     "day": 5,
     "time": 4,
     "data": [
+      "P-18B17CE671 23D11 (TNM) DRAWR,CAD",
       "L-25BB1HS611 23W11 (TNS) TR3",
       "L-18B1WEC744 23B11 (HSL) TR2",
       "P-18B1WCI674 23J12,23K11,23BM11 (SKP) CL11"
