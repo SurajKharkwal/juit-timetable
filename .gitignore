@@ -10,7 +10,7 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
-.vite/
+/.vite/
 
 # testing
 /coverage
@@ -21,6 +21,7 @@
 
 # production
 /build
+/dist
 
 # misc
 .DS_Store
