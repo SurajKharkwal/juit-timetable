@@ -8,6 +8,9 @@
     "preview": "vite preview",
     "test": "vitest run"
   },
+  "engines": {
+    "node": "24.x"
+  },
   "dependencies": {
     "@heroui/button": "^2.2.29",
     "@heroui/card": "^2.2.27",
