@@ -2,9 +2,10 @@ import { TimetableCard } from '@/components/custom-card'
 import { useCompactTimetable } from '@/hooks/use-timetable'
 import { WEEK_DAYS, type CourseKey } from '@/utils/constants'
 import { createFileRoute } from '@tanstack/react-router'
-import { Dropdown, DropdownTrigger, DropdownMenu, DropdownSection, DropdownItem } from "@heroui/dropdown";
+import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem } from "@heroui/dropdown";
 import { Button } from '@heroui/button';
 import { Calendar } from 'lucide-react';
+import { extractTimetableEntries } from '@/utils';
 
 
 export const Route = createFileRoute('/timetable')({
@@ -54,15 +55,15 @@ function RouteComponent() {
     return <div className="text-danger">{error}</div>
   if (!data) return null
 
-  return <div className="relative flex flex-col gap-8 px-8 pt-20">
-    <nav className="fixed bottom-8 right-8 z-50" >
-      <Dropdown placement="top-end" >
+  return <div className="relative flex flex-col mx-auto gap-8 px-8 pt-20 max-w-3xl">
+    <div className="fixed bottom-6 right-6 md:right-1/6 z-50">
+      <Dropdown placement="top-end">
         <DropdownTrigger>
           <Button
             isIconOnly
-            variant="shadow"
             radius="full"
             size="lg"
+            variant="shadow"
           >
             <Calendar />
           </Button>
@@ -80,18 +81,21 @@ function RouteComponent() {
           ))}
         </DropdownMenu>
       </Dropdown>
-    </nav>
+    </div>
 
-    {testTimetable.map((item, index) => (
-      <TimetableCard
+    {data.map((item, index) => {
+
+      const entry = extractTimetableEntries(params.batch, item.data);
+
+      return <TimetableCard
         key={index}
         isEmpty={item.isEmpty}
         time={item.time}
-        courseCode={item.courseCode}
+        courseCode={entry.courseCode}
         teacherCode={item.teacherCode}
         venu={item.venu}
         classType={item.classType}
       />
-    ))}
+    )}
   </div>
 }

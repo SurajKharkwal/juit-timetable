@@ -26,13 +26,54 @@ export function getInitialDay() {
   return index
 }
 
-
 export function extractTimetableEntries(batch: string, data: string[]) {
-  return {
-    classType: "Lecture",
-    courseCode: "25B11CI211",
-    teacherCode: "AKR",
-    venue: "CR18",
-    batches: [batch],
+  const regex =
+    /^\s*([A-Z0-9]-\d+[A-Z0-9]+(?:\s*\/\s*\d+[A-Z0-9]+)*)\s+(.+?)\s*\(([^)]+)\)\s*([A-Z0-9_\/,\s]+)\s*$/;
+
+  const allBranches = [];
+  for (const line of data) {
+    const match = line.match(regex);
+    if (!match) {
+      console.log("line is ", line);
+      continue;
+    }
+
+    const [, classCode, batchRaw, teacher, venue] = match;
+
+    if (batchRaw === "ALL BRANCHES") {
+      allBranches.push({
+        classType:
+          classCode.charAt(0) === "T"
+            ? "Tutorial"
+            : classCode.charAt(0) === "P"
+              ? "Practical"
+              : "Lecture",
+        courseCode: classCode,
+        teacherCode: teacher,
+        venue: venue,
+        batches: batchRaw,
+      });
+      continue;
+    }
+    if (batchRaw.includes(batch) || batchRaw === "ALL BRANCHES")
+      return [
+        {
+          classType:
+            classCode.charAt(0) === "T"
+              ? "Tutorial"
+              : classCode.charAt(0) === "P"
+                ? "Practical"
+                : "Lecture",
+          courseCode: classCode,
+          teacherCode: teacher,
+          venue: venue,
+          batches: batchRaw,
+        },
+      ];
   }
+  if (allBranches.length > 0) {
+    return allBranches;
+  }
+
+  return null;
 }
