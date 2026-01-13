@@ -31,7 +31,7 @@ STATIC_ODD_SEM = [
     "mtechsem3.json",
 ]
 
-DAY_ROW = {0: (3, 18), 1: (19, 34), 2: (35, 50), 3: (51, 66), 4: (67, 82), 5: (83, 98)}
+DAY_ROW = {0: (1, 17), 1: (17, 33), 2: (33, 49), 3: (49, 65), 4: (65, 81), 5: (81, 97)}
 
 if args.debug:
     print("Downloading XLS file...")
