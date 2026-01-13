@@ -12,11 +12,20 @@ parser.add_argument("-t", "--timetable-url", required=True, type=str, help="Publ
 parser.add_argument("-d", "--debug", action="store_true", help="Enable verbose logging")
 args = parser.parse_args()
 
-def clean_sheet_name(name: str) -> str:
-    name = name.strip()
-    name = re.sub(r"\s+", " ", name)
-    name = name.replace(" ", "")
-    return f"{name}.json"
+STATIC_SHEETNAMES = [
+    "btechsem1.json", 
+    "btechsem2.json",
+    "btechsem3.json",
+    "btechsem4.json",
+    "btechsem5.json",
+    "btechsem6.json",
+    "btechsem7.json",
+    "btechsem8.json",
+    "mtechsem1.json",
+    "mtechsem2.json",
+    "mtechsem3.json",
+    "mtechsem4.json",
+]
 
 DAY_ROW = {0: (3, 18), 1: (19, 34), 2: (35, 50), 3: (51, 66), 4: (67, 82), 5: (83, 98)}
 
@@ -37,7 +46,7 @@ target_sheets = sheet_names[1:]
 
 dfs = pd.read_excel(xls, sheet_name=target_sheets)
 
-for sheet_name, df in dfs.items():
+for idx, (sheet_name, df) in enumerate(dfs.items()):
     if args.debug:
         print(f"Processing sheet: {sheet_name}")
         print("Shape:", df.shape)
@@ -55,10 +64,9 @@ for sheet_name, df in dfs.items():
                 "data": data_list
             })
 
-    file_name = clean_sheet_name(sheet_name)
-
     if args.debug:
-        print(f"Writing {file_name} ({len(output)} entries)")
+        print(f"Writing {STATIC_SHEETNAMES[idx]} ({len(output)} entries)")
 
-    with open(file_name, "w", encoding="utf-8") as f:
+    with open(STATIC_SHEETNAMES[idx], "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
+
