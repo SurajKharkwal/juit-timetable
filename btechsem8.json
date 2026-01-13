@@ -1,0 +1,391 @@
+[
+  {
+    "day": 0,
+    "time": 1,
+    "data": []
+  },
+  {
+    "day": 0,
+    "time": 2,
+    "data": [
+      "L-19B1WCI832    CS-IT[PML]_E4 (VSG) CR12",
+      "L-19B1WCI837   CS-IT[PAI]_E4 (SKS) CR10",
+      "L-18B1WBT831  BT81,BI81  (SDS) CR18"
+    ]
+  },
+  {
+    "day": 0,
+    "time": 3,
+    "data": [
+      "L-18B1WBT833 BT81,BI81 (RST) CR19"
+    ]
+  },
+  {
+    "day": 0,
+    "time": 4,
+    "data": [
+      "L-19B1WEC837   EC_E6,EM81 (PRG) CR16"
+    ]
+  },
+  {
+    "day": 0,
+    "time": 5,
+    "data": [
+      "L-21B1WCE831   CEALL_1_BAS_1 (SUV) CR7",
+      "L-18B1WPH732 PMSALL_2_BAS_1 (SKK) CR5",
+      "L-21B1WCI831 CSEALL_1_BAS_1 (VSG) CR10"
+    ]
+  },
+  {
+    "day": 0,
+    "time": 6,
+    "data": [
+      "L-18B1WCE831  CE81  (KKR) TR9",
+      "L-25B1WCI835    CS-IT[MCSE]BI81 (AYS) CR12"
+    ]
+  },
+  {
+    "day": 0,
+    "time": 7,
+    "data": [
+      "P-25B7WEC872   ECEALL_3_BAS_2_B1_LAB (VKB) ECL7"
+    ]
+  },
+  {
+    "day": 0,
+    "time": 8,
+    "data": [
+      "P-25B7WEC872   ECEALL_3_BAS_2_B1_LAB (VKB) ECL7",
+      "L-21B1WBT833 BIOALL_BAS_2 (RJK) CR16"
+    ]
+  },
+  {
+    "day": 0,
+    "time": 9,
+    "data": [
+      "L-24B1WCE631 ESE_Y3_Y4 (NJP,RRA,ASA,ANU) CR7"
+    ]
+  },
+  {
+    "day": 1,
+    "time": 1,
+    "data": [
+      "L-18B1WEC843 ECALL_5_BAS_2 (MSD) CR5"
+    ]
+  },
+  {
+    "day": 1,
+    "time": 2,
+    "data": [
+      "L-18B1WCI832    CS-IT[PDS]_E4 (SMA) CR1",
+      "L-21B1WBT831  BT81 (AKT) CR19"
+    ]
+  },
+  {
+    "day": 1,
+    "time": 3,
+    "data": [
+      "L-18B1WBI834 BI81,[BT81] (SML) CR19"
+    ]
+  },
+  {
+    "day": 1,
+    "time": 4,
+    "data": []
+  },
+  {
+    "day": 1,
+    "time": 5,
+    "data": [
+      "L-21B1WCI831 CSEALL_1_BAS_1 (VSG) CR10",
+      "L-25B1WEC831  ECALL_4_BAS_1 (SRU) CR5",
+      "L-21B1WPH831  PMSALL_3_BAS_1 (RRS) CR6",
+      "L-21B1WCE831   CEALL_1_BAS_1  (SUV) CR7"
+    ]
+  },
+  {
+    "day": 1,
+    "time": 6,
+    "data": [
+      "L-18B1WBI831  BI81  (TTS) CR19",
+      "L-19B1WCI835    CS-IT[PCC]_E4_B1 (NKR) CR4",
+      "L-19B1WCI835    CS-IT[PCC]_E4_B2 (PDN) CR2"
+    ]
+  },
+  {
+    "day": 1,
+    "time": 7,
+    "data": [
+      "L-19B1WCI831    CS-IT[PIS]_E4 (RIV) CR10",
+      "L-18B1WBI834 BI81,[BT81] (SML) CR18"
+    ]
+  },
+  {
+    "day": 1,
+    "time": 8,
+    "data": [
+      "L-21B1WMA831  MAALL_BAS_2  (BKP) CR6",
+      "L-18B1WCE834   CEALL_2_BAS_2 (ABJ) CR5",
+      "L-24B1WPH831 PMSALL_3_BAS_2 (VSA) CR1"
+    ]
+  },
+  {
+    "day": 1,
+    "time": 9,
+    "data": []
+  },
+  {
+    "day": 2,
+    "time": 1,
+    "data": [
+      "L-18B1WEC843 ECALL_5_BAS_2 (MSD) CR7",
+      "L-21B1WBT833 BIOALL_BAS_2 (RJK) CR16"
+    ]
+  },
+  {
+    "day": 2,
+    "time": 2,
+    "data": [
+      "L-19B1WCI835    CS-IT[PCC]_E4_B1 (NKR) CR4",
+      "L-19B1WCI835    CS-IT[PCC]_E4_B2 (PDN) CR6",
+      "L-18B1WCE831  CE81  (KKR) TR9",
+      "L-18B1WBI831  BI81  (TTS) CR19",
+      "L-18B1WBT831  BT81,BI81  (SDS) CR16",
+      "L-19B1WCI831    CS-IT[PIS]_E4 (RIV) CR10"
+    ]
+  },
+  {
+    "day": 2,
+    "time": 3,
+    "data": [
+      "P-25B7WEC872   ECEALL_3_BAS_2_B2_LAB (VKB) ECL7"
+    ]
+  },
+  {
+    "day": 2,
+    "time": 4,
+    "data": [
+      "P-25B7WEC872   ECEALL_3_BAS_2_B2_LAB (VKB) ECL7"
+    ]
+  },
+  {
+    "day": 2,
+    "time": 5,
+    "data": []
+  },
+  {
+    "day": 2,
+    "time": 6,
+    "data": [
+      "L-25B1WEC832   ECEALL_3_BAS_2  (VKB) CR11"
+    ]
+  },
+  {
+    "day": 2,
+    "time": 7,
+    "data": [
+      "L-18B1WCE834   CEALL_2_BAS_2 (ABJ) CR1",
+      "L-21B1WMA831  MAALL_BAS_2  (BKP) CR4",
+      "L-18B1WBI834 BI81,[BT81] (SML) CR18",
+      "L-18B1WBT833 BT81,BI81 (RST) CR19"
+    ]
+  },
+  {
+    "day": 2,
+    "time": 8,
+    "data": [
+      "L-18B1WPH732 PMSALL_2_BAS_1 (SKK) CR1",
+      "L-25B1WEC831  ECALL_4_BAS_1 (SRU) CR7",
+      "L-23B1WHS831  HSSALL_2_BAS_1 (AKS) CR10"
+    ]
+  },
+  {
+    "day": 2,
+    "time": 9,
+    "data": [
+      "L-24B1WCE631 ESE_Y3_Y4 (NJP,RRA,ASA,ANU) CR7"
+    ]
+  },
+  {
+    "day": 3,
+    "time": 1,
+    "data": [
+      "L-19B1WCI837   CS-IT[PAI]_E4 (SKS) CR10"
+    ]
+  },
+  {
+    "day": 3,
+    "time": 2,
+    "data": [
+      "L-19B1WCI832    CS-IT[PML]_E4 (VSG) CR12",
+      "L-18B1WCI832    CS-IT[PDS]_E4 (SMA) CR1",
+      "L-18B1WBT833 BT81,BI81 (RST) CR16"
+    ]
+  },
+  {
+    "day": 3,
+    "time": 3,
+    "data": [
+      "L-19B1WEC837   EC_E6,EM81 (PRG) TR4"
+    ]
+  },
+  {
+    "day": 3,
+    "time": 4,
+    "data": [
+      "L-19B1WCI835    CS-IT[PCC]_E4_B2 (PDN) CR2"
+    ]
+  },
+  {
+    "day": 3,
+    "time": 5,
+    "data": []
+  },
+  {
+    "day": 3,
+    "time": 6,
+    "data": [
+      "P-25B7WEC871  ECALL_4_BAS_1_B2_LAB (SRU) ECL6"
+    ]
+  },
+  {
+    "day": 3,
+    "time": 7,
+    "data": [
+      "P-25B7WEC871  ECALL_4_BAS_1_B2_LAB (SRU) ECL6",
+      "L-23B1WHS831  HSSALL_2_BAS_1 (AKS) CR8",
+      "L-25B1WCI835    CS-IT[MCSE]BI81 (AYS) CR12"
+    ]
+  },
+  {
+    "day": 3,
+    "time": 8,
+    "data": [
+      "L-18B1WBI831  BI81  (TTS) CR19"
+    ]
+  },
+  {
+    "day": 3,
+    "time": 9,
+    "data": []
+  },
+  {
+    "day": 4,
+    "time": 1,
+    "data": []
+  },
+  {
+    "day": 4,
+    "time": 2,
+    "data": [
+      "L-18B1WCE831  CE81  (KKR) TR9",
+      "L-19B1WCI837   CS-IT[PAI]_E4 (SKS) CR6",
+      "L-18B1WBT831  BT81,BI81  (SDS) CR18"
+    ]
+  },
+  {
+    "day": 4,
+    "time": 3,
+    "data": [
+      "L-24B1WPH831 PMSALL_3_BAS_2 (VSA) LT2",
+      "L-18B1WPH732 PMSALL_2_BAS_1 (SKK) CR1"
+    ]
+  },
+  {
+    "day": 4,
+    "time": 4,
+    "data": [
+      "L-21B1WBT831  BT81 (AKN) CR19"
+    ]
+  },
+  {
+    "day": 4,
+    "time": 5,
+    "data": []
+  },
+  {
+    "day": 4,
+    "time": 6,
+    "data": [
+      "L-21B1WBT833 BIOALL_BAS_2 (RJK) CR16",
+      "L-25B1WEC832   ECEALL_3_BAS_2  (VKB) CR11"
+    ]
+  },
+  {
+    "day": 4,
+    "time": 7,
+    "data": [
+      "L-21B1WCI831 CSEALL_1_BAS_1 (VSG) CR10",
+      "L-23B1WHS831  HSSALL_2_BAS_1 (AKS) CR9",
+      "L-21B1WCE831   CEALL_1_BAS_1 (SUV) CR4"
+    ]
+  },
+  {
+    "day": 4,
+    "time": 8,
+    "data": [
+      "L-21B1WMA831  MAALL_BAS_2  (BKP) CR4",
+      "L-18B1WCE834   CEALL_2_BAS_2 (ABJ) CR5",
+      "L-21B1WBT831  BT81 (AKT) CR18"
+    ]
+  },
+  {
+    "day": 4,
+    "time": 9,
+    "data": [
+      "L-24B1WCE631 ESE_Y3_Y4 (NJP,RRA,ASA,ANU) CR7"
+    ]
+  },
+  {
+    "day": 5,
+    "time": 1,
+    "data": []
+  },
+  {
+    "day": 5,
+    "time": 2,
+    "data": [
+      "P-25B7WEC871  ECALL_4_BAS_1_B1_LAB (SRU) ECL6"
+    ]
+  },
+  {
+    "day": 5,
+    "time": 3,
+    "data": [
+      "P-25B7WEC871  ECALL_4_BAS_1_B1_LAB (SRU) ECL6"
+    ]
+  },
+  {
+    "day": 5,
+    "time": 4,
+    "data": [
+      "L-19B1WEC837   EC_E6,EM81 (PRG) CR16",
+      "L-18B1WCI832    CS-IT[PDS]_E4 (SMA) CR1"
+    ]
+  },
+  {
+    "day": 5,
+    "time": 5,
+    "data": []
+  },
+  {
+    "day": 5,
+    "time": 6,
+    "data": []
+  },
+  {
+    "day": 5,
+    "time": 7,
+    "data": []
+  },
+  {
+    "day": 5,
+    "time": 8,
+    "data": []
+  },
+  {
+    "day": 5,
+    "time": 9,
+    "data": []
+  }
+]

@@ -1,0 +1,617 @@
+[
+  {
+    "day": 0,
+    "time": 1,
+    "data": [
+      "L-18B1WHS641 ALL BRANCHES (NJL) CR4",
+      "L-24B1WHS631 ALL BRANCHES (DLR) CR5",
+      "L-23B1WHS632 ALL BRANCHES (RTK) CR6",
+      "0-24B1WHS632 ALL BRANCHES (AKS) CR7",
+      "L-20B1WHS631 ALL BRANCHES (ANU) CR1"
+    ]
+  },
+  {
+    "day": 0,
+    "time": 2,
+    "data": [
+      "L-18B1WCI635/ 18B1WBI632 23I11,23I12,23J11,23J12,23K11,23C11, 23BM11, 23F11 (MGN) LT2",
+      "L-24B11HS412 23W11 (ASA) TR5",
+      "L-23B11CE611\n 23D11 (NJP) TR9",
+      "T-24B11HS615 23A11 (DLR) GDROOM",
+      "L-18B1WEC632 23B11 (RKU) TR1",
+      "L-18B11CI611 23A17,23A18,23A19 (SRJ) CR2",
+      "L-18B1WCE631 23D11 (CPG) CR13"
+    ]
+  },
+  {
+    "day": 0,
+    "time": 3,
+    "data": [
+      "L-18B11EC612 23B11 (SHR) ECL3",
+      "P-18B1WCI674 23A16 (KLK) CL9_2",
+      "P-18B17CI672 23A14 (NKR) CL5_2",
+      "L-18B1WCI635 23A17,23A18,23A19 (MGN) CR1",
+      "T-25BBWHS633 23W11 (VDN) TR4",
+      "P-18B17BI672 23F11 (RJK) BIL",
+      "P-18B17CI673 23C11, MIT (EGA) CL5_1",
+      "L-18B1WCE639 23D11 (ASR) CR15",
+      "L-18B11BT611 23E11. (SBS) CR18",
+      "P-18B17CI672 23J11, 23BM11 (RMS) CL8_2"
+    ]
+  },
+  {
+    "day": 0,
+    "time": 4,
+    "data": [
+      "P-18B1WCI674 23A16 (KLK) CL9_2",
+      "P-18B17CI672 23A14 (NKR) CL5_2",
+      "T-18B11EC612 23B11 (SHR) ECL3",
+      "P-18B17BI672 23F11 (RJK) BIL",
+      "P-18B17CI673 23C11, MIT (EGA) CL5_1",
+      "P-18B17CI672 23J11, 23BM11 (RMS) CL8_2"
+    ]
+  },
+  {
+    "day": 0,
+    "time": 5,
+    "data": [
+      "P-18B17CI671 23A19 (SRJ) CL3_1"
+    ]
+  },
+  {
+    "day": 0,
+    "time": 6,
+    "data": [
+      "L-18B1WCI634 23A11,23A12,23A13 (KLK) CR10",
+      "L-18B11BI611/  18B1WCI634 23I11,23I12,23J11,23J12,23K11,23C11, 23BM11, 23F11 (SKP) LT2",
+      "T-24B11HS615 23A18 (VDN) GDROOM,LANGULAB",
+      "L-18B1WEC742 23B11 (SRU) CR17",
+      "P-18B17CI671 23A19 (SRJ) CL3_1"
+    ]
+  },
+  {
+    "day": 0,
+    "time": 7,
+    "data": [
+      "P-18B1WCI674 23A14 (KLK) CL7",
+      "L-25B1WCI642 23J11, 23J12 (NSA) CR2",
+      "T-24B11HS615 23A16 (VDN) GDROOM, LANGULAB",
+      "P-18B17CI672 23A11 (PKR) CL3_1",
+      "L-18B1WEC632 23B11 (RKU) TR4",
+      "P-18B17CI672 23A17 (SMA) CL8_1",
+      "P-18B1WCI674 23A19 (SKP) CL10",
+      "P-18B1WCI675 23A12 (EGA) BIL",
+      "P-18B1WCI675 23C11 (GVN) CL6",
+      "L-25B1WCI641 23I11, 23I12 (VSG) CR10"
+    ]
+  },
+  {
+    "day": 0,
+    "time": 8,
+    "data": [
+      "P-18B1WCI674 23A14 (KLK) CL7",
+      "L-24B11HS612 23I11,23J11,23J12,23K11,23I12 (AKS) LT3",
+      "T-24B11HS615 23E11, 23F11, 23BM11 (ABC) GDROOM, LANGULAB",
+      "P-18B17CI672 23A11 (PKR) CL3_1",
+      "P-18B17CI672 23A17 (SMA) CL8_1",
+      "P-18B1WCI674 23A19 (SKP) CL10",
+      "P-18B1WCI675 23A12 (EGA) BIL",
+      "P-18B1WCI675 23C11 (GVN) CL6"
+    ]
+  },
+  {
+    "day": 0,
+    "time": 9,
+    "data": []
+  },
+  {
+    "day": 1,
+    "time": 1,
+    "data": [
+      "L-18B1WCE631 23D11 (CPG) CR15",
+      "P-18B1WCI674 23A15 (KLK) CL1",
+      "P-18B17CI671 23A18 (SRJ) CL3_2",
+      "P-24B17CI671 23A17 (RBT) CL6",
+      "L-18B1WCI635/ 18B1WBI632 23I11,23I12,23J11,23J12,23K11,23C11, 23BM11, 23F11 (MGN) LT3",
+      "L-18B1WEC742 23B11 (SRU) TR6",
+      "P-18B17CI671 23A16 (NTS) CL7"
+    ]
+  },
+  {
+    "day": 1,
+    "time": 2,
+    "data": [
+      "L-18B11CI612 23A11,23A12,23A13 (PKR) CR4",
+      "P-18B1WCI674 23A15 (KLK) CL1",
+      "T-24B11HS615 23A19 (VDN) GDROOM,LANGULAB",
+      "P-18B17CI671 23A18 (SRJ) CL3_2",
+      "P-24B17CI671 23A17 (RBT) CL6",
+      "L-18B11CI611 23I11,23J11&23J12,23K11,23C11,\\23F11,23BM11 (GVN) LT2",
+      "T-24B11HS412 23W11 (ASA) TR7",
+      "L-18B11BT612 23E11. (GAI) CR11",
+      "P-18B17CI671 23A16 (NTS) CL7",
+      "L-25BBWHS634 23W11 (TNS) TR1"
+    ]
+  },
+  {
+    "day": 1,
+    "time": 3,
+    "data": [
+      "L-18B1WHS641 ALL BRANCHES (NJL) CR7",
+      "L-24B1WHS631 ALL BRANCHES (DLR) CR8",
+      "L-23B1WHS632 ALL BRANCHES (RTK) CR11",
+      "L-24B1WHS632 ALL BRANCHES (AKS) CR4",
+      "L-20B1WHS631 ALL BRANCHES (ANU) CR1"
+    ]
+  },
+  {
+    "day": 1,
+    "time": 4,
+    "data": [
+      "T-25BBWHS631 23W11 (ABC) CR11",
+      "L-18B11BI612 23F11 (RJK) TR6",
+      "T-24B11HS615 23A15 (VDN) GDROOM, LANGULAB",
+      "L-24B11HS612 23A11,23A12,23A13 (RKB) CR4",
+      "L-24B11HS612 23A17,23A18,23A19 (RAD) CR5",
+      "L-25B1WCI645 23K11 (NTS) TR3"
+    ]
+  },
+  {
+    "day": 1,
+    "time": 5,
+    "data": [
+      "L-25B1WCI643 23J11,23J12 (PKR) CR9",
+      "L-18B11BT612 23E11. (GAI) CR11",
+      "T-24B11HS615 23I11 (ABC) GDROOM, LANGULAB",
+      "P-18B1WCI675 23A14 (PTK) CL7",
+      "L-25BBWHS633 23W11 (VDN) TR7"
+    ]
+  },
+  {
+    "day": 1,
+    "time": 6,
+    "data": [
+      "L-23B11CE612 23D11 (KKR) CR13",
+      "L-24B11HS612 23I11,23J11,23K11,23I12,23J12 (AKS) LT3",
+      "L-18B11CI612 23A17,23A18,23A19 (SMA) CR1",
+      "P-18B1WCI675 23A14 (PTK) CL7"
+    ]
+  },
+  {
+    "day": 1,
+    "time": 7,
+    "data": [
+      "L-18B1WCE634 23D11 (ADP) TR8",
+      "P-24B17CI671 23A11 (SRJ) CL1",
+      "P-18B1WCI675  23A13 (EGA) BIL",
+      "L-18B11BI611/  18B1WCI634 23I11,23I12,23J11,23J12,23K11, C11, 23BM11, 23F11 (SKP) LT3",
+      "T-24B11HS615 23A17 (VDN) GDROOM,LANGULAB",
+      "L-18B11CI612 23A14,23A15,23A16 (NKR) CR4",
+      "P-18B17CI672 23A12 (PKR) CL4"
+    ]
+  },
+  {
+    "day": 1,
+    "time": 8,
+    "data": [
+      "P-24B17CI671 23A11 (SRJ) CL1",
+      "L-18B11CI612 23I11,23I12,23J11,23J12,23K11,23BM11 (RMS) LT2",
+      "P-18B1WCI675 23A13 (EGA) BIL",
+      "L-24B11HS412 23W11 (ASA) TR2",
+      "L-18B1WCI635 23A14,23A15,23A16 (PTK) LT3",
+      "P-18B17CI672 23A12 (PKR) CL4"
+    ]
+  },
+  {
+    "day": 1,
+    "time": 9,
+    "data": []
+  },
+  {
+    "day": 2,
+    "time": 1,
+    "data": [
+      "L-18B1WEC742 23B11 (SRU) TR6",
+      "P-24B17CI671 23A14 (RMS) CL3_2",
+      "L-25BB1HS612 23W11 (VDN) CR19",
+      "P-24B17CI671 23J12,23K11 (NTS) CL3_1",
+      "P-18B1WCI675 23J11, 23F11 (EGA) CL9_1"
+    ]
+  },
+  {
+    "day": 2,
+    "time": 2,
+    "data": [
+      "P-24B17CI671 23A14 (RMS) CL3_2",
+      "L-18B11CI611 23A17,23A18,23A19 (SRJ) CR7",
+      "T-18B11BT611 23E11. (SBS) TR4",
+      "L-18B1WEC744 23B11,(23H11) (HSL) CR18",
+      "L-18B1WCI634 23A11,23A12,23A13 (KLK) CR8",
+      "P-24B17CI671 23J12,23K11 (NTS) CL3_1",
+      "P-18B1WCI675 23J11, 23F11 (EGA) CL9_1"
+    ]
+  },
+  {
+    "day": 2,
+    "time": 3,
+    "data": [
+      "P-18B1WCI674 23A12 (KLK) CL7",
+      "L-18B11BT612 23E11. (GAI) CR16",
+      "P-18B17CI672 23A13 (PKR) CL3_2",
+      "P-18B1WCI674 23A18 (SKP) CL8_1",
+      "L-23B11CE611 23D11 (NJP) CR14",
+      "L-25BB1HS611 23W11 (TNS) TR3",
+      "P-24B17CI671 23J11 (NTS) CL5_2",
+      "L-25B1WCI644 PCC-23K11 (RMS) CR9/ DLC",
+      "P-18B17CI672 23A16 (NKR) CL1"
+    ]
+  },
+  {
+    "day": 2,
+    "time": 4,
+    "data": [
+      "P-18B1WCI674 23A12 (KLK) CL7",
+      "L-25BBWHS633 23W11 (VDN) TR2",
+      "P-18B17CI672 23A13 (PKR) CL3_2",
+      "P-18B1WCI674 23A18 (SKP) CL8_1",
+      "L-18B1WCE634 23D11 (ADP) CR13",
+      "P-24B17CI671 23J11 (NTS) CL5_2",
+      "P-18B17CI672 23A16 (NKR) CL1"
+    ]
+  },
+  {
+    "day": 2,
+    "time": 5,
+    "data": [
+      "L-18B11EC612 23B11 (SHR) ECL3",
+      "L-18B11EC611 23B11, 23A11, 23A14 (SWT) TR1"
+    ]
+  },
+  {
+    "day": 2,
+    "time": 6,
+    "data": [
+      "L-18B11CI611 23A11,23A12,23A13 (HRI) CR9/DLC",
+      "L-18B11CI612 23A17,23A18,23A19 (SMA) CR2",
+      "L-18B1WBT632 23E11,23F11 (GPL) CR18",
+      "L-18B11CI612 23I11,23I12,23J11,23J12,23K11,23BM11 (RMS) LT3",
+      "L-18B11CI611 23A14,23A15,23A16 (NTS) CR10"
+    ]
+  },
+  {
+    "day": 2,
+    "time": 7,
+    "data": [
+      "P-18B17CI671 23A11 (HRI) CL4",
+      "L-25B1WCI642 23J11, 23J12 (NSA) CR10",
+      "P-18B1WCI675 23A18 (MGN) CL8_1",
+      "P-18B17CI672 23A15 (NKR) CL3_2",
+      "P-18B17CI671 23A14 (NTS) CL5_1",
+      "L-24B11HS612  23C11, 23B11,  23H11, 23D11, 23E11, 23F11, 23BM11, 23W11 (RAD) CR5",
+      "P-18B17CI672  23A19 (SMA) CL1",
+      "P-24B17CI671 23A12 (RMS) CL6",
+      "P-18B17CI671 23A17 (SRJ) BIL",
+      "P-18B1WCI675 23A16 (PTK) CL7"
+    ]
+  },
+  {
+    "day": 2,
+    "time": 8,
+    "data": [
+      "P-18B17CI671 23A11 (HRI) CL4",
+      "L-25B1WCI641 23I11, 23I12 (VSG) CR4",
+      "P-18B1WCI675 23A18 (MGN) CL8_1",
+      "P-18B17CI672 23A15 (NKR) CL3_2",
+      "P-18B17CI671 23A14 (NTS) CL5_1",
+      "L-25B1WCI643 23J11,23J12 (PKR) CR9",
+      "P-18B17CI672 23A19 (SMA) CL1",
+      "P-24B17CI671 23A12 (RMS) CL6",
+      "P-18B17CI671 23A17 (SRJ) BIL",
+      "P-18B1WCI675 23A16 (PTK) CL7"
+    ]
+  },
+  {
+    "day": 2,
+    "time": 9,
+    "data": []
+  },
+  {
+    "day": 3,
+    "time": 1,
+    "data": [
+      "L-18B1WCI635 23A11,23A12,23A13 (EGA) CR2",
+      "L-18B11BI612 23F11 (RJK) CR16",
+      "L-24B11HS612 23A14,23A15,23A16 (PKP) CR8",
+      "L-18B1WCI635 23A17,23A18,23A19 (MGN) CR11",
+      "P-18B1WCI674 23C11 (SKP) CL3_2",
+      "P-18B17BT671 23E11, (SBS) UG1"
+    ]
+  },
+  {
+    "day": 3,
+    "time": 2,
+    "data": [
+      "P-24B17CI671 23A19 (NKR) CL3_1",
+      "L-18B11CI611 23A11,23A12,23A13 (HRI) LT3",
+      "L-25B1WCI643 23J11,23J12 (PKR) CR7",
+      "L-18B1WCE631 23D11 (CPG) TR9",
+      "L-25BBWHS633 23W11 (VDN) CR18",
+      "P-18B1WCI674 23C11 (SKP) CL3_2",
+      "P-18B17BT671 23E11, (SBS) UG1"
+    ]
+  },
+  {
+    "day": 3,
+    "time": 3,
+    "data": [
+      "P-24B17CI671 23A19 (NKR) CL3_1",
+      "L-24B11HS612  23C11, 23B11,  23H11, 23D11, 23E11, 23F11, 23BM11, 23W11 (RAD) CR5",
+      "P-18B1WCI675 23A15 (PTK) CL6",
+      "L-24B11HS612 23A11,23A12,23A13 (RKB) LT2",
+      "T-24B11HS615 23A14 (DLR) GDROOM, LANGULAB",
+      "P-24B17CI671 23A18 (SRJ) CL10"
+    ]
+  },
+  {
+    "day": 3,
+    "time": 4,
+    "data": [
+      "T-24B11HS615 23A12 (DLR) CR16",
+      "P-18B1WCI674 23A15 (PTK) CL6",
+      "L-25BBWHS631 23W11 (ABC) CR19",
+      "L-18B11CI611 23I11,23I12,23J11,23J12,23K11, 23C11, 23BM11, 23F11 (GVN) LT3",
+      "L-18B1WCE639 23D11 (ASR) CR15",
+      "L-18B11BT611 23E11. (SBS) CR18",
+      "P-24B17CI671 23A18 (SRJ) CL10"
+    ]
+  },
+  {
+    "day": 3,
+    "time": 5,
+    "data": [
+      "P-18B1WCI675 23A17 (MGN) CL11"
+    ]
+  },
+  {
+    "day": 3,
+    "time": 6,
+    "data": [
+      "L-18B1WBI631 23F11 (TTS) TR2",
+      "L-25B1WCI644 PCC-23K11 (RMS) CR16",
+      "P-18B1WCI674 23A11 (EGA) CL1",
+      "L-18B11CI611 23A14,23A15,23A16 (NTS) CR1/ DLC",
+      "T-24B11HS615 23C11, 23B11, 23H11, 23D11 (ABC) GDROOM, LANGULAB",
+      "L-25BB1HS611 23W11 (TNS) TR3",
+      "P-18B1WCI675 23A17 (MGN) CL11",
+      "L-18B1WBT633 23E11. (ABH) TR1"
+    ]
+  },
+  {
+    "day": 3,
+    "time": 7,
+    "data": [
+      "T-24B11HS615 23J12 (ABC) GDROOM, LANGULAB",
+      "L-25BB1HS612 23W11 (VDN) TR1",
+      "L-18B1WBI631 23F11 (TTS) TR4",
+      "P-18B1WCI674 23A11 (EGA) CL1",
+      "P-18B1WCI675 23A19 (MGN) CL9_2",
+      "L-18B11CI612 23A14,23A15,23A16 (NKR) CR10",
+      "P-18B1WCI674 23A17 (SKP) CL3_1",
+      "L-25BBWHS634 23W11 (TNS) CR19"
+    ]
+  },
+  {
+    "day": 3,
+    "time": 8,
+    "data": [
+      "L-25BBWHS631 23W11 (ABC) TR1",
+      "L-18B1WBT632 23E11,23F11 (GPL) CR17",
+      "L-23B11CE612 23D11 (KKR) CR13",
+      "L-18B11CI612 23A11,23A12,23A13 (PKR) CR8",
+      "L-18B11CI613 23C11, MIT (EGA) TR5",
+      "P-18B1WCI675 23A19 (MGN) CL9_2",
+      "L-25B1WCI642 23J11, 23J12 (NSA) CR4",
+      "L-25B1WCI641 23I11, 23I12 (VSG) CR6",
+      "L-25B1WCI645 23K11 (NTS) TR7",
+      "P-18B1WCI674 23A17 (SKP) CL3_1"
+    ]
+  },
+  {
+    "day": 3,
+    "time": 9,
+    "data": [
+      "L-18B1WHS641 ALL BRANCHES (NJL) CR4",
+      "L-24B1WHS631 ALL BRANCHES (DLR) LT3",
+      "L-23B1WHS632 ALL BRANCHES (RTK) CR6",
+      "L-24B1WHS632 ALL BRANCHES (AKS) CR7",
+      "L-20B1WHS631 ALL BRANCHES (ANU) CR1"
+    ]
+  },
+  {
+    "day": 4,
+    "time": 1,
+    "data": [
+      "L-18B1WCI634 23A14,23A15,23A16 (KLK) CR7",
+      "L-18B11BI612 23F11 (RJK) CR16",
+      "L-18B11CI612 23A17,23A18,23A19 (SMA) CR2",
+      "P-18B17EC672 23B11 (SHR) CL1",
+      "P-18B1WCI674 23I11, 23I12 (MGN) CL11",
+      "L-24B11HS412 23W11 (ASA) TR1",
+      "P-18B17CI672 23J12,23K11 [29] (RMS) CL4",
+      "P-20B1WCI572 23C11 (NKR) CL5_1"
+    ]
+  },
+  {
+    "day": 4,
+    "time": 2,
+    "data": [
+      "L-18B11CI611 23A17,23A18,23A19 (SRJ) CR9/ DLC",
+      "L-18B1WCE639 23D11 (ASR) CR14",
+      "P-18B17EC672 23B11 (SHR) CL1",
+      "P-18B1WCI674 23I11, 23I12 (MGN) CL11",
+      "T-24B11HS615 23A13 (DLR) GDROOM, LANGULAB",
+      "P-18B17BI673 23F11 (TTS) BPL",
+      "P-18B17CI672 23J12,23K11 [29] (RMS) CL4",
+      "P-20B1WCI572 23C11 (NKR) CL5_1",
+      "T-25BB1HS611 23W11 (TNS) TR7",
+      "L-25BBWHS634 23W11 (TNS) TR5"
+    ]
+  },
+  {
+    "day": 4,
+    "time": 3,
+    "data": [
+      "P-18B17CI671 23J11, 23BM11 (GVN) CL6",
+      "L-18B1WCI635 23A14,23A15,23A16 (PTK) LT3",
+      "L-25B1WCI645 23K11 (NTS) CR6",
+      "L-18B1WCI635 23A11,23A12,23A13 (EGA) CR10",
+      "L-24B11HS612 23A17,23A18,23A19 (RAD) CR5",
+      "P-24B17CI671 23I11,23I12 (RMS) CL7",
+      "P-18B17BI673 23F11 (TTS) BPL",
+      "L-25BB1HS612 23W11 (VDN) TR1",
+      "T-18B11EC612 23B11 (SHR) ECL3",
+      "P-18B17CE671 23D11 (TNM) DRAWR,CAD"
+    ]
+  },
+  {
+    "day": 4,
+    "time": 4,
+    "data": [
+      "P-18B17CI671 23J11, 23BM11 (GVN) CL6",
+      "L-18B1WEC744 23B11,23H11 (HSL) TR4",
+      "P-24B17CI671 23I11,23I12 (RMS) CL7",
+      "L-25BBWHS631 23W11 (ABC) CR18",
+      "L-18B1WCI634 23A17,23A18,23A19 (SKP) CR1",
+      "P-18B17CE671 23D11 (TNM) DRAWR,CAD"
+    ]
+  },
+  {
+    "day": 4,
+    "time": 5,
+    "data": [
+      "L-18B1WBI631 23F11 (TTS) CR16",
+      "P-18B17CI675 23C11 (MGN) CL8_1",
+      "L-23B11CE612 23D11 (KKR) TR3",
+      "L-25B1WCI644 PCC-23K11 (RMS) CR10",
+      "P-18B17CI671 23A15 (NTS) CL1",
+      "P-18B17CI671 23A12 (HRI) CL4",
+      "P-24B17CI671 23A16 (NKR) BIL"
+    ]
+  },
+  {
+    "day": 4,
+    "time": 6,
+    "data": [
+      "L-18B11EC611 23B11, 23A11, 23A14 (SWT) TR1",
+      "T-25BB1HS612 23W11 (VDN) CR19",
+      "P-18B17CI675 23C11 (MGN) CL8_1",
+      "L-18B11CI611 23I11,23I12,23J11,23J12,23K11, C11, 23BM11,23F11 (GVN) LT2/DLC",
+      "L-18B1WBT633 23E11. (ABH) TR4",
+      "L-23B11CE611\n 23D11 (NJP) CR15",
+      "P-18B17CI671 23A15 (NTS) CL1",
+      "P-18B17CI671 23A12 (HRI) CL4",
+      "P-24B17CI671 23A16 (NKR) BIL"
+    ]
+  },
+  {
+    "day": 4,
+    "time": 7,
+    "data": [
+      "P-24B17CI671 23A13 (PKR) CL8_2",
+      "P-18B17CI672  23A18 (SMA) CL8_1",
+      "L-24B11HS612 23A14,23A15,23A16 (PKP) CR8",
+      "P-18B1WCI674 23A11 (KLK) CL3_1",
+      "P-18B1WCI675 23J12,23K11,23BM11 (PTK) CL7",
+      "P-18B1WCI674 23J11, 23F11 (MGN) CL5_1",
+      "P-18B17CI672 23I11, 23I12 [37] (RMS) CL4"
+    ]
+  },
+  {
+    "day": 4,
+    "time": 8,
+    "data": [
+      "P-24B17CI671 23A13 (PKR) CL8_2",
+      "L-18B11BT611 23E11 (SBS) TR5",
+      "P-18B17CI672  23A18 (SMA) CL8_1",
+      "L-18B11CI612 23A14,23A15,23A16 (NKR) CR7",
+      "L-18B1WEC632 23B11 (RKU) TR4",
+      "L-18B11CI613 23C11,MIT (EGA) CR16",
+      "P-18B1WCI674 23A11 (KLK) CL3_1",
+      "P-18B1WCI675 23J12,23K11,23BM11 (PTK) CL7",
+      "L-18B1WCE634 23D11 (ADP) CR15",
+      "P-18B1WCI674 23J11, 23F11 (MGN) CL5_1",
+      "P-18B17CI672 23I11, 23I12 [37] (RMS) CL4"
+    ]
+  },
+  {
+    "day": 4,
+    "time": 9,
+    "data": []
+  },
+  {
+    "day": 5,
+    "time": 1,
+    "data": [
+      "P-18B1WCI675 23I11,23I12 (PTK) CL7",
+      "P-18B17BI674 23F11 (SML) BIL",
+      "P-18B17CI671 23J12,23K11 (GVN) CL6",
+      "T-25BBWHS634 23W11 (TNS) TR1",
+      "P-18B17EC673 23B11, 23A11, 23A14 (SWT) CL1",
+      "P-18B17CE671 23D11 (TNM) DRAWR,CAD"
+    ]
+  },
+  {
+    "day": 5,
+    "time": 2,
+    "data": [
+      "P-18B1WCI675 23I11,23I12 (PTK) CL7",
+      "P-18B17BI674 23F11 (SML) BIL",
+      "P-18B17CI671 23J12,23K11 (GVN) CL6",
+      "T-24B11HS615 23J11 (ABC) GDROOM, LANGULAB",
+      "P-18B17EC673 23B11, 23A11, 23A14 (SWT) CL1",
+      "P-18B17CE671 23D11 (TNM) DRAWR,CAD"
+    ]
+  },
+  {
+    "day": 5,
+    "time": 3,
+    "data": [
+      "L-18B11EC611 23B11, 23A11, 23A14 (SWT) TR4",
+      "P-18B1WCI674 23J12,23K11,23BM11 (SKP) CL11"
+    ]
+  },
+  {
+    "day": 5,
+    "time": 4,
+    "data": [
+      "L-25BB1HS611 23W11 (TNS) TR3",
+      "L-18B1WEC744 23B11 (HSL) TR2",
+      "P-18B1WCI674 23J12,23K11,23BM11 (SKP) CL11"
+    ]
+  },
+  {
+    "day": 5,
+    "time": 5,
+    "data": []
+  },
+  {
+    "day": 5,
+    "time": 6,
+    "data": []
+  },
+  {
+    "day": 5,
+    "time": 7,
+    "data": []
+  },
+  {
+    "day": 5,
+    "time": 8,
+    "data": []
+  },
+  {
+    "day": 5,
+    "time": 9,
+    "data": []
+  }
+]
