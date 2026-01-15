@@ -64,7 +64,7 @@ for idx, (sheet_name, df) in enumerate(dfs.items()):
             data_list = slot_series.dropna().astype(str).str.strip().tolist()
             output.append({
                 "day": day,
-                "time": time_col,
+                "time": time_col-1,
                 "data": data_list
             })
     filename="unknown"
