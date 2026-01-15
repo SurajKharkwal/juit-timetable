@@ -8,7 +8,7 @@ export default function DefaultLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="min-w-screen bg-background text-foreground min-h-screen flex flex-col items-center">
+    <div className="min-w-screen bg-background text-foreground min-h-dvh flex flex-col items-center">
       <Navbar>
         <NavbarBrand>
           <p className="font-bold text-inherit">JUIT</p>
