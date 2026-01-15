@@ -1,29 +1,34 @@
 [
   {
     "day": 0,
-    "time": 1,
+    "time": 0,
     "data": []
   },
   {
     "day": 0,
-    "time": 2,
+    "time": 1,
     "data": [
       "L-20MSWBT432 24MB11 (UDB) CR17"
     ]
   },
   {
     "day": 0,
-    "time": 3,
+    "time": 2,
     "data": [
       "L-20MSWBT433 24MB11 (TTS) TR6"
     ]
   },
   {
     "day": 0,
-    "time": 4,
+    "time": 3,
     "data": [
       "L-21MS1MB412 24MM11 (HSD) TR1"
     ]
+  },
+  {
+    "day": 0,
+    "time": 4,
+    "data": []
   },
   {
     "day": 0,
@@ -38,18 +43,18 @@
   {
     "day": 0,
     "time": 7,
-    "data": []
-  },
-  {
-    "day": 0,
-    "time": 8,
     "data": [
       "L-13P1WMA232  PHD_MAT (PKP) TR7"
     ]
   },
   {
     "day": 0,
-    "time": 9,
+    "time": 8,
+    "data": []
+  },
+  {
+    "day": 1,
+    "time": 0,
     "data": []
   },
   {
@@ -65,11 +70,6 @@
   {
     "day": 1,
     "time": 3,
-    "data": []
-  },
-  {
-    "day": 1,
-    "time": 4,
     "data": [
       "L-20MSWBT433 24MB11 (TTS) CR17",
       "L-21MS1MB411 24MM11 (AKT) CR18"
@@ -77,31 +77,36 @@
   },
   {
     "day": 1,
+    "time": 4,
+    "data": []
+  },
+  {
+    "day": 1,
     "time": 5,
     "data": []
   },
   {
     "day": 1,
     "time": 6,
-    "data": []
-  },
-  {
-    "day": 1,
-    "time": 7,
     "data": [
       "L-21MS1MB412 24MM11 (HSD) TR6"
     ]
   },
   {
     "day": 1,
-    "time": 8,
+    "time": 7,
     "data": [
       "L-25B11CC111 ONL_CERT_BIO (HSD) PTC"
     ]
   },
   {
     "day": 1,
-    "time": 9,
+    "time": 8,
+    "data": []
+  },
+  {
+    "day": 2,
+    "time": 0,
     "data": []
   },
   {
@@ -112,14 +117,14 @@
   {
     "day": 2,
     "time": 2,
-    "data": []
+    "data": [
+      "L-21MS1MB411 24MM11 (AKT) TR6"
+    ]
   },
   {
     "day": 2,
     "time": 3,
-    "data": [
-      "L-21MS1MB411 24MM11 (AKT) TR6"
-    ]
+    "data": []
   },
   {
     "day": 2,
@@ -139,28 +144,23 @@
   {
     "day": 2,
     "time": 7,
-    "data": []
-  },
-  {
-    "day": 2,
-    "time": 8,
     "data": [
       "T-25B11CC111 ONL_CERT_BIO (HSD) PTC"
     ]
   },
   {
     "day": 2,
-    "time": 9,
+    "time": 8,
+    "data": []
+  },
+  {
+    "day": 3,
+    "time": 0,
     "data": []
   },
   {
     "day": 3,
     "time": 1,
-    "data": []
-  },
-  {
-    "day": 3,
-    "time": 2,
     "data": [
       "L-21MS1MB411 24MM11 (AKT) TR7",
       "L-20MSWBT432 24MB11 (UDB) TR3"
@@ -168,13 +168,18 @@
   },
   {
     "day": 3,
-    "time": 3,
+    "time": 2,
     "data": [
       "L-21MS1MB412 24MM11 (HSD) CR12"
     ]
   },
   {
     "day": 3,
+    "time": 3,
+    "data": []
+  },
+  {
+    "day": 3,
     "time": 4,
     "data": []
   },
@@ -191,18 +196,18 @@
   {
     "day": 3,
     "time": 7,
-    "data": []
-  },
-  {
-    "day": 3,
-    "time": 8,
     "data": [
       "L-13P1WMA232  PHD_MAT (PKP) TR3"
     ]
   },
   {
     "day": 3,
-    "time": 9,
+    "time": 8,
+    "data": []
+  },
+  {
+    "day": 4,
+    "time": 0,
     "data": []
   },
   {
@@ -238,18 +243,18 @@
   {
     "day": 4,
     "time": 7,
-    "data": []
-  },
-  {
-    "day": 4,
-    "time": 8,
     "data": [
       "L-13P1WMA232  PHD_MAT (PKP) TR7"
     ]
   },
   {
     "day": 4,
-    "time": 9,
+    "time": 8,
+    "data": []
+  },
+  {
+    "day": 5,
+    "time": 0,
     "data": []
   },
   {
@@ -290,11 +295,6 @@
   {
     "day": 5,
     "time": 8,
-    "data": []
-  },
-  {
-    "day": 5,
-    "time": 9,
     "data": []
   }
 ]
