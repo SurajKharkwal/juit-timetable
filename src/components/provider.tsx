@@ -8,6 +8,7 @@ export interface ProvidersProps {
 
 import { useRouter } from '@tanstack/react-router';
 import { HeroUIProvider } from "@heroui/system";
+import { ToastProvider } from '@heroui/toast';
 
 declare module "@react-types/shared" {
   interface RouterConfig {
@@ -25,6 +26,7 @@ export function Provider({ children, themeProps }: ProvidersProps ) {
       useHref={(to) => router.buildLocation({ to }).href}
     >
       <ThemeProvider {...themeProps}>
+        <ToastProvider />
         {children}
       </ThemeProvider>
     </HeroUIProvider>

@@ -7,7 +7,6 @@ export const Route = createRootRoute({
     <Provider themeProps={{ attribute: "class", defaultTheme: "system" }}>
       <DefaultLayout>
         <Outlet />
-       
       </DefaultLayout>
     </Provider>
   ),
