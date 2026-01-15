@@ -33,22 +33,22 @@ function App() {
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
-    const nextError: FormError = {}
-    if (!data.course)
-      nextError.course = 'Course is required'
-    if (!data.batch.trim())
-      nextError.batch = 'Batch is required'
-    if (Object.keys(nextError).length > 0) {
-      setError(nextError)
+    if (!data.course) {
+      setError({ course: 'Course is required' })
       return
     }
-    localStorage.setItem("course", data.course)
-    localStorage.setItem("batch", data.batch)
+    if (!data.batch.trim()) {
+      setError({ batch: 'Batch is required' })
+      return
+    }
+
+    localStorage.setItem("course", data.course.toUpperCase())
+    localStorage.setItem("batch", data.batch.toUpperCase())
     navigate({
       to: '/timetable',
       search: {
-        course: data.course as CourseKey,
-        batch: data.batch,
+        course: data.course.toUpperCase() as CourseKey,
+        batch: data.batch.toUpperCase(),
       },
     })
   }
@@ -69,7 +69,6 @@ function App() {
         placeholder="Select course"
         selectedKeys={data.course ? [data.course] : []}
         description={error.course}
-        isInvalid={Boolean(error.course)}
         onSelectionChange={(keys) => {
           const value = Array.from(keys)[0] as string
           setData((prev) => ({ ...prev, course: value }))
@@ -87,8 +86,7 @@ function App() {
         label="Batch"
         placeholder="Eg: 23A12, 24A11"
         value={data.batch}
-        isInvalid={Boolean(error.batch)}
-        errorMessage={error.batch}
+        description={error.batch}
         onChange={(e) =>
           setData((prev) => ({ ...prev, batch: e.target.value }))
         }
@@ -104,6 +102,7 @@ function App() {
       </Button>
 
       <Alert
+        color='primary'
         title="Found a bug?"
         description="Please report it."
       />
