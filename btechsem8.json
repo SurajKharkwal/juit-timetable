@@ -9,7 +9,7 @@
     "time": 1,
     "data": [
       "L-19B1WCI832    CS-IT[PML]_E4 (VSG) CR12",
-      "L-19B1WCI837   CS-IT[PAI]_E4 (SKS) CR10",
+      "L-19B1WCI837/25B1WCI640   CS-IT[PAI]_E4,SEM6_PCC (SKS) CR10",
       "L-18B1WBT831  BT81,BI81  (SDS) CR18"
     ]
   },
@@ -32,8 +32,7 @@
     "time": 4,
     "data": [
       "L-21B1WCE831   CEALL_1_BAS_1 (SUV) CR7",
-      "L-18B1WPH732 PMSALL_2_BAS_1 (SKK) CR5",
-      "L-21B1WCI831 CSEALL_1_BAS_1 (VSG) CR10"
+      "L-18B1WPH732 PMSALL_2_BAS_1 (SKK) CR5"
     ]
   },
   {
@@ -98,7 +97,6 @@
     "day": 1,
     "time": 4,
     "data": [
-      "L-21B1WCI831 CSEALL_1_BAS_1 (VSG) CR10",
       "L-25B1WEC831  ECALL_4_BAS_1 (SRU) CR5",
       "L-21B1WPH831  PMSALL_3_BAS_1 (RRS) CR6",
       "L-21B1WCE831   CEALL_1_BAS_1  (SUV) CR7"
@@ -160,6 +158,7 @@
     "time": 2,
     "data": [
       "L-24B1WPH831 PMSALL_3_BAS_2 (VSA) LT2",
+      "L-23B1WHS831  HSSALL_2_BAS_1 (AKS) CR10",
       "P-25B7WEC872   ECEALL_3_BAS_2_B2_LAB (VKB) ECL7"
     ]
   },
@@ -198,8 +197,7 @@
     "data": [
       "L-21B1WPH831  PMSALL_3_BAS_1 (RRS) CR6",
       "L-18B1WPH732 PMSALL_2_BAS_1 (SKK) CR1",
-      "L-25B1WEC831  ECALL_4_BAS_1 (SRU) CR7",
-      "L-23B1WHS831  HSSALL_2_BAS_1 (AKS) CR10"
+      "L-25B1WEC831  ECALL_4_BAS_1 (SRU) CR7"
     ]
   },
   {
@@ -213,7 +211,7 @@
     "day": 3,
     "time": 0,
     "data": [
-      "L-19B1WCI837   CS-IT[PAI]_E4 (SKS) CR10"
+      "L-19B1WCI837/25B1WCI640   CS-IT[PAI]_E4,SEM6_PCC (SKS) CR10"
     ]
   },
   {
@@ -288,7 +286,7 @@
     "data": [
       "L-19B1WCI832    CS-IT[PML]_E4 (VSG) CR11",
       "L-18B1WCE831  CE81  (KKR) TR9",
-      "L-19B1WCI837   CS-IT[PAI]_E4 (SKS) CR6",
+      "L-19B1WCI837/25B1WCI640   CS-IT[PAI]_E4,SEM6_PCC (SKS) CR6",
       "L-18B1WBT831  BT81,BI81  (SDS) CR18"
     ]
   },
@@ -324,7 +322,6 @@
     "day": 4,
     "time": 6,
     "data": [
-      "L-21B1WCI831 CSEALL_1_BAS_1 (VSG) CR10",
       "L-23B1WHS831  HSSALL_2_BAS_1 (AKS) CR9",
       "L-21B1WCE831   CEALL_1_BAS_1 (SUV) CR4"
     ]
