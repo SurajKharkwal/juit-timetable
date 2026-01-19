@@ -9,7 +9,6 @@
     "time": 1,
     "data": [
       "L-19B1WCI832    CS-IT[PML]_E4 (VSG) CR12",
-      "L-19B1WCI837/25B1WCI640   CS-IT[PAI]_E4,SEM6_PCC (SKS) CR10",
       "L-18B1WBT831  BT81,BI81  (SDS) CR18"
     ]
   },
@@ -17,6 +16,7 @@
     "day": 0,
     "time": 2,
     "data": [
+      "L-19B1WCI837/25B1WCI640   CS-IT[PAI]_E4,SEM6_PCC (SKS) CR10",
       "L-18B1WBT833 BT81,BI81 (RST) CR19"
     ]
   },
@@ -302,7 +302,8 @@
     "day": 4,
     "time": 3,
     "data": [
-      "L-21B1WBT831  BT81 (AKN) CR19"
+      "L-21B1WBT831  BT81 (AKN) CR19",
+      "L-18B1WCI832    CS-IT[PDS]_E4 (SMA) CR2"
     ]
   },
   {
@@ -365,8 +366,7 @@
     "day": 5,
     "time": 3,
     "data": [
-      "L-19B1WEC837   EC_E6,EM81 (PRG) CR16",
-      "L-18B1WCI832    CS-IT[PDS]_E4 (SMA) CR1"
+      "L-19B1WEC837   EC_E6,EM81 (PRG) CR16"
     ]
   },
   {
