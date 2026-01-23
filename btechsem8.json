@@ -39,8 +39,7 @@
     "day": 0,
     "time": 5,
     "data": [
-      "L-18B1WCE831  CE81  (KKR) TR9",
-      "L-25B1WCI835    CS-IT[MCSE]BI81 (AYS) CR12"
+      "L-18B1WCE831  CE81  (KKR) TR9"
     ]
   },
   {
@@ -157,7 +156,6 @@
     "time": 2,
     "data": [
       "L-24B1WPH831 PMSALL_3_BAS_2 (VSA) LT2",
-      "L-25B1WCI835    CS-IT[MCSE]BI81 (AYS) TR1",
       "L-23B1WHS831  HSSALL_2_BAS_1 (AKS) CR10",
       "P-25B7WEC872   ECEALL_3_BAS_2_B2_LAB (VKB) ECL7"
     ]
@@ -178,6 +176,7 @@
     "day": 2,
     "time": 5,
     "data": [
+      "L-25B1WCI835    CS-IT[MCSE]BI81 (AYS) TR2",
       "L-25B1WEC832   ECEALL_3_BAS_2  (VKB) CR11"
     ]
   },
@@ -255,8 +254,7 @@
     "time": 6,
     "data": [
       "P-25B7WEC871  ECALL_4_BAS_1_B2_LAB (SRU) ECL6",
-      "L-23B1WHS831  HSSALL_2_BAS_1 (AKS) CR8",
-      "L-25B1WCI835    CS-IT[MCSE]BI81 (AYS) CR12"
+      "L-23B1WHS831  HSSALL_2_BAS_1 (AKS) CR8"
     ]
   },
   {
