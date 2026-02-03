@@ -49,8 +49,7 @@
     "time": 5,
     "data": [
       "L-20MS1BT211 25MB11 (AKT) TR7",
-      "L-14M11BT214 25BY11 (HSD) CR16",
-      "L-22M1WCI231/25BS1MA411 25CD11,24P11 (SST) TR1"
+      "L-14M11BT214 25BY11 (HSD) CR16"
     ]
   },
   {
@@ -401,7 +400,9 @@
   {
     "day": 5,
     "time": 1,
-    "data": []
+    "data": [
+      "L-22M1WCI231/25BS1MA411 25CD11,24P11 (SST) TR1"
+    ]
   },
   {
     "day": 5,
