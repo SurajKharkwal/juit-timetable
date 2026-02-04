@@ -122,8 +122,7 @@
     "time": 7,
     "data": [
       "L-21B1WMA831  MAALL_BAS_2  (BKP) CR6",
-      "L-18B1WCE834   CEALL_2_BAS_2 (ABJ) CR5",
-      "L-24B1WPH831 PMSALL_3_BAS_2 (VSA) CR1"
+      "L-18B1WCE834   CEALL_2_BAS_2 (ABJ) CR5"
     ]
   },
   {
@@ -155,7 +154,6 @@
     "day": 2,
     "time": 2,
     "data": [
-      "L-24B1WPH831 PMSALL_3_BAS_2 (VSA) LT2",
       "L-23B1WHS831  HSSALL_2_BAS_1 (AKS) CR10",
       "P-25B7WEC872   ECEALL_3_BAS_2_B2_LAB (VKB) ECL7"
     ]
@@ -290,7 +288,6 @@
     "day": 4,
     "time": 2,
     "data": [
-      "L-24B1WPH831 PMSALL_3_BAS_2 (VSA) LT2",
       "L-18B1WPH732 PMSALL_2_BAS_1 (SKK) CR1"
     ]
   },
