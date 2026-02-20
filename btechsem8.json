@@ -154,7 +154,7 @@
     "day": 2,
     "time": 2,
     "data": [
-      "L-23B1WHS831  HSSALL_2_BAS_1 (AKS) CR10",
+      "L-23B1WHS831  HSS_ALL_2_BAS_1 (AKS) CR10",
       "P-25B7WEC872   ECEALL_3_BAS_2_B2_LAB (VKB) ECL7"
     ]
   },
@@ -252,7 +252,7 @@
     "time": 6,
     "data": [
       "P-25B7WEC871  ECALL_4_BAS_1_B2_LAB (SRU) ECL6",
-      "L-23B1WHS831  HSSALL_2_BAS_1 (AKS) CR8"
+      "L-23B1WHS831  HSS_ALL_2_BAS_1 (AKS) CR8"
     ]
   },
   {
@@ -316,7 +316,7 @@
     "day": 4,
     "time": 6,
     "data": [
-      "L-23B1WHS831  HSSALL_2_BAS_1 (AKS) CR9",
+      "L-23B1WHS831  HSS_ALL_2_BAS_1 (AKS) CR9",
       "L-21B1WCE831   CEALL_1_BAS_1 (SUV) CR4"
     ]
   },
