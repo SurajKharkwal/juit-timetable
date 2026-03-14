@@ -600,7 +600,8 @@
     "time": 2,
     "data": [
       "P-18B17CE671 23D11 (TNM) DRAWR,CAD",
-      "L-18B11EC611 23B11, 23A11, 23A14 (SWT) TR4"
+      "L-18B11EC611 23B11, 23A11, 23A14 (SWT) TR4",
+      "P-24B17CI571 23F11,  23E11. (PDN) CL4"
     ]
   },
   {
@@ -609,7 +610,8 @@
     "data": [
       "P-18B17CE671 23D11 (TNM) DRAWR,CAD",
       "L-25BB1HS611 23W11 (TNS) TR3",
-      "L-18B1WEC744 23B11 (HSL) CR17"
+      "L-18B1WEC744 23B11 (HSL) CR17",
+      "P-24B17CI571 23F11,  23E11. (PDN) CL4"
     ]
   },
   {
